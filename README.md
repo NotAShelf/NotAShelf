@@ -1,9 +1,11 @@
 <h1 align="center">Hi 👋, I'm raf</h1>
 <h3 align="center">Your typical failure enthusiast with just a bit knowledge on few random and irrelevant coding languages.</h3>
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/736316977504583823/780905382901055528/meirl.png" />
+</p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=notashelf&label=Profile%20views&color=0e75b6&style=flat" alt="notashelf" /> </p>
-
-<p align="left"> <a href="https://twitter.com/notashelf" target="blank"><img src="https://img.shields.io/twitter/follow/notashelf?logo=twitter&style=for-the-badge" alt="notashelf" /></a> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=notashelf&label=Profile%20views&color=0e75b6&style=flat" alt="notashelf" /> </p>
+<p align="center"> <a href="https://twitter.com/notashelf" target="blank"><img src="https://img.shields.io/twitter/follow/notashelf?logo=twitter&style=for-the-badge" alt="notashelf" /></a> </p>
 
 - 🔭 I’m currently working on **Lancebot, my latest Discord Bot project made with DiscordJs**
 
@@ -13,9 +15,9 @@
 
 - 💬 Ask me about **things I know**
 
-- 📫 How to reach me **Reach me out by creating a new issue [here](https://github.com/NotAShelf/notashelf/issues)**
+- 📫 **Reach me out by creating a new issue [here](https://github.com/NotAShelf/notashelf/issues)**
 
-- ⚡ Fun fact **I'm NOT a shelf.**
+- ⚡  **I'm NOT a shelf.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
