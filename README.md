@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm raf</h1>
+<h1 align="center">Hi 👋, I'm NotAShelf</h1>
 <h3 align="center">Your typical failure enthusiast with just a bit knowledge on few random and irrelevant coding languages.</h3>
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/736316977504583823/780905382901055528/meirl.png" />
