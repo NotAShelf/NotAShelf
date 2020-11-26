@@ -42,8 +42,8 @@
 <a href="https://avallion.net/discord/join" target="blank"><img align="center" src="https://github.com/NotAShelf/notashelf/blob/main/assets/discord.svg" alt="notashelf" height="30" width="40" /></a>
 </p>
 
-<h3 id="active-projects-from-my-trello-board-trello-board-">Active projects from my <a href="https://trello.com/b/hgcronAV/what-am-i-up-to">Trello Board</a></h3>
-<p><a href="https://trello.com/b/hgcronAV/what-am-i-up-to"><img src="https://readme-stats.vercel.app/api/get-trello-cards" /></a></p>
+
+
 
 
 
