@@ -44,9 +44,7 @@
 <p align="center">
 <a href="https://twitter.com/notashelf" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="notashelf" height="30" width="40" /></a>
 <a href="https://codesandbox.com/notashelf" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codesandbox.svg" alt="notashelf" height="30" width="40" /></a>
-<a href="https://avallion.net/discord/join" target="blank"><img align="center" src="https://github.com/NotAShelf/notashelf/blob/main/assets/discord.svg" alt="notashelf" height="30" width="40" /></a>
-<a href="https://github.com/notasahelf"><img align="center" src="assets/github.png" alt="GitHub"></a><a href="https://gitlab.com/notashelf"><img align="center"  src="assets/gitlab.png" alt="GitLab"></a>
-</p>
+<a href="https://avallion.net/discord/join" target="blank"><img align="center" src="https://github.com/NotAShelf/notashelf/blob/main/assets/discord.svg" alt="notashelf" height="30" width="40" /></a></p>
 
 
 
