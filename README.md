@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/736316977504583823/780905382901055528/meirl.png" />
+  <img src="https://cdn.discordapp.com/attachments/736316977504583823/781495589220122654/unknown.png" />
 </p>
 
 <h3 align="center">You'd  be surprised if you had known how much I do not know</h3>
@@ -57,5 +57,5 @@
 
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/736316977504583823/781494259474759680/unknown.png" />
+  <img src="https://cdn.discordapp.com/attachments/736316977504583823/781495644904620043/unknown.png" />
 </p>
