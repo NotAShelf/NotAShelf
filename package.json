@@ -1,11 +1,11 @@
 {
-  "name": "daniakash",
+  "name": "notashelf",
   "version": "1.0.0",
   "description": "Personal readme file for github",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaniAkash/DaniAkash.git"
+    "url": "git+https://github.com/NotAShelf/notashelf.git"
   },
   "keywords": [
     "dani",
@@ -15,9 +15,9 @@
   "author": "DaniAkash",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DaniAkash/DaniAkash/issues"
+    "url": "https://github.com/NotAShelf/notashelf/issues"
   },
-  "homepage": "https://github.com/DaniAkash/DaniAkash#readme",
+  "homepage": "https://github.com/NotAShelf/notashelf#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
