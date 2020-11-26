@@ -6,7 +6,6 @@
 <h5 align "center> I'm a simple man with simple hobbies such as reading, video games and random movies I watch from time to time. There is no planning in my life, there is only chaos and sacrifices to a  deity. I do sailing, debating and art. I hate the latest dearly, but that will not stop me.</h5>
 <h5 align "center> For the programming part, I usually mess around with JavaScript and DiscordJs. My knowledge in other languages are decent, but nowhere near enough to achieve something. Not like I have any ideas on what to do anyway. Buuut I do translation projects, a LOT of them and if you have a project that needs a translation hmu so I can pretend im a dictionary.</h5>
 
-[![Spotify](https://notashelf.vercel.app/api/spotify)](https://open.spotify.com/user/c5t4luxhiv0y4clvdk6ge9km0?si=vK6ihgW9TKa4mhiDQspCuQ)
 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/736316977504583823/780905382901055528/meirl.png" />
