@@ -2,8 +2,8 @@
 <h3 align="center">Im your typical failure enthusiast -who enjoys failure more than success- with some knowledge in a bunch of random and irrelevant programming languages. </h3>
 <h5 align_"center">I so happen to be introduced to JavaScript in the earliest stages of my interest in code writing, thus it is the language I use the most. Even though some projects can be more efficent in different languages. JavaScript is my way to go. Thanks, I hate it.</h5>
 
-<p align="center">
-<h2 align "center"> About Me<h/h2>
+
+<h2 align="center">About Me</h2>
 <h5 align "center"> I'm a simple man with simple hobbies such as reading, video games and random movies I watch from time to time. There is no planning in my life, there is only chaos and sacrifices to a  deity. I do sailing, debating and art. I hate the latest dearly, but that will not stop me.</h5>
 <h5 align "center"> For the programming part, I usually mess around with JavaScript and DiscordJs. My knowledge in other languages are decent, but nowhere near enough to achieve something. Not like I have any ideas on what to do anyway. Buuut I do translation projects, a LOT of them and if you have a project that needs a translation hmu so I can pretend im a dictionary.</h5></p>
 
