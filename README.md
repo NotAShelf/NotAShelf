@@ -49,6 +49,5 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=notashelf&amp;count_private=true&amp;show_icons=true&amp;include_all_commits=true" alt="Github Stats">
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=notashelf&amp;hide=TeX&amp;layout=compact" alt="Top Langs">
 </p>
-
-<a href="https://github.com/notashelf/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=notashelf&langs_count=8" /></a>
+<p align="center">
+<a href="https://github.com/notashelf/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=notashelf&langs_count=8" /></a></p>
