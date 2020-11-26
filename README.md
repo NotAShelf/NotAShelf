@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm NotAShelf</h1>
+<h1 align="center">Hello there👋, I'm NotAShelf</h1>
 <p align="center">
 <a href="https://en.wikipedia.org/wiki/Homo_sapiens"><img align="center" src="https://img.shields.io/badge/Species-Homo_Sapiens-success?style=flat-square&amp;logo=mailchimp&amp;logoColor=white" alt=" My Species"></a> <a href="https://en.wikipedia.org/wiki/Life"><img align="center" src="https://img.shields.io/badge/Status-Stable-success?style=flat-square&amp;logo=gravatar&amp;logoColor=white" alt="Status"></a></p>
 <p align="center"> <a href="https://twitter.com/notashelf" target="blank"><img src="https://img.shields.io/twitter/follow/notashelf?logo=twitter&style=for-the-badge" alt="notashelf" /></a></p>
@@ -10,7 +10,7 @@
 
 
 <h5 align= "center"> I'm a simple man with simple hobbies such as reading, video games and random movies I watch from time to time. There is no planning in my life, there is only chaos and sacrifices to a  deity. I do sailing, debating and art. I hate the latest dearly, but that will not stop me. </h5>
-  <h5 align= "center">or the programming part, I usually mess around with JavaScript and DiscordJs. My knowledge in other languages are decent, but nowhere near enough to achieve something. Not like I have any ideas on what to do anyway. Buuut I do translation projects, a LOT of them and if you have a project that needs a translation hmu so I can pretend im a dictionary.</h5>
+  <h5 align= "center">or the programming part, I usually mess around with JavaScript and DiscordJs. My knowledge in other languages are decent, but nowhere near enough to achieve something. Not like I have any ideas on what to do anyway. Buuut I do translation projects, a LOT of them and if you have a project that needs a translation hmu so I can pretend im a dictionary.</h5><h5 align="center">Last thing you need to know about me is that I love memes. Thats right, I'm a self-proclaimed meme-lord and I will die as one, in peace. If you have the spicy goodness in your gallery make an issue and send me your memes. All of them. Yes.
 <p align="center">
   <img align="center" src="https://img.shields.io/badge/My%20jam-Video Games &amp; Reading-critical?style=flat-square&amp;logo=electron&amp;logoColor=white" alt="Im human i swear"></a></p>
 
