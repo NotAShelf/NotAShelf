@@ -1,0 +1,24 @@
+{
+  "name": "daniakash",
+  "version": "1.0.0",
+  "description": "Personal readme file for github",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniAkash/DaniAkash.git"
+  },
+  "keywords": [
+    "dani",
+    "akash",
+    "readme"
+  ],
+  "author": "DaniAkash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaniAkash/DaniAkash/issues"
+  },
+  "homepage": "https://github.com/DaniAkash/DaniAkash#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
