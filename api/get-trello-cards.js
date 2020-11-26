@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 
 export default (req, res) => {
   fetch(
-    `https://api.trello.com/1/lists/5ef35d394ed00820a569fb70/cards?key=${process.env.TRELLO_KEY}&token=${process.env.TRELLO_TOKEN}`
+    `https://api.trello.com/1/lists/5fbf83d7da8d9d778ba95628/cards?key=${process.env.TRELLO_KEY}&token=${process.env.TRELLO_TOKEN}`
   )
     .then((response) => response.json())
     .then((result) => {
