@@ -1,5 +1,10 @@
 <h1 align="center">Hi 👋, I'm NotAShelf</h1>
-<h3 align="center">Your typical failure enthusiast with just a bit knowledge on few random and irrelevant coding languages.</h3>
+<h3 align="center">Im your typical failure enthusiast -who enjoys failure more than success- with some knowledge in a bunch of random and irrelevant programming languages. </h3>
+<h5 align_"center">I so happen to be introduced to JavaScript in the earliest stages of my interest in code writing, thus it is the language I use the most. Even though some projects can be more efficent in different languages. JavaScript is my way to go. Thanks, I hate it.</h5>
+
+<h2 align "center"> About Me<h/h2>
+<h5 align "center> I'm a simple man with simple hobbies such as reading, video games and random movies I watch from time to time. There is no planning in my life, there is only chaos and sacrifices to a a deity(cat.) I do sailing, debating and art. I hate the latest dearly, but that will not stop me.</h5>
+<h5 align "center> For the programming part, I usually mess around with JavaScript and DiscordJs. My knowledge in other languages are enough, but nowhere near enough to achieve something. Not like I have any ideas on what to do anyway. Buuut I do translation projects, a LOT of them and you</h5>
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/736316977504583823/780905382901055528/meirl.png" />
 </p>
@@ -40,11 +45,10 @@
 <h3 align="center">Languages and Tools:</h3>
 <p align="center"> <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=notashelf&show_icons=true&locale=en" alt="notashelf" /></p>
 
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=notashelf&amp;count_private=true&amp;show_icons=true&amp;include_all_commits=true" alt="Github Stats">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=notashelf&amp;hide=TeX&amp;layout=compact" alt="Top Langs">
+</p>
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=notashelf&count_private=true&show_icons=true&include_all_commits=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=notashelf&hide=TeX&layout=compact)
-
-
-
+<a href="https://github.com/notashelf/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=notashelf&langs_count=8" /></a>
