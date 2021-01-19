@@ -3,7 +3,7 @@
 <a href="https://en.wikipedia.org/wiki/Homo_sapiens"><img align="center" src="https://img.shields.io/badge/Species-Homo_Sapiens-success?style=flat-square&amp;logo=mailchimp&amp;logoColor=white" alt=" My Species"></a> <a href="https://en.wikipedia.org/wiki/Life"><img align="center" src="https://img.shields.io/badge/Status-Stable-success?style=flat-square&amp;logo=gravatar&amp;logoColor=white" alt="Status"></a></p>
 <p align="center"> <a href="https://twitter.com/notashelf" target="blank"><img src="https://img.shields.io/twitter/follow/notashelf?logo=twitter&style=for-the-badge" alt="notashelf" /></a></p>
 
-<h3 align="center">Im your typical failure enthusiast -who enjoys failure more than success- with some knowledge in a bunch of random and irrelevant programming languages. </h3>
+<h3 align="center">Im your typical failure enthusiast -a loser who enjoys failure more than success- with some knowledge in a bunch of random and irrelevant programming languages. </h3>
 <h5 align="center">I so happen to be introduced to JavaScript in the earliest stages of my interest in code writing, thus it is the language I use the most. Even though some projects can be more efficent in different languages. JavaScript is my way to go. Thanks, I hate it.</h5><h5 align="center"> Most of my projects are forks, or things heavily inspired by some things I have seen and decided to improve. With this philosophy, I do appreciate ALL contributions made to MY work. Thats correct, rain them pull requests on me.</h5>
 
 <h2 align="center" id="-img-height-40-src-https://github.com/NotAShelf/notashelf/blob/main/assets/kyubey.gif"><img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> About Me</h2>
