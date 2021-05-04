@@ -15,7 +15,7 @@ jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@maİN
+      - uses: actions/checkout@main
         with:
           token: ${{ secrets.GH_TOKEN_1 }}
         name: Setup Python
