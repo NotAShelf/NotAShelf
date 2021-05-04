@@ -37,9 +37,9 @@
   ```
   # ♟︎ Chess.com Ratings Chart #
   
-  Blitz Rating
+  Rapid Rating
 
 
-Chart last updated - Wed May  5 01:44:40 +03 2021  
+Chart last updated - Wed May  5 01:46:29 +03 2021  
   ```
   
