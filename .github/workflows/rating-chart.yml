@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - README.md
       - .github/workflows/rating-chart.yml
+      - .github/workflows/main.yml
   schedule:
     - cron: "0 */1 * * *"
 jobs:
