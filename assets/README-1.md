@@ -37,4 +37,4 @@
   ```
   # ♟︎ Chess.com Ratings Chart #
   
-  Blitz Rating
+  Rapid Rating
