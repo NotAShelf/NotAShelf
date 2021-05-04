@@ -32,7 +32,7 @@
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
   
-  ##### I am currently aiming to reach ELO 2000 blitz  chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com blitz games.
+  ##### I am currently aiming to reach ELO 2000 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
   
   ```
   # ♟︎ Chess.com Ratings Chart #
@@ -40,6 +40,6 @@
   Rapid Rating
 
 
-Chart last updated - Wed May  5 01:46:29 +03 2021  
+Chart last updated - Wed May  5 01:52:37 +03 2021  
   ```
   
