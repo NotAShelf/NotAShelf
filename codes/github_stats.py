@@ -7,11 +7,7 @@ from typing import Dict, List, Optional, Set, Tuple
 import aiohttp
 import requests
 
-
-###############################################################################
-# Main Classes
-###############################################################################
-
+# Main classes
 class Queries(object):
     """
     Class with functions to query the GitHub GraphQL (v4) API and the REST (v3)
@@ -505,9 +501,7 @@ Languages:
         return total
 
 
-###############################################################################
 # Main Function
-###############################################################################
 
 async def main() -> None:
     """
