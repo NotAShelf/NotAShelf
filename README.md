@@ -4,10 +4,10 @@
 <img src="https://github.com/notashelf/notashelf/blob/main/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
 <img src="https://github.com/notashelf/notashelf/blob/main/assets/rick.gif" alt="side Gif" align="right" width="150" height="auto"/> </a>
   
-  - 🔭 I’m currently working on **Kaine**, a discord bot written in **Discord.JS**
-  - 🌱 I’m currently learning **Go, Ruby, Java & Python**
+  - 🔭 I’m currently working on **Kaine**, a discord bot written in **JavaScript** using **Discord.JS**
+  - 🌱 I’m currently learning **Go, Ruby, Java, JavaScript & Python**
   - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics
-  - 😄 Pronouns: He / Him
+  - ⭐ Pronouns: He / Him
   - ⚡ Fun fact: My name translates into "Shelf"
   
   #### 📫 How to reach me:
@@ -40,6 +40,6 @@
   Blitz Rating
 
 
-Chart last updated - Wed May  5 01:13:52 +03 2021  
+Chart last updated - Wed May  5 01:16:42 +03 2021  
   ```
   
