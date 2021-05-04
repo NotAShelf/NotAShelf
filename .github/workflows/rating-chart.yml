@@ -6,6 +6,7 @@ on:
       - README.md
       - .github/workflows/rating-chart.yml
       - .github/workflows/main.yml
+      - .github/templates/
   schedule:
     - cron: "0 */4 * * *"
 jobs:
