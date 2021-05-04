@@ -32,7 +32,7 @@
   [![trophy](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
   
   ##### I am currently aiming to reach ELO 2000 blitz  chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com blitz games.
-
+  
   ```
   # ♟︎ Chess.com Ratings Chart #
   
