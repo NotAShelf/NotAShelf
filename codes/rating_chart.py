@@ -6,7 +6,7 @@ import sys
 import asciichartpy as ac
 import requests
 
-USERNAME = 'sciencepal'
+USERNAME = 'notashelf'
 TIME_CLASS = 'blitz'
 RULES = 'chess' #chess960 and other variants possible here
 NGAMES = 100
