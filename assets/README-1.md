@@ -1,4 +1,4 @@
-  ### Hello World!  <img src="https://github.com/sciencepal/sciencepal/blob/master/assets/Hi.gif" width="29px">
+  ### Hello World!  <img src="https://github.comnotashelf/notashelf/blob/master/assets/Hi.gif" width="29px">
   [![Visits Badge](https://badges.pufler.dev/visits/notashelf/notashelf)](https://badges.pufler.dev/visits/notashelf/notashelf)
   
 <img src="https://github.com/notashelf/notashelf/blob/master/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
@@ -8,7 +8,7 @@
   - 🌱 I’m currently learning **Go, Ruby, Java & Python**
   - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics
   - 😄 Pronouns: He / Him
-  - ⚡ Fun fact: My name is an anagram of "I Play Data"
+  - ⚡ Fun fact: My name translates into "Shelf"
   
   #### 📫 How to reach me:
   
