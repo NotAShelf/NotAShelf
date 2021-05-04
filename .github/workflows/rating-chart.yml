@@ -15,7 +15,7 @@ jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@maİN
         with:
           token: ${{ secrets.GH_TOKEN_1 }}
         name: Setup Python
@@ -32,7 +32,7 @@ jobs:
       - run: cat assets/README-1.md > README.md
       - run: cat chart.txt >> README.md
       - run: |
-          currentDate=`env TZ=Turkey`
+          currentDate=`env TZ=Turkey date`
           printf "\nChart last updated - ${currentDate}" >> README.md
       - run: cat assets/README-2.md >> README.md
         name: Update workflow yaml file
@@ -48,8 +48,8 @@ jobs:
       - if: ${{ steps.changed.outcome == 'failure' }}
         uses: EndBug/add-and-commit@v4
         with:
-          author_name: NotAShelf
-          author_email: NotAShelf@gmail.com
+          author_name: NotAsHELF
+          author_email: notashelf@gmail.com
           message: "Auto updating my readme and workflow timing!"
           add: "README.md .github/workflows/rating-chart.yml"
         env:
