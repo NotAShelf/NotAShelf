@@ -27,7 +27,7 @@
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"></code>
   
-  [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)
+  [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)
   [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
@@ -56,6 +56,6 @@
   725.06  ┤           ╰╯ ╰╯
   689.00  ┤
 
-Chart last updated - Tue May  4 23:56:54 +03 2021  
+Chart last updated - Wed May  5 00:03:00 +03 2021  
   ```
   
