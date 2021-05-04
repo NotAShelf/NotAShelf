@@ -2,7 +2,7 @@
   [![Visits Badge](https://badges.pufler.dev/visits/notashelf/notashelf)](https://badges.pufler.dev/visits/notashelf/notashelf)
   
 <img src="https://github.com/notashelf/notashelf/blob/main/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
-<a href="https://ko-fi.com/notashelf"> <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt="side Gif" align="right" width="150" height="auto"/> </a>
+<img src="https://github.com/notashelf/notashelf/blob/main/assets/rick.gif" alt="side Gif" align="right" width="150" height="auto"/> </a>
   
   - 🔭 I’m currently working on **Kaine**, a discord bot written in **Discord.JS**
   - 🌱 I’m currently learning **Go, Ruby, Java & Python**
@@ -27,7 +27,8 @@
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"></code>
   
-  [![Stats](https://github-readme-stats.vercel.app/api?username=notashelf&show_icons=true&theme=radical)](https://github-readme-stats.vercel.app/api?username=snotashelf&show_icons=true&theme=radical)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/notashelf/notashelf/blob/main/assets/rick.gif" width="195">
+  [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)
+  [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
   
