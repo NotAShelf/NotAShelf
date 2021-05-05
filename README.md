@@ -19,7 +19,6 @@
   <code><img title="C" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/c.svg"></code>
   <code><img title="C++" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/cpp.svg"></code>
   <code><img title="C#" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/cSharp.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png"></code>
@@ -40,9 +39,7 @@
   <code><img title="CSS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/css.svg"></code>
   <code><img title="SASS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
   <code><img title="Git" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
-  <code><img title="PostgreSQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/postgresql.svg"></code>
   <code><img title="Visual Studio Code" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
-  <code><img title="JQuery" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/jquery-original.svg"></code>
   <code><img title="Android" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/android.svg"></code>
   <code><img title="GitHub" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
   <code><img title="npm" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
@@ -58,7 +55,8 @@
   ```
   # ♟︎ Chess.com Ratings Chart #
   
-  Rapid Rating 1243.00  ┼╮
+  Rapid Rating
+ 1243.00  ┼╮
  1213.00  ┤│
  1183.00  ┤│
  1153.00  ┤│
@@ -76,6 +74,6 @@
   793.00  ┤╰╯╰╯╰╯
   763.00  ┤
 
-Chart last updated - Wed May  5 10:19:19 +03 2021  
+Chart last updated - Wed May  5 10:21:07 +03 2021  
   ```
   
