@@ -40,9 +40,7 @@
   <code><img title="CSS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/css.svg"></code>
   <code><img title="SASS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
   <code><img title="Git" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
-  <code><img title="PostgreSQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/postgresql.svg"></code>
   <code><img title="Visual Studio Code" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
-  <code><img title="JQuery" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/jquery-original.svg"></code>
   <code><img title="Android" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/android.svg"></code>
   <code><img title="GitHub" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
   <code><img title="npm" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
