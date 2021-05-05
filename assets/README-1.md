@@ -33,14 +33,12 @@
   </p>
 <p align="center">
   <code><img title="Python" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/python-original.svg"></code>
-  <code><img title="Javascript" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/javascript.svg"></code>
   <code><img title="Problem Solving" height="25" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/problemSolving.png"></code>
   <code><img title="HTML5" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/html5.svg"></code>
   <code><img title="CSS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/css.svg"></code>
   <code><img title="SASS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
   <code><img title="Git" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
   <code><img title="Visual Studio Code" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
-  <code><img title="Android" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/android.svg"></code>
   <code><img title="GitHub" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
   <code><img title="npm" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
 <p align="center">
