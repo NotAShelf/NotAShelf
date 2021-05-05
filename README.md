@@ -33,7 +33,6 @@
   </p>
 <p align="center">
   <code><img title="Python" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/python-original.svg"></code>
-  <code><img title="Javascript" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/javascript.svg"></code>
   <code><img title="Problem Solving" height="25" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/problemSolving.png"></code>
   <code><img title="HTML5" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/html5.svg"></code>
   <code><img title="CSS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/css.svg"></code>
