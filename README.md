@@ -39,7 +39,6 @@
   <code><img title="SASS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
   <code><img title="Git" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
   <code><img title="Visual Studio Code" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
-  <code><img title="Android" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/android.svg"></code>
   <code><img title="GitHub" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
   <code><img title="npm" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
 <p align="center">
@@ -72,6 +71,6 @@
   793.00  ┤╰╯╰╯╰╯
   763.00  ┤
 
-Chart last updated - Wed May  5 21:19:21 +03 2021  
+Chart last updated - Wed May  5 21:45:40 +03 2021  
   ```
   
