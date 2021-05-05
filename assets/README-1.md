@@ -15,7 +15,10 @@
   [<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%"/>](https://steamcommunity.com/id/notashelf/)  &nbsp; [<img src="https://github.com/notashelf/notashelf/blob/main/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/TS6w3TYZRM)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/notashelf)  &nbsp; <a href="mailto:notashelf@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/>
   
   #### 👨🏻‍💻 Languages and Tools <br />
-  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+  <p align="center">
+  <code><img title="C" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/c.svg"></code>
+  <code><img title="C++" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/cpp.svg"></code>
+  <code><img title="C#" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/cSharp.svg"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png"></code>
@@ -26,7 +29,24 @@
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="nodejs"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" alt="sql"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git"></code>
+   <code><img title="MySQL" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/mysql.svg"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt="terminal"></code>
+  </p>
+<p align="center">
+  <code><img title="Python" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/python-original.svg"></code>
+  <code><img title="Javascript" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/javascript.svg"></code>
+  <code><img title="Problem Solving" height="25" src="https://github.com/notashelf/notashelf/blob/main/images/problemSolving.png"></code>
+  <code><img title="HTML5" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/html5.svg"></code>
+  <code><img title="CSS" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/css.svg"></code>
+  <code><img title="SASS" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/sass.svg"></code>
+  <code><img title="Git" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/git-original.svg"></code>
+  <code><img title="PostgreSQL" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/postgresql.svg"></code>
+  <code><img title="Visual Studio Code" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/vscode.png"></code></code>
+  <code><img title="JQuery" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/jquery-original.svg"></code>
+  <code><img title="Android" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/android.svg"></code>
+  <code><img title="GitHub" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/github.svg"></code>
+  <code><img title="npm" height="40" src="https://github.com/notashelf/notashelf/blob/main/images/npm.svg"></code>
+</p>
   
   [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)
   [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)
