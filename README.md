@@ -30,7 +30,7 @@
   [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)
   [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)
   
-  [![trophy](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=notashelf&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=notashelf&theme=onedark&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=notashelf&theme=onedark&no-frame=true&row=1&&margin-w=20&no-bg=true)
   
   ##### I am currently aiming to reach ELO 2000 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
   
@@ -56,6 +56,6 @@
   793.00  ┤╰╯╰╯╰╯
   763.00  ┤
 
-Chart last updated - Wed May  5 08:49:50 +03 2021  
+Chart last updated - Wed May  5 10:00:06 +03 2021  
   ```
   
