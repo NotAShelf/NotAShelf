@@ -43,12 +43,11 @@
   <code><img title="Android" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/android.svg"></code>
   <code><img title="GitHub" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
   <code><img title="npm" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
-</p>
-  
-  [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg)
-  [![Stats](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)](https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg)
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=true&row=1&&margin-w=20&no-bg=true)
+<p align="center">
+   <img title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
+   <img title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
+   <img title="trophies" src="https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=false&row=1&&margin-w=20&no-bg=true">
+ </p>
   
   ##### I am currently aiming to reach ELO 2000 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
   
