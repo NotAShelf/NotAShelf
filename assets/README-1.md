@@ -7,7 +7,7 @@
   - 🔭 I’m currently working on **Kaine**, a discord bot written in **JavaScript** using **Discord.JS**
   - 🌱 I’m currently learning **Go, Ruby, Java, JavaScript & Python**
   - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics
-  - ⭐ Pronouns: He / Him
+  - ⭐ Pronouns: He / Him (When in rome, do as the romans do)
   - ⚡ Fun fact: My name translates into "Shelf"
   
   #### 📫 How to reach me:
