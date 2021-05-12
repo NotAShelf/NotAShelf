@@ -1,4 +1,4 @@
-  ### Hello World!  <img src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/Hi.gif" width="29px">
+  ### G'day  <img src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/Hi.gif" width="29px">
   [![Visits Badge](https://badges.pufler.dev/visits/NotAShelf/NotAShelf)](https://badges.pufler.dev/visits/NotAShelf/NotAShelf)
   
 <img src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
