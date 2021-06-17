@@ -6,7 +6,7 @@
   
   - 🔭 I’m currently working on **Kaine**, a discord bot written in **JavaScript** using **Discord.JS**
   - 🌱 I’m currently learning **Go, Ruby, Java, JavaScript & Python**
-  - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, A good move to watch but NEVER programming if you don't want to be confused.
+  - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, A good movie to watch but NEVER programming if you don't want to be confused.
   - ⭐ Pronouns: He / Him (When in rome, do as the romans do)
   
   #### 📫 How to reach me:
@@ -70,6 +70,6 @@
   793.00  ┤╰╯╰╯╰╯
   763.00  ┤
 
-Chart last updated - Thu Jun 17 15:18:10 +03 2021  
+Chart last updated - Thu Jun 17 18:40:53 +03 2021  
   ```
   
