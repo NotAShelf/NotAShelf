@@ -33,12 +33,12 @@
   <code><img title="SASS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
   <code><img title="Java" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/java.png"></code>
   <code><img title="Python" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/python-original.svg"></code>
-  <code><img title="Postgresql" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/postgresql.png"></code>
-  <code><img title="SQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sql.png" alt="sql"></code>
-  <code><img title="MySQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/mysql.svg"></code>  
 </p>
     
 <p align="center">
+  <code><img title="Postgresql" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/postgresql.png"></code>
+  <code><img title="SQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sql.png" alt="sql"></code>
+  <code><img title="MySQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/mysql.svg"></code>  
   <code><img title="Problem Solving" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/problemSolving.png"></code>
   <code><img title="Git" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
   <code><img title="Visual Studio Code" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
