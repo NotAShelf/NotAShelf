@@ -62,6 +62,6 @@
   Rapid Rating
 
 
-Chart last updated - Wed Nov 17 12:02:49 +03 2021  
+Chart last updated - Wed Nov 17 19:16:48 +03 2021  
   ```
   
