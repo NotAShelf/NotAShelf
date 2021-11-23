@@ -19,34 +19,34 @@
   
   #### 👨🏻‍💻 Languages and Tools
 <p align="center">
-  <code><img title="C" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/c.svg"></code>
-  <code><img title="C++" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/cpp.svg"></code>
-  <code><img title="C#" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/cSharp.svg"></code>
-  <code><img title="Javascript" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/Javascript.png"></code>
-  <code><img title="NodeJS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/nodejs.png"></code>
-  <code><img title="npm" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
-  <code><img title="React" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/react-original-wordmark.svg"></code>
-  <code><img title="VueJS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vuejs-original-wordmark.svg"></code>
-  <code><img title="VueifyJS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vuetify.svg"></code>
-  <code><img title="HTML5" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/html5.svg"></code>
-  <code><img title="CSS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/css.svg"></code>
-  <code><img title="SASS" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
-  <code><img title="Java" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/java.png"></code>
-  <code><img title="Python" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/python-original.svg"></code>
+  <code><img title="C" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/c.svg"></code>
+  <code><img title="C++" height="40" width="40"  src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/cpp.svg"></code>
+  <code><img title="C#" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/cSharp.svg"></code>
+  <code><img title="Javascript" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/Javascript.png"></code>
+  <code><img title="NodeJS" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/nodejs.png"></code>
+  <code><img title="npm" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/npm.svg"></code>
+  <code><img title="React" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/react-original-wordmark.svg"></code>
+  <code><img title="VueJS" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vuejs-original-wordmark.svg"></code>
+  <code><img title="VueifyJS" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vuetify.svg"></code>
+  <code><img title="HTML5" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/html5.svg"></code>
+  <code><img title="CSS" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/css.svg"></code>
+  <code><img title="SASS" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sass.svg"></code>
+  <code><img title="Java" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/java.png"></code>
+  <code><img title="Python" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/python-original.svg"></code>
 </p>
     
 <p align="center">
-  <code><img title="Postgresql" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/postgresql.png"></code>
-  <code><img title="SQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sql.png" alt="sql"></code>
-  <code><img title="MySQL" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/mysql.svg"></code>  
-  <code><img title="Problem Solving" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/problemSolving.png"></code>
-  <code><img title="Git" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
-  <code><img title="Visual Studio Code" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
-  <code><img title="GitHub" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
-  <code><img title="Bash" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/bash.png"></code>
-  <code><img title="Terminal" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/terminal.png"></code>
-  <code><img title="Docker" height="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/docker.png"></code>
-  <code><img title="Linux" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
+  <code><img title="Postgresql" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/postgresql.png"></code>
+  <code><img title="SQL" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/sql.png" alt="sql"></code>
+  <code><img title="MySQL" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/mysql.svg"></code>  
+  <code><img title="Problem Solving" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/problemSolving.png"></code>
+  <code><img title="Git" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/git-original.svg"></code>
+  <code><img title="Visual Studio Code" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/vscode.png"></code></code>
+  <code><img title="GitHub" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/github.svg"></code>
+  <code><img title="Bash" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/bash.png"></code>
+  <code><img title="Terminal" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/terminal.png"></code>
+  <code><img title="Docker" height="40" width="40" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/docker.png"></code>
+  <code><img title="Linux" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
 </p>
 <p align="center">
    <img title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
