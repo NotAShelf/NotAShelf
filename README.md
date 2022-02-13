@@ -5,7 +5,7 @@
 <img src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
 <img src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/rick.gif" alt="side Gif" align="right" width="150" height="auto"/> </a>
   
-  - 🔭 I’m currently working on [**BrayanBot**](https://github.com/DakshNamdev/BrayanBot). A discord bot base written in JavaScript.
+  - 🔭 I’m currently working on [**BrayanBot**](https://github.com/BrayanbotDev/BrayanBot). A discord bot base written in JavaScript.
   - 🌱 I’m currently learning **Golang & NextJS**.
   - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless you want to be confused.
   - ⭐ Fun fact: I have no hecking clue what I'm doing 90% of the time but it still works.
@@ -78,6 +78,6 @@
   793.00  ┤╰╯╰╯╰╯       ╰╯
   763.00  ┤
 
-Chart last updated - Mon Feb 14 01:10:07 +03 2022  
+Chart last updated - Mon Feb 14 02:28:12 +03 2022  
   ```
   
