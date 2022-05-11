@@ -78,6 +78,6 @@
   793.00  ┤╰╯╰╯╰╯       ╰╯
   763.00  ┤
 
-Chart last updated - Wed May 11 23:14:18 +03 2022  
+Chart last updated - Thu May 12 00:19:34 +03 2022  
   ```
   
