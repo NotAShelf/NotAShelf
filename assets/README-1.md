@@ -26,7 +26,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 
 <p align="center">  
 <img title="Steam" href="https://steamcommunity.com/id/NotAShelf/" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%">
-<img title="Discord" href="https://discord.gg/TS6w3TYZRM" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/discord-round.svg" width="3.5%">
+<img title="Discord" href="https://discord.gg/TS6w3TYZRM" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/icons/discord-round.svg" width="3.5%">
 <img title="Twitter" href="https://twitter.com/NotAShelf" src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%">
 <img title="Mail Me" href="mailto:me@notashelf.dev" src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%">
   
