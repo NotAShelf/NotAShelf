@@ -6,7 +6,7 @@ import sys
 import asciichartpy as ac
 import requests
 
-USERNAME = 'notashelf'
+USERNAME = 'probablynotashelf'
 TIME_CLASS = 'rapid'
 RULES = 'chess' #chess960 and other variants possible here
 NGAMES = 100
@@ -46,7 +46,9 @@ def main():
     final_games = []
     archives = get_archives()
     for archive in archives:
-        final_games += get_filtered_games(archive)
+        games = get_filtered_games(archive)
+        if games is not None:
+            final_games += games
         if len(final_games) >= NGAMES:
             break
     final_games = final_games[:NGAMES]
