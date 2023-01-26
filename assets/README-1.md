@@ -1,19 +1,19 @@
 ### G'day  <img src="../assets/Hi.gif" width="20px" height="20px">
 
-I'm NotAShelf also known as raf.
-Amateur software developer & artist, professional sailor & sailmaker. Intermediate DevSecOps & SysAdmin in traiting. Fulltime procrastinator.
+I'm NotAShelf, also known as raf.
+Amateur software developer & artist, professional sailor & sailmaker. Intermediate DevSecOps & SysAdmin in training. Fulltime procrastinator.
   
 <img src="../assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
 <img src="../assets/rick.gif" alt="side Gif" align="right" width="150" height="auto"/> 
 </a>
   
-- 🔭 I’m currently working on: 
-  - [**BrayanBot**](https://github.com/BrayanbotDev/BrayanBot), a Discord bot that is written in Javascript with a Typescript rework on the way.
-  - [**Hyprkeys**](https://github.com/NotAShelf/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
+- 🔭 I’m currently working on:
+  - [**BrayanBot**](https://github.com/Brayanbot/BrayanBot), a Discord bot that is written in Javascript with a Typescript rework on the way.
+  - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
     [**Hyprland**](https://github.com/hyprwm/Hyprland).
   - Two unnamed projects that aim to replace some of my daily use applications.
   - A replacement to the now-deleted manga-cli from AUR.
-- 🌱 I’m currently learning **Golang, Nix and NextJS (as well as React)**. I despise Javascript.
+- 🌱 I’m currently learning **Golang, Nix and NextJS (as well as React)**. I despise Javascript, Nix despises me.
 - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless you want to be confused.
 - ⭐ Fun fact: I cannot write C++ code to save my life, yet I passed a CS class using nothing but C++ back in college.
 
@@ -21,7 +21,6 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 <img title="👉🏻 Visitor Count" href="https://steamcommunity.com/id/NotAShelf/" src="https://profile-counter.glitch.me/NotAShelf/count.svg">
 </p>
 
-  
 #### 📫 How to reach me
 
 <p align="center">  
@@ -75,7 +74,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
    <img title="trophies" src="https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=false&row=1&&margin-w=20&no-bg=true">
 </p>
   
-##### I am currently aiming to reach ELO 2000 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
+##### I am currently aiming to reach ELO 1500 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
   
 ```txt
   # ♟︎ Chess.com Ratings Chart #
