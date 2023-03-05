@@ -93,13 +93,13 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
  1128.50  ┤ │                         ╰╯                                          ╰──╯  ╰────╮
  1108.81  ┤ │                                                                                ╰────╮ ╭╮
  1089.12  ┤ │                                                                                     ╰─╯╰─╮
- 1069.44  ┤╭╯                                                                                          ╰
+ 1069.44  ┤╭╯                                                                                          ╰─
  1049.75  ┤│
  1030.06  ┤│
  1010.38  ┤│
   990.69  ┤│
   971.00  ┼╯
 
-Chart last updated - Sun Mar  5 08:08:44 +03 2023  
+Chart last updated - Sun Mar  5 11:09:44 +03 2023  
   ```
   
