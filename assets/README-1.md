@@ -8,12 +8,12 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 </a>
   
 - 🔭 I’m currently working on:
-  - My [**nixos dotfiles**](https://github.com/notashelf/dotfiles), current configuration for my new favorite Linux disto - NixOS!
-  - [**BrayanBot**](https://github.com/Brayanbot/BrayanBot), a Discord bot that is written in Javascript with a Typescript rework on the way.
-  - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
-    [**Hyprland**](https://github.com/hyprwm/Hyprland).
   - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake
   - [**sysdev**](https://github.com/notashelf/sysdev), a wrapper around my day-to-day software such as package managers. Written in Rust as practice.
+  - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way.
+  - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
+    [**Hyprland**](https://github.com/hyprwm/Hyprland).
+  - My [**nixos dotfiles**](https://github.com/notashelf/dotfiles), current configuration for my new favorite Linux disto - NixOS!
   - A replacement to the now-deleted manga-cli from AUR.
 - 🌱 I’m currently learning **Golang, Nix and NextJS (as well as React)**. I despise Javascript, Nix despises me.
 - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless you want to be confused.
