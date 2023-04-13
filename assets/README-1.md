@@ -13,10 +13,10 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
   - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way.
   - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
     [**Hyprland**](https://github.com/hyprwm/Hyprland).
-  - My [**nixos dotfiles**](https://github.com/notashelf/dotfiles), current configuration for my new favorite Linux disto - NixOS!
-  - A replacement to the now-deleted manga-cli from AUR.
-- 🌱 I’m currently learning **Golang, Nix and NextJS (as well as React)**. I despise Javascript, Nix despises me.
-- 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless you want to be confused.
+  - [**Nyx**](https://github.com/notashelf/nyx), the first child of chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!
+  - [**Kamishiba**]() - replacement to the now-deleted manga-cli from AUR **[WIP]**.
+- 🌱 I’m currently learning Rust, Golang, ReactJS and the Nix expression language. I despise Javascript, Nix despises me.
+- 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless, of course, you want to be confused.
 - ⭐ Fun fact: I cannot write C++ code to save my life, yet I passed a CS class using nothing but C++ back in college.
 
 <p align="center">  
