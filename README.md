@@ -60,7 +60,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 <p align="center">
   <code><img title="Bash" height="40" width="40" src="../main/assets/icons/bash.png"></code>
   <code><img title="Visual Studio Code" height="40" width="40" src="../main/assets/icons/vscode.png"></code></code>
-  <code><img title="Vim" height="40" width="40" src="../main/assets/icons/vim.png"></code></code>
+  <code><img title="(Neo)Vim" height="40" width="40" src="../main/assets/icons/vim.png"></code></code>
   <code><img title="GitHub" height="40" width="40" src="../main/assets/icons/github.svg"></code>
   <code><img title="Problem Solving" height="40" width="40" src="../main/assets/icons/problemSolving.png"></code>
   <code><img title="Git" height="40" width="40" src="../main/assets/icons/git-original.svg"></code>
@@ -68,6 +68,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
   <code><img title="Docker" height="40" width="40" src="../main/assets/icons/docker.png"></code>
   <code><img title="Linux" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
   <code><img title="Arch btw" height="40" width="40" src="../main/assets/icons/arch.svg" href="https://aur.archlinux.org/account/notashelf"></code>
+  <code><img title="Nix/NixOS" height="40" width="40" src="../main/assets/icons/nix-snowflake.svg"</code>
 </p>
 
 <p align="center">
@@ -100,6 +101,6 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
  1052.25  ┤                                                      ╰╯╰╯╰─╯        ╰╯╰╯
  1043.00  ┤
 
-Chart last updated - Tue Apr 18 05:18:59 +03 2023  
+Chart last updated - Tue Apr 18 05:20:15 +03 2023  
   ```
   
