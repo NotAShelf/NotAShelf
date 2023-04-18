@@ -59,8 +59,8 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 
 <p align="center">
   <code><img title="Bash" height="40" width="40" src="../main/assets/icons/bash.png"></code>
-  <code><img title="Visual Studio Code" height="40" width="40" src="../main/assets/icons/vscode.png"></code></code>
-  <code><img title="(Neo)Vim" height="40" width="40" src="../main/assets/icons/vim.png"></code></code>
+  <code><img title="Visual Studio Code" height="40" width="40" src="../main/assets/icons/vscode.png"></code>
+  <code><img title="(Neo)Vim" height="40" width="40" src="../main/assets/icons/vim.png"></code>
   <code><img title="GitHub" height="40" width="40" src="../main/assets/icons/github.svg"></code>
   <code><img title="Problem Solving" height="40" width="40" src="../main/assets/icons/problemSolving.png"></code>
   <code><img title="Git" height="40" width="40" src="../main/assets/icons/git-original.svg"></code>
