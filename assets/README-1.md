@@ -68,7 +68,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
   <code><img title="Docker" height="40" width="40" src="../main/assets/icons/docker.png"></code>
   <code><img title="Linux" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
   <code><img title="Arch btw" height="40" width="40" src="../main/assets/icons/arch.svg" href="https://aur.archlinux.org/account/notashelf"></code>
-  <code><img title="Nix/NixOS" height="40" width="40" src="../main/assets/icons/nix-snowflake.svg"</code>
+  <code><img title="Nix/NixOS" height="40" width="40" src="../main/assets/icons/nix-snowflake.svg"></code>
 </p>
 
 <p align="center">
