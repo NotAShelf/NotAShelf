@@ -14,7 +14,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
   - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
     [**Hyprland**](https://github.com/hyprwm/Hyprland).
   - [**Nyx**](https://github.com/notashelf/nyx), the first child of chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!
-  - [**Kamishiba**]() - replacement to the now-deleted manga-cli from AUR **[WIP]**.
+  - [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**.
 - 🌱 I’m currently learning Rust, Golang, ReactJS and the Nix expression language. I despise Javascript, Nix despises me.
 - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless, of course, you want to be confused.
 - ⭐ Fun fact: I cannot write C++ code to save my life, yet I passed a CS class using nothing but C++ back in college.
@@ -101,6 +101,6 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
  1051.81  ┤                                            ╰╯╰╯╰─╯        ╰╯╰╯
  1043.00  ┤
 
-Chart last updated - Sat Jun  3 15:34:10 +03 2023  
+Chart last updated - Sun Jun  4 00:21:32 +03 2023  
   ```
   
