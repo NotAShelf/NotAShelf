@@ -9,7 +9,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
   
 - 🔭 I’m currently working on:
   - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake
-  - [**sysdev**](https://github.com/notashelf/sysdev), a wrapper around my day-to-day software such as package managers. Written in Rust as practice.
+  - [**Fylgja**](https://github.com/notashelf/Fylgja), a wrapper around my day-to-day software such as package managers. Written in Rust as practice.
   - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way.
   - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
     [**Hyprland**](https://github.com/hyprwm/Hyprland).
