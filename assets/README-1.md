@@ -8,8 +8,9 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 </a>
   
 - 🔭 I’m currently working on:
-  - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake
-  - [**Fylgja**](https://github.com/notashelf/Fylgja), a wrapper around my day-to-day software such as package managers. Written in Rust as practice.
+  - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake.
+  - [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go.
+  - [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility.
   - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way.
   - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, 
     [**Hyprland**](https://github.com/hyprwm/Hyprland).
@@ -20,13 +21,12 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 - ⭐ Fun fact: I cannot write C++ code to save my life, yet I passed a CS class using nothing but C++ back in college.
 
 <p align="center">  
-<img title="👉🏻 Visitor Count" href="https://steamcommunity.com/id/NotAShelf/" src="https://profile-counter.glitch.me/NotAShelf/count.svg">
+  <img title="👉🏻 Visitor Count" src="https://profile-counter.glitch.me/NotAShelf/count.svg">
 </p>
 
 #### 📫 How to reach me
 
 <p align="center">  
-<img title="Steam" href="https://steamcommunity.com/id/NotAShelf/" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%">
 <img title="Discord" href="https://discord.gg/TS6w3TYZRM" src="https://github.com/NotAShelf/NotAShelf/blob/main/assets/icons/discord-round.svg" width="3.5%">
 <img title="Twitter" href="https://twitter.com/NotAShelf" src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%">
 <img title="Mail Me" href="mailto:me@notashelf.dev" src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%">
@@ -34,7 +34,7 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 #### 👨🏻‍💻 Languages and Tools
 
 <p align="center">
-   <code><img title="Ruby" height="40" width="40" src="../main/assets/icons/ruby.png"></code>
+  <code><img title="Ruby" height="40" width="40" src="../main/assets/icons/ruby.png"></code>
   <code><img title="Javascript" height="40" width="40" src="../main/assets/icons/Javascript.png"></code>
   <code><img title="Typescript" height="40" width="40" src="../main/assets/icons/typescript.png"></code>
   <code><img title="HTML5" height="40" width="40" src="../main/assets/icons/html5.svg"></code>
