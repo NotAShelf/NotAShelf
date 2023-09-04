@@ -86,6 +86,6 @@ Rapid Rating
 
 
 
-Chart last updated - Mon Sep  4 20:30:35 +03 2023
+Chart last updated - Mon Sep  4 20:31:00 +03 2023
   ```
   
