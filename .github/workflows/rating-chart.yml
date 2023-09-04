@@ -31,7 +31,7 @@ jobs:
           echo "::set-output name=chart::$CHART"
       - run: |
           currentDate=`env TZ=Turkey date`
-          sed -i "/# ♟︎ Chess.com Ratings Chart #/,/Chart last updated/c\# ♟︎ Chess.com Ratings Chart #\n\nRapid Rating\n\n$CHART\n\nChart last updated - ${currentDate}" README.md
+          sed -i "/# ♟︎ Chess.com Ratings Chart #/ { N; /Chart last updated/c\# ♟︎ Chess.com Ratings Chart #\n\nRapid Rating\n\n$CHART\n\nChart last updated - ${currentDate}\n\n}" README.md
         name: Update README
       - run: |
           python code/generate_random_workflow.py > rating-yaml.txt
