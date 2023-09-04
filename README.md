@@ -80,27 +80,12 @@ Amateur software developer & artist, professional sailor & sailmaker. Intermedia
 ##### I am currently aiming to reach ELO 1500 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
   
 ```txt
-  # ♟︎ Chess.com Ratings Chart #
-  
-  Rapid Rating
- 1111.00  ┤                                   ╭╮
- 1105.00  ┤                                   ││
- 1099.00  ┼───────────────────────────────────╯╰╮
- 1093.00  ┤                                     ╰╮
- 1087.00  ┤                                      ╰╮
- 1081.00  ┤                                       │   ╭───────────────────────────────╮
- 1075.00  ┤                                       ╰──╮│                               ╰╮
- 1069.00  ┤                                          ╰╯                                │
- 1063.00  ┤                                                                            ╰╮
- 1057.00  ┤                                                                             ╰╮╭╮                 ╭
- 1051.00  ┤                                                                              ╰╯╰╮               ╭╯
- 1045.00  ┤                                                                                 ╰╮             ╭╯
- 1039.00  ┤                                                                                  ╰╮╭╮         ╭╯
- 1033.00  ┤                                                                                   ╰╯╰─╮   ╭╮  │
- 1027.00  ┤                                                                                       ╰─╮╭╯╰╮╭╯
- 1021.00  ┤                                                                                         ╰╯  ╰╯
- 1015.00  ┤
+# ♟︎ Chess.com Ratings Chart #
 
-Chart last updated - Sun Aug 27 15:30:28 +03 2023  
+Rapid Rating
+
+
+
+Chart last updated - Mon Sep  4 20:30:04 +03 2023
   ```
   
