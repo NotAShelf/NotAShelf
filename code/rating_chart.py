@@ -56,7 +56,35 @@ def get_archives() -> list:
         return []
 
 
-# Define get_filtered_games and other functions as before
+def get_filtered_games(archive_url: str) -> list:
+    try:
+        logging.info(f"Fetching games from archive: {archive_url}")
+        headers = {"User-Agent": FAKE_USER_AGENT}
+        response = requests.get(archive_url, headers=headers)
+        response.raise_for_status()
+
+        games_dict = response.json()
+        games = games_dict.get("games")
+
+        if games is None:
+            logging.info("No games found in the archive.")
+            return []
+
+        filtered_games = []
+        for game in games:
+            # Add your filtering logic here to select the games you want
+            # For example, you can filter games based on time control and rules.
+            if game.get("time_class") == TIME_CLASS and game.get("rules") == RULES:
+                filtered_games.append(game)
+
+        logging.info(f"Filtered games from archive: {len(filtered_games)}")
+        return filtered_games
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error fetching games from archive: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        logging.error(f"Error decoding JSON response from archive: {e}")
+        return []
 
 
 def main():
