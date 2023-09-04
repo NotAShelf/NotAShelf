@@ -8,31 +8,33 @@ on:
       - .github/templates/
   schedule:
     - cron: "0 */12 * * *"
+  workflow_dispatch:
+
 jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
         with:
           token: ${{ secrets.GH_TOKEN_1 }}
         name: Setup Python
-
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v2
         with:
-          python-version: 3.8
+          python-version: 3.7
         name: Install dependencies
-
       - run: pip install -r code/requirements.txt
         name: Create Chart
-
       - run: |
           python code/rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
           echo "::set-output name=chart::$CHART"
+      - run: cat assets/README-1.md > README.md
+      - run: cat chart.txt >> README.md
       - run: |
-          currentDate=`env TZ=Turkey date`
-          sed -i "/# ♟︎ Chess.com Ratings Chart #/ { N; /Chart last updated/c\# ♟︎ Chess.com Ratings Chart #\n\nRapid Rating\n\n$CHART\n\nChart last updated - ${currentDate}\n\n}" README.md
-        name: Update README
+          currentDate=`env TZ=Europe/Istanbul date`
+          printf "\nChart last updated - ${currentDate}" >> README.md
+      - run: cat assets/README-2.md >> README.md
+        name: Update workflow yaml file
       - run: |
           python code/generate_random_workflow.py > rating-yaml.txt
           YAML=$(cat rating-yaml.txt)
@@ -46,8 +48,8 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           author_name: "[Bot] NotAShelf"
-          author_email: "62766066+notashelf@users.noreply.github.com"
-          message: "update README and workflow timing"
+          author_email: raf@notashelf.dev
+          message: "update README rating chart & workflow timing "
           add: "README.md .github/workflows/rating-chart.yml"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_1 }}

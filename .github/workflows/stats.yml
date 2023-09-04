@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in
@@ -21,7 +21,7 @@ jobs:
     # Sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       # Run using Python 3.8 for consistency and aiohttp
       - name: Set up Python 3.8
@@ -32,7 +32,7 @@ jobs:
 
       # Cache dependencies. From:
       # https://github.com/actions/cache/blob/master/examples.md#python---pip
-      - uses: actions/cache@v3
+      - uses: actions/cache@v2
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**code/requirements.txt') }}
