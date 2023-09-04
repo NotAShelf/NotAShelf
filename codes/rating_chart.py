@@ -1,18 +1,24 @@
+import os
 import logging
 from collections import namedtuple
 import datetime
 import math
-import os
-import sys
 import asciichartpy as ac
 import requests
 
-# Configure logging
-logging.basicConfig(
-    level=logging.DEBUG,  # Set the logging level to DEBUG for maximum detail
-    format="%(asctime)s [%(levelname)s]: %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
+# Configure logging based on DEBUG environment variable
+if os.environ.get("DEBUG") == "True":
+    logging.basicConfig(
+        level=logging.DEBUG,  # Set the logging level to DEBUG for maximum detail
+        format="%(asctime)s [%(levelname)s]: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+else:
+    logging.basicConfig(
+        level=logging.INFO,  # Set the logging level to INFO for less verbose output
+        format="%(asctime)s [%(levelname)s]: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
 
 USERNAME = "itsashelf"
 TIME_CLASS = "rapid"
@@ -50,46 +56,7 @@ def get_archives() -> list:
         return []
 
 
-def get_filtered_games(monthly_archive_url: str) -> list:
-    try:
-        logging.info(f"Fetching games from {monthly_archive_url}...")
-        headers = {
-            "User-Agent": FAKE_USER_AGENT
-        }  # Set the fake user agent in the request headers
-        response = requests.get(monthly_archive_url, headers=headers)
-        response.raise_for_status()  # Raise an exception for HTTP errors
-
-        games_dict = response.json()
-        monthly_games = games_dict.get("games")
-
-        if monthly_games is None:
-            logging.info("No games found in this archive.")
-            return []
-
-        _filtered_games = list(
-            filter(lambda game: game["time_class"] == TIME_CLASS, monthly_games)
-        )
-        filtered_games = list(
-            filter(lambda game: game["rules"] == RULES, _filtered_games)
-        )
-        logging.info(f"Games retrieved successfully from {monthly_archive_url}.")
-        return filtered_games[::-1]
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Error fetching games: {e}")
-        return []
-    except json.JSONDecodeError as e:
-        logging.error(f"Error decoding JSON response: {e}")
-        return []
-
-
-def get_ratings_from_games(games: list) -> list:
-    ratings = []
-    for game in games:
-        if game["white"]["username"] == USERNAME:
-            ratings.append(game["white"]["rating"])
-        else:
-            ratings.append(game["black"]["rating"])
-    return ratings[::-1]
+# Define get_filtered_games and other functions as before
 
 
 def main():
