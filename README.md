@@ -11,15 +11,15 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
 - 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless, of course, you want to be confused.
 - ⭐ Fun fact: I cannot write C++ code to save my life, yet I passed a CS class using nothing but C++ back in college.
 - 🔭 I’m currently working on:
-  - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake.
-  - [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go.
-  - [**CatApi**](https://github.com/notashelf/catApi), a minimal API for serving pictures of your cats. Features a convenient frontend.
-  - [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility.
-  - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way.
+  - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake
+  - [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go
+  - [**CatApi**](https://github.com/notashelf/catApi), a minimal API for serving pictures of your cats. Features a convenient frontend
+  - [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility
+  - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way
   - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor,
-    [**Hyprland**](https://github.com/hyprwm/Hyprland).
+    [**Hyprland**](https://github.com/hyprwm/Hyprland)
   - [**Nyx**](https://github.com/notashelf/nyx), the first child of chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!
-  - [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**.
+  - [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**
 
 #### 📫 How to reach me
 
@@ -83,7 +83,7 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-```
+
 Rating Chart:
  1111.00  ┤ ╭╮
  1105.00  ┤ ││
@@ -103,6 +103,6 @@ Rating Chart:
  1021.00  ┤                                                       ╰╯  ╰╯
  1015.00  ┤
 
-Chart last updated - Mon Nov  6 02:36:58 +03 2023  
+Chart last updated - Mon Nov  6 02:42:50 +03 2023  
   ```
   
