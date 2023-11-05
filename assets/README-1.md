@@ -1,6 +1,6 @@
 ### Hey! <img src="../assets/Hi.gif" width="20px" height="20px">
 
-[![pgp](https://img.shields.io/badge/pgp-0xF83424824B3E4B90-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) [![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
+[![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) [![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
 I'm **raf**, most commonly known as NotAShelf on the internet. I am a professional sailor and a sailmaker. Intermediate DevSecOps and SysAdmin in training.
 My freetime mostly goes towards working on occasional open source projects and DevSecOps activities. I enjoy writing command-line tools that are practical.
