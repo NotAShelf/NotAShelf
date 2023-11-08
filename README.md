@@ -14,7 +14,7 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
   - [**neovim-flake**](https://github.com/notashelf/neovim-flake), no-nonsense, highly extensible neovim configuration packaged through a nix flake
   - [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go
   - [**CatApi**](https://github.com/notashelf/catApi), a minimal API for serving pictures of your cats. Features a convenient frontend
-  - [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility
+  - [**Fylgja**](https://github.com/hyprland-community/Fylgja), a cross-distro package manager and convenience utility
   - [**Proxima**](https://github.com/NeuShore/Proxima), a Discord bot that is written in Javascript with a Typescript rework on the way
   - [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor,
     [**Hyprland**](https://github.com/hyprwm/Hyprland)
@@ -103,6 +103,6 @@ Rating Chart:
  1021.00  ┤                                                       ╰╯  ╰╯
  1015.00  ┤
 
-Chart last updated - Wed Nov  8 03:54:05 +03 2023  
+Chart last updated - Wed Nov  8 12:15:44 +03 2023  
   ```
   
