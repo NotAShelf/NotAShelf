@@ -7,23 +7,30 @@ My freetime mostly goes towards working on occasional open source projects and D
 
 I am well-versed in full-stack technologies, I mainly focus on backend applications using Go.
 
-- 🌱 I’m currently learning Rust, ReactJS and the Nix expression language. I despise Javascript, Nix despises me.
-- 💬 Ask me about Multiplayer FPS/(J)RPG gaming, chess and Tintin/Lucky Luke comics, a good movie to watch, but NEVER programming. Unless, of course, you want to be confused.
-- ⭐ Fun fact: I cannot write C++ code to save my life, yet I passed a CS class using nothing but C++ back in college.
-- 🔭 Currently working on:
+#### 🔭 Currently working on:
 
-| **Nix**                                                                                                                                                                                                                                                                                                                    | **Bash**, **Go**, **Python**, **Typescript**, **Java**, **JS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| • [**neovim-flake**](https://github.com/notashelf/neovim-flake) - no-nonsense, highly extensible neovim configuration packaged through a nix flake<br>• [**Nyx**](https://github.com/notashelf/nyx) -the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br> | • [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go<br>• [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go<br>• [**CatApi**](https://github.com/notashelf/catApi - a minimal API for serving pictures of your cats. Features a convenient frontend<br>• [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility<br>• [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, [**Hyprland**](https://github.com/hyprwm/Hyprland)<br>• [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**<br> |
+| **Nix**                                                                                                                                                                                                                                                                                                                    | **Bash**, **Go**, **Python**, **Typescript**, **Java**, **JS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| • [**neovim-flake**](https://github.com/notashelf/neovim-flake) - no-nonsense, highly extensible neovim configuration packaged through a nix flake<br>• [**Nyx**](https://github.com/notashelf/nyx) -the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br> | • [**Docr**](https://github.com/notashelf/docr), a barebones static site generator in Go<br>• [**CatApi**](https://github.com/notashelf/catApi) - a minimal API for serving pictures of your cats. Features a convenient frontend<br>• [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility<br>• [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, [**Hyprland**](https://github.com/hyprwm/Hyprland)<br>• [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**<br> |
 
 #### 📫 How to reach me
 
 <p align="center">
-  <img title="Discord" href="https://discord.gg/TS6w3TYZRM" src="../main/assets/icons/discord.svg" width="3.5%">
-  <img title="Twitter" href="https://twitter.com/NotAShelf" src="../main/assets/icons/twitter.svg" width="3.5%">
-  <img title="Mail Me" href="mailto:me@notashelf.dev" src="../main/assets/icons/gmail.svg" width="3.5%">
-  <img title="Mastodon" href="mailto:me@notashelf.dev" src="../main/assets/icons/mastodon.svg" width="3.5%">
-  <img title="Matrix" href="mailto:me@notashelf.dev" src="../main/assets/icons/matrix.svg" width="3.5%">
+ <a href="https://discord.gg/TS6w3TYZRM">
+   <img title="Discord" src="../main/assets/icons/discord.svg" width="3.5%">
+ </a>
+ <a href="https://twitter.com/NotAShelf">
+   <img title="Twitter" src="../main/assets/icons/twitter.svg" width="3.5%">
+ </a>
+ <a href="mailto:me@notashelf.dev">
+   <img title="Mail Me" src="../main/assets/icons/gmail.svg" width="3.5%">
+ </a>
+ <a href="mailto:me@notashelf.dev">
+   <img title="Mastodon" src="../main/assets/icons/mastodon.svg" width="3.5%">
+ </a>
+ <a href="mailto:me@notashelf.dev">
+   <img title="Matrix" src="../main/assets/icons/matrix.svg" width="3.5%">
+ </a>
 </p>
 
 #### 💻 Languages and Tools
@@ -73,11 +80,14 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
    <img title="trophies" src="https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=false&row=1&&margin-w=20&no-bg=true">
 </p>
 
-##### I am currently aiming to reach ELO 1500 Rapid on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com rapid games.
+<h6 align="center">I despise Javascript, Nix despises me</h6>
+
+---
+
+<p align="center">I like chess! Here is an ascii tracker of my 100 previous chess.com rapid games.</p>
 
 ```txt
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
 
-```
