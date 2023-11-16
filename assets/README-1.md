@@ -25,10 +25,10 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
  <a href="mailto:me@notashelf.dev">
    <img title="Mail Me" src="../main/assets/icons/gmail.svg" width="3.5%">
  </a>
- <a href="mailto:me@notashelf.dev">
+ <a href="https://social.notashelf.dev/@raf">
    <img title="Mastodon" src="../main/assets/icons/mastodon.svg" width="3.5%">
  </a>
- <a href="mailto:me@notashelf.dev">
+ <a href="https://matrix.to/#/@raf:notashelf.dev">
    <img title="Matrix" src="../main/assets/icons/matrix.svg" width="3.5%">
  </a>
 </p>
