@@ -1,16 +1,31 @@
-### Hey! <img src="../assets/Hi.gif" width="20px" height="20px">
+## Hey! <img src="../assets/Hi.gif" width="20px" height="20px">
+
+### About Me
 
 [![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) [![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
-I'm **raf**, most commonly known as NotAShelf on the internet. I am a professional sailor and a sailmaker. Intermediate DevSecOps and SysAdmin in training.
-My freetime mostly goes towards working on occasional open source projects and DevSecOps activities. I enjoy writing command-line tools that are practical.
+I'm **raf**, most commonly known as NotAShelf on the internet. I am a professional sailor and sailmaker intermediate DevSecOps and SysAdmin in training.
+Fulltime procrastinator.
 
-I am well-versed in full-stack technologies, I mainly focus on backend applications using Go.
+I am an International Relations major, currentling pursuing a PhD in the field of Political Science. My freetime mostly goes towards working on occasional
+open source projects and DevSecOps activities. Ever sincee I have been introduced to the world of Linux in late 2018, I have been very passionate about writing
+my own software and System Administration. Home-made CLI applications are my favorites, I like writing my own software over using others'.
 
-#### 🔭 Currently working on:
+I consider myself well-versed in full-stack technologies, my focus is generally on backend applications using Go.
 
-| **Nix**                                                                                                                                                                                                                                                                                                                    | **Bash**, **Go**, **Python**, **Typescript**, **Java**, **JS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+- 📅 Programming since 2018
+- ⛵ Working as a Sailmaker
+- 🏫 Part-time IR/POLS instructor, forever student
+- 🖥️ NixOS / Hyprland / Neovim
+- 👨 Despite its shortcomings, Go is my _go-to_ language (pun fully intended)
+- 🌐 Frontend via React/NextJS used to be my primary stack. Now I focus more on backend applications and System Administration.
+- 📫 Contact me @ raf [at] notashelf [dot] dev or on Discord, `@notashelf`
+- 🎲 Fun fact: I have entered the world of Linux, Programming and Open Source through a misadventure involing a Linux VPS and a Minecraft server back in 2018
+
+### 🔭 Currently working on:
+
+| **Nix**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Bash**, **Go**, **Python**, **Typescript**, **Java**, **JS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | • [**neovim-flake**](https://github.com/notashelf/neovim-flake) - no-nonsense, highly extensible neovim configuration packaged through a nix flake<br> • [**Nyx**](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br> • [**Nyxpkgs**](https://github.com/notashelf/nyxkgs) - a collection of packages not found in Nixpkgs<br> • [**arrpc-flake**](https://github.com/NotAShelf/arrpc-flake) - a Nix flake providing arRPC package and a convenient home-manager module<br>• [**Schizofox**](https://github.com/schizofox/schizofox) - a privacy and security oriented Firefox configuration for Home-manager | • [**Docr**](https://github.com/notashelf/docr) - a barebones static site generator in Go<br>• [**CatApi**](https://github.com/notashelf/catApi) - a minimal API for serving pictures of your cats. Features a convenient frontend<br>• [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility<br>• [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, [**Hyprland**](https://github.com/hyprwm/Hyprland)<br>• [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**<br> |
 
 #### 📫 How to reach me
@@ -33,7 +48,7 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
  </a>
 </p>
 
-#### 💻 Languages and Tools
+### 💻 Languages and Tools
 
 <p align="center">
   <code><img title="Ruby" height="40" width="40" src="../main/assets/icons/ruby.png"></code>
@@ -90,7 +105,6 @@ I am well-versed in full-stack technologies, I mainly focus on backend applicati
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-
 Rating Chart:
  1125.00  ┤
  1118.12  ┤                                                                            ╭╮╭╮╭╮
@@ -110,6 +124,6 @@ Rating Chart:
  1021.88  ┤                           ╰─╮│  ╰╯
  1015.00  ┤                             ╰╯
 
-Chart last updated - Wed Nov 29 03:56:40 +03 2023
+Chart last updated - Wed Nov 29 07:06:48 +03 2023
 ```
 
