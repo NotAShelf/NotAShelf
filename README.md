@@ -4,11 +4,11 @@
 
 [![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) [![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
-I'm **raf**, most commonly known as NotAShelf on the internet. I am a professional sailor and sailmaker intermediate DevSecOps and SysAdmin in training.
+I'm **raf**, most commonly known as NotAShelf on the internet. I am a professional sailor and sailmaker, intermediate DevSecOps and SysAdmin in training.
 Fulltime procrastinator.
 
 I am an International Relations major, currentling pursuing a PhD in the field of Political Science. My freetime mostly goes towards working on occasional
-open source projects and DevSecOps activities. Ever sincee I have been introduced to the world of Linux in late 2018, I have been very passionate about writing
+open source projects and DevSecOps activities. Ever since I have been introduced to the world of Linux in late 2018, I have been very passionate about writing
 my own software and System Administration. Home-made CLI applications are my favorites, I like writing my own software over using others'.
 
 I consider myself well-versed in full-stack technologies, my focus is generally on backend applications using Go.
@@ -51,42 +51,42 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 ### 💻 Languages and Tools
 
 <p align="center">
-  <code><img title="Ruby" height="40" width="40" src="../main/assets/icons/ruby.png"></code>
-  <code><img title="Javascript" height="40" width="40" src="../main/assets/icons/Javascript.png"></code>
-  <code><img title="Typescript" height="40" width="40" src="../main/assets/icons/typescript.png"></code>
-  <code><img title="HTML5" height="40" width="40" src="../main/assets/icons/html5.svg"></code>
-  <code><img title="CSS" height="40" width="40" src="../main/assets/icons/css.svg"></code>
-  <code><img title="SASS" height="40" width="40" src="../main/assets/icons/sass.svg"></code>
-  <code><img title="NodeJS" height="40" width="40" src="../main/assets/icons/nodejs.png"></code>
-  <code><img title="npm" height="40" width="40" src="../main/assets/icons/npm.svg"></code>
-  <code><img title="React" height="40" width="40" src="../main/assets/icons/react-original-wordmark.svg"></code>
-  <code><img title="VueJS" height="40" width="40" src="../main/assets/icons/vuejs-original-wordmark.svg"></code>
-  <code><img title="Postgresql" height="40" width="40" src="../main/assets/icons/postgresql.png"></code>
-  <code><img title="SQL" height="40" width="40" src="../main/assets/icons/sql.png" alt="sql"></code>
-  <code><img title="MySQL" height="40" width="40" src="../main/assets/icons/mysql.svg"></code>
-  <code><img title="Redis" height="40" width="40" src="../main/assets/icons/redis.png"></code>
+  <code><img title="Ruby" height="40" width="40" src="../main/.github/assets/icons/ruby.png"></code>
+  <code><img title="Javascript" height="40" width="40" src="../main/.github/assets/icons/Javascript.png"></code>
+  <code><img title="Typescript" height="40" width="40" src="../main/.github/assets/icons/typescript.png"></code>
+  <code><img title="HTML5" height="40" width="40" src="../main/.github/assets/icons/html5.svg"></code>
+  <code><img title="CSS" height="40" width="40" src="../main/.github/assets/icons/css.svg"></code>
+  <code><img title="SASS" height="40" width="40" src="../main/.github/assets/icons/sass.svg"></code>
+  <code><img title="NodeJS" height="40" width="40" src="../main/.github/assets/icons/nodejs.png"></code>
+  <code><img title="npm" height="40" width="40" src="../main/.github/assets/icons/npm.svg"></code>
+  <code><img title="React" height="40" width="40" src="../main/.github/assets/icons/react-original-wordmark.svg"></code>
+  <code><img title="VueJS" height="40" width="40" src="../main/.github/assets/icons/vuejs-original-wordmark.svg"></code>
+  <code><img title="Postgresql" height="40" width="40" src="../main/.github/assets/icons/postgresql.png"></code>
+  <code><img title="SQL" height="40" width="40" src="../main/.github/assets/icons/sql.png" alt="sql"></code>
+  <code><img title="MySQL" height="40" width="40" src="../main/.github/assets/icons/mysql.svg"></code>
+  <code><img title="Redis" height="40" width="40" src="../main/.github/assets/icons/redis.png"></code>
 </p>
 <p align="center">
-  <code><img title="C" height="40" width="40" src="../main/assets/icons/c.svg"></code>
-  <code><img title="C++" height="40" width="40"  src="../main/assets/icons/cpp.svg"></code>
-  <code><img title="Java" height="40" width="40" src="../main/assets/icons/java.png"></code>
-  <code><img title="Java" height="40" width="40" src="../main/assets/icons/kotlin.png"></code>
-  <code><img title="Python" height="40" width="40" src="../main/assets/icons/python-original.svg"></code>
-  <code><img title="Go" height="40" width="40" src="../main/assets/icons/go.png"></code>
+  <code><img title="C" height="40" width="40" src="../main/.github/assets/icons/c.svg"></code>
+  <code><img title="C++" height="40" width="40"  src="../main/.github/assets/icons/cpp.svg"></code>
+  <code><img title="Java" height="40" width="40" src="../main/.github/assets/icons/java.png"></code>
+  <code><img title="Java" height="40" width="40" src="../main/.github/assets/icons/kotlin.png"></code>
+  <code><img title="Python" height="40" width="40" src="../main/.github/assets/icons/python-original.svg"></code>
+  <code><img title="Go" height="40" width="40" src="../main/.github/assets/icons/go.png"></code>
 </p>
 
 <p align="center">
-  <code><img title="Bash" height="40" width="40" src="../main/assets/icons/bash.png"></code>
-  <code><img title="Visual Studio Code" height="40" width="40" src="../main/assets/icons/vscode.png"></code>
-  <code><img title="(Neo)Vim" height="40" width="40" src="../main/assets/icons/vim.png"></code>
-  <code><img title="GitHub" height="40" width="40" src="../main/assets/icons/github.svg"></code>
-  <code><img title="Problem Solving" height="40" width="40" src="../main/assets/icons/problemSolving.png"></code>
-  <code><img title="Git" height="40" width="40" src="../main/assets/icons/git-original.svg"></code>
-  <code><img title="Terminal" height="40" width="40" src="../main/assets/icons/terminal.png"></code>
-  <code><img title="Docker" height="40" width="40" src="../main/assets/icons/docker.png"></code>
+  <code><img title="Bash" height="40" width="40" src="../main/.github/assets/icons/bash.png"></code>
+  <code><img title="Visual Studio Code" height="40" width="40" src="../main/.github/assets/icons/vscode.png"></code>
+  <code><img title="(Neo)Vim" height="40" width="40" src="../main/.github/assets/icons/vim.png"></code>
+  <code><img title="GitHub" height="40" width="40" src="../main/.github/assets/icons/github.svg"></code>
+  <code><img title="Problem Solving" height="40" width="40" src="../main/.github/assets/icons/problemSolving.png"></code>
+  <code><img title="Git" height="40" width="40" src="../main/.github/assets/icons/git-original.svg"></code>
+  <code><img title="Terminal" height="40" width="40" src="../main/.github/assets/icons/terminal.png"></code>
+  <code><img title="Docker" height="40" width="40" src="../main/.github/assets/icons/docker.png"></code>
   <code><img title="Linux" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
-  <code><img title="Arch btw" height="40" width="40" src="../main/assets/icons/arch.svg" href="https://aur.archlinux.org/account/notashelf"></code>
-  <code><img title="Nix/NixOS" height="40" width="40" src="../main/assets/icons/nix-snowflake.svg"></code>
+  <code><img title="Arch btw" height="40" width="40" src="../main/.github/assets/icons/arch.svg" href="https://aur.archlinux.org/account/notashelf"></code>
+  <code><img title="Nix/NixOS" height="40" width="40" src="../main/.github/assets/icons/nix-snowflake.svg"></code>
 </p>
 
 <p align="center">
@@ -124,6 +124,6 @@ Rating Chart:
  1021.88  ┤                     ╰─╮│  ╰╯
  1015.00  ┤                       ╰╯
 
-Chart last updated - Sat Dec  9 03:55:12 +03 2023
+Chart last updated - Sat Dec  9 15:04:49 +03 2023
 ```
 
