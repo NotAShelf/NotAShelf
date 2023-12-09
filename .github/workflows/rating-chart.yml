@@ -1,5 +1,6 @@
 name: Update Readme ascii graph and workflow with random cron interval
 on:
+    workflow_dispatch:
   push:
     branches: [main]
     paths-ignore:
@@ -9,7 +10,6 @@ on:
       - README.md
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
 
 jobs:
   ratings-chart:
@@ -26,26 +26,26 @@ jobs:
           python-version: 3.11
 
       - name: Install Dependencies
-        run: pip install -r code/requirements.txt
+        run: pip install -r src/requirements.txt
 
       - name: Create Chart
         run: |
-          python code/rating_chart.py > chart.txt
+          python src/rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
           echo "::set-output name=chart::$CHART"
 
-      - run: cat assets/README-1.md > README.md
+      - run: cat templates/README-1.md > README.md
       - run: cat chart.txt >> README.md
 
       - run: |
           currentDate=`env TZ=Europe/Istanbul date`
           printf "\nChart last updated - ${currentDate}" >> README.md
 
-      - run: cat assets/README-2.md >> README.md
-        name: Update workflow yaml file
+      - name: Update workflow yaml file
+        run: cat templates/README-2.md >> README.md
 
       - run: |
-          python code/generate_random_workflow.py > rating-yaml.txt
+          python src/gen_random_workflow.py > rating-yaml.txt
           YAML=$(cat rating-yaml.txt)
           echo "::set-output name=yaml::$YAML"
 
@@ -61,7 +61,7 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           author_name: "[Bot] NotAShelf"
-          author_email: raf@notashelf.dev
+          author_email: "raf@notashelf.dev"
           message: "update README rating chart & workflow timings"
           add: "README.md .github/workflows/rating-chart.yml"
         env:

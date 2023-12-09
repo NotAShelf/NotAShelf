@@ -31,7 +31,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**code/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**src/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -39,13 +39,13 @@ jobs:
       - name: Install requirements
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
-          python3 -m pip install -r code/requirements.txt
+          python3 -m pip install -r src/requirements.txt
 
       # Generate all statistics images
       - name: Generate images
         run: |
           python3 --version
-          python3 code/generate_images.py
+          python3 src/generate_images.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
