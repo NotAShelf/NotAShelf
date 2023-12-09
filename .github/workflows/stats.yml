@@ -45,7 +45,7 @@ jobs:
       - name: Generate images
         run: |
           python3 --version
-          python3 src/generate_images.py
+          python3 src/gen_images.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
