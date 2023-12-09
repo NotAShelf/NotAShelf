@@ -1,6 +1,6 @@
 name: Update Readme ascii graph and workflow with random cron interval
 on:
-    workflow_dispatch:
+  workflow_dispatch:
   push:
     branches: [main]
     paths-ignore:
