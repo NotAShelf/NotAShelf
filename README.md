@@ -20,7 +20,7 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 - 👨 Despite its shortcomings, Go is my _go-to_ language (pun fully intended)
 - 🌐 Frontend via React/NextJS used to be my primary stack. Now I focus more on backend applications and System Administration.
 - 📫 Contact me @ raf [at] notashelf [dot] dev or on Discord, `@notashelf`
-- 🎲 Fun fact: I have entered the world of Linux, Programming and Open Source through a misadventure involing a Linux VPS and a Minecraft server back in 2018
+- 🎲 Fun fact: I have entered the world of Linux, Programming and Open Source through a misadventure involving a Linux VPS and a Minecraft server back in 2018
 
 ### 🔭 Currently working on:
 
