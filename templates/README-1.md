@@ -106,4 +106,3 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-```
