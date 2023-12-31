@@ -12,13 +12,11 @@ def generate_markdown_table(json_file):
         table += f"| **{category}** |\n"
         table += "| --- |\n"
 
+        projects = ""
         for item in items:
-            description_with_br = f"{item['description']}<br>"
-            table += (
-                f"| • [{item['title']}]({item['link']}) - {description_with_br} |\n"
-            )
+            projects += f"[{item['title']}]({item['link']}) - {item['description']}<br>"
 
-        table += "\n"
+        table += f"| • {projects} |\n\n"
 
     return table
 
