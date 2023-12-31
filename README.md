@@ -19,32 +19,35 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 - 🖥️ NixOS / Hyprland / Neovim
 - 👨 Despite its shortcomings, Go is my _go-to_ language (pun fully intended)
 - 🌐 Frontend via React/NextJS used to be my primary stack. Now I focus more on backend applications and System Administration.
-- 📫 Contact me @ raf [at] notashelf [dot] dev or on Discord, `@notashelf`
+- ❄️a NixOS remains my favorite Linux distro for both personal and enterprise use. I manage my own fleet of servers and virtual machines powered by it.
+- 📫 Contact me @ `raf [at] notashelf [dot] dev` or on Discord, by sending a friend request to `@notashelf`
 - 🎲 Fun fact: I have entered the world of Linux, Programming and Open Source through a misadventure involving a Linux VPS and a Minecraft server back in 2018
 
 ### 🔭 Currently working on:
 
-| **Nix**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Bash**, **Go**, **Python**, **Typescript**, **Java**, **JS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| • [**neovim-flake**](https://github.com/notashelf/neovim-flake) - no-nonsense, highly extensible neovim configuration packaged through a nix flake<br> • [**Nyx**](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br> • [**Nyxpkgs**](https://github.com/notashelf/nyxkgs) - a collection of packages not found in Nixpkgs<br> • [**arrpc-flake**](https://github.com/NotAShelf/arrpc-flake) - a Nix flake providing arRPC package and a convenient home-manager module<br>• [**Schizofox**](https://github.com/schizofox/schizofox) - a privacy and security oriented Firefox configuration for Home-manager | • [**Docr**](https://github.com/notashelf/docr) - a barebones static site generator in Go<br>• [**CatApi**](https://github.com/notashelf/catApi) - a minimal API for serving pictures of your cats. Features a convenient frontend<br>• [**Fylgja**](https://github.com/hyprland-communştyf/Fylgja), a cross-distro package manager and convenience utility<br>• [**Hyprkeys**](https://github.com/hyprland-community/Hyprkeys), a powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, [**Hyprland**](https://github.com/hyprwm/Hyprland)<br>• [**Kamishiba**](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR **[WIP]**<br> |
+<!-- This placeholder is replaced by the rating-chart.yml workflow -->
+
+| **Nix** | **Bash, Go, Python, Typescript, Java, JS** |
+| --- | --- |
+| • [neovim-flake](https://github.com/notashelf/neovim-flake) - no-nonsense, highly extensible neovim configuration packaged through a nix flake<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxkgs) - collection of packages not found in Nixpkgs<br>• [arrpc-flake](https://github.com/NotAShelf/arrpc-flake) - Nix flake providing arRPC package and a convenient home-manager module<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager | • [Docr](https://github.com/notashelf/docr) - barebones static site generator in Go<br>• [CatApi](https://github.com/notashelf/catApi) - minimal API for serving pictures of your cats. Features a convenient frontend<br>• [Fylgja](https://github.com/hyprland-community/Fylgja) - cross-distro package manager and convenience utility<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland<br>• [Kamishiba](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR [WIP]<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go |
 
 #### 📫 How to reach me
 
 <p align="center">
  <a href="https://discord.gg/TS6w3TYZRM">
-   <img title="Discord" src="../main/assets/icons/discord.svg" width="3.5%">
+   <img title="Discord" src="https://simpleicons.vercel.app/discord/5175BF" width="3.5%">
  </a>
  <a href="https://twitter.com/NotAShelf">
-   <img title="Twitter" src="../main/assets/icons/twitter.svg" width="3.5%">
+   <img title="Twitter" src="https://simpleicons.now.sh/twitter/5175BF" width="3.5%">
  </a>
  <a href="mailto:me@notashelf.dev">
-   <img title="Mail Me" src="../main/assets/icons/gmail.svg" width="3.5%">
+   <img title="Mail Me" src="https://simpleicons.vercel.app/gmail/5175BF" width="3.5%">
  </a>
  <a href="https://social.notashelf.dev/@raf">
-   <img title="Mastodon" src="../main/assets/icons/mastodon.svg" width="3.5%">
+   <img title="Mastodon" src="https://simpleicons.now.sh/mastodon/5175BF" width="3.5%">
  </a>
  <a href="https://matrix.to/#/@raf:notashelf.dev">
-   <img title="Matrix" src="../main/assets/icons/matrix.svg" width="3.5%">
+   <img title="Matrix" src="https://simpleicons.vercel.app/matrix/5175BF" width="3.5%">
  </a>
 </p>
 
@@ -124,6 +127,6 @@ Rating Chart:
  1024.38  ┤╰╯
  1016.00  ┤
 
-Chart last updated - Sun Dec 31 04:07:39 +03 2023
+Chart last updated - Sun Dec 31 08:09:47 +03 2023
 ```
 
