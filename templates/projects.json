@@ -1,0 +1,61 @@
+{
+  "Nix": [
+    {
+      "title": "neovim-flake",
+      "link": "https://github.com/notashelf/neovim-flake",
+      "description": "no-nonsense, highly extensible neovim configuration packaged through a nix flake"
+    },
+    {
+      "title": "Nyx",
+      "link": "https://github.com/notashelf/nyx",
+      "description": "the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!"
+    },
+    {
+      "title": "Nyxpkgs",
+      "link": "https://github.com/notashelf/nyxkgs",
+      "description": "collection of packages not found in Nixpkgs"
+    },
+    {
+      "title": "arrpc-flake",
+      "link": "https://github.com/NotAShelf/arrpc-flake",
+      "description": "Nix flake providing arRPC package and a convenient home-manager module"
+    },
+    {
+      "title": "Schizofox",
+      "link": "https://github.com/schizofox/schizofox",
+      "description": "privacy and security oriented Firefox configuration for Home-manager"
+    }
+  ],
+  "Bash, Go, Python, Typescript, Java, JS": [
+    {
+      "title": "Docr",
+      "link": "https://github.com/notashelf/docr",
+      "description": "barebones static site generator in Go"
+    },
+    {
+      "title": "CatApi",
+      "link": "https://github.com/notashelf/catApi",
+      "description": "minimal API for serving pictures of your cats. Features a convenient frontend"
+    },
+    {
+      "title": "Fylgja",
+      "link": "https://github.com/hyprland-community/Fylgja",
+      "description": "cross-distro package manager and convenience utility"
+    },
+    {
+      "title": "Hyprkeys",
+      "link": "https://github.com/hyprland-community/Hyprkeys",
+      "description": "powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland"
+    },
+    {
+      "title": "Kamishiba",
+      "link": "https://github.com/notashelf/kamishiba",
+      "description": "replacement to the now-deleted manga-cli from AUR [WIP]"
+    },
+    {
+      "title": "Goblin",
+      "link": "https://github.com/notashelf/goblin",
+      "description": "termbin-inspired paste service to replace Fiche, written in Go"
+    }
+  ]
+}

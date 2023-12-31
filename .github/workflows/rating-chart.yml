@@ -34,8 +34,22 @@ jobs:
           CHART=$(cat chart.txt)
           echo "::set-output name=chart::$CHART"
 
-      - run: cat templates/README-1.md > README.md
-      - run: cat chart.txt >> README.md
+      - name: Generate Table
+        id: generate-table
+        run: |
+          python src/gen_table.py templates/projects.json > projects_table.md
+          echo "::set-output name=table_content::$(cat projects_table.md)"
+
+      - name: Replace Placeholder in README
+        run: |
+          table_content=$(echo "${{ steps.generate-title.outputs.table_content }}" | awk 'BEGIN { ORS = "" } { print }')
+          sed -i "s|{{ TABLE_PLACEHOLDER }}|${table_content}|" templates/README-1.md
+
+      - name: Move templates/README-1.md to README.md
+        run: cat templates/README-1.md > README.md
+
+      - name: Add chart to the end of README.md
+        run: cat chart.txt >> README.md
 
       - run: |
           currentDate=`env TZ=Europe/Istanbul date`
