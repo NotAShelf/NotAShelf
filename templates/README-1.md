@@ -33,19 +33,19 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 
 <p align="center">
  <a href="https://discord.gg/TS6w3TYZRM">
-   <img title="Discord" src="https://simpleicons.vercel.app/discord/495f7e" width="3.5%">
+   <img title="Discord" src="https://simpleicons.vercel.app/discord/5175BF" width="3.5%">
  </a>
  <a href="https://twitter.com/NotAShelf">
-   <img title="Twitter" src="https://simpleicons.now.sh/twitter/495f7e" width="3.5%">
+   <img title="Twitter" src="https://simpleicons.now.sh/twitter/5175BF" width="3.5%">
  </a>
  <a href="mailto:me@notashelf.dev">
-   <img title="Mail Me" src="https://simpleicons.vercel.app/gmail/495f7e" width="3.5%">
+   <img title="Mail Me" src="https://simpleicons.vercel.app/gmail/5175BF" width="3.5%">
  </a>
  <a href="https://social.notashelf.dev/@raf">
-   <img title="Mastodon" src="https://simpleicons.now.sh/mastodon/495f7e" width="3.5%">
+   <img title="Mastodon" src="https://simpleicons.now.sh/mastodon/5175BF" width="3.5%">
  </a>
  <a href="https://matrix.to/#/@raf:notashelf.dev">
-   <img title="Matrix" src="https://simpleicons.vercel.app/matrix/495f7e" width="3.5%">
+   <img title="Matrix" src="https://simpleicons.vercel.app/matrix/5175BF" width="3.5%">
  </a>
 </p>
 
