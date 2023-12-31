@@ -13,8 +13,9 @@ def generate_markdown_table(json_file):
         table += "| --- |\n"
 
         for item in items:
+            description_with_br = f"{item['description']}<br>"
             table += (
-                f"| • [{item['title']}]({item['link']}) - {item['description']} |\n"
+                f"| • [{item['title']}]({item['link']}) - {description_with_br} |\n"
             )
 
         table += "\n"
