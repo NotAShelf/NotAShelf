@@ -25,26 +25,30 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 
 ### 🔭 Currently working on:
 
-<!-- This placeholder is replaced by the rating-chart.yml workflow -->
+<!-- Projects Section
+    the placeholder below is replaced by the rating-chart.yml workflow
+-->
 
 {{ TABLE_PLACEHOLDER }}
+
+<!-- End Projects Section -->
 
 #### 📫 How to reach me
 
 <p align="center">
- <a href="https://discord.gg/TS6w3TYZRM">
+ <a href="https://discord.com/users/419880181101232129">
    <img title="Discord" src="https://simpleicons.vercel.app/discord/5175BF" width="3.5%">
  </a>
- <a href="https://twitter.com/NotAShelf">
+ <a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
    <img title="Twitter" src="https://simpleicons.now.sh/twitter/5175BF" width="3.5%">
  </a>
- <a href="mailto:me@notashelf.dev">
+ <a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
    <img title="Mail Me" src="https://simpleicons.vercel.app/gmail/5175BF" width="3.5%">
  </a>
- <a href="https://social.notashelf.dev/@raf">
+ <a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
    <img title="Mastodon" src="https://simpleicons.now.sh/mastodon/5175BF" width="3.5%">
  </a>
- <a href="https://matrix.to/#/@raf:notashelf.dev">
+ <a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
    <img title="Matrix" src="https://simpleicons.vercel.app/matrix/5175BF" width="3.5%">
  </a>
 </p>
@@ -79,7 +83,7 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 <p align="center">
   <code><img title="Bash" height="40" width="40" src="../main/.github/assets/icons/bash.png"></code>
   <code><img title="Visual Studio Code" height="40" width="40" src="../main/.github/assets/icons/vscode.png"></code>
-  <code><img title="(Neo)Vim" height="40" width="40" src="../main/.github/assets/icons/vim.png"></code>
+  <code><img title="(Neo)Vim" height="40" width="40" src="../main/.github/assets/icons/vim.png" href="https://github.com/notashelf/neovim-flake"></code>
   <code><img title="GitHub" height="40" width="40" src="../main/.github/assets/icons/github.svg"></code>
   <code><img title="Problem Solving" height="40" width="40" src="../main/.github/assets/icons/problemSolving.png"></code>
   <code><img title="Git" height="40" width="40" src="../main/.github/assets/icons/git-original.svg"></code>
@@ -87,7 +91,7 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
   <code><img title="Docker" height="40" width="40" src="../main/.github/assets/icons/docker.png"></code>
   <code><img title="Linux" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
   <code><img title="Arch btw" height="40" width="40" src="../main/.github/assets/icons/arch.svg" href="https://aur.archlinux.org/account/notashelf"></code>
-  <code><img title="Nix/NixOS" height="40" width="40" src="../main/.github/assets/icons/nix-snowflake.svg"></code>
+  <code><img title="Nix/NixOS" height="40" width="40" src="../main/.github/assets/icons/nix-snowflake.svg" href="https://github.com/notashelf/nyx"></code>
 </p>
 
 <p align="center">
