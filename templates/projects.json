@@ -1,9 +1,9 @@
 {
   "Nix": [
     {
-      "title": "neovim-flake",
-      "link": "https://github.com/notashelf/neovim-flake",
-      "description": "no-nonsense, highly extensible neovim configuration packaged through a nix flake"
+      "title": "nvf",
+      "link": "https://github.com/notashelf/nvf",
+      "description": "a highly extensible and distro agnostic configuration framework for Neovim using Nix"
     },
     {
       "title": "Nyx",
@@ -16,9 +16,9 @@
       "description": "collection of packages not found in Nixpkgs"
     },
     {
-      "title": "arrpc-flake",
-      "link": "https://github.com/NotAShelf/arrpc-flake",
-      "description": "Nix flake providing arRPC package and a convenient home-manager module"
+      "title": "ndg",
+      "link": "https://github.com/feel-co/ndg",
+      "description": "alternative documentation generation for any Nix based module system"
     },
     {
       "title": "Schizofox",
@@ -38,9 +38,9 @@
       "description": "minimal API for serving pictures of your cats. Features a convenient frontend"
     },
     {
-      "title": "Fylgja",
-      "link": "https://github.com/hyprland-community/Fylgja",
-      "description": "cross-distro package manager and convenience utility"
+      "title": "Tailray",
+      "link": "https://github.com/notashelf/Tailray",
+      "description": "rust implementation of Tailscale systray"
     },
     {
       "title": "Hyprkeys",
