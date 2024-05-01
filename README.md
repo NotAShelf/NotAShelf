@@ -31,7 +31,7 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 
 | **Nix** | **Bash, Go, Python, Typescript, Java, JS** |
 | --- | --- |
-| • [neovim-flake](https://github.com/notashelf/neovim-flake) - no-nonsense, highly extensible neovim configuration packaged through a nix flake<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxkgs) - collection of packages not found in Nixpkgs<br>• [arrpc-flake](https://github.com/NotAShelf/arrpc-flake) - Nix flake providing arRPC package and a convenient home-manager module<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager | • [Docr](https://github.com/notashelf/docr) - barebones static site generator in Go<br>• [CatApi](https://github.com/notashelf/catApi) - minimal API for serving pictures of your cats. Features a convenient frontend<br>• [Fylgja](https://github.com/hyprland-community/Fylgja) - cross-distro package manager and convenience utility<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland<br>• [Kamishiba](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR [WIP]<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go |
+| • [nvf](https://github.com/notashelf/nvf) - a highly extensible and distro agnostic configuration framework for Neovim using Nix<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxkgs) - collection of packages not found in Nixpkgs<br>• [ndg](https://github.com/feel-co/ndg) - alternative documentation generation for any Nix based module system<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager | • [Docr](https://github.com/notashelf/docr) - barebones static site generator in Go<br>• [CatApi](https://github.com/notashelf/catApi) - minimal API for serving pictures of your cats. Features a convenient frontend<br>• [Tailray](https://github.com/notashelf/Tailray) - rust implementation of Tailscale systray<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland<br>• [Kamishiba](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR [WIP]<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go |
 
 <!-- End Projects Section -->
 
@@ -131,6 +131,6 @@ Rating Chart:
  1050.62  ┤          ╰╯
  1044.00  ┤
 
-Chart last updated - Wed May  1 04:07:27 +03 2024
+Chart last updated - Wed May  1 12:58:17 +03 2024
 ```
 
