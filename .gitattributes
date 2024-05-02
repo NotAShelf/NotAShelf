@@ -3,7 +3,7 @@
 
 *.png binary
 
-base.md linguist-detectable
-base.md -linguist-documentation
+templates/*.md linguist-detectable
+templats/*.md -linguist-documentation
 
 README.md linguist-generated
