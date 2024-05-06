@@ -131,6 +131,6 @@ Rating Chart:
  1050.62  ┤          ╰╯
  1044.00  ┤
 
-Chart last updated - Sun May  5 15:25:15 +03 2024
+Chart last updated - Mon May  6 04:04:46 +03 2024
 ```
 
