@@ -31,7 +31,7 @@ I consider myself well-versed in full-stack technologies, my focus is generally 
 
 | **Nix** | **Bash, Go, Python, Typescript, Java, JS** |
 | --- | --- |
-| • [nvf](https://github.com/notashelf/nvf) - a highly extensible and distro agnostic configuration framework for Neovim using Nix<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxkgs) - collection of packages not found in Nixpkgs<br>• [ndg](https://github.com/feel-co/ndg) - alternative documentation generation for any Nix based module system<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager | • [Docr](https://github.com/notashelf/docr) - barebones static site generator in Go<br>• [CatApi](https://github.com/notashelf/catApi) - minimal API for serving pictures of your cats. Features a convenient frontend<br>• [Tailray](https://github.com/notashelf/Tailray) - rust implementation of Tailscale systray<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland<br>• [Kamishiba](https://github.com/notashelf/kamishiba) - replacement to the now-deleted manga-cli from AUR [WIP]<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go |
+| • [nvf](https://github.com/notashelf/nvf) - a highly extensible and distro agnostic configuration framework for Neovim using Nix<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxkgs) - collection of packages not found in Nixpkgs<br>• [ndg](https://github.com/feel-co/ndg) - alternative documentation generation for any Nix based module system<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager | • [CatApi](https://github.com/notashelf/catApi) - minimal API for serving pictures of your cats. Features a convenient frontend<br>• [Tailray](https://github.com/notashelf/Tailray) - rust implementation of Tailscale systray<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland<br>• [nff](https://github.com/notashelf/nff) - experimental nftables configuration beautifier in Python<br>• [batmon](https://github.com/notashelf/batmon) - dead simple battery monitor in Go, with the ability to emit events on change<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go<br>• [Nutils](https://github.com/notashelf/nutils) - an external utility crate for the Nix package manager |
 
 <!-- End Projects Section -->
 
@@ -131,6 +131,6 @@ Rating Chart:
  1050.62  ┤          ╰╯
  1044.00  ┤
 
-Chart last updated - Tue May  7 15:26:38 +03 2024
+Chart last updated - Tue May  7 15:56:34 +03 2024
 ```
 
