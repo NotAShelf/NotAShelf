@@ -28,11 +28,6 @@
   ],
   "Bash, Go, Python, Typescript, Java, JS": [
     {
-      "title": "Docr",
-      "link": "https://github.com/notashelf/docr",
-      "description": "barebones static site generator in Go"
-    },
-    {
       "title": "CatApi",
       "link": "https://github.com/notashelf/catApi",
       "description": "minimal API for serving pictures of your cats. Features a convenient frontend"
@@ -48,14 +43,24 @@
       "description": "powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland"
     },
     {
-      "title": "Kamishiba",
-      "link": "https://github.com/notashelf/kamishiba",
-      "description": "replacement to the now-deleted manga-cli from AUR [WIP]"
+      "title": "nff",
+      "link": "https://github.com/notashelf/nff",
+      "description": "experimental nftables configuration beautifier in Python"
+    },
+    {
+      "title": "batmon",
+      "link": "https://github.com/notashelf/batmon",
+      "description": "dead simple battery monitor in Go, with the ability to emit events on change"
     },
     {
       "title": "Goblin",
       "link": "https://github.com/notashelf/goblin",
       "description": "termbin-inspired paste service to replace Fiche, written in Go"
+    },
+    {
+      "title": "Nutils",
+      "link": "https://github.com/notashelf/nutils",
+      "description": "an external utility crate for the Nix package manager"
     }
   ]
 }
