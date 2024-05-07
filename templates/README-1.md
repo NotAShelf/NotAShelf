@@ -2,16 +2,27 @@
 
 ### About Me
 
-[![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) [![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
+<!-- Those don't have to be in-line. Glad to have learned that -->
 
-I'm **raf**, most commonly known as NotAShelf on the internet. I am a professional sailor and sailmaker, intermediate DevSecOps and SysAdmin in training.
-Fulltime procrastinator.
+[![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) 
+[![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
-I am an International Relations major, currentling pursuing a PhD in the field of Political Science. My freetime mostly goes towards working on occasional
-open source projects and DevSecOps activities. Ever since I have been introduced to the world of Linux in late 2018, I have been very passionate about writing
-my own software and System Administration. Home-made CLI applications are my favorites, I like writing my own software over using others'.
+I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a professional
+sailor and sailmaker, and part-time Political Science/International Relations 
+instructor for the time being. Currently pursuing my PhD inthe field of Political 
+Science, hoping to bridge the gap between out of touch political 
+institutions and end-user in terms of data protection and privacy (which
+is a human right, unbeknownst to many.)
 
-I consider myself well-versed in full-stack technologies, my focus is generally on backend applications using Go.
+My freetime mostly goes towards working on occasional open source projects 
+and other various DevSecOps activities. Ever since my introduction to the world 
+of FOSS and Linux in late 2018, I have been very passionate about writing
+my own software and System Administration. While I avoid publishing them to GitHub,
+writing home-made CLI applications are one of my favorite past-time activities. Sometimes
+I do Webdev.
+
+My experience and knowledge (both in heavy quotes) spans over multiple languages, my primary
+focus is backend applications in Go and Rust. I sometimes use NexJS for web development.
 
 - 📅 Programming since 2018
 - ⛵ Working as a Sailmaker
