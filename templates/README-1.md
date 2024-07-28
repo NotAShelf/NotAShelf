@@ -56,21 +56,21 @@ building reliable backend applications.
 #### 📫 How to reach me
 
 <p align="center">
- <code><a href="https://discord.com/users/419880181101232129">
-   <img title="Discord" src="../main/.github/assets/icons/discord.svg" width="16" height="16">
- </a></code>
- <code><a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
-   <img title="Twitter" src="../main/.github/assets/icons/twitter.svg" width="16" height="16">
- </a></code>
- <code><a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
-   <img title="Mail Me" src="../main/.github/assets/icons/gmail.svg" width="16" height="16">
- </a></code>
- <code><a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
-   <img title="Mastodon" src="../main/.github/assets/icons/mastodon.svg" width="16" height="16">
- </a></code>
- <code><a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
-   <img title="Matrix" src="../main/.github/assets/icons/matrix.svg" width="16" height="16">
- </a></code>
+ <a href="https://discord.com/users/419880181101232129">
+   <code><img title="Discord" src="../main/.github/assets/icons/discord.svg" width="16" height="16"></code>
+ </a>
+ <a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
+   <code><img title="Twitter" src="../main/.github/assets/icons/twitter.svg" width="16" height="16"></code>
+ </a>
+ ><a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
+   <code><img title="Mail Me" src="../main/.github/assets/icons/gmail.svg" width="16" height="16"></code>
+ </a>
+ <a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
+   <code><img title="Mastodon" src="../main/.github/assets/icons/mastodon.svg" width="16" height="16"></code>
+ </a>
+ <a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
+   <code><img title="Matrix" src="../main/.github/assets/icons/matrix.svg" width="16" height="16"></code>
+ </a>
 </p>
 
 ### 💻 Languages and Tools
@@ -130,4 +130,3 @@ building reliable backend applications.
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-```
