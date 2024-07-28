@@ -57,19 +57,19 @@ building reliable backend applications.
 
 <p align="center">
  <code><a href="https://discord.com/users/419880181101232129">
-   <img title="Discord" src="./main/.github/assets/icons/matrix.svg/discord.svg" width="16" height="16">
+   <img title="Discord" src="../main/.github/assets/icons/matrix.svg/discord.svg" width="16" height="16">
  </a></code>
  <code><a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
-   <img title="Twitter" src="./main/.github/assets/icons/matrix.svg/twitter.svg" width="16" height="16">
+   <img title="Twitter" src="../main/.github/assets/icons/matrix.svg/twitter.svg" width="16" height="16">
  </a></code>
  <code><a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
-   <img title="Mail Me" src="./main/.github/assets/icons/matrix.svg/gmail.svg" width="16" height="16">
+   <img title="Mail Me" src="../main/.github/assets/icons/matrix.svg/gmail.svg" width="16" height="16">
  </a></code>
  <code><a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
-   <img title="Mastodon" src="./main/.github/assets/icons/matrix.svg/mastodon.svg" width="16" height="16">
+   <img title="Mastodon" src="../main/.github/assets/icons/matrix.svg/mastodon.svg" width="16" height="16">
  </a></code>
  <code><a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
-   <img title="Matrix" src="./main/.github/assets/icons/matrix.svg" width="16" height="16">
+   <img title="Matrix" src="../main/.github/assets/icons/matrix.svg" width="16" height="16">
  </a></code>
 </p>
 
@@ -130,7 +130,7 @@ building reliable backend applications.
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-
+```
 Rating Chart:
  1150.00  ┤                                                                        ╭╮
  1143.38  ┤                                                                        │╰╮╭╮          ╭╮  ╭╮╭╮╭╮
@@ -150,6 +150,6 @@ Rating Chart:
  1050.62  ┤       ╰╯
  1044.00  ┤
 
-Chart last updated - Sun Jul 28 18:34:38 +03 2024
+Chart last updated - Sun Jul 28 18:37:43 +03 2024
 ```
 
