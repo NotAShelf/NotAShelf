@@ -11,7 +11,7 @@ I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a
 part-time FOSS contributor and part-time political scientist. Currently pursuing
 my PhD in the field of Political Science, hoping to bridge the gap between out
 of touch political institutions and end-user in terms of data protection and
-privacy (which is a fundemental human right, unbeknownst to many.)
+privacy (which is a fundamental human right, unbeknownst to many.)
 
 My freetime is mostly spent working on OSS project, digital art, and other
 various DevSecOps activities. Ever since my introduction to the world of FOSS
@@ -19,7 +19,7 @@ and Linux in late 2018, I have been very passionate about writing my own
 software and System Administration. While I avoid publishing them to GitHub,
 writing home-made CLI applications are one of my favorite past-time activities.
 **Reliable** and **scalable** systems are also within my interest. I work with
-and contribute to @NixOS in my freetime to help me towards this goal.
+and contribute to @NixOS in my free time to help me towards this goal.
 
 My experience and knowledge (both in very heavy quotes) span over multiple
 languages and frameworks, however my primary focus remains as Go and Rust for
@@ -149,6 +149,6 @@ Rating Chart:
  1050.62  ┤       ╰╯
  1044.00  ┤
 
-Chart last updated - Sun Jul 28 18:27:19 +03 2024
+Chart last updated - Sun Jul 28 18:28:52 +03 2024
 ```
 
