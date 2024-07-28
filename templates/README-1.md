@@ -4,7 +4,7 @@
 
 <!-- Those don't have to be in-line. Glad to have learned that -->
 
-[![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) 
+[![pgp](https://img.shields.io/badge/pgp-0x39A004E33E353746-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) 
 [![profile views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
 I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a
@@ -28,14 +28,20 @@ building reliable backend applications.
 <!-- The "overrated" section every bio really needs -->
 
 - 📅 Programming since 2018
-- ⛵ Working as a Sailmaker
-- 🏫 Part-time IR/POLS instructor, forever student
+- ⛵ Professional Sailor
+- 🏫 Part-time Political Scientist and lecturer, forever student
 - 🖥️ NixOS / Hyprland / Neovim
-- 👨 Despite its shortcomings, Go is my _go-to_ language (pun fully intended)
-- 🌐 Frontend via React/NextJS used to be my primary stack. Now I focus more on backend applications and System Administration.
-- ❄️a NixOS remains my favorite Linux distro for both personal and enterprise use. I manage my own fleet of servers and virtual machines powered by it.
-- 📫 Contact me @ `raf [at] notashelf [dot] dev` or on Discord, by sending a friend request to `@notashelf`
-- 🎲 Fun fact: I have entered the world of Linux, Programming and Open Source through a misadventure involving a Linux VPS and a Minecraft server back in 2018
+- 👨 Despite its shortcomings, Go is my _go-to_ language (pun _fully_ intended)
+- 🌐 Frontend via React/NextJS used to be my primary stack, now I focus on
+  backend applications, applications security and system administration.
+- ❄️a NixOS remains my favorite Linux distro for both personal and enterprise
+  use. I manage my own fleet of servers and virtual machines powered by it.
+- 📫 Contact me @ `raf [at] notashelf [dot] dev` or on Discord, by sending a
+  friend request to `@notashelf`
+- 🎲 Fun fact: I have entered the world of Linux, programming and OSS through a
+  length misadventure back in 2018 that involved a Linux VPS, a large-scale
+  Minecraft server and an imminent crisis. I have been passionate about Linux
+  and programming ever since.
 
 ### 🔭 Currently working on:
 
