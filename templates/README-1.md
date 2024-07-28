@@ -5,24 +5,27 @@
 <!-- Those don't have to be in-line. Glad to have learned that -->
 
 [![pgp](https://img.shields.io/badge/pgp-0xBA46BCC36E912922-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) 
-[![views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
+[![profile views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
-I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a professional
-sailor and sailmaker, and part-time Political Science/International Relations 
-instructor for the time being. Currently pursuing my PhD inthe field of Political 
-Science, hoping to bridge the gap between out of touch political 
-institutions and end-user in terms of data protection and privacy (which
-is a human right, unbeknownst to many.)
+I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a
+part-time FOSS contributor and part-time political scientist. Currently pursuing
+my PhD in the field of Political Science, hoping to bridge the gap between out
+of touch political institutions and end-user in terms of data protection and
+privacy (which is a fundemental human right, unbeknownst to many.)
 
-My freetime mostly goes towards working on occasional open source projects 
-and other various DevSecOps activities. Ever since my introduction to the world 
-of FOSS and Linux in late 2018, I have been very passionate about writing
-my own software and System Administration. While I avoid publishing them to GitHub,
-writing home-made CLI applications are one of my favorite past-time activities. Sometimes
-I do Webdev.
+My freetime is mostly spent working on OSS project, digital art, and other
+various DevSecOps activities. Ever since my introduction to the world of FOSS
+and Linux in late 2018, I have been very passionate about writing my own
+software and System Administration. While I avoid publishing them to GitHub,
+writing home-made CLI applications are one of my favorite past-time activities.
+**Reliable** and **scalable** systems are also within my interest. I work with
+and contribute to @NixOS in my freetime to help me towards this goal.
 
-My experience and knowledge (both in heavy quotes) spans over multiple languages, my primary
-focus is backend applications in Go and Rust. I sometimes use NexJS for web development.
+My experience and knowledge (both in very heavy quotes) span over multiple
+languages and frameworks, however my primary focus remains as Go and Rust for
+building reliable backend applications.
+
+<!-- The "overrated" section every bio really needs -->
 
 - 📅 Programming since 2018
 - ⛵ Working as a Sailmaker
@@ -47,21 +50,21 @@ focus is backend applications in Go and Rust. I sometimes use NexJS for web deve
 #### 📫 How to reach me
 
 <p align="center">
- <a href="https://discord.com/users/419880181101232129">
+ <code><a href="https://discord.com/users/419880181101232129">
    <img title="Discord" src="https://simpleicons.vercel.app/discord/5175BF" width="3.5%">
- </a>
- <a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
+ </a></code>
+ <code><a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
    <img title="Twitter" src="https://simpleicons.now.sh/twitter/5175BF" width="3.5%">
- </a>
- <a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
+ </a></code>
+ <code><a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
    <img title="Mail Me" src="https://simpleicons.vercel.app/gmail/5175BF" width="3.5%">
- </a>
- <a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
+ </a></code>
+ <code><a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
    <img title="Mastodon" src="https://simpleicons.now.sh/mastodon/5175BF" width="3.5%">
- </a>
- <a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
+ </a></code>
+ <code><a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
    <img title="Matrix" src="https://simpleicons.vercel.app/matrix/5175BF" width="3.5%">
- </a>
+ </a></code>
 </p>
 
 ### 💻 Languages and Tools
