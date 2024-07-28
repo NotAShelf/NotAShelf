@@ -12,9 +12,14 @@
     },
     {
       "title": "Nyxpkgs",
-      "link": "https://github.com/notashelf/nyxkgs",
+      "link": "https://github.com/notashelf/nyxexprs",
       "description": "collection of packages not found in Nixpkgs"
     },
+    {
+      "title": "Basix",
+      "link": "https://github.com/NotAShelf/Basix",
+      "description": "Purely functional collection of Base16/Base24 themes to be used with Nix"
+    }
     {
       "title": "ndg",
       "link": "https://github.com/feel-co/ndg",
