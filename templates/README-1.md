@@ -4,7 +4,7 @@
 
 <!-- Those don't have to be in-line. Glad to have learned that -->
 
-[![pgp](https://img.shields.io/badge/pgp-0x39A004E33E353746-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg) 
+[![pgp](https://img.shields.io/badge/pgp-0x39A004E33E353746-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
 [![profile views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
 I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a
@@ -57,19 +57,19 @@ building reliable backend applications.
 
 <p align="center">
  <code><a href="https://discord.com/users/419880181101232129">
-   <img title="Discord" src="https://simpleicons.vercel.app/discord/5175BF" width="3.5%">
+   <img title="Discord" src="./main/.github/assets/icons/matrix.svg/discord.svg" width="16" height="16">
  </a></code>
  <code><a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
-   <img title="Twitter" src="https://simpleicons.now.sh/twitter/5175BF" width="3.5%">
+   <img title="Twitter" src="./main/.github/assets/icons/matrix.svg/twitter.svg" width="16" height="16">
  </a></code>
  <code><a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
-   <img title="Mail Me" src="https://simpleicons.vercel.app/gmail/5175BF" width="3.5%">
+   <img title="Mail Me" src="./main/.github/assets/icons/matrix.svg/gmail.svg" width="16" height="16">
  </a></code>
  <code><a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
-   <img title="Mastodon" src="https://simpleicons.now.sh/mastodon/5175BF" width="3.5%">
+   <img title="Mastodon" src="./main/.github/assets/icons/matrix.svg/mastodon.svg" width="16" height="16">
  </a></code>
  <code><a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
-   <img title="Matrix" src="https://simpleicons.vercel.app/matrix/5175BF" width="3.5%">
+   <img title="Matrix" src="./main/.github/assets/icons/matrix.svg" width="16" height="16">
  </a></code>
 </p>
 
@@ -130,3 +130,4 @@ building reliable backend applications.
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
+
