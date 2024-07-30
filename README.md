@@ -39,7 +39,7 @@ building reliable backend applications.
 - 📫 Contact me @ `raf [at] notashelf [dot] dev` or on Discord, by sending a
   friend request to `@notashelf`
 - 🎲 Fun fact: I have entered the world of Linux, programming and OSS through a
-  length misadventure back in 2018 that involved a Linux VPS, a large-scale
+  lengthy misadventure back in 2018 that involved a Linux VPS, a large-scale
   Minecraft server and an imminent crisis. I have been passionate about Linux
   and programming ever since.
 
@@ -62,7 +62,7 @@ building reliable backend applications.
  <a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
    <code><img title="Twitter" src="../main/.github/assets/icons/twitter.svg" width="48" height="48"></code>
  </a>
- <a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">888
+ <a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
    <code><img title="Mail Me" src="../main/.github/assets/icons/gmail.svg" width="48" height="48"></code>
  </a>
  <a alt="https://social.notashelf.dev/@raf" href="https://social.notashelf.dev/@raf">
@@ -150,6 +150,6 @@ Rating Chart:
  1050.62  ┤       ╰╯
  1044.00  ┤
 
-Chart last updated - Tue Jul 30 15:30:21 +03 2024
+Chart last updated - Tue Jul 30 21:39:41 +03 2024
 ```
 
