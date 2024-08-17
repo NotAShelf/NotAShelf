@@ -7,23 +7,28 @@
 [![pgp](https://img.shields.io/badge/pgp-0x39A004E33E353746-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
 [![profile views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
+[@NixOS]: https://github.com/NixOS
+
 I'm **raf**, most commonly known as NotAShelf on the world wide web. I am a
 part-time FOSS contributor and part-time political scientist. Currently pursuing
 my PhD in the field of Political Science, hoping to bridge the gap between out
 of touch political institutions and end-user in terms of data protection and
 privacy (which is a fundamental human right, unbeknownst to many.)
 
-My freetime is mostly spent working on OSS project, digital art, and other
-various DevSecOps activities. Ever since my introduction to the world of FOSS
-and Linux in late 2018, I have been very passionate about writing my own
+My freetime is mostly spent working on different OSS projects, digital art, and
+other various DevSecOps activities. Ever since my introduction to the world of
+FOSS and Linux in late 2018, I have been very passionate about writing my own
 software and System Administration. While I avoid publishing them to GitHub,
 writing home-made CLI applications are one of my favorite past-time activities.
 **Reliable** and **scalable** systems are also within my interest. I work with
-and contribute to @NixOS in my free time to help me towards this goal.
+and contribute to [@NixOS] in my free time to help me towards this goal.
 
-My experience and knowledge (both in very heavy quotes) span over multiple
+My experience and knowledge (both in *very* heavy quotes) span over multiple
 languages and frameworks, however my primary focus remains as Go and Rust for
-building reliable backend applications.
+building reliable backend applications. I also rely on Nix for building docker
+images and managing infrastructure. See below for a list of languages and tools
+that I work, or have worked with before.
+
 
 <!-- The "overrated" section every bio really needs -->
 
@@ -47,6 +52,8 @@ building reliable backend applications.
 
 <!-- Projects Section
     the placeholder below is replaced by the rating-chart.yml workflow
+    
+    XXX: I should probably give it its own workflow...
 -->
 
 {{ TABLE_PLACEHOLDER }}
