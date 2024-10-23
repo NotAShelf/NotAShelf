@@ -29,6 +29,11 @@
       "title": "Schizofox",
       "link": "https://github.com/schizofox/schizofox",
       "description": "privacy and security oriented Firefox configuration for Home-manager"
+    },
+    {
+      "title": "Nixpkgs",
+      "link": "https://github.com/nixos/nixpkgs",
+      "description": "Nix Packages collection & NixOS"
     }
   ],
   "Go, Rust, Python, JavaScript, TypeScript": [
@@ -75,7 +80,7 @@
     {
       "title": "SSA",
       "link": "https://github.com/NotAShelf/ssa",
-      "description": "Simple, streamlined and ✨ pretty ✨ aggregator for systemd-analyze security "
+      "description": "Simple, streamlined and pretty aggregator for systemd-analyze security "
     }
   ]
 }
