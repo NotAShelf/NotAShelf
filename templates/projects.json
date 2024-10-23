@@ -31,16 +31,11 @@
       "description": "privacy and security oriented Firefox configuration for Home-manager"
     }
   ],
-  "Bash, Go, Python, Typescript, Java, JS": [
+  "Go, Rust, Python, JavaScript, TypeScript": [
     {
       "title": "CatApi",
       "link": "https://github.com/notashelf/catApi",
       "description": "minimal API for serving pictures of your cats. Features a convenient frontend"
-    },
-    {
-      "title": "Tailray",
-      "link": "https://github.com/notashelf/Tailray",
-      "description": "rust implementation of Tailscale systray"
     },
     {
       "title": "Hyprkeys",
@@ -66,6 +61,21 @@
       "title": "Nutils",
       "link": "https://github.com/notashelf/nutils",
       "description": "an external utility crate for the Nix package manager"
+    },
+    {
+      "title": "Tailray",
+      "link": "https://github.com/notashelf/Tailray",
+      "description": "rust implementation of Tailscale systray"
+    },
+    {
+      "title": "Microfetch",
+      "link": "https://github.com/notashelf/microfetch",
+      "description": "Microscopic fetch tool in Rust, for NixOS systems"
+    },
+    {
+      "title": "SSA",
+      "link": "https://github.com/NotAShelf/ssa",
+      "description": "Simple, streamlined and ✨ pretty ✨ aggregator for systemd-analyze security "
     }
   ]
 }
