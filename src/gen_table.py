@@ -7,7 +7,7 @@ def generate_markdown_table(json_file):
         data = json.load(file)
 
     nix_projects = []
-    bash_go_projects = []
+    other_projects = []
 
     for category, items in data.items():
         if category == "Nix":
@@ -17,14 +17,14 @@ def generate_markdown_table(json_file):
                 )
         elif category == "Bash, Go, Python, Typescript, Java, JS":
             for item in items:
-                bash_go_projects.append(
+                other_projects.append(
                     f"• [{item['title']}]({item['link']}) - {item['description']}"
                 )
 
     nix_content = "<br>".join(nix_projects)
-    bash_go_content = "<br>".join(bash_go_projects)
+    bash_go_content = "<br>".join(other_projects)
 
-    table = "| **Nix** | **Bash, Go, Python, Typescript, Java, JS** |\n"
+    table = "| **Nix** | **Go, Rust, Python, JavaScript, TypeScript** |\n"
     table += "| --- | --- |\n"
     table += f"| {nix_content} | {bash_go_content} |\n"
 
