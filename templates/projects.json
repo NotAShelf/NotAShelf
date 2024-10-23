@@ -33,7 +33,7 @@
     {
       "title": "Nixpkgs",
       "link": "https://github.com/nixos/nixpkgs",
-      "description": "Nix Packages collection & NixOS"
+      "description": "Nix Packages collection and NixOS"
     }
   ],
   "Go, Rust, Python, JavaScript, TypeScript": [
