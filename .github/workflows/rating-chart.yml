@@ -2,7 +2,7 @@ name: Update Readme ascii graph and workflow with random cron interval
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: ["main"]
     paths-ignore:
       - .github/workflows/rating-chart.yml
       - .github/workflows/main.yml
@@ -15,42 +15,41 @@ jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN_1 }}
 
-      - name: Setup Python
+      - name: "Setup Python"
         uses: actions/setup-python@v5
         with:
           python-version: 3.11
 
-      - name: Install Dependencies
+      - name: "Install Requirements"
         run: pip install -r src/requirements.txt
 
-      - name: Create Chart
+      - name: "Create Ratings Chart"
         run: |
           python src/rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
           echo "::set-output name=chart::$CHART"
 
-      - name: Generate Table and Replace Placeholder
+      - name: "Generate Projects Table & Replace Placeholder"
         run: |
           table_content=$(python src/gen_table.py templates/projects.json | sed 's/\\/\\\\n/g')
           awk -v content="$table_content" '{gsub("{{ TABLE_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
           cat templates/README-1.md
 
-      - name: Move templates/README-1.md to README.md
+      - name: "Move templates/README-1.md to README.md"
         run: cat templates/README-1.md > README.md
 
-      - name: Add chart to the end of README.md
+      - name: "Add chart to the end of README.md"
         run: cat chart.txt >> README.md
 
       - run: |
           currentDate=`env TZ=Europe/Istanbul date`
           printf "\nChart last updated - ${currentDate}" >> README.md
 
-      - name: Update workflow yaml file
+      - name: "Update workflow yaml file"
         run: cat templates/README-2.md >> README.md
 
       - run: |
@@ -58,15 +57,16 @@ jobs:
           YAML=$(cat rating-yaml.txt)
           echo "::set-output name=yaml::$YAML"
 
-      - name: Insert rating chart
+      - name: "Insert rating chart"
         run: cat rating-yaml.txt > .github/workflows/rating-chart.yml
 
-      - name: Commit changes
+      - name: "Commit changes"
         id: changed
         run: git diff --exit-code
         continue-on-error: true
 
-      - if: ${{ steps.changed.outcome == 'failure' }}
+      - name: "Add and commit changes"
+        if: ${{ steps.changed.outcome == 'failure' }}
         uses: EndBug/add-and-commit@v9
         with:
           author_name: "[Bot] NotAShelf"
