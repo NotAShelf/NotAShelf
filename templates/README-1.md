@@ -26,7 +26,8 @@ Exploring solutions to known pain points in software and home-made CLI
 applications to manage different components of my setup are some of my pastime
 activities. **Reliable** and **scalable** systems are also within my interest. I
 work with and contribute to [@NixOS] in my free time to help me towards this
-goal.
+goal. My projects, both in and outside of the context of Nix/NixOS can be found
+in the [projects section](#-currently-working-on) below.
 
 My experience and knowledge (both in _very_ heavy quotes) span over multiple
 languages and frameworks, however my primary focus remains as **Go** and
@@ -44,10 +45,10 @@ management and acting as a supporting developer for Nix.
 - ⛵ Professional Sailor
 - 🏫 Part-time Political Scientist and lecturer, forever student
 - 🖥️ NixOS / Hyprland / Neovim
-- 👨 Despite its shortcomings, Go is my _go-to_ language (pun _fully_ intended)
+- 🔧 Despite its shortcomings, Go is my _go-to_ language (pun _fully_ intended)
 - 🌐 Frontend via React/NextJS used to be my primary stack, now I focus on
   backend applications, applications security and system administration.
-- ❄️a NixOS remains my favorite Linux distro for both personal and enterprise
+- ❄️  NixOS remains my favorite Linux distro for both personal and enterprise
   use. I manage my own fleet of servers and virtual machines powered by it.
 - 📫 Contact me @ `raf [at] notashelf [dot] dev` or on Discord, by sending a
   friend request to `@notashelf`
@@ -151,4 +152,3 @@ management and acting as a supporting developer for Nix.
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-```
