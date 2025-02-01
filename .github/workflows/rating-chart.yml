@@ -31,7 +31,7 @@ jobs:
 
       - name: "Generate Projects Table & Replace Placeholder"
         run: |
-          table_content=$(python src/gen_table.py templates/projects.json | sed 's/\\/\\\\n/g')
+          table_content=$( python src/gen_table.py | sed 's/\\/\\\\n/g')
           awk -v content="$table_content" '{gsub("{{ TABLE_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
           cat templates/README-1.md
 
@@ -44,8 +44,17 @@ jobs:
 
       - name: "Insert updated ratings chart"
         run: |
-          table_content=$(src/gen_random_workflow.py | sed 's/\\/\\\\n/g')
+          table_content=$(src/ratings_chart.py | sed 's/\\/\\\\n/g')
           awk -v content="$table_content" '{gsub("{{ RATINGS_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
+
+      - name: "Update workflow recipe"
+        run: |
+          python src/gen_random_workflow.py > rating-yaml.txt
+          YAML=$(cat rating-yaml.txt)
+          echo "::set-output name=yaml::$YAML"
+
+      - name: "Insert rating chart"
+        run: cat rating-yaml.txt > .github/workflows/rating-chart.yml
 
       - name: "Commit changes"
         id: changed

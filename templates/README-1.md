@@ -162,4 +162,6 @@ management and acting as a supporting developer for Nix.
   Rapid Rating
 
   {{ RATINGS_PLACEHOLDER }}
+
+  Chart last updated - {{ LAST_UPDATED }}
 ```
