@@ -48,7 +48,7 @@ management and acting as a supporting developer for Nix.
 - 🔧 Despite its shortcomings, Go is my _go-to_ language (pun _fully_ intended)
 - 🌐 Frontend via React/NextJS used to be my primary stack, now I focus on
   backend applications, applications security and system administration.
-- ❄️  NixOS remains my favorite Linux distro for both personal and enterprise
+- ❄️ NixOS remains my favorite Linux distro for both personal and enterprise
   use. I manage my own fleet of servers and virtual machines powered by it.
 - 📫 Contact me @ `raf [at] notashelf [dot] dev` or on Discord, by sending a
   friend request to `@notashelf`
@@ -138,41 +138,30 @@ management and acting as a supporting developer for Nix.
   <code><img title="Redis" height="40" width="40" src=".github/assets/icons/redis.png"></code>
 </p>
 
+<h6 align="center">I despise Javascript, Nix despises me</h6>
+
+
+
 <p align="center">
    <img title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
    <img title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
    <img title="trophies" src="https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=false&row=1&&margin-w=20&no-bg=true">
 </p>
 
-<h6 align="center">I despise Javascript, Nix despises me</h6>
+
+<h6 align="center">Look mom, I'm winning at GitHub!</h6>
 
 ---
 
-<p align="center">I like chess! Here is an ASCII tracker of my *100* previous chess.com rapid games.</p>
+<!-- No README is complete without a ratings chart. -->
+<p align="center">
+  I like chess! Here is an ASCII tracker of my 100 previous chess.com rapid games.
+</p>
 
-```txt
+```
   # ♟︎ Chess.com Ratings Chart #
 
   Rapid Rating
-Rating Chart:
- 1150.00  ┤                                                                   ╭╮
- 1143.38  ┤                                                                   │╰╮╭╮          ╭╮  ╭╮╭╮╭╮
- 1136.75  ┤                                                                  ╭╯ ╰╯╰╮        ╭╯╰╮╭╯╰╯╰╯│
- 1130.12  ┤                                                                 ╭╯     │        │  ││     ╰╮╭╮
- 1123.50  ┤                       ╭╮╭╮╭╮                                   ╭╯      ╰╮      ╭╯  ╰╯      │││
- 1116.88  ┤                      ╭╯╰╯╰╯╰╮╭╮                     ╭╮        ╭╯        ╰╮    ╭╯           ╰╯│
- 1110.25  ┤                     ╭╯      ╰╯╰─╮            ╭─╮   ╭╯╰╮      ╭╯          ╰╮╭╮╭╯              ╰╮
- 1103.62  ┤                     │           ╰╮╭╮╭╮      ╭╯ ╰╮ ╭╯  ╰╮    ╭╯            ╰╯╰╯                │  ╭
- 1097.00  ┤                    ╭╯            ╰╯╰╯╰╮  ╭╮╭╯   ╰─╯    │   ╭╯                                 │  │
- 1090.38  ┤              ╭╮╭╮ ╭╯                  ╰╮╭╯││           ╰╮  │                                  │  │
- 1083.75  ┤           ╭╮╭╯╰╯╰─╯                    ││ ╰╯            ╰╮╭╯                                  ╰╮╭╯
- 1077.12  ┤          ╭╯╰╯                          ╰╯                ╰╯                                    ││
- 1070.50  ┤     ╭─╮╭╮│                                                                                     ││
- 1063.88  ┼─╮  ╭╯ ╰╯╰╯                                                                                     ╰╯
- 1057.25  ┤ ╰╮╭╯
- 1050.62  ┤  ╰╯
- 1044.00  ┤
 
-Chart last updated - Sat Feb  1 04:09:08 +03 2025
+  {{ RATINGS_PLACEHOLDER }}
 ```
-
