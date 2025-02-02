@@ -32,19 +32,26 @@ jobs:
       # Step 1: Update the projects table using the gen_table script. It takes a json file
       # containing my projects, and creates a markdown table. We then substitute that table
       # in README-1.md, replacing the '{{ TABLE_PLACEHOLDER }}' template literal.
-      - name: "Generate Projects Table & Replace Placeholder"
+      - name: "Generate Projects Table"
         run: |
-          table_content=$( python src/gen_table.py templatees/projects.json | sed 's/\\/\\\\n/g')
+          table_content=$(python src/gen_table.py templates/projects.json | sed 's/\\/\\\\n/g')
           awk -v content="$table_content" '{gsub("{{ TABLE_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
+
+          # For debugging
+          echo "$table_content"
           cat templates/README-1.md
 
       # Step 2: Update my chess ratings graph. It (poorly) wraps chess.com API to get
       # my statistics and create a very simple ASCII graph. It is then substituted in
       # README-1.md, replacing the '{{ RATINGS_PLACEHOLDER }}' template literal.
-      - name: "Insert updated ratings chart"
+      - name: "Update Chess Statistics"
         run: |
-          table_content=$(src/rating_chart.py | sed 's/\\/\\\\n/g')
-          awk -v content="$table_content" '{gsub("{{ RATINGS_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
+          chart_content=$(src/rating_chart.py | sed 's/\\/\\\\n/g')
+          awk -v content="$chart_content" '{gsub("{{ RATINGS_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
+
+          # For debugging
+          echo "$chart_content"
+          cat templates/README-1.md
 
       # Step 3: Update the "last updated" date below the chart. This could've been put
       # in the Python script, but this works and I ain't fixing that.
