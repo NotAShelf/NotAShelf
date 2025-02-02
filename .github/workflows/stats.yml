@@ -17,7 +17,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: "Checkout"
+        uses: actions/checkout@v4
 
       - name: "Set up Python 3.11"
         uses: actions/setup-python@v5
@@ -41,18 +42,17 @@ jobs:
           python3 -m pip install --upgrade pip setuptools wheel
           python3 -m pip install -r src/requirements.txt
 
-      # Generate all statistics images
+      # Generate vector images (svg) occasionally with animations to be used in
+      # README.md
       - name: "Generate images"
-        run: |
-          # Return Python version
-          python3 --version
-          python3 src/gen_images.py
         env:
+          COUNT_STATS_FROM_FORKS: false
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EXCLUDED: ${{ secrets.EXCLUDED }}
           EXCLUDED_LANGS: ${{ secrets.EXCLUDE_LANGS }}
-          COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
+        run: |
+          python3 src/gen_images.py
 
       # Commits all changed files to the repository
       - name: Commit to the output branch of repo
