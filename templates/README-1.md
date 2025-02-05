@@ -18,7 +18,7 @@ Ever since my introduction to the world of FOSS and Linux in late 2010s, I have
 been very passionate about **operating systems**, **open-source software** and
 **system administration**. I am also interested in the role of information
 system and data integrity/privacy within the policymaking process in
-contemporary politics, which I have decided to base my PhD thesison.
+contemporary politics, which I have decided to base my PhD thesis on.
 
 Most of my code here are solutions to small itches, or my answers to different
 curiosities. Exploring solutions to known pain points in software and home-made
@@ -62,7 +62,9 @@ to contact me for either of those matters.
 ### 🔭 Projects
 
 I have many projects, usually fruits of my most recent obsession. Almost all of
-them are bootstrapped with Nix, but languages vary.
+them are bootstrapped with Nix, but languages vary. Note that I am currently in
+the process of moving beloved projects out of Github. You will not be affected
+by this, but let me know if you are.
 
 <!-- Projects Section
     the placeholder below is replaced by the rating-chart.yml workflow
@@ -71,6 +73,8 @@ them are bootstrapped with Nix, but languages vary.
 -->
 
 {{ TABLE_PLACEHOLDER }}
+
+<h6 align="center">For more more projects, active or inactive, visit the repositories page</h6>
 
 <!-- End Projects Section -->
 
@@ -95,18 +99,24 @@ but I sometimes take some time to reply. Prefer Matrix if you use it!
  </a>
 </p>
 
+Below is a poorly updated chart of my languages. Some of them are exluded, for
+reasons unknown... In addition to what's already here, I also work with **R**,
+**Ruby**, **Kotlin** and copious amounts of Typescript code that I have never
+uploaded to Github.
+
 <div align="center">
-   <h6>I despise Javascript, Nix despises me</h6>
    <img title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
    <img title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
+   <h6>I despise Javascript, Nix despises me</h6>
+
 </div>
 
 <div align="center">
-    <h6>Look mom, I'm winning at GitHub!</h6>
     <img
       title="trophies"
       src="https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=false&row=1&&margin-w=20&no-bg=true"
     >
+    <h6>Look mom, I'm winning at GitHub!</h6>
 </div>
 
 ---
