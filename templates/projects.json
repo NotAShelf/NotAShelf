@@ -16,6 +16,16 @@
       "description": "collection of packages not found in Nixpkgs"
     },
     {
+      "title": "Hjem",
+      "link": "https://github.com/notashelf/nyx",
+      "description": "streamlined and modern home-management solution with Nix"
+    },
+    {
+      "title": "MicrOS",
+      "link": "https://github.com/snugnug/micros",
+      "description": "Experimental operating system based on Nixpkgs module system, bringing Runit to NixOS"
+    },
+    {
       "title": "Basix",
       "link": "https://github.com/NotAShelf/Basix",
       "description": "Purely functional collection of Base16/Base24 themes to be used with Nix"
@@ -29,6 +39,11 @@
       "title": "Schizofox",
       "link": "https://github.com/schizofox/schizofox",
       "description": "privacy and security oriented Firefox configuration for Home-manager"
+    },
+    {
+      "title": "Wallpkgs",
+      "link": "https://github.com/notashelf/wallpkgs",
+      "description": "easy-to-install wallpapers collections, designed to install with Nix"
     },
     {
       "title": "Nixpkgs",

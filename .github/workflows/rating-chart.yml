@@ -1,4 +1,4 @@
-name: Update Readme ascii graph and workflow with random cron interval
+name: "Automatic updates of profile statistics"
 
 on:
   workflow_dispatch:
