@@ -74,7 +74,9 @@ by this, but let me know if you are.
 
 {{ TABLE_PLACEHOLDER }}
 
-<h6 align="center">For more more projects, active or inactive, visit the repositories page</h6>
+<h6 align="center">
+  ...and some projects I take part in co-maintainin. For more projects, active or inactive, visit the repositories page.
+</h6>
 
 <!-- End Projects Section -->
 

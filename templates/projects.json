@@ -95,7 +95,12 @@
     {
       "title": "SSA",
       "link": "https://github.com/NotAShelf/ssa",
-      "description": "Simple, streamlined and pretty aggregator for systemd-analyze security "
+      "description": "Simple, streamlined and pretty aggregator for systemd-analyze security"
+    },
+    {
+      "title": "mrc",
+      "link": "https://github.com/NotAShelf/mrc",
+      "description": "Minimalistic yet complete API wrapper and remote controller for MPV, the video player"
     }
   ]
 }
