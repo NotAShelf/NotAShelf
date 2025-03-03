@@ -4,7 +4,7 @@
 
 <!-- Those don't have to be in-line. Glad to have learned that -->
 
-[![pgp](https://img.shields.io/badge/pgp-0x39A004E33E353746-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
+[![pgp](https://img.shields.io/badge/pgp-0x2445AC359CDF26C9-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
 [![profile views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
 
 [@NixOS]: https://github.com/NixOS
@@ -20,13 +20,15 @@ been very passionate about **operating systems**, **open-source software** and
 system and data integrity/privacy within the policymaking process in
 contemporary politics, which I have decided to base my PhD thesis on.
 
-Most of my code here are solutions to small itches, or my answers to different
-curiosities. Exploring solutions to known pain points in software and home-made
-CLI applications to manage different components of my setup are some of my
-pastime activities. **Reliable** and **scalable** systems are also within my
-interest. I work with and contribute to [@NixOS] in my free time to help me
-towards this goal. Take a look at the [projects section](#-currently-working-on)
-below for a somewhat curated list of what I'm currently working on
+Most of my code here are
+[solutions to small itches](https://github.com/NotAShelf/licenseit), or my
+answers to different curiosities. Exploring solutions to known pain points in
+software and home-made CLI applications to manage different components of my
+setup are some of my pastime activities. **Reliable** and **scalable** systems
+are also within my interest. I work with and contribute to [@NixOS] in my free
+time to help me towards this goal. Take a look at the
+[projects section](#-currently-working-on) below for a somewhat curated list of
+what I'm currently working on
 
 There are many means to my ends; I work with any and all languages or tools that
 I find interesting. My experience and knowledge (both in _very_ heavy quotes)
@@ -38,7 +40,7 @@ list of languages and tools that I work, or have worked with before.
 
 I also take part of the [Hyprland] community, playing an active role in
 community management and acting as a supporting developer for Nix. Do feel free
-to contact me for either of those matters.
+to [contact me](#-how-to-reach-me) for either of those matters.
 
 <!-- The "overrated" section every bio really needs -->
 
