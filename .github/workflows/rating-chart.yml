@@ -46,7 +46,7 @@ jobs:
       # README-1.md, replacing the '{{ RATINGS_PLACEHOLDER }}' template literal.
       - name: "Update Chess Statistics"
         run: |
-          chart_content=$(src/rating_chart.py | sed 's/\\/\\\\n/g')
+          chart_content=$(python src/rating_chart.py | sed 's/\\/\\\\n/g')
           awk -v content="$chart_content" '{gsub("{{ RATINGS_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
 
           # For debugging
