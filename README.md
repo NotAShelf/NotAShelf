@@ -140,7 +140,7 @@ uploaded to Github.
 
   
 
-  Chart last updated - 2025-03-02
+  Chart last updated - 2025-03-03
 ```
 
 <!-- End of Chess Ratings Section -->
