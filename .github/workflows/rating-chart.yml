@@ -29,7 +29,12 @@ jobs:
       - name: "Install Requirements"
         run: pip install -r src/requirements.txt
 
-      # Step 1: Update the projects table using the gen_table script. It takes a json file
+      # Step 1: Update the blog posts section with the *last 5* posts that I've written
+      # using the blog's RSS feed.
+      - name: "Update Blog Posts"
+        run: python src/fetch_blog_feed.py templates/README-1.md
+
+      # Step 2: Update the projects table using the gen_table script. It takes a json file
       # containing my projects, and creates a markdown table. We then substitute that table
       # in README-1.md, replacing the '{{ TABLE_PLACEHOLDER }}' template literal.
       - name: "Generate Projects Table"
@@ -41,7 +46,7 @@ jobs:
           echo "$table_content"
           cat templates/README-1.md
 
-      # Step 2: Update my chess ratings graph. It (poorly) wraps chess.com API to get
+      # Step 3: Update my chess ratings graph. It (poorly) wraps chess.com API to get
       # my statistics and create a very simple ASCII graph. It is then substituted in
       # README-1.md, replacing the '{{ RATINGS_PLACEHOLDER }}' template literal.
       - name: "Update Chess Statistics"
@@ -53,7 +58,7 @@ jobs:
           echo "$chart_content"
           cat templates/README-1.md
 
-      # Step 3: Update the "last updated" date below the chart. This could've been put
+      # Step 4: Update the "last updated" date below the chart. This could've been put
       # in the Python script, but this works and I ain't fixing that.
       - name: "Update last update date"
         run: |
