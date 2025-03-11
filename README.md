@@ -9,6 +9,7 @@
 
 [@NixOS]: https://github.com/NixOS
 [Hyprland]: https://github.com/Hyprland
+[my blog]: https://blog.notashelf.dev
 
 I'm raf, more commonly known as NotAShelf on various parts of the world wide
 web. I am a sailor, sailmaker, political scientist and an academic. FOSS
@@ -26,9 +27,20 @@ answers to different curiosities. Exploring solutions to known pain points in
 software and home-made CLI applications to manage different components of my
 setup are some of my pastime activities. **Reliable** and **scalable** systems
 are also within my interest. I work with and contribute to [@NixOS] in my free
-time to help me towards this goal. Take a look at the
-[projects section](#-currently-working-on) below for a somewhat curated list of
-what I'm currently working on
+time to help me towards this goal. Sometimes I write about Nix and NixOS (among
+other things) on [my blog].
+
+<!-- Blogposts section
+     That's right, I write. I write about Nix.
+-->
+
+- [NixOS Security I: Systemd](https://blog.notashelf.dev/posts/2025-03-03-insecurities-remedies-i.html)
+- [Signing Git commits with SSH keys](https://blog.notashelf.dev/posts/2025-02-24-ssh-signing-commits.html)
+- [Getting Remote Builders to Build Your Nix Derivations](https://blog.notashelf.dev/posts/2025-02-17-nix-remote-builders.html)
+- [Full Disk Encryption and Impermanence on NixOS](https://blog.notashelf.dev/posts/2025-02-15-impermanence.html)
+- [When, Why and How to Extend Nixpkgs’ Standard Library](https://blog.notashelf.dev/posts/2025-02-01-extended-nixpkgs-lib.html)
+
+<!-- End posts section -->
 
 There are many means to my ends; I work with any and all languages or tools that
 I find interesting. My experience and knowledge (both in _very_ heavy quotes)
@@ -36,7 +48,9 @@ span over multiple languages, tools and frameworks, however, my primary focus
 remains as **C** and **Rust** (or sometimes **Go**) for building reliable
 backend applications alongside some **Typescript** for frontend. I also rely on
 **Nix** infrastructure, deployments and distributing software. See below for a
-list of languages and tools that I work, or have worked with before.
+list of languages and tools that I work, or have worked with before. Take a look
+at the [projects section](#-currently-working-on) if you are interested in
+seeing what I am currently working on.
 
 I also take part of the [Hyprland] community, playing an active role in
 community management and acting as a supporting developer for Nix. Do feel free
