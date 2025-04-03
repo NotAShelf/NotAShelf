@@ -34,11 +34,11 @@ other things) on [my blog].
      That's right, I write. I write about Nix.
 -->
 
+- [My New Tech Stack](https://blog.notashelf.dev/posts/2025-04-03-my-new-stack.html)
 - [What is nixConfig, Should You Trust It?](https://blog.notashelf.dev/posts/2025-03-31-reject-flake-config.html)
 - [Building Deterministic Typst Packages with Nix](https://blog.notashelf.dev/posts/2025-03-17-deterministic-typst.html)
 - [On Editors and Things](https://blog.notashelf.dev/posts/2025-03-11-on-editors-and-things.html)
 - [NixOS Security I: Systemd](https://blog.notashelf.dev/posts/2025-03-03-insecurities-remedies-i.html)
-- [Signing Git commits with SSH keys](https://blog.notashelf.dev/posts/2025-02-24-ssh-signing-commits.html)
 
 <!-- End posts section -->
 
