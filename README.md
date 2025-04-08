@@ -34,11 +34,11 @@ other things) on [my blog].
      That's right, I write. I write about Nix.
 -->
 
+- [Considerations](https://blog.notashelf.dev/posts/2025-04-07-considerations.html)
 - [NixOS Testing Framework I: On VM Tests](https://blog.notashelf.dev/posts/2025-04-04-nixos-testing-i.html)
 - [My New Tech Stack](https://blog.notashelf.dev/posts/2025-04-03-my-new-stack.html)
 - [What is nixConfig, Should You Trust It?](https://blog.notashelf.dev/posts/2025-03-31-reject-flake-config.html)
 - [Building Deterministic Typst Packages with Nix](https://blog.notashelf.dev/posts/2025-03-17-deterministic-typst.html)
-- [On Editors and Things](https://blog.notashelf.dev/posts/2025-03-11-on-editors-and-things.html)
 
 <!-- End posts section -->
 
@@ -173,7 +173,7 @@ uploaded to Github.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2025-04-07
+  Chart last updated - 2025-04-08
 ```
 
 <!-- End of Chess Ratings Section -->
