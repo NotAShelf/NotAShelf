@@ -102,5 +102,12 @@
       "link": "https://github.com/NotAShelf/mrc",
       "description": "Minimalistic yet complete API wrapper and remote controller for MPV, the video player"
     }
+  ],
+  "Neovim Plugins": [
+    {
+      "title": "direnv.nvim",
+      "link": "https://github.com/notashelf/direnv.nvim",
+      "description": "Neovim companion for Direnv"
+    }
   ]
 }
