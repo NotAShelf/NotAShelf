@@ -1,7 +1,7 @@
 import feedparser
 import argparse
 
-RSS_FEED_URL = "https://blog.notashelf.dev/feed.xml"
+RSS_FEED_URL = "https://notashelf.dev/rss.xml"
 PLACEHOLDER = "{{ BLOG_POSTS_PLACEHOLDER }}"
 
 
