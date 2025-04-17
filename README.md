@@ -34,11 +34,11 @@ other things) on [my blog].
      That's right, I write. I write about Nix.
 -->
 
-- [Considerations](https://notashelf.dev/posts/considerations/)
-- [My New Tech Stack](https://notashelf.dev/posts/my-new-stack/)
-- [NixOS Testing Framework I: On VM Tests](https://notashelf.dev/posts/nixos-testing-i/)
-- [What is nixConfig, Should You Trust It?](https://notashelf.dev/posts/reject-flake-content/)
-- [Building Deterministic Typst Packages with Nix](https://notashelf.dev/posts/deterministic-typst/)
+- [Considerations](https://notashelf.dev/posts/considerations)
+- [My New Tech Stack](https://notashelf.dev/posts/my-new-stack)
+- [NixOS Testing Framework I: On VM Tests](https://notashelf.dev/posts/nixos-testing-i)
+- [What is nixConfig, Should You Trust It?](https://notashelf.dev/posts/reject-flake-content)
+- [Building Deterministic Typst Packages with Nix](https://notashelf.dev/posts/deterministic-typst)
 
 <!-- End posts section -->
 
