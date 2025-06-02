@@ -55,52 +55,57 @@
     {
       "title": "CatApi",
       "link": "https://github.com/notashelf/catApi",
-      "description": "minimal API for serving pictures of your cats. Features a convenient frontend"
+      "description": "Minimal API for serving pictures of your cats. Now with a convenient frontend."
     },
     {
       "title": "Hyprkeys",
       "link": "https://github.com/hyprland-community/Hyprkeys",
-      "description": "powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland"
+      "description": "Powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland."
     },
     {
       "title": "nff",
       "link": "https://github.com/notashelf/nff",
-      "description": "experimental nftables configuration beautifier in Python"
+      "description": "experimental nftables configuration beautifier in Python."
     },
     {
       "title": "batmon",
       "link": "https://github.com/notashelf/batmon",
-      "description": "dead simple battery monitor in Go, with the ability to emit events on change"
+      "description": "Dead simple battery monitor in Go, with the ability to emit events on change."
     },
     {
       "title": "Goblin",
       "link": "https://github.com/notashelf/goblin",
-      "description": "termbin-inspired paste service to replace Fiche, written in Go"
+      "description": "termbin-inspired paste service to replace Fiche, written in Go."
     },
     {
       "title": "Nutils",
       "link": "https://github.com/notashelf/nutils",
-      "description": "an external utility crate for the Nix package manager"
+      "description": "External utility crate for the Nix package manager."
     },
     {
       "title": "Tailray",
       "link": "https://github.com/notashelf/Tailray",
-      "description": "rust implementation of Tailscale systray"
+      "description": "Rust implementation of Tailscale systray."
     },
     {
       "title": "Microfetch",
       "link": "https://github.com/notashelf/microfetch",
-      "description": "Microscopic fetch tool in Rust, for NixOS systems"
+      "description": "Microscopic fetch tool in Rust, for NixOS systems."
     },
     {
       "title": "SSA",
       "link": "https://github.com/NotAShelf/ssa",
-      "description": "Simple, streamlined and pretty aggregator for systemd-analyze security"
+      "description": "Simple, streamlined and pretty aggregator for systemd-analyze security."
     },
     {
       "title": "mrc",
       "link": "https://github.com/NotAShelf/mrc",
-      "description": "Minimalistic yet complete API wrapper and remote controller for MPV, the video player"
+      "description": "Minimalistic, yet robust API wrapper and remote controller for MPV, the video player."
+    },
+    {
+      "title": "watt",
+      "link": "https://github.com/NotAShelf/watt",
+      "description": "Modern CPU frequency and power management utility for Linux."
     }
   ],
   "Neovim Plugins": [
@@ -108,6 +113,16 @@
       "title": "direnv.nvim",
       "link": "https://github.com/notashelf/direnv.nvim",
       "description": "Neovim companion for Direnv"
+    },
+    {
+      "title": "syntax-gaslighting.nvim",
+      "link": "https://github.com/NotAShelf/syntax-gaslighting.nvim",
+      "description": "Gaslighting is not even a real word, you're crazy."
+    },
+    {
+      "title": "sprint.nvim",
+      "link": "https://github.com/NotAShelf/sprint.nvim",
+      "description": "Robust command runner for Neovim."
     }
   ]
 }
