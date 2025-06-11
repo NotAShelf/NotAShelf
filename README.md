@@ -21,14 +21,18 @@ been very passionate about **operating systems**, **open-source software** and
 system and data integrity/privacy within the policymaking process in
 contemporary politics, which I have decided to base my PhD thesis on.
 
-Most of my code here are
-[solutions to small itches](https://github.com/NotAShelf/licenseit), or my
-answers to different curiosities. Exploring solutions to known pain points in
-software and home-made CLI applications to manage different components of my
-setup are some of my pastime activities. **Reliable** and **scalable** systems
-are also within my interest. I work with and contribute to [@NixOS] in my free
-time to help me towards this goal. Sometimes I write about Nix and NixOS (among
-other things) on [my blog].
+[solutions]: https://github.com/NotAShelf/licenseit
+[to]: https://github.com/NotAShelf/watt
+[small]: https://github.com/NotAShelf/mrc
+[itches]: https://github.com/NotAShelf/flint
+
+Most of my code here are [solutions] [to] [small] [itches], or my answers to
+different curiosities. Exploring solutions to known pain points in software and
+home-made CLI applications to manage different components of my setup are some
+of my pastime activities. **Reliable** and **scalable** systems are also within
+my interest. I work with and contribute to [@NixOS] in my free time to help me
+towards this goal. Sometimes I write about Nix and NixOS (among other things) on
+[my blog].
 
 <!-- Blogposts section
      That's right, I write. I write about Nix.
@@ -90,7 +94,7 @@ by this, but let me know if you are.
 
 | **Nix** | **Go, Rust, Python, JavaScript, TypeScript** |
 | --- | --- |
-| • [nvf](https://github.com/notashelf/nvf) - a highly extensible and distro agnostic configuration framework for Neovim using Nix<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxexprs) - collection of packages not found in Nixpkgs<br>• [Hjem](https://github.com/feel-co/hjem) - streamlined and modern home-management solution with Nix<br>• [MicrOS](https://github.com/snugnug/micros) - Experimental operating system based on Nixpkgs module system, bringing Runit to NixOS<br>• [Basix](https://github.com/NotAShelf/Basix) - Purely functional collection of Base16/Base24 themes to be used with Nix<br>• [ndg](https://github.com/feel-co/ndg) - alternative documentation generation for any Nix based module system<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager<br>• [Wallpkgs](https://github.com/notashelf/wallpkgs) - easy-to-install wallpapers collections, designed to install with Nix<br>• [Nixpkgs](https://github.com/nixos/nixpkgs) - Nix Packages collection and NixOS | • [CatApi](https://github.com/notashelf/catApi) - Minimal API for serving pictures of your cats. Now with a convenient frontend.<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - Powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.<br>• [nff](https://github.com/notashelf/nff) - experimental nftables configuration beautifier in Python.<br>• [batmon](https://github.com/notashelf/batmon) - Dead simple battery monitor in Go, with the ability to emit events on change.<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go.<br>• [Nutils](https://github.com/notashelf/nutils) - External utility crate for the Nix package manager.<br>• [Tailray](https://github.com/notashelf/Tailray) - Rust implementation of Tailscale systray.<br>• [Microfetch](https://github.com/notashelf/microfetch) - Microscopic fetch tool in Rust, for NixOS systems.<br>• [SSA](https://github.com/NotAShelf/ssa) - Simple, streamlined and pretty aggregator for systemd-analyze security.<br>• [mrc](https://github.com/NotAShelf/mrc) - Minimalistic, yet robust API wrapper and remote controller for MPV, the video player.<br>• [watt](https://github.com/NotAShelf/watt) - Modern CPU frequency and power management utility for Linux. |
+| • [nvf](https://github.com/notashelf/nvf) - a highly extensible and distro agnostic configuration framework for Neovim using Nix<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxexprs) - collection of packages not found in Nixpkgs<br>• [Hjem](https://github.com/feel-co/hjem) - streamlined and modern home-management solution with Nix<br>• [MicrOS](https://github.com/snugnug/micros) - Experimental operating system based on Nixpkgs module system, bringing Runit to NixOS<br>• [Basix](https://github.com/NotAShelf/Basix) - Purely functional collection of Base16/Base24 themes to be used with Nix<br>• [ndg](https://github.com/feel-co/ndg) - alternative documentation generation for any Nix based module system<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager<br>• [Wallpkgs](https://github.com/notashelf/wallpkgs) - easy-to-install wallpapers collections, designed to install with Nix<br>• [Nixpkgs](https://github.com/nixos/nixpkgs) - Nix Packages collection and NixOS | • [CatApi](https://github.com/notashelf/catApi) - Minimal API for serving pictures of your cats. Now with a convenient frontend.<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - Powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.<br>• [nff](https://github.com/notashelf/nff) - experimental nftables configuration beautifier in Python.<br>• [batmon](https://github.com/notashelf/batmon) - Dead simple battery monitor in Go, with the ability to emit events on change.<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go.<br>• [Tailray](https://github.com/notashelf/Tailray) - Rust implementation of Tailscale systray.<br>• [Microfetch](https://github.com/notashelf/microfetch) - Microscopic fetch tool in Rust, for NixOS systems.<br>• [SSA](https://github.com/NotAShelf/ssa) - Simple, streamlined and pretty aggregator for systemd-analyze security.<br>• [mrc](https://github.com/NotAShelf/mrc) - Minimalistic, yet robust API wrapper and remote controller for MPV, the video player.<br>• [watt](https://github.com/NotAShelf/watt) - Modern CPU frequency and power management utility for Linux. |
 
 <div align='center'>
 
