@@ -78,11 +78,6 @@
       "description": "termbin-inspired paste service to replace Fiche, written in Go."
     },
     {
-      "title": "Nutils",
-      "link": "https://github.com/notashelf/nutils",
-      "description": "External utility crate for the Nix package manager."
-    },
-    {
       "title": "Tailray",
       "link": "https://github.com/notashelf/Tailray",
       "description": "Rust implementation of Tailscale systray."

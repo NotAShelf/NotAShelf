@@ -21,14 +21,18 @@ been very passionate about **operating systems**, **open-source software** and
 system and data integrity/privacy within the policymaking process in
 contemporary politics, which I have decided to base my PhD thesis on.
 
-Most of my code here are
-[solutions to small itches](https://github.com/NotAShelf/licenseit), or my
-answers to different curiosities. Exploring solutions to known pain points in
-software and home-made CLI applications to manage different components of my
-setup are some of my pastime activities. **Reliable** and **scalable** systems
-are also within my interest. I work with and contribute to [@NixOS] in my free
-time to help me towards this goal. Sometimes I write about Nix and NixOS (among
-other things) on [my blog].
+[solutions]: https://github.com/NotAShelf/licenseit
+[to]: https://github.com/NotAShelf/watt
+[small]: https://github.com/NotAShelf/mrc
+[itches]: https://github.com/NotAShelf/flint
+
+Most of my code here are [solutions] [to] [small] [itches], or my answers to
+different curiosities. Exploring solutions to known pain points in software and
+home-made CLI applications to manage different components of my setup are some
+of my pastime activities. **Reliable** and **scalable** systems are also within
+my interest. I work with and contribute to [@NixOS] in my free time to help me
+towards this goal. Sometimes I write about Nix and NixOS (among other things) on
+[my blog].
 
 <!-- Blogposts section
      That's right, I write. I write about Nix.
