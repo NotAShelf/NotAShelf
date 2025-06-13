@@ -38,7 +38,11 @@ towards this goal. Sometimes I write about Nix and NixOS (among other things) on
      That's right, I write. I write about Nix.
 -->
 
-
+- [On Mutation Testing](https://notashelf.dev/posts/on-mutation-testing)
+- [The Curse of Knowing How, or; Fixing Everything](https://notashelf.dev/posts/curse-of-knowing)
+- [Considerations](https://notashelf.dev/posts/considerations)
+- [My New Tech Stack](https://notashelf.dev/posts/my-new-stack)
+- [NixOS Testing Framework I: On VM Tests](https://notashelf.dev/posts/nixos-testing-i)
 
 <!-- End posts section -->
 
@@ -180,7 +184,7 @@ uploaded to Github.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2025-06-12
+  Chart last updated - 2025-06-13
 ```
 
 <!-- End of Chess Ratings Section -->
