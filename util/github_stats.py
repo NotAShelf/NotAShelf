@@ -25,8 +25,9 @@ class Queries:
                                             headers=headers,
                                             json={"query": generated_query})
             return await r.json()
-        except:
+        except Exception as e:
             print("aiohttp failed for GraphQL query")
+            print(e)
             async with self.semaphore:
                 r = requests.post("https://api.github.com/graphql",
                                   headers=headers,
@@ -39,7 +40,7 @@ class Queries:
                 "Authorization": f"token {self.access_token}",
             }
             if params is None:
-                params = dict()
+                params = {}
             if path.startswith("/"):
                 path = path[1:]
             try:
@@ -55,8 +56,9 @@ class Queries:
                 result = await r.json()
                 if result is not None:
                     return result
-            except:
+            except Exception as e:
                 print("aiohttp failed for rest query")
+                print(e)
                 async with self.semaphore:
                     r = requests.get(f"https://api.github.com/{path}",
                                      headers=headers,
@@ -68,7 +70,7 @@ class Queries:
                     elif r.status_code == 200:
                         return r.json()
         print("There were too many 202s. Data for this repository will be incomplete.")
-        return dict()
+        return {}
 
     @staticmethod
     def repos_overview(contrib_cursor: str | None = None,

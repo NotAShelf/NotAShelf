@@ -5,11 +5,11 @@ def gen_random_workflow(workflow_path: str = ".github/workflows/rating-chart.yml
     cron_line = '"0 */{prevNo} * * *"'
     with open(workflow_path) as f:
         wf = f.read()
-    randNo = random.randint(1, 8)
-    newCron = cron_line.format(prevNo=randNo)
-    for prevNum in range(1, 9):
-        prevCron = cron_line.format(prevNo=prevNum)
-        if prevCron in wf:
-            wf = wf.replace(prevCron, newCron)
+    rand_no = random.randint(1, 8)
+    new_cron = cron_line.format(prevNo=rand_no)
+    for prev_num in range(1, 9):
+        prev_cron = cron_line.format(prevNo=prev_num)
+        if prev_cron in wf:
+            wf = wf.replace(prev_cron, new_cron)
             break
     return wf.rstrip()
