@@ -1,0 +1,36 @@
+[project]
+name = "util"
+version = "0.1.0"
+description = "Consolidated CLI for my repository scripts"
+authors = [{ name = "NotAShelf", email = "raf@notashelf.dev" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "asciichartpy",
+  "chardet",
+  "idna",
+  "pygithub",
+  "pyjwt",
+  "wrapt",
+  "aiohttp",
+  "aiosignal",
+  "async-timeout",
+  "attrs",
+  "certifi",
+  "charset-normalizer",
+  "Deprecated",
+  "frozenlist",
+  "multidict",
+  "requests",
+  "svg.py",
+  "urllib3",
+  "yarl",
+  "feedparser",
+]
+
+[project.scripts]
+util = "util.cli:main"
+
+[build-system]
+requires = ["uv", "setuptools"]
+build-backend = "setuptools.build_meta"

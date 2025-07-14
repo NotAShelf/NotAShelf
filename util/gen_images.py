@@ -1,30 +1,19 @@
-#!/usr/bin/env python
-
-
 import asyncio
 import os
+
 import aiohttp
 
-
-from github_stats import Stats
+from .github_stats import Stats
 
 
 def generate_output_folder() -> None:
-    """
-    Create the output folder if it does not already exist
-    """
     try:
         os.makedirs("generated", exist_ok=True)
     except OSError as e:
-        print(f"Error creating output folder: {str(e)}")
-
+        print(f"Error creating output folder: {e!s}")
 
 async def generate_overview(s: Stats) -> None:
-    """
-    Generate an SVG badge with summary statistics
-    :param s: Represents user's GitHub statistics
-    """
-    with open("templates/overview.svg", "r") as f:
+    with open("templates/overview.svg") as f:
         output = f.read()
 
     output = output.replace("{{ name }}", await s.name)
@@ -40,13 +29,8 @@ async def generate_overview(s: Stats) -> None:
     with open("generated/overview.svg", "w") as f:
         f.write(output)
 
-
 async def generate_languages(s: Stats) -> None:
-    """
-    Generate an SVG badge with summary languages used
-    :param s: Represents user's GitHub statistics
-    """
-    with open("templates/languages.svg", "r") as f:
+    with open("templates/languages.svg") as f:
         output = f.read()
 
     progress = ""
@@ -83,15 +67,11 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
     with open("generated/languages.svg", "w") as f:
         f.write(output)
 
-
 async def main() -> None:
-    """
-    Generate all badges
-    """
     access_token = os.getenv("ACCESS_TOKEN")
-    if not access_token:
-        raise Exception("A personal access token is required to proceed!")
     user = os.getenv("GITHUB_ACTOR")
+    if not access_token or not user:
+        raise Exception("Both ACCESS_TOKEN and GITHUB_ACTOR env vars are required to proceed!")
     exclude_repos = os.getenv("EXCLUDED")
     exclude_repos = (
         {x.strip() for x in exclude_repos.split(",")} if exclude_repos else None
@@ -112,7 +92,3 @@ async def main() -> None:
             consider_forked_repos=consider_forked_repos,
         )
         await asyncio.gather(generate_languages(s), generate_overview(s))
-
-
-if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(main())
