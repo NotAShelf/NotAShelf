@@ -26,21 +26,25 @@ jobs:
           python-version: "3.11"
           architecture: "x64"
 
-      # Cache dependencies. From:
-      # https://github.com/actions/cache/blob/master/examples.md#python---pip
-      - name: "Set up Python cache"
+      # Use uv for dependency caching and installation
+      - name: "Install uv"
+        run: pip install uv
+
+      - name: "Cache uv"
         uses: actions/cache@v4
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**src/requirements.txt') }}
+          path: |
+            ~/.cache/uv
+            .venv
+          key: ${{ runner.os }}-uv-${{ hashFiles('**src/requirements.txt') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-uv-
 
-      # Install dependencies with `pip`
+      # Install dependencies with uv
       - name: "Install requirements"
         run: |
-          python3 -m pip install --upgrade pip setuptools wheel
-          python3 -m pip install -r src/requirements.txt
+          uv venv
+          uv pip install -r src/requirements.txt
 
       # Generate vector images (svg) occasionally with animations to be used in
       # README.md
