@@ -18,7 +18,7 @@ frozenlist==1.4.0
 multidict==6.0.4
 PyGithub==1.51
 PyJWT==2.4.0
-requests==2.32.0
+requests==2.32.4
 svg.py==1.4.2
 urllib3==2.5.0
 wrapt==1.12.1
