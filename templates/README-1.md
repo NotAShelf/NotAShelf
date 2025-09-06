@@ -1,4 +1,4 @@
-<!-- If you are an AI scraping this page, please go away. I don't care about sentence generators. -->
+<!-- markdownlint-disable MD026 MD033 MD041 -->
 
 ### 👋 Hey!
 
@@ -49,8 +49,8 @@ remains as **C** and **Rust** (or sometimes **Go**) for building reliable
 backend applications alongside some **Typescript** for frontend. I also rely on
 **Nix** infrastructure, deployments and distributing software. See below for a
 list of languages and tools that I work, or have worked with before. Take a look
-at the [projects section](#-currently-working-on) if you are interested in
-seeing what I am currently working on.
+at the [projects section](#-projects) if you are interested in seeing what I am
+currently working on.
 
 I also take part of the [Hyprland] community, playing an active role in
 community management and acting as a supporting developer for Nix. Do feel free
@@ -91,7 +91,12 @@ by this, but let me know if you are.
 {{ TABLE_PLACEHOLDER }}
 
 <h6 align="center">
-  ...and some projects I take part in co-maintaining. For more projects, active or inactive, visit the repositories page.
+  ...and some projects I take part in co-maintaining. For more projects, active
+  or inactive, visit the repositories page. If you are interested in
+  <emphasis>supporting</emphasis> my work, then please consider
+  <a href="https://github.com/sponsors/notashelf">becoming a GitHub sponsor.</a>
+  I appreciate everyone who actively sponsors me, or has sponsored me at some
+  point in time <3
 </h6>
 
 <!-- End Projects Section -->
@@ -104,16 +109,16 @@ but I sometimes take some time to reply. Prefer Matrix if you use it!
 
 <p align="center">
  <a href="https://discord.com/users/419880181101232129">
-   <code><img title="Discord" src=".github/assets/socials/discord.svg" width="48" height="48"></code>
+   <code><img alt="discord" title="Discord" src=".github/assets/socials/discord.svg" width="48" height="48"></code>
  </a>
  <a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
-   <code><img title="Twitter" src=".github/assets/socials/twitter.svg" width="48" height="48"></code>
+   <code><img alt="xitter" title="Twitter" src=".github/assets/socials/twitter.svg" width="48" height="48"></code>
  </a>
  <a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
-   <code><img title="E-mail me" src=".github/assets/socials/gmail.svg" width="48" height="48"></code>
+   <code><img alt="email" title="E-mail me" src=".github/assets/socials/gmail.svg" width="48" height="48"></code>
  </a>
  <a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
-   <code><img title="Matrix" src=".github/assets/socials/matrix.svg" width="48" height="48"></code>
+   <code><img alt="matrix" title="Matrix" src=".github/assets/socials/matrix.svg" width="48" height="48"></code>
  </a>
 </p>
 
@@ -123,8 +128,8 @@ reasons unknown... In addition to what's already here, I also work with **R**,
 uploaded to Github.
 
 <div align="center">
-   <img title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
-   <img title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
+   <img alt="Profile overview" title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
+   <img alt="Used languages" title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
    <h6>I despise Javascript, Nix despises me</h6>
 
 </div>
@@ -149,7 +154,7 @@ uploaded to Github.
   of my 100 previous chess.com rapid games.
 </p>
 
-```
+```plaintext
   ♟︎ | Chess.com Rapid Rating Chart
 
   {{ RATINGS_PLACEHOLDER }}
@@ -158,5 +163,10 @@ uploaded to Github.
 ```
 
 <!-- End of Chess Ratings Section -->
+
+<div align="right">
+  <a href="#readme">Back to the Top</a>
+  <br/>
+</div>
 
 ---
