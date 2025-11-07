@@ -189,7 +189,7 @@ uploaded to Github.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2025-11-06
+  Chart last updated - 2025-11-07
 ```
 
 <!-- End of Chess Ratings Section -->
