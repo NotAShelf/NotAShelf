@@ -38,11 +38,11 @@ towards this goal. Sometimes I write about Nix and NixOS (among other things) on
      That's right, I write. I write about Nix.
 -->
 
+- [2025 Wrapped & 2026 Wishlist](https://notashelf.dev/posts/2025-wrapped)
 - [The Tradeoff Trap](https://notashelf.dev/posts/the-tradeoff-trap)
 - [I am Not Convinced by Vibe Coding](https://notashelf.dev/posts/vibe-coding)
 - [The Federation Fallacy](https://notashelf.dev/posts/federation-fallacy)
 - [On Mutation Testing](https://notashelf.dev/posts/on-mutation-testing)
-- [The Curse of Knowing How, or; Fixing Everything](https://notashelf.dev/posts/curse-of-knowing)
 
 <!-- End posts section -->
 
@@ -189,7 +189,7 @@ uploaded to Github.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-01-01
+  Chart last updated - 2026-01-02
 ```
 
 <!-- End of Chess Ratings Section -->
