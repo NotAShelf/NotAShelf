@@ -4,61 +4,17 @@
 
 <!-- Those don't have to be in-line. Glad to have learned that -->
 
-[![pgp](https://img.shields.io/badge/pgp-0x2445AC359CDF26C9-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
-[![profile views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
-
-[@NixOS]: https://github.com/NixOS
-[Hyprland]: https://github.com/Hyprland
-[my blog]: https://blog.notashelf.dev
+[![PGP](https://img.shields.io/badge/pgp-0x2445AC359CDF26C9-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
+[![Profile Views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
+[![Website](https://img.shields.io/static/v1?label=website&message=notashelf.dev&color=f5002e&style=flat-square)](https://notashelf.dev)
 
 I'm raf, more commonly known as NotAShelf on various parts of the world wide
-web. I am a sailor, sailmaker, political scientist and an academic. FOSS
-contributor and digital artist when stars align.
-
-Ever since my introduction to the world of FOSS and Linux in late 2010s, I have
-been very passionate about **operating systems**, **open-source software** and
-**system administration**. I am also interested in the role of information
-system and data integrity/privacy within the policymaking process in
-contemporary politics, which I have decided to base my PhD thesis on.
-
-[solutions]: https://github.com/NotAShelf/licenseit
-[to]: https://github.com/NotAShelf/watt
-[small]: https://github.com/NotAShelf/mrc
-[itches]: https://github.com/NotAShelf/flint
-
-Most of my code here are [solutions] [to] [small] [itches], or my answers to
-different curiosities. Exploring solutions to known pain points in software and
-home-made CLI applications to manage different components of my setup are some
-of my pastime activities. **Reliable** and **scalable** systems are also within
-my interest. I work with and contribute to [@NixOS] in my free time to help me
-towards this goal. Sometimes I write about Nix and NixOS (among other things) on
-[my blog].
-
-<!-- Blogposts section
-     That's right, I write. I write about Nix.
--->
-
-{{ BLOG_POSTS_PLACEHOLDER }}
-
-<!-- End posts section -->
-
-There are many means to my ends; I work with any and all languages or tools that
-I find interesting. My experience and knowledge (both in _very_ heavy quotes)
-span over multiple languages, tools and frameworks, however, my primary focus
-remains as **C** and **Rust** (or sometimes **Go**) for building reliable
-backend applications alongside some **Typescript** for frontend. I also rely on
-**Nix** infrastructure, deployments and distributing software. See below for a
-list of languages and tools that I work, or have worked with before. Take a look
-at the [projects section](#-projects) if you are interested in seeing what I am
-currently working on.
-
-I also take part of the [Hyprland] community, playing an active role in
-community management and acting as a supporting developer for Nix. Do feel free
-to [contact me](#-how-to-reach-me) for either of those matters.
+web. I am a sailor, sailmaker, political scientist, and an academic with a
+particular interest in data privacy & cybersecurity.
 
 <!-- The "overrated" section every bio really needs -->
 
-- 📅 Programming since 2018
+- 📅 Programming since ~2018
 - ⛵ Professional Sailor
 - 🏫 Part-time Political Scientist and lecturer, forever student
 - 🖥️ NixOS / Hyprland / Neovim
@@ -75,12 +31,104 @@ to [contact me](#-how-to-reach-me) for either of those matters.
   Minecraft server and an imminent crisis. I have been passionate about Linux
   and programming ever since.
 
+Ever since my introduction to the world of FOSS and the Linux ecosystem in the
+late 2010s, I have been deeply passionate about **operating systems**,
+**open-source software** and **system administration**. I am particularly
+interested in the role of information systems, data integrity, and privacy in
+contemporary policymaking, a focus point that I have decided to base my
+doctorate research on.
+
+[solutions]: https://github.com/NotAShelf/licenseit
+[to]: https://github.com/NotAShelf/watt
+[small]: https://github.com/NotAShelf/mrc
+[itches]: https://github.com/NotAShelf/flint
+[expressed]: https://github.com/NotAShelf/syntax-gaslighting.nvim
+[through]: https://github.com/NotAShelf/shitlist
+[code]: https://github.com/NotAShelf/flipoff
+
+Most of my code here are [solutions] [to] [small] [itches], my answers to
+different curiosities, or humor [expressed] [through] [code]. Exploring
+potential, or more optimized solutions to known pain points in software and
+home-made CLI applications to make different components of my setups more
+ergonomic are some of my pastime pastime activities. **Reliable** and
+**scalable** systems are also within my area of interest, which I work to make
+more achievable by creating simple, accessible and robust software.
+
+[pieces]: https://github.com/feel-co/hjem
+[of]: https://github.com/notashelf/nvf
+[software]: https://github.com/nix-community/nh
+[Nixpkgs]: https://github.com/NixOS
+[my blog]: https://blog.notashelf.dev
+
+I work with, and contribute to [Nixpkgs] in my free time, and write various
+[pieces] [of] [software] to improve the NixOS ecosystem. Sometimes I write
+informative guides about NixOS (among other things) and opinion pieces on Nix on
+[my blog]. You can find my last 5 posts below:
+
+<!-- Blogposts section
+     That's right, I write. I write about Nix.
+-->
+
+- [The Nihilist's Guide to Cross-Compiling Dioxus for Windows](https://notashelf.dev/posts/cross-compiling-dioxus)
+- [2025 Wrapped & 2026 Wishlist](https://notashelf.dev/posts/2025-wrapped)
+- [The Tradeoff Trap](https://notashelf.dev/posts/the-tradeoff-trap)
+- [I am Not Convinced by Vibe Coding](https://notashelf.dev/posts/vibe-coding)
+- [The Federation Fallacy](https://notashelf.dev/posts/federation-fallacy)
+
+<!-- End posts section -->
+
+There are _many_ means to my ends, and I work with _any and all languages_ that
+I find interesting. My experience and knowledge span over multiple languages,
+tools, frameworks and stacks; however, my primary focus remains on **Rust**,
+**Zig**, **C** and sometimes **Go** for backend systems while I use
+**Typescript** and **Astro** for the frontend.I also rely on **Nix** and
+**NixOS** for infrastructure, deployments and distributing software with a dash
+of **Terraform** where I can apply it.. See below for a list of languages and
+tools that I work, or have worked with before. Take a look at the
+[projects section](#-projects) if you are interested in seeing what I am
+currently working on.
+
+### 🫂 Affiliations
+
+I'm "affiliated" with various FOSS communities, some of which that I have
+founded personally. While you can see a more complete list on my personal
+website's [about page](https://notashelf.dev/about), here are some worth
+mentioning:
+
+### [feel-co](https://github.com/feel-co)
+
+[NDG]: https://github.com/feel-co/ndg
+[Hjem]: https://github.com/feel-co/hjem
+
+An organization formed with people on the same bandwidth as me. A shared space
+for Nix hackers, and where we come together to come up with practical solutions
+to impractical problems within the Nix ecosystem.
+
+We maintain [Hjem] and [NDG] under this organization, among less widely known
+projects.
+
+### [SNUG](https://github.com/snugnug/snug)
+
+[Hjem-Rum]: https://github.com/snugnug/hjem-rum
+
+The **S**imple **N**ix **U**ser **G**roup. An online cyber space I have formed
+for Nix enjoyers from various backgrounds. This is more so a social space, but
+has lead to the creation of great projects such as [Hjem-Rum] nevertheless.
+
+### [Hyprland](https://github.com/Hyprland)
+
+I also take part of the [Hyprland] community, playing an active role in
+community management and acting as a supporting developer for Nix. Do feel free
+to [contact me](#-how-to-reach-me) for either of those matters.
+
 ### 🔭 Projects
 
 I have many projects, usually fruits of my most recent obsession. Almost all of
 them are bootstrapped with Nix, but languages vary. Note that I am currently in
-the process of moving beloved projects out of Github. You will not be affected
-by this, but let me know if you are.
+the process of moving beloved projects out of GitHub due to the increase in
+automated scrapers and AI training. You mind find that some of the projects are
+now missing, or are privated. Sponsors get access to private projects. Please
+let me know if you would too.
 
 <!-- Projects Section
     the placeholder below is replaced by the rating-chart.yml workflow
