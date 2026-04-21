@@ -6,7 +6,7 @@
 
 [![PGP](https://img.shields.io/badge/pgp-0x2445AC359CDF26C9-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
 [![Profile Views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
-[![Website](https://img.shields.io/static/v1?label=website&message=notashelf.dev&color=f5002e&style=flat-square)](https://notashelf.dev)
+[![Website](https://img.shields.io/static/v1?label=website&message=notashelf.dev&style=flat&labelColor=545454&color=313131)](https://notashelf.dev)
 
 I'm raf, more commonly known as NotAShelf on various parts of the world wide
 web. I am a sailor, sailmaker, political scientist, and an academic with a
