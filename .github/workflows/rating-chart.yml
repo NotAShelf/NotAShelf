@@ -86,7 +86,7 @@ jobs:
 
       - name: "Add and commit changes"
         if: ${{ steps.changed.outcome == 'failure' }}
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           author_name: "[Bot] NotAShelf"
           author_email: "raf@notashelf.dev"
