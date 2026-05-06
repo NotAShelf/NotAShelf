@@ -117,9 +117,13 @@ has lead to the creation of great projects such as [Hjem-Rum] nevertheless.
 
 ### [Hyprland](https://github.com/Hyprland)
 
-I also take part of the [Hyprland] community, playing an active role in
+[Hyprland]: https://github.com/Hyprland
+[official forums]: https://forum.hypr.land/
+
+I also take part in the [Hyprland] community, playing an active role in
 community management and acting as a supporting developer for Nix. Do feel free
-to [contact me](#-how-to-reach-me) for either of those matters.
+to [contact me](#-how-to-reach-me) for either of those matters. You'll have
+better luck asking for technical help on the [official forums], though.
 
 ### 🔭 Projects
 
@@ -179,24 +183,17 @@ but I sometimes take some time to reply. Prefer Matrix if you use it!
  </a>
 </p>
 
-Below is a poorly updated chart of my languages. Some of them are exluded, for
-reasons unknown... In addition to what's already here, I also work with **R**,
-**Ruby**, **Kotlin** and copious amounts of Typescript code that I have never
-uploaded to Github.
+Below is a poorly updated chart of my language used based on the GitHub API.
+Some of the languages I use are excluded and some of them are incorrectly
+reported... for whatever reason. In addition to what is _already_ here, I also
+work with **R** and **Julia** for my academic endavors, as well as **Ruby**,
+**Java**, **Kotlin** and _copious_ amounts of Typescript that I am too ashamed
+to make public.
 
 <div align="center">
    <img alt="Profile overview" title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
    <img alt="Used languages" title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
    <h6>I despise Javascript, Nix despises me</h6>
-
-</div>
-
-<div align="center">
-    <img
-      title="trophies"
-      src="https://github-profile-trophy.vercel.app/?username=NotAShelf&theme=onedark&no-frame=false&row=1&&margin-w=20&no-bg=true"
-    >
-    <h6>Look mom, I'm winning at GitHub!</h6>
 </div>
 
 ---
