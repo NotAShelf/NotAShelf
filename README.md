@@ -59,9 +59,10 @@ more achievable by creating simple, accessible and robust software.
 [software]: https://github.com/nix-community/nh
 [Nixpkgs]: https://github.com/NixOS
 [my blog]: https://blog.notashelf.dev
+[improve the NixOS ecosystem]: https://github.com/manic-systems/nixos-core
 
 I work with, and contribute to [Nixpkgs] in my free time, and write various
-[pieces] [of] [software] to improve the NixOS ecosystem. Sometimes I write
+[pieces] [of] [software] to [improve the NixOS ecosystem]. Sometimes I write
 informative guides about NixOS (among other things) and opinion pieces on Nix on
 [my blog]. You can find my last 5 posts below:
 
@@ -69,24 +70,26 @@ informative guides about NixOS (among other things) and opinion pieces on Nix on
      That's right, I write. I write about Nix.
 -->
 
+- [Nix's Substituter List Is Not a Routing Table](https://notashelf.dev/posts/nix-cache-proxy)
+- [Why I think Go is a Terrible Language](https://notashelf.dev/posts/go-sucks)
 - [The Nihilist's Guide to Cross-Compiling Dioxus for Windows](https://notashelf.dev/posts/cross-compiling-dioxus)
 - [2025 Wrapped & 2026 Wishlist](https://notashelf.dev/posts/2025-wrapped)
 - [The Tradeoff Trap](https://notashelf.dev/posts/the-tradeoff-trap)
-- [I am Not Convinced by Vibe Coding](https://notashelf.dev/posts/vibe-coding)
-- [The Federation Fallacy](https://notashelf.dev/posts/federation-fallacy)
 
 <!-- End posts section -->
 
-There are _many_ means to my ends, and I work with _any and all languages_ that
-I find interesting. My experience and knowledge span over multiple languages,
-tools, frameworks and stacks; however, my primary focus remains on **Rust**,
-**Zig**, **C** and sometimes **Go** for backend systems while I use
-**Typescript** and **Astro** for the frontend.I also rely on **Nix** and
-**NixOS** for infrastructure, deployments and distributing software with a dash
-of **Terraform** where I can apply it.. See below for a list of languages and
-tools that I work, or have worked with before. Take a look at the
+There are many means to my ends, and I work with _any and all languages_ that I
+find interesting on the basis of scope My experience and knowledge span over
+multiple languages, tools, frameworks and stacks; however, I work primarily with
+**Rust**[^1], **Zig** and **C** for backend systems while I use **Typescript**
+and **Astro** (or very rarely **Svelte**) for frontend. I also rely on **Nix**
+and **NixOS** for infrastructure, deployments and distributing software with a
+dash of **Terraform** where I can apply it.. See below for a list of languages
+and tools that I work, or have worked with before. Take a look at the
 [projects section](#-projects) if you are interested in seeing what I am
 currently working on.
+
+[^1]: This [used to say "Go"](https://notashelf.dev/posts/go-sucks)
 
 ### 🫂 Affiliations
 
@@ -110,10 +113,13 @@ projects.
 ### [SNUG](https://github.com/snugnug/snug)
 
 [Hjem-Rum]: https://github.com/snugnug/hjem-rum
+[MicrOS]: https://github.com/snugnug/micros
 
 The **S**imple **N**ix **U**ser **G**roup. An online cyber space I have formed
 for Nix enjoyers from various backgrounds. This is more so a social space, but
-has lead to the creation of great projects such as [Hjem-Rum] nevertheless.
+has lead to the creation of great projects such as [Hjem-Rum] nevertheless. We
+also work on an experimental, init-agnostic NixOS derivative called [MicrOS] for
+a modern desktop experience.
 
 ### [Hyprland](https://github.com/Hyprland)
 
@@ -124,6 +130,27 @@ I also take part in the [Hyprland] community, playing an active role in
 community management and acting as a supporting developer for Nix. Do feel free
 to [contact me](#-how-to-reach-me) for either of those matters. You'll have
 better luck asking for technical help on the [official forums], though.
+
+### [Manic Systems](https://github.com/manic-systems)
+
+[dix]: https://github.com/manic-systems/dix
+[nixos-core]: https://github.com/manic-systems/nixos-core
+[tack]: https://github.com/manic-systems/tack
+[circus]: https://github.com/manic-systems/circus
+[nh]: https://github.com/nix-community/nh
+
+Brainchild of various Nix and Rust enthusiasts, and a focused "clique" bringing
+together friends and likeminded individuals to work on shared projects for
+modern desktops, efficient workflows and trying to make programming fun. We
+don't have a Minecraft server yet.
+
+Several active projects _such as, but not limited to_:
+
+- [dix] - a blazingly fast tool to diff Nix related things, as featured in [nh]
+- [nixos-core] - core NixOS utilities in safe, portable Rust for NixOS and
+  friends
+- [tack] - flake-like TOML nix pins, lazily fetched and transformed
+- [circus] - declarative Nix CI system for clowns
 
 ### 🔭 Projects
 
@@ -168,6 +195,8 @@ Want to talk to me? Ask me a question? _Call me a nerd personally_? Sure! Feel
 free to contact me from one of the links below. I am available most of the time,
 but I sometimes take some time to reply. Prefer Matrix if you use it!
 
+<!--markdownlint-disable MD013-->
+
 <p align="center">
  <a href="https://discord.com/users/419880181101232129">
    <code><img alt="discord" title="Discord" src=".github/assets/socials/discord.svg" width="48" height="48"></code>
@@ -183,10 +212,12 @@ but I sometimes take some time to reply. Prefer Matrix if you use it!
  </a>
 </p>
 
+<!--markdownlint-disable MD013-->
+
 Below is a poorly updated chart of my language used based on the GitHub API.
 Some of the languages I use are excluded and some of them are incorrectly
 reported... for whatever reason. In addition to what is _already_ here, I also
-work with **R** and **Julia** for my academic endavors, as well as **Ruby**,
+work with **R** and **Julia** for my academic endeavors, as well as **Ruby**,
 **Java**, **Kotlin** and _copious_ amounts of Typescript that I am too ashamed
 to make public.
 
