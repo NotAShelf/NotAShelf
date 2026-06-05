@@ -70,11 +70,7 @@ informative guides about NixOS (among other things) and opinion pieces on Nix on
      That's right, I write. I write about Nix.
 -->
 
-- [Nix's Substituter List Is Not a Routing Table](https://notashelf.dev/posts/nix-cache-proxy)
-- [Why I think Go is a Terrible Language](https://notashelf.dev/posts/go-sucks)
-- [The Nihilist's Guide to Cross-Compiling Dioxus for Windows](https://notashelf.dev/posts/cross-compiling-dioxus)
-- [2025 Wrapped & 2026 Wishlist](https://notashelf.dev/posts/2025-wrapped)
-- [The Tradeoff Trap](https://notashelf.dev/posts/the-tradeoff-trap)
+
 
 <!-- End posts section -->
 
@@ -261,7 +257,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-06-04
+  Chart last updated - 2026-06-05
 ```
 
 <!-- End of Chess Ratings Section -->
