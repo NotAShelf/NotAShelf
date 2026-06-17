@@ -261,7 +261,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-06-16
+  Chart last updated - 2026-06-17
 ```
 
 <!-- End of Chess Ratings Section -->
