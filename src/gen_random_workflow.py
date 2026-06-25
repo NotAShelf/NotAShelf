@@ -1,17 +1,26 @@
-import os
-import random
+#!/usr/bin/env python3
+"""Randomize the rating-chart workflow schedule."""
 
-cron_line = '"0 */{prevNo} * * *"'
+from __future__ import annotations
 
-with open(".github/workflows/rating-chart.yml", "r") as f:
-  wf = f.read()
-  
-randNo = random.randint(1, 8)
-newCron = cron_line.format(prevNo=randNo)
+import argparse
+from pathlib import Path
 
-for prevNum in range (1, 9):
-  prevCron = cron_line.format(prevNo=prevNum)
-  if wf.find(prevCron) != -1:
-    wf = wf.replace(prevCron, newCron)
-    break
-print (wf[:-1])
+from profile_readme.workflows import randomize_rating_schedule
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Randomize the rating-chart workflow cron")
+    parser.add_argument(
+        "workflow",
+        nargs="?",
+        type=Path,
+        default=Path(".github/workflows/rating-chart.yml"),
+    )
+    args = parser.parse_args()
+
+    print(randomize_rating_schedule(args.workflow), end="")
+
+
+if __name__ == "__main__":
+    main()
