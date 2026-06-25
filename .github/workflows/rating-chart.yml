@@ -5,15 +5,23 @@ on:
   push:
     branches: ["main"]
     paths-ignore:
+      - .github/workflows/stats.yml
       - .github/workflows/rating-chart.yml
-      - .github/workflows/main.yml
-      - .github/templates/
       - README.md
+      - generated/**
   schedule:
     - cron: "0 */12 * * *"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
+
 jobs:
-  ratings-chart:
+  readme:
+    name: "Render README"
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
@@ -24,74 +32,49 @@ jobs:
       - name: "Setup Python"
         uses: actions/setup-python@v6
         with:
-          python-version: 3.11
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "src/requirements.txt"
 
-      - name: "Install Requirements"
-        run: pip install -r src/requirements.txt
-
-      # Step 1: Update the blog posts section with the *last 5* posts that I've written
-      # using the blog's RSS feed.
-      - name: "Update Blog Posts"
-        run: python src/fetch_blog_feed.py templates/README-1.md
-
-      # Step 2: Update the projects table using the gen_table script. It takes a json file
-      # containing my projects, and creates a markdown table. We then substitute that table
-      # in README-1.md, replacing the '{{ TABLE_PLACEHOLDER }}' template literal.
-      - name: "Generate Projects Table"
+      - name: "Install requirements"
         run: |
-          table_content=$(python src/gen_table.py templates/projects.json | sed 's/\\/\\\\n/g')
-          awk -v content="$table_content" '{gsub("{{ TABLE_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
+          python -m pip install --upgrade pip
+          python -m pip install -r src/requirements.txt
 
-          # For debugging
-          echo "$table_content"
-          cat templates/README-1.md
+      - name: "Render README"
+        run: python src/gen_readme.py --spotlight-seed "${{ github.run_id }}-${{ github.run_attempt }}"
 
-      # Step 3: Update my chess ratings graph. It (poorly) wraps chess.com API to get
-      # my statistics and create a very simple ASCII graph. It is then substituted in
-      # README-1.md, replacing the '{{ RATINGS_PLACEHOLDER }}' template literal.
-      - name: "Update Chess Statistics"
+      - name: "Randomize next schedule"
+        run: python src/gen_random_workflow.py > .github/workflows/rating-chart.yml
+
+      - name: "Stage generated cards"
         run: |
-          chart_content=$(python src/rating_chart.py | sed 's/\\/\\\\n/g')
-          awk -v content="$chart_content" '{gsub("{{ RATINGS_PLACEHOLDER }}", content)}1' templates/README-1.md > temp.md && mv temp.md templates/README-1.md
+          mkdir -p /tmp/project-spotlight
+          cp generated/project-spotlight-*.svg /tmp/project-spotlight/
 
-          # For debugging
-          echo "$chart_content"
-          cat templates/README-1.md
-
-      # Step 4: Update the "last updated" date below the chart. This could've been put
-      # in the Python script, but this works and I ain't fixing that.
-      - name: "Update last update date"
+      - name: "Commit README updates"
         run: |
-          sed -i "s/{{ LAST_UPDATED }}/$(date +'%Y-%m-%d')/" templates/README-1.md
+          if ! git diff --quiet -- README.md .github/workflows/rating-chart.yml; then
+            git config user.name "[Bot] NotAShelf"
+            git config user.email "raf@notashelf.dev"
+            git add README.md .github/workflows/rating-chart.yml
+            git commit -m "ci: update README with new statistics"
+            git push
+          fi
 
-      # Okay we're done modifying the template, now it can be copied to the repository root
-      # as README.md. This is a weird approach, but since README-1md is never going to be
-      # committed, it can be left as is after the modifications.
-      - name: "Move templates/README-1.md to README.md"
-        run: cat templates/README-1.md > README.md
-
-      - name: "Update workflow recipe"
+      - name: "Publish spotlight cards"
         run: |
-          python src/gen_random_workflow.py > rating-yaml.txt
-          YAML=$(cat rating-yaml.txt)
-          echo "::set-output name=yaml::$YAML"
+          git fetch origin output || true
+          git switch output 2>/dev/null || git switch --track origin/output 2>/dev/null || git switch --orphan output
+          mkdir -p generated
+          cp /tmp/project-spotlight/project-spotlight-*.svg generated/
 
-      - name: "Insert rating chart"
-        run: cat rating-yaml.txt > .github/workflows/rating-chart.yml
+          if git diff --quiet -- generated/project-spotlight-*.svg; then
+            exit 0
+          fi
 
-      - name: "Commit changes"
-        id: changed
-        run: git diff --exit-code
-        continue-on-error: true
-
-      - name: "Add and commit changes"
-        if: ${{ steps.changed.outcome == 'failure' }}
-        uses: EndBug/add-and-commit@v10
-        with:
-          author_name: "[Bot] NotAShelf"
-          author_email: "raf@notashelf.dev"
-          add: "README.md .github/workflows/rating-chart.yml"
-          message: "ci: update README with new statistics"
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_1 }}
+          git config user.name "[Bot] NotAShelf"
+          git config user.email "raf@notashelf.dev"
+          git add generated/project-spotlight-*.svg
+          git commit -m "ci: update project spotlight cards"
+          git push origin output
