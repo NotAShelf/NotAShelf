@@ -11,8 +11,8 @@ from profile_readme.projects import (
     load_projects,
     pick_spotlight_projects,
     render_spotlight,
-    render_project_card_svg,
 )
+from profile_readme.tarot import draw_tarot_spread, render_project_card_svg
 
 
 def main() -> None:
@@ -36,7 +36,10 @@ def main() -> None:
         render_spotlight(catalog, seed=args.seed, output_dir=args.spotlight_dir)
         return
 
-    card = pick_spotlight_projects(catalog, count=1, seed=args.seed)[0]
+    card = draw_tarot_spread(
+        pick_spotlight_projects(catalog, count=1, seed=args.seed),
+        seed=args.seed,
+    )[0]
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(render_project_card_svg(card), encoding="utf-8")
 

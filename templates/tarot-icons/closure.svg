@@ -1,0 +1,5 @@
+<path class="emblem-fill" d="M37 42 H123 V118 H37 Z"/>
+<path class="emblem-dark" d="M51 56 H109 V104 H51 Z"/>
+<path class="emblem" d="M51 93 L67 76 L80 88 L95 65 L109 93"/>
+<circle class="moon" cx="68" cy="66" r="8"/>
+<path class="emblem-thin" d="M32 128 H128 M37 42 L80 27 L123 42"/>

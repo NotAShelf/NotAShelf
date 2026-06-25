@@ -27,9 +27,9 @@ particular interest in data privacy & cybersecurity.
   sending a friend request to `@notashelf` I'm also available on Matrix, though
   downtimes may occur on my homeserver...
 - 🎲 Fun fact: I have entered the world of Linux, programming and OSS through a
-  lengthy misadventure back in 2018 that involved a Linux VPS, a large-scale
-  Minecraft server and an imminent crisis. I have been passionate about Linux
-  and programming ever since.
+  lengthy misadventure back in 2018 that involved a Linux VPS, a large Minecraft
+  server and an imminent crisis that I found myself in. I have been passionate
+  about Linux, FOSS and programming ever since.
 
 Ever since my introduction to the world of FOSS and the Linux ecosystem in the
 late 2010s, I have been deeply passionate about **operating systems**,
@@ -154,20 +154,14 @@ I have many projects, usually fruits of my most recent obsession. Almost all of
 them are bootstrapped with Nix, but languages vary. Note that I am currently in
 the process of moving beloved projects out of GitHub due to the increase in
 automated scrapers and AI training. You mind find that some of the projects are
-now missing, or are privated. Sponsors get access to private projects. Please
-let me know if you would too.
+now missing, archived or are made private. Sponsors get access to private
+projects. Please let me know if you would too.
 
-<!-- Projects Section
-    the placeholder below is replaced by the rating-chart.yml workflow
-
-    XXX: I should probably give it its own workflow...
--->
+<!-- Projects Table Section -->
 
 {{ TABLE_PLACEHOLDER }}
 
-### Project Spotlight
-
-{{ PROJECT_SPOTLIGHT_PLACEHOLDER }}
+<!-- End Projects Section -->
 
 <h6 align="center">
   ...and some projects I take part in co-maintaining. For more projects, active
@@ -178,7 +172,19 @@ let me know if you would too.
   point in time <3
 </h6>
 
-<!-- End Projects Section -->
+#### Project Spotlight
+
+[projects list on my website]: https://notashelf.dev/projects
+
+Here are three random projects you might be interested in.
+
+<!-- Projects Spotlight Section -->
+
+{{ PROJECT_SPOTLIGHT_PLACEHOLDER }}
+
+<!-- End Projects Spotlight Section -->
+
+This is updated from the [projects list on my website].
 
 ### 📫 How to reach me
 
