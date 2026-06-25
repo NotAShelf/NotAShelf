@@ -165,6 +165,10 @@ let me know if you would too.
 
 {{ TABLE_PLACEHOLDER }}
 
+### Project Spotlight
+
+{{ PROJECT_SPOTLIGHT_PLACEHOLDER }}
+
 <h6 align="center">
   ...and some projects I take part in co-maintaining. For more projects, active
   or inactive, visit the repositories page. If you are interested in

@@ -1,5 +1,3 @@
-data export-ignore
-generated export-ignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -136,3 +134,7 @@ dmypy.json
 
 # PyCharm project files
 .idea
+
+# Generated stuff
+data/
+generated/
