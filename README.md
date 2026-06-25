@@ -178,6 +178,30 @@ let me know if you would too.
 | • [direnv.nvim](https://github.com/notashelf/direnv.nvim) - Neovim companion for Direnv<br>• [syntax-gaslighting.nvim](https://github.com/NotAShelf/syntax-gaslighting.nvim) - Gaslighting is not even a real word, you're crazy.<br>• [sprint.nvim](https://github.com/NotAShelf/sprint.nvim) - Robust command runner for Neovim. |
 </div>
 
+### Project Spotlight
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/mrc">
+<img src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/project-spotlight-1.svg" alt="mrc project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/snugnug/micros">
+<img src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/project-spotlight-2.svg" alt="MicrOS project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+</a>
+</td>
+</tr>
+</table>
+
+<p align="center"><em>Fortune:</em><br>Root: <strong>mrc</strong> draws <em>The Toolsmith</em>, pointing to craft, leverage, and the useful constraint of choosing one sharp instrument. Tension: <strong>MicrOS</strong> draws <em>The Declarative Star</em>, testing that with structure, repeatability, and a system that becomes clearer once its inputs are named. Path: <strong>sprint.nvim</strong> draws <em>The Editor</em>; cut the distraction first; the next edit is already visible.</p>
+
 <h6 align="center">
   ...and some projects I take part in co-maintaining. For more projects, active
   or inactive, visit the repositories page. If you are interested in
