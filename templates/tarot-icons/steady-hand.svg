@@ -1,0 +1,5 @@
+<rect class="emblem-fill" x="42" y="52" width="76" height="56" rx="9"/>
+<path class="emblem-dark" d="M118 68 H129 V92 H118"/>
+<path class="emblem" d="M80 38 V52 M80 108 V126 M61 80 H99"/>
+<circle class="emblem-warm" cx="80" cy="80" r="8"/>
+<path class="emblem-blue" d="M51 126 C66 115 94 115 109 126"/>

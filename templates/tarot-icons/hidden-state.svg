@@ -1,0 +1,6 @@
+<circle class="moon" cx="62" cy="44" r="20"/>
+<path class="card-bg" d="M70 24 A20 20 0 1 0 70 64 A13 20 0 1 1 70 24"/>
+<path class="emblem-fill" d="M80 42 L124 68 V118 H36 V68 Z"/>
+<path class="emblem-dark" d="M62 118 V82 H98 V118"/>
+<path class="emblem" d="M80 42 V132 M50 132 H110 M58 93 H102"/>
+<path class="emblem-blue" d="M44 125 C58 111 102 111 116 125"/>

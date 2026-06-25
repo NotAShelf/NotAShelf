@@ -1,19 +1,19 @@
-{ pkgs ? import <nixpkgs> { } }:
-
+{pkgs ? import <nixpkgs> {}}:
 pkgs.mkShell {
-  packages = [
+  strictDeps = true;
+  nativeBuildInputs = [
     pkgs.imagemagick
     pkgs.just
-    pkgs.python311
-    pkgs.python311Packages.virtualenv
-    pkgs.ruff
+    (pkgs.python3.withPackages (ps: with ps; [virtualenv]))
   ];
 
-  shellHook = ''
-    export VIRTUAL_ENV="$PWD/.venv"
-    export PATH="$VIRTUAL_ENV/bin:$PATH"
-    export PIP_DISABLE_PIP_VERSION_CHECK=1
+  env = {
+    VIRTUAL_ENV = "$PWD/.venv";
+    PATH = "$VIRTUAL_ENV/bin:$PATH";
+    PIP_DISABLE_PIP_VERSION_CHECK = 1;
+  };
 
+  shellHook = ''
     if [ ! -x "$VIRTUAL_ENV/bin/python" ]; then
       virtualenv --clear "$VIRTUAL_ENV"
     fi

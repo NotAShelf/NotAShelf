@@ -200,7 +200,11 @@ let me know if you would too.
 </tr>
 </table>
 
-<p align="center"><em>Fortune:</em><br>Root: <strong>mrc</strong> draws <em>The Toolsmith</em>, pointing to craft, leverage, and the useful constraint of choosing one sharp instrument. Tension: <strong>MicrOS</strong> draws <em>The Declarative Star</em>, testing that with structure, repeatability, and a system that becomes clearer once its inputs are named. Path: <strong>sprint.nvim</strong> draws <em>The Editor</em>; cut the distraction first; the next edit is already visible.</p>
+<details align="center">
+<summary><strong>Fortune</strong></summary>
+
+<p align="center">Spread: <em>The Release Bell (reversed) / The Closure (upright) / The Runner (upright)</em>.<br>Root: <strong>mrc</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Crossing: <strong>MicrOS</strong> draws <em>The Closure</em> (upright), putting pressure on experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Path: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), turning the reading toward robust command runner for Neovim.</p>
+</details>
 
 <h6 align="center">
   ...and some projects I take part in co-maintaining. For more projects, active
