@@ -3,10 +3,12 @@ name: "Publish project spotlight cards"
 on:
   workflow_run:
     workflows: ["Update profile README"]
+    branches: ["main"]
     types: [completed]
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: profile-spotlight-cards
