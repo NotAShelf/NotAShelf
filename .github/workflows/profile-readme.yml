@@ -1,0 +1,66 @@
+name: "Update profile README"
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - .github/workflows/stats.yml
+      - .github/workflows/profile-readme.yml
+      - .github/workflows/project-spotlight.yml
+      - README.md
+      - generated/**
+  schedule:
+    - cron: "0 */12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: "Render README"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.GH_TOKEN_1 }}
+
+      - name: "Setup Python"
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "src/requirements.txt"
+
+      - name: "Install requirements"
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r src/requirements.txt
+
+      - name: "Render README"
+        run: python src/gen_readme.py --spotlight-seed "${{ github.run_id }}-${{ github.run_attempt }}"
+
+      - name: "Randomize next schedule"
+        run: python src/gen_random_workflow.py --workflow .github/workflows/profile-readme.yml > .github/workflows/profile-readme.yml
+
+      - name: "Upload generated spotlight cards"
+        uses: actions/upload-artifact@v4
+        with:
+          name: project-spotlight-cards
+          path: generated/project-spotlight-*.svg
+          if-no-files-found: error
+
+      - name: "Commit README updates"
+        run: |
+          if ! git diff --quiet -- README.md .github/workflows/profile-readme.yml; then
+            git config user.name "[Bot] NotAShelf"
+            git config user.email "raf@notashelf.dev"
+            git add README.md .github/workflows/profile-readme.yml
+            git commit -m "ci: update README with new statistics"
+            git push
+          fi

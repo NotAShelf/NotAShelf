@@ -6,7 +6,8 @@ on:
     branches: ["main"]
     paths-ignore:
       - .github/workflows/stats.yml
-      - .github/workflows/rating-chart.yml
+      - .github/workflows/profile-readme.yml
+      - .github/workflows/project-spotlight.yml
       - README.md
       - generated/**
   schedule:

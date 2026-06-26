@@ -13,8 +13,10 @@ CRON_PATTERN = re.compile(
 )
 
 
-def randomize_rating_schedule(workflow_path: Path, *, seed: str | None = None) -> str:
-    """Return workflow YAML with the rating-chart schedule minute randomized."""
+def randomize_workflow_schedule(
+    workflow_path: Path, *, seed: str | None = None
+) -> str:
+    """Return workflow YAML with the first cron schedule randomized."""
     content = workflow_path.read_text(encoding="utf-8")
     rng = random.Random(seed)
 

@@ -1,0 +1,60 @@
+name: "Publish project spotlight cards"
+
+on:
+  workflow_run:
+    workflows: ["Update profile README"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-spotlight-cards
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    name: "Publish spotlight cards"
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.GH_TOKEN_1 }}
+
+      - name: "Download spotlight cards"
+        uses: actions/download-artifact@v4
+        with:
+          name: project-spotlight-cards
+          path: /tmp/project-spotlight
+
+      - name: "Publish cards to output branch"
+        run: |
+          shopt -s nullglob
+          cards=(/tmp/project-spotlight/project-spotlight-*.svg)
+          if (( ${#cards[@]} == 0 )); then
+            echo "::error::No spotlight cards found in artifact"
+            exit 1
+          fi
+
+          git fetch origin output || true
+          git switch output 2>/dev/null || git switch --track origin/output 2>/dev/null || git switch --orphan output
+          mkdir -p generated
+          cp "${cards[@]}" generated/
+
+          cards=(generated/project-spotlight-*.svg)
+          if (( ${#cards[@]} == 0 )); then
+            echo "::error::Failed to copy spotlight cards into output branch"
+            exit 1
+          fi
+
+          git add -f "${cards[@]}"
+          if git diff --cached --quiet -- "${cards[@]}"; then
+            exit 0
+          fi
+
+          git config user.name "[Bot] NotAShelf"
+          git config user.email "raf@notashelf.dev"
+          git commit -m "ci: update project spotlight cards"
+          git push origin output
