@@ -70,7 +70,42 @@ jobs:
           path: generated/project-spotlight-*.svg
           if-no-files-found: error
 
+      - name: "Publish spotlight cards to output branch"
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          source_branch="$GITHUB_REF_NAME"
+          trap 'git switch "$source_branch" >/dev/null' EXIT
+
+          cards=(generated/project-spotlight-*.svg)
+          if (( ${#cards[@]} == 0 )); then
+            echo "::error::No spotlight cards generated"
+            exit 1
+          fi
+
+          git fetch origin output || true
+          git switch output 2>/dev/null || git switch --track origin/output 2>/dev/null || git switch --orphan output
+          cp "${cards[@]}" generated/
+
+          cards=(generated/project-spotlight-*.svg)
+          if (( ${#cards[@]} == 0 )); then
+            echo "::error::Failed to copy spotlight cards into output branch"
+            exit 1
+          fi
+
+          git add -f "${cards[@]}"
+          if git diff --cached --quiet -- "${cards[@]}"; then
+            exit 0
+          fi
+
+          git config user.name "[Bot] NotAShelf"
+          git config user.email "raf@notashelf.dev"
+          git commit -m "ci: update project spotlight cards"
+          git push origin output
+
       - name: "Commit README updates"
+        continue-on-error: true
         run: |
           if ! git diff --quiet -- README.md .github/workflows/profile-readme.yml; then
             git config user.name "[Bot] NotAShelf"

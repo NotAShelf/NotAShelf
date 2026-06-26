@@ -3,8 +3,14 @@ name: "Publish project spotlight cards"
 on:
   workflow_run:
     workflows: ["Update profile README"]
-    branches: ["main"]
     types: [completed]
+    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: "Run id of the profile README workflow"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -17,7 +23,7 @@ concurrency:
 jobs:
   publish:
     name: "Publish spotlight cards"
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
@@ -25,41 +31,24 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN_1 }}
 
-      - name: "Resolve source workflow run"
+      - name: "Resolve source run id"
         id: source-run
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN_1 }}
         run: |
-          set -euo pipefail
-
-          source_run_id="$(jq -r '.workflow_run.id // empty' "$GITHUB_EVENT_PATH")"
-          source_workflow_name=""
-          if [ -n "$source_run_id" ]; then
-            source_workflow_name="$(gh api repos/$GITHUB_REPOSITORY/actions/runs/$source_run_id --jq '.name')"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ -z "${{ github.event.inputs.source_run_id }}" ]; then
+              echo "::error::Missing source_run_id for workflow_dispatch"
+              exit 1
+            fi
+            echo "run-id=${{ github.event.inputs.source_run_id }}" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
 
-          if [ -z "$source_run_id" ] || [ "$source_workflow_name" != "Update profile README" ]; then
-            source_run_id="$(
-              gh api repos/$GITHUB_REPOSITORY/actions/runs \
-                --paginate \
-                --jq '
-                  [
-                    .workflow_runs[]
-                    | select(.name == "Update profile README")
-                    | select(.conclusion == "success")
-                    | select(.head_branch == "main")
-                    | .id
-                  ][0]
-                '
-            )"
-          fi
+          echo "run-id=${{ github.event.workflow_run.id }}" >> "$GITHUB_OUTPUT"
 
-          if [ -z "$source_run_id" ] || [ "$source_run_id" = "null" ]; then
-            echo "::error::Could not resolve source workflow run id"
-            exit 1
-          fi
-
-          echo "run-id=$source_run_id" >> "$GITHUB_OUTPUT"
+      - name: "Trace triggering run"
+        run: |
+          echo "event: ${{ github.event_name }}"
+          echo "run-id: ${{ steps.source-run.outputs.run-id }}"
 
       - name: "Download spotlight cards"
         uses: actions/download-artifact@v4
@@ -70,6 +59,7 @@ jobs:
 
       - name: "Publish cards to output branch"
         run: |
+          set -euo pipefail
           shopt -s nullglob
           cards=(/tmp/project-spotlight/project-spotlight-*.svg)
           if (( ${#cards[@]} == 0 )); then
