@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import logging
 from pathlib import Path
 
 from profile_readme.blog import fetch_latest_posts
@@ -16,6 +17,9 @@ BLOG_END = "<!-- End posts section -->"
 CHART_START = "  ♟︎ | Chess.com Rapid Rating Chart"
 CHART_END = "  Chart last updated -"
 GENERATED_ASSET_URL = "https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated"
+LOGGER = logging.getLogger(__name__)
+NO_BLOG_POSTS = "- _Could not fetch latest posts right now._"
+NO_CHART = "<pre>  Rating chart unavailable</pre>"
 
 
 def _replace_required(content: str, placeholder: str, replacement: str) -> str:
@@ -48,6 +52,33 @@ def _offline_rating_chart(readme_path: Path) -> str:
     return chart
 
 
+def _safe_blog_posts(source: Path) -> str:
+    try:
+        return fetch_latest_posts()
+    except Exception as error:
+        LOGGER.warning("Failed to fetch blog posts, using existing README posts: %s", error)
+        try:
+            return _offline_blog_posts(source)
+        except Exception as fallback_error:
+            LOGGER.warning("Failed to reuse existing blog posts from %s: %s", source, fallback_error)
+            return NO_BLOG_POSTS
+
+
+def _safe_rating_chart(source: Path) -> str:
+    try:
+        chart = generate_rating_chart()
+        if chart is None:
+            raise RuntimeError("No rating data available")
+        return chart
+    except Exception as error:
+        LOGGER.warning("Failed to generate rating chart, using existing README chart: %s", error)
+        try:
+            return _offline_rating_chart(source)
+        except Exception as fallback_error:
+            LOGGER.warning("Failed to reuse existing chart from %s: %s", source, fallback_error)
+            return NO_CHART
+
+
 def render_readme(
     *,
     template_path: Path,
@@ -62,10 +93,8 @@ def render_readme(
     projects = load_projects(projects_path)
 
     if offline_from is None:
-        blog_posts = fetch_latest_posts()
-        rating_chart = generate_rating_chart()
-        if rating_chart is None:
-            raise RuntimeError("Could not generate chess rating chart")
+        blog_posts = _safe_blog_posts(output_path)
+        rating_chart = _safe_rating_chart(output_path)
     else:
         blog_posts = _offline_blog_posts(offline_from)
         rating_chart = _offline_rating_chart(offline_from)

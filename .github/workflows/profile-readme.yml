@@ -43,6 +43,18 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r src/requirements.txt
 
+      - name: "Generate project spotlight cards"
+        run: python src/gen_project_card.py --spotlight-dir generated --seed "${{ github.run_id }}-${{ github.run_attempt }}"
+
+      - name: "Verify project spotlight cards"
+        run: |
+          for i in 1 2 3; do
+            if [ ! -s "generated/project-spotlight-${i}.svg" ]; then
+              echo "::error::Missing generated/project-spotlight-${i}.svg"
+              exit 1
+            fi
+          done
+
       - name: "Render README"
         run: python src/gen_readme.py --spotlight-seed "${{ github.run_id }}-${{ github.run_attempt }}"
 
