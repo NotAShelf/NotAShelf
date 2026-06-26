@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/mrc">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="mrc project card" width="220">
+<a href="https://github.com/notashelf/catApi">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/snugnug/micros">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="MicrOS project card" width="220">
+<a href="https://github.com/feel-co/ndg">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="ndg project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Release Bell (reversed) / The Closure (upright) / The Runner (upright)</em>.<br>Root: <strong>mrc</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Crossing: <strong>MicrOS</strong> draws <em>The Closure</em> (upright), putting pressure on experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Path: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Inversion (upright) / The Compositor (reversed) / The Vendor (reversed)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Inversion</em> (upright), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>ndg</strong> draws <em>The Compositor</em> (reversed), putting pressure on alternative documentation generation for any Nix based module system. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Vendor</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -276,8 +276,7 @@ to make public.
 ```plaintext
   ♟︎ | Chess.com Rapid Rating Chart
 
-  Rating Chart:
- 1150.00  ┤                                                                   ╭╮
+   1150.00  ┤                                                                   ╭╮
  1143.38  ┤                                                                   │╰╮╭╮          ╭╮  ╭╮╭╮╭╮
  1136.75  ┤                                                                  ╭╯ ╰╯╰╮        ╭╯╰╮╭╯╰╯╰╯│
  1130.12  ┤                                                                 ╭╯     │        │  ││     ╰╮╭╮
