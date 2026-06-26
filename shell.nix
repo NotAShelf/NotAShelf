@@ -4,23 +4,24 @@ pkgs.mkShell {
   nativeBuildInputs = [
     pkgs.imagemagick
     pkgs.just
-    (pkgs.python3.withPackages (ps: with ps; [virtualenv]))
+    pkgs.python3
+    pkgs.ruff
+    pkgs.uv
   ];
 
   env = {
-    VIRTUAL_ENV = "$PWD/.venv";
-    PATH = "$VIRTUAL_ENV/bin:$PATH";
-    PIP_DISABLE_PIP_VERSION_CHECK = 1;
+    UV_NO_PROGRESS = "1";
+    UV_PYTHON_DOWNLOADS = "never";
   };
 
   shellHook = ''
-    if [ ! -x "$VIRTUAL_ENV/bin/python" ]; then
-      virtualenv --clear "$VIRTUAL_ENV"
+    if [ ! -x .venv/bin/python ]; then
+      uv venv --python ${pkgs.python3}/bin/python .venv
     fi
 
-    if [ ! -f "$VIRTUAL_ENV/.requirements.stamp" ] || [ src/requirements.txt -nt "$VIRTUAL_ENV/.requirements.stamp" ]; then
-      "$VIRTUAL_ENV/bin/python" -m pip install -r src/requirements.txt
-      touch "$VIRTUAL_ENV/.requirements.stamp"
+    if [ ! -f .venv/.requirements.stamp ] || [ src/requirements.txt -nt .venv/.requirements.stamp ]; then
+      uv pip install --python .venv/bin/python -r src/requirements.txt
+      touch .venv/.requirements.stamp
     fi
   '';
 }

@@ -5,8 +5,9 @@ python := ".venv/bin/python"
 default: lint
 
 setup:
-    virtualenv --clear .venv
-    {{python}} -m pip install -r src/requirements.txt
+    uv venv --python python3 .venv
+    uv pip install --python {{python}} -r src/requirements.txt
+    touch .venv/.requirements.stamp
 
 format:
     ruff check --fix src

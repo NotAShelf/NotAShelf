@@ -27,9 +27,9 @@ particular interest in data privacy & cybersecurity.
   sending a friend request to `@notashelf` I'm also available on Matrix, though
   downtimes may occur on my homeserver...
 - 🎲 Fun fact: I have entered the world of Linux, programming and OSS through a
-  lengthy misadventure back in 2018 that involved a Linux VPS, a large-scale
-  Minecraft server and an imminent crisis. I have been passionate about Linux
-  and programming ever since.
+  lengthy misadventure back in 2018 that involved a Linux VPS, a large Minecraft
+  server and an imminent crisis that I found myself in. I have been passionate
+  about Linux, FOSS and programming ever since.
 
 Ever since my introduction to the world of FOSS and the Linux ecosystem in the
 late 2010s, I have been deeply passionate about **operating systems**,
@@ -158,14 +158,10 @@ I have many projects, usually fruits of my most recent obsession. Almost all of
 them are bootstrapped with Nix, but languages vary. Note that I am currently in
 the process of moving beloved projects out of GitHub due to the increase in
 automated scrapers and AI training. You mind find that some of the projects are
-now missing, or are privated. Sponsors get access to private projects. Please
-let me know if you would too.
+now missing, archived or are made private. Sponsors get access to private
+projects. Please let me know if you would too.
 
-<!-- Projects Section
-    the placeholder below is replaced by the rating-chart.yml workflow
-
-    XXX: I should probably give it its own workflow...
--->
+<!-- Projects Table Section -->
 
 | **Nix** | **Go, Rust, Python, JavaScript, TypeScript** |
 | --- | --- |
@@ -178,7 +174,24 @@ let me know if you would too.
 | • [direnv.nvim](https://github.com/notashelf/direnv.nvim) - Neovim companion for Direnv<br>• [syntax-gaslighting.nvim](https://github.com/NotAShelf/syntax-gaslighting.nvim) - Gaslighting is not even a real word, you're crazy.<br>• [sprint.nvim](https://github.com/NotAShelf/sprint.nvim) - Robust command runner for Neovim. |
 </div>
 
-### Project Spotlight
+<!-- End Projects Section -->
+
+<h6 align="center">
+  ...and some projects I take part in co-maintaining. For more projects, active
+  or inactive, visit the repositories page. If you are interested in
+  <emphasis>supporting</emphasis> my work, then please consider
+  <a href="https://github.com/sponsors/notashelf">becoming a GitHub sponsor.</a>
+  I appreciate everyone who actively sponsors me, or has sponsored me at some
+  point in time <3
+</h6>
+
+#### Project Spotlight
+
+[projects list on my website]: https://notashelf.dev/projects
+
+Here are three random projects you might be interested in.
+
+<!-- Projects Spotlight Section -->
 
 <table align="center">
 <tr>
@@ -206,16 +219,9 @@ let me know if you would too.
 <p align="center">Spread: <em>The Release Bell (reversed) / The Closure (upright) / The Runner (upright)</em>.<br>Root: <strong>mrc</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Crossing: <strong>MicrOS</strong> draws <em>The Closure</em> (upright), putting pressure on experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Path: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), turning the reading toward robust command runner for Neovim.</p>
 </details>
 
-<h6 align="center">
-  ...and some projects I take part in co-maintaining. For more projects, active
-  or inactive, visit the repositories page. If you are interested in
-  <emphasis>supporting</emphasis> my work, then please consider
-  <a href="https://github.com/sponsors/notashelf">becoming a GitHub sponsor.</a>
-  I appreciate everyone who actively sponsors me, or has sponsored me at some
-  point in time <3
-</h6>
+<!-- End Projects Spotlight Section -->
 
-<!-- End Projects Section -->
+This is updated from the [projects list on my website].
 
 ### 📫 How to reach me
 
