@@ -73,7 +73,9 @@ async def main() -> None:
             exclude_langs=_split_env("EXCLUDED_LANGS"),
             consider_forked_repos=_bool_env("COUNT_STATS_FROM_FORKS"),
         )
-        await asyncio.gather(generate_languages(stats), generate_overview(stats))
+        await stats.get_stats()
+        await generate_languages(stats)
+        await generate_overview(stats)
 
 
 if __name__ == "__main__":

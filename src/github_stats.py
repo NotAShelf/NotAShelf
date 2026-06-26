@@ -1,11 +1,20 @@
 #!/usr/bin/python3
 
 import asyncio
+import json
 import os
 from typing import Dict, List, Optional, Set, Tuple
 
 import aiohttp
 import requests
+
+REQUEST_RETRIES = 5
+RETRYABLE_HTTP_STATUSES = {202, 429, 500, 502, 503, 504}
+RESPONSE_PREVIEW_CHARS = 300
+
+
+def _preview_response(text: str) -> str:
+    return text.replace("\n", " ")[:RESPONSE_PREVIEW_CHARS]
 
 
 # Main classes
@@ -37,24 +46,73 @@ class Queries(object):
         headers = {
             "Authorization": f"Bearer {self.access_token}",
         }
-        try:
-            async with self.semaphore:
-                r = await self.session.post(
-                    "https://api.github.com/graphql",
-                    headers=headers,
-                    json={"query": generated_query},
-                )
-            return await r.json()
-        except Exception:
-            print("aiohttp failed for GraphQL query")
-            # Fall back on non-async requests
-            async with self.semaphore:
-                r = requests.post(
-                    "https://api.github.com/graphql",
-                    headers=headers,
-                    json={"query": generated_query},
-                )
-                return r.json()
+        last_error: Exception | None = None
+
+        for attempt in range(REQUEST_RETRIES):
+            try:
+                async with self.semaphore:
+                    response = await self.session.post(
+                        "https://api.github.com/graphql",
+                        headers=headers,
+                        json={"query": generated_query},
+                    )
+                text = await response.text()
+                if response.status in RETRYABLE_HTTP_STATUSES:
+                    last_error = RuntimeError(f"GitHub GraphQL returned {response.status}")
+                    await asyncio.sleep(2**attempt)
+                    continue
+                if response.status >= 400:
+                    raise RuntimeError(
+                        "GitHub GraphQL request failed "
+                        f"with HTTP {response.status}: {_preview_response(text)}"
+                    )
+                try:
+                    return json.loads(text)
+                except json.JSONDecodeError:
+                    last_error = RuntimeError(
+                        "GitHub GraphQL returned non-JSON response "
+                        f"with HTTP {response.status}: {_preview_response(text)}"
+                    )
+                    print(last_error)
+                    await asyncio.sleep(2**attempt)
+                    continue
+            except (aiohttp.ClientError, asyncio.TimeoutError) as exc:
+                last_error = exc
+                print("aiohttp failed for GraphQL query")
+
+            try:
+                async with self.semaphore:
+                    response = requests.post(
+                        "https://api.github.com/graphql",
+                        headers=headers,
+                        json={"query": generated_query},
+                        timeout=30,
+                    )
+                if response.status_code in RETRYABLE_HTTP_STATUSES:
+                    last_error = RuntimeError(
+                        f"GitHub GraphQL fallback returned {response.status_code}"
+                    )
+                    await asyncio.sleep(2**attempt)
+                    continue
+                if response.status_code >= 400:
+                    raise RuntimeError(
+                        "GitHub GraphQL fallback request failed "
+                        f"with HTTP {response.status_code}: {_preview_response(response.text)}"
+                    )
+                try:
+                    return response.json()
+                except requests.JSONDecodeError:
+                    last_error = RuntimeError(
+                        "GitHub GraphQL fallback returned non-JSON response "
+                        f"with HTTP {response.status_code}: {_preview_response(response.text)}"
+                    )
+                    print(last_error)
+                    await asyncio.sleep(2**attempt)
+            except requests.RequestException as exc:
+                last_error = exc
+                print("requests failed for GraphQL query")
+
+        raise RuntimeError("GitHub GraphQL query failed after retries") from last_error
 
     async def query_rest(self, path: str, params: Optional[Dict] = None) -> Dict:
         """
@@ -79,30 +137,57 @@ class Queries(object):
                         headers=headers,
                         params=tuple(params.items()),
                     )
-                if r.status == 202:
+                text = await r.text()
+                if r.status in RETRYABLE_HTTP_STATUSES:
                     # print(f"{path} returned 202. Retrying...")
-                    print("A path returned 202. Retrying...")
+                    print(f"A path returned {r.status}. Retrying...")
+                    await asyncio.sleep(2)
+                    continue
+                if r.status >= 400:
+                    print(
+                        "GitHub REST request failed "
+                        f"with HTTP {r.status}: {_preview_response(text)}"
+                    )
+                    return dict()
+
+                result = json.loads(text)
+                if result is not None:
+                    return result
+            except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError):
+                print("aiohttp failed for rest query")
+                # Fall back on non-async requests
+                try:
+                    async with self.semaphore:
+                        r = requests.get(
+                            f"https://api.github.com/{path}",
+                            headers=headers,
+                            params=tuple(params.items()),
+                            timeout=30,
+                        )
+                except requests.RequestException:
+                    print("requests failed for rest query")
                     await asyncio.sleep(2)
                     continue
 
-                result = await r.json()
-                if result is not None:
-                    return result
-            except Exception:
-                print("aiohttp failed for rest query")
-                # Fall back on non-async requests
-                async with self.semaphore:
-                    r = requests.get(
-                        f"https://api.github.com/{path}",
-                        headers=headers,
-                        params=tuple(params.items()),
+                if r.status_code in RETRYABLE_HTTP_STATUSES:
+                    print(f"A path returned {r.status_code}. Retrying...")
+                    await asyncio.sleep(2)
+                    continue
+                if r.status_code >= 400:
+                    print(
+                        "GitHub REST fallback request failed "
+                        f"with HTTP {r.status_code}: {_preview_response(r.text)}"
                     )
-                    if r.status_code == 202:
-                        print("A path returned 202. Retrying...")
-                        await asyncio.sleep(2)
-                        continue
-                    elif r.status_code == 200:
-                        return r.json()
+                    return dict()
+                try:
+                    return r.json()
+                except requests.JSONDecodeError:
+                    print(
+                        "GitHub REST fallback returned non-JSON response "
+                        f"with HTTP {r.status_code}: {_preview_response(r.text)}"
+                    )
+                    await asyncio.sleep(2)
+                    continue
         # print(f"There were too many 202s. Data for {path} will be incomplete.")
         print("There were too many 202s. Data for this repository will be incomplete.")
         return dict()
