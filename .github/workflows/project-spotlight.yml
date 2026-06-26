@@ -25,11 +25,47 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN_1 }}
 
+      - name: "Resolve source workflow run"
+        id: source-run
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN_1 }}
+        run: |
+          set -euo pipefail
+
+          source_run_id="$(jq -r '.workflow_run.id // empty' "$GITHUB_EVENT_PATH")"
+          source_workflow_name=""
+          if [ -n "$source_run_id" ]; then
+            source_workflow_name="$(gh api repos/$GITHUB_REPOSITORY/actions/runs/$source_run_id --jq '.name')"
+          fi
+
+          if [ -z "$source_run_id" ] || [ "$source_workflow_name" != "Update profile README" ]; then
+            source_run_id="$(
+              gh api repos/$GITHUB_REPOSITORY/actions/runs \
+                --paginate \
+                --jq '
+                  [
+                    .workflow_runs[]
+                    | select(.name == "Update profile README")
+                    | select(.conclusion == "success")
+                    | select(.head_branch == "main")
+                    | .id
+                  ][0]
+                '
+            )"
+          fi
+
+          if [ -z "$source_run_id" ] || [ "$source_run_id" = "null" ]; then
+            echo "::error::Could not resolve source workflow run id"
+            exit 1
+          fi
+
+          echo "run-id=$source_run_id" >> "$GITHUB_OUTPUT"
+
       - name: "Download spotlight cards"
         uses: actions/download-artifact@v4
         with:
           name: project-spotlight-cards
-          run-id: ${{ github.event.workflow_run.id || github.event.workflow_run.run_id }}
+          run-id: ${{ steps.source-run.outputs.run-id }}
           path: /tmp/project-spotlight
 
       - name: "Publish cards to output branch"
