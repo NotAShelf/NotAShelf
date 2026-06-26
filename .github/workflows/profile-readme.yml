@@ -46,7 +46,9 @@ jobs:
         run: python src/gen_readme.py --spotlight-seed "${{ github.run_id }}-${{ github.run_attempt }}"
 
       - name: "Randomize next schedule"
-        run: python src/gen_random_workflow.py --workflow .github/workflows/profile-readme.yml > .github/workflows/profile-readme.yml
+        run: |
+          python src/gen_random_workflow.py --workflow .github/workflows/profile-readme.yml > /tmp/profile-readme.yml
+          mv /tmp/profile-readme.yml .github/workflows/profile-readme.yml
 
       - name: "Upload generated spotlight cards"
         uses: actions/upload-artifact@v4
