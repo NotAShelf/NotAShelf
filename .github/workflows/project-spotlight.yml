@@ -29,6 +29,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: project-spotlight-cards
+          run-id: ${{ github.event.workflow_run.id || github.event.workflow_run.run_id }}
           path: /tmp/project-spotlight
 
       - name: "Publish cards to output branch"
