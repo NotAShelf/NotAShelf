@@ -197,17 +197,17 @@ Here are three random projects you might be interested in.
 <tr>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/mrc">
-<img src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/project-spotlight-1.svg" alt="mrc project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="mrc project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/snugnug/micros">
-<img src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/project-spotlight-2.svg" alt="MicrOS project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -256,8 +256,8 @@ work with **R** and **Julia** for my academic endeavors, as well as **Ruby**,
 to make public.
 
 <div align="center">
-   <img alt="Profile overview" title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
-   <img alt="Used languages" title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
+   <img alt="Profile overview" title="overview" src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/overview.svg">
+   <img alt="Used languages" title="languages" src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/languages.svg">
    <h6>I despise Javascript, Nix despises me</h6>
 </div>
 

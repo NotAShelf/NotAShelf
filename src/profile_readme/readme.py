@@ -15,6 +15,7 @@ BLOG_START = "<!-- Blogposts section"
 BLOG_END = "<!-- End posts section -->"
 CHART_START = "  ♟︎ | Chess.com Rapid Rating Chart"
 CHART_END = "  Chart last updated -"
+GENERATED_ASSET_URL = "https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated"
 
 
 def _replace_required(content: str, placeholder: str, replacement: str) -> str:
@@ -82,7 +83,7 @@ def render_readme(
             projects,
             seed=spotlight_seed,
             output_dir=GENERATED,
-            asset_prefix="https://github.com/NotAShelf/NotAShelf/blob/output/generated",
+            asset_prefix=GENERATED_ASSET_URL,
         ),
     )
 

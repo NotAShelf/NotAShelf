@@ -219,8 +219,8 @@ work with **R** and **Julia** for my academic endeavors, as well as **Ruby**,
 to make public.
 
 <div align="center">
-   <img alt="Profile overview" title="overview" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/overview.svg">
-   <img alt="Used languages" title="languages" src="https://github.com/NotAShelf/NotAShelf/blob/output/generated/languages.svg">
+   <img alt="Profile overview" title="overview" src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/overview.svg">
+   <img alt="Used languages" title="languages" src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/languages.svg">
    <h6>I despise Javascript, Nix despises me</h6>
 </div>
 
