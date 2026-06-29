@@ -64,7 +64,7 @@ jobs:
           mv /tmp/profile-readme.yml .github/workflows/profile-readme.yml
 
       - name: "Upload generated spotlight cards"
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: project-spotlight-cards
           path: generated/project-spotlight-*.svg
