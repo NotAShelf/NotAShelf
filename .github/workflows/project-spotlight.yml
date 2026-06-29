@@ -51,7 +51,7 @@ jobs:
           echo "run-id: ${{ steps.source-run.outputs.run-id }}"
 
       - name: "Download spotlight cards"
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: project-spotlight-cards
           run-id: ${{ steps.source-run.outputs.run-id }}
