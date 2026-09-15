@@ -50,13 +50,14 @@ jobs:
 
       - name: "Publish generated assets"
         run: |
-          cp -R generated /tmp/generated
+          mkdir -p /tmp/generated
+          cp generated/overview.svg generated/languages.svg /tmp/generated/
           git config user.name "github-stats[bot]"
           git config user.email "62766066+github-actions[bot]@users.noreply.github.com"
           git fetch origin output:refs/remotes/origin/output
           git switch --force --track -C output origin/output
           mkdir -p generated
-          cp -R /tmp/generated generated
+          cp /tmp/generated/overview.svg /tmp/generated/languages.svg generated/
           git add generated/overview.svg generated/languages.svg
           git commit -m "ci: update generated stats" || exit 0
           git push origin output
