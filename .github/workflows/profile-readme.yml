@@ -84,9 +84,11 @@ jobs:
             exit 1
           fi
 
-          git fetch origin output || true
-          git switch output 2>/dev/null || git switch --track origin/output 2>/dev/null || git switch --orphan output
-          cp "${cards[@]}" generated/
+          mkdir -p /tmp/project-spotlight
+          cp "${cards[@]}" /tmp/project-spotlight/
+          git fetch origin output:refs/remotes/origin/output
+          git switch --force --track -C output origin/output
+          cp /tmp/project-spotlight/project-spotlight-*.svg generated/
 
           cards=(generated/project-spotlight-*.svg)
           if (( ${#cards[@]} == 0 )); then

@@ -10,6 +10,7 @@ import requests
 
 REQUEST_RETRIES = 5
 RETRYABLE_HTTP_STATUSES = {202, 429, 500, 502, 503, 504}
+RETRYABLE_GRAPHQL_HTTP_STATUSES = RETRYABLE_HTTP_STATUSES | {403}
 RESPONSE_PREVIEW_CHARS = 300
 
 
@@ -57,7 +58,7 @@ class Queries(object):
                         json={"query": generated_query},
                     )
                 text = await response.text()
-                if response.status in RETRYABLE_HTTP_STATUSES:
+                if response.status in RETRYABLE_GRAPHQL_HTTP_STATUSES:
                     last_error = RuntimeError(f"GitHub GraphQL returned {response.status}")
                     await asyncio.sleep(2**attempt)
                     continue
@@ -88,7 +89,7 @@ class Queries(object):
                         json={"query": generated_query},
                         timeout=30,
                     )
-                if response.status_code in RETRYABLE_HTTP_STATUSES:
+                if response.status_code in RETRYABLE_GRAPHQL_HTTP_STATUSES:
                     last_error = RuntimeError(
                         f"GitHub GraphQL fallback returned {response.status_code}"
                     )

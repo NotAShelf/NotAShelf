@@ -53,8 +53,8 @@ jobs:
           cp -R generated /tmp/generated
           git config user.name "github-stats[bot]"
           git config user.email "62766066+github-actions[bot]@users.noreply.github.com"
-          git fetch origin output || true
-          git switch output 2>/dev/null || git switch --track origin/output 2>/dev/null || git switch --orphan output
+          git fetch origin output:refs/remotes/origin/output
+          git switch --force --track -C output origin/output
           mkdir -p generated
           cp -R /tmp/generated generated
           git add generated/overview.svg generated/languages.svg
