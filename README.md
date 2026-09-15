@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/catApi">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/feel-co/ndg">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="ndg project card" width="220">
+<a href="https://github.com/snugnug/micros">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/nff">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="nff project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Inversion (upright) / The Compositor (reversed) / The Vendor (reversed)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Inversion</em> (upright), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>ndg</strong> draws <em>The Compositor</em> (reversed), putting pressure on alternative documentation generation for any Nix based module system. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Vendor</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
+<p align="center">Spread: <em>The Closure (reversed) / The Convention (reversed) / The Linker (upright)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Closure</em> (reversed), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Convention</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>nff</strong> draws <em>The Linker</em> (upright), turning the reading toward experimental nftables configuration beautifier in Python.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-06-26
+  Chart last updated - 2026-09-15
 ```
 
 <!-- End of Chess Ratings Section -->
