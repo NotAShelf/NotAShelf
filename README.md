@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/snugnug/micros">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
+<a href="https://github.com/NotAShelf/ssa">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="SSA project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nff">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="nff project card" width="220">
+<a href="https://github.com/notashelf/wallpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Wallpkgs project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Closure (reversed) / The Convention (reversed) / The Linker (upright)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Closure</em> (reversed), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Convention</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>nff</strong> draws <em>The Linker</em> (upright), turning the reading toward experimental nftables configuration beautifier in Python.</p>
+<p align="center">Spread: <em>The Beacon (reversed) / The Release Bell (upright) / The Linker (reversed)</em>.<br>Root: <strong>SSA</strong> draws <em>The Beacon</em> (reversed), grounding the spread in simple, streamlined and pretty aggregator for systemd-analyze security. Crossing: <strong>sprint.nvim</strong> draws <em>The Release Bell</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>Wallpkgs</strong> draws <em>The Linker</em> (reversed), turning the reading toward easy-to-install wallpapers collections, designed to install with Nix.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-15
+  Chart last updated - 2026-09-16
 ```
 
 <!-- End of Chess Ratings Section -->
