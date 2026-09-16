@@ -70,11 +70,11 @@ informative guides about NixOS (among other things) and opinion pieces on Nix on
      That's right, I write. I write about Nix.
 -->
 
-- [Nix's Substituter List Is Not a Routing Table](https://notashelf.dev/posts/nix-cache-proxy)
-- [Why I think Go is a Terrible Language](https://notashelf.dev/posts/go-sucks)
-- [The Nihilist's Guide to Cross-Compiling Dioxus for Windows](https://notashelf.dev/posts/cross-compiling-dioxus)
-- [2025 Wrapped & 2026 Wishlist](https://notashelf.dev/posts/2025-wrapped)
-- [The Tradeoff Trap](https://notashelf.dev/posts/the-tradeoff-trap)
+- [Taste Is All That's Left](https://notashelf.dev/posts/taste-is-all-thats-left)
+- [The Tool and the Tedium](https://notashelf.dev/posts/tool-and-tedium)
+- [Nix Evaluation Is a Scheduling Problem](https://notashelf.dev/posts/evix)
+- [No Software is Ever Truly Finished (And Neither is the Land)](https://notashelf.dev/posts/not-farming)
+- [Moving To A Farm](https://notashelf.dev/posts/farm)
 
 <!-- End posts section -->
 
@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="SSA project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
 <a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Wallpkgs project card" width="220">
+<a href="https://github.com/NotAShelf/Basix">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Basix project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/microfetch">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Microfetch project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Beacon (reversed) / The Release Bell (upright) / The Linker (reversed)</em>.<br>Root: <strong>SSA</strong> draws <em>The Beacon</em> (reversed), grounding the spread in simple, streamlined and pretty aggregator for systemd-analyze security. Crossing: <strong>sprint.nvim</strong> draws <em>The Release Bell</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>Wallpkgs</strong> draws <em>The Linker</em> (reversed), turning the reading toward easy-to-install wallpapers collections, designed to install with Nix.</p>
+<p align="center">Spread: <em>The Toolsmith (reversed) / The System Root (upright) / The Pruner (upright)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Toolsmith</em> (reversed), grounding the spread in robust command runner for Neovim. Crossing: <strong>Basix</strong> draws <em>The System Root</em> (upright), putting pressure on purely functional collection of Base16/Base24 themes to be used with Nix. Path: <strong>Microfetch</strong> draws <em>The Pruner</em> (upright), turning the reading toward microscopic fetch tool in Rust, for NixOS systems.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
