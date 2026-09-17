@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/microfetch">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Microfetch project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/watt">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="watt project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nyxexprs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Nyxpkgs project card" width="220">
+<a href="https://github.com/feel-co/ndg">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="ndg project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The System Root (reversed) / The Convention (reversed) / The Inspector (upright)</em>.<br>Root: <strong>Microfetch</strong> draws <em>The System Root</em> (reversed), grounding the spread in microscopic fetch tool in Rust, for NixOS systems. Crossing: <strong>sprint.nvim</strong> draws <em>The Convention</em> (reversed), putting pressure on robust command runner for Neovim. Path: <strong>Nyxpkgs</strong> draws <em>The Inspector</em> (upright), turning the reading toward collection of packages not found in Nixpkgs.</p>
+<p align="center">Spread: <em>The System Root (reversed) / The Scheduler (reversed) / The Gatekeeper (reversed)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The System Root</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>watt</strong> draws <em>The Scheduler</em> (reversed), putting pressure on modern CPU frequency and power management utility for Linux. Path: <strong>ndg</strong> draws <em>The Gatekeeper</em> (reversed), turning the reading toward alternative documentation generation for any Nix based module system.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
