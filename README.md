@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Basix project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
 <a href="https://github.com/notashelf/microfetch">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Microfetch project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Microfetch project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/nyxexprs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Nyxpkgs project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Toolsmith (reversed) / The System Root (upright) / The Pruner (upright)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Toolsmith</em> (reversed), grounding the spread in robust command runner for Neovim. Crossing: <strong>Basix</strong> draws <em>The System Root</em> (upright), putting pressure on purely functional collection of Base16/Base24 themes to be used with Nix. Path: <strong>Microfetch</strong> draws <em>The Pruner</em> (upright), turning the reading toward microscopic fetch tool in Rust, for NixOS systems.</p>
+<p align="center">Spread: <em>The System Root (reversed) / The Convention (reversed) / The Inspector (upright)</em>.<br>Root: <strong>Microfetch</strong> draws <em>The System Root</em> (reversed), grounding the spread in microscopic fetch tool in Rust, for NixOS systems. Crossing: <strong>sprint.nvim</strong> draws <em>The Convention</em> (reversed), putting pressure on robust command runner for Neovim. Path: <strong>Nyxpkgs</strong> draws <em>The Inspector</em> (upright), turning the reading toward collection of packages not found in Nixpkgs.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-16
+  Chart last updated - 2026-09-17
 ```
 
 <!-- End of Chess Ratings Section -->
