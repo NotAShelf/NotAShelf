@@ -196,8 +196,8 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/feel-co/hjem">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Hjem project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -206,8 +206,8 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/snugnug/micros">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Runner (upright) / The Steady Hand (upright) / The Inspector (upright)</em>.<br>Root: <strong>Hjem</strong> draws <em>The Runner</em> (upright), grounding the spread in streamlined and modern home-management solution with Nix. Crossing: <strong>mrc</strong> draws <em>The Steady Hand</em> (upright), putting pressure on minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Path: <strong>sprint.nvim</strong> draws <em>The Inspector</em> (upright), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Vendor (reversed) / The System Root (upright) / The Linker (upright)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Vendor</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>mrc</strong> draws <em>The System Root</em> (upright), putting pressure on minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Path: <strong>MicrOS</strong> draws <em>The Linker</em> (upright), turning the reading toward experimental operating system based on Nixpkgs module system, bringing Runit to NixOS.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->

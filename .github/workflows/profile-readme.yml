@@ -11,7 +11,7 @@ on:
       - README.md
       - generated/**
   schedule:
-    - cron: "56 */12 * * *"
+    - cron: "2 */12 * * *"
 
 permissions:
   contents: write
