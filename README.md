@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/feel-co/hjem">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Hjem project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="watt project card" width="220">
+<a href="https://github.com/NotAShelf/mrc">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="mrc project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/feel-co/ndg">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="ndg project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The System Root (reversed) / The Scheduler (reversed) / The Gatekeeper (reversed)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The System Root</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>watt</strong> draws <em>The Scheduler</em> (reversed), putting pressure on modern CPU frequency and power management utility for Linux. Path: <strong>ndg</strong> draws <em>The Gatekeeper</em> (reversed), turning the reading toward alternative documentation generation for any Nix based module system.</p>
+<p align="center">Spread: <em>The Runner (upright) / The Steady Hand (upright) / The Inspector (upright)</em>.<br>Root: <strong>Hjem</strong> draws <em>The Runner</em> (upright), grounding the spread in streamlined and modern home-management solution with Nix. Crossing: <strong>mrc</strong> draws <em>The Steady Hand</em> (upright), putting pressure on minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Path: <strong>sprint.nvim</strong> draws <em>The Inspector</em> (upright), turning the reading toward robust command runner for Neovim.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-17
+  Chart last updated - 2026-09-18
 ```
 
 <!-- End of Chess Ratings Section -->
