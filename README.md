@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/Tailray">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Tailray project card" width="220">
+<a href="https://github.com/feel-co/ndg">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="ndg project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/goblin">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Goblin project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Wallpkgs project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Vendor (upright) / The Steady Hand (reversed) / The System Root (reversed)</em>.<br>Root: <strong>Tailray</strong> draws <em>The Vendor</em> (upright), grounding the spread in rust implementation of Tailscale systray. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Wallpkgs</strong> draws <em>The System Root</em> (reversed), turning the reading toward easy-to-install wallpapers collections, designed to install with Nix.</p>
+<p align="center">Spread: <em>The Steady Hand (upright) / The Compositor (reversed) / The Linker (reversed)</em>.<br>Root: <strong>ndg</strong> draws <em>The Steady Hand</em> (upright), grounding the spread in alternative documentation generation for any Nix based module system. Crossing: <strong>Goblin</strong> draws <em>The Compositor</em> (reversed), putting pressure on termbin-inspired paste service to replace Fiche, written in Go. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Linker</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
