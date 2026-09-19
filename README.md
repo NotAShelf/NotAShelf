@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/notashelf/Tailray">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Tailray project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/mrc">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="mrc project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/snugnug/micros">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="MicrOS project card" width="220">
+<a href="https://github.com/notashelf/wallpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Wallpkgs project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Vendor (reversed) / The System Root (upright) / The Linker (upright)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Vendor</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>mrc</strong> draws <em>The System Root</em> (upright), putting pressure on minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Path: <strong>MicrOS</strong> draws <em>The Linker</em> (upright), turning the reading toward experimental operating system based on Nixpkgs module system, bringing Runit to NixOS.</p>
+<p align="center">Spread: <em>The Vendor (upright) / The Steady Hand (reversed) / The System Root (reversed)</em>.<br>Root: <strong>Tailray</strong> draws <em>The Vendor</em> (upright), grounding the spread in rust implementation of Tailscale systray. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Wallpkgs</strong> draws <em>The System Root</em> (reversed), turning the reading toward easy-to-install wallpapers collections, designed to install with Nix.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-18
+  Chart last updated - 2026-09-19
 ```
 
 <!-- End of Chess Ratings Section -->
