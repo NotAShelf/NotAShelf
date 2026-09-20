@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="watt project card" width="220">
+<a href="https://github.com/notashelf/nyx">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyx project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/batmon">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="batmon project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Compositor (reversed) / The Gatekeeper (upright) / The Linker (reversed)</em>.<br>Root: <strong>watt</strong> draws <em>The Compositor</em> (reversed), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Gatekeeper</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Basix</strong> draws <em>The Linker</em> (reversed), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
+<p align="center">Spread: <em>The Linker (reversed) / The Runner (reversed) / The Inspector (reversed)</em>.<br>Root: <strong>Nyx</strong> draws <em>The Linker</em> (reversed), grounding the spread in the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Crossing: <strong>batmon</strong> draws <em>The Runner</em> (reversed), putting pressure on dead simple battery monitor in Go, with the ability to emit events on change. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Inspector</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
