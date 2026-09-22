@@ -13,17 +13,17 @@
 <text x="22" y="32" class="title">Most Used Languages</text>
 <line x1="22" y1="43" x2="338" y2="43" stroke="#30363d" />
 <rect x="22" y="54" width="316" height="10" rx="5" fill="#21262d" />
-<rect x="22" y="54" width="85.6182" height="10" fill="#f34b7d" />
-<rect x="107.618" y="54" width="67.279" height="10" fill="#f1e05a" />
-<rect x="174.897" y="54" width="55.9301" height="10" fill="#dea584" />
-<rect x="230.827" y="54" width="39.3705" height="10" fill="#7e7eff" />
-<rect x="270.198" y="54" width="22.7881" height="10" fill="#3178c6" />
-<rect x="292.986" y="54" width="8.57037" height="10" fill="#00ADD8" />
-<rect x="301.556" y="54" width="6.09047" height="10" fill="#083fa1" />
-<rect x="307.647" y="54" width="5.58188" height="10" fill="#3572A5" />
+<rect x="22" y="54" width="85.5936" height="10" fill="#f34b7d" />
+<rect x="107.594" y="54" width="67.2596" height="10" fill="#f1e05a" />
+<rect x="174.853" y="54" width="56.0049" height="10" fill="#dea584" />
+<rect x="230.858" y="54" width="39.3592" height="10" fill="#7e7eff" />
+<rect x="270.217" y="54" width="22.7816" height="10" fill="#3178c6" />
+<rect x="292.999" y="54" width="8.56791" height="10" fill="#00ADD8" />
+<rect x="301.567" y="54" width="6.08871" height="10" fill="#083fa1" />
+<rect x="307.655" y="54" width="5.58027" height="10" fill="#3572A5" />
 <circle cx="28" cy="84" r="3" fill="#f34b7d" /><text x="38" y="88" class="label">C++</text><text x="330" y="88" text-anchor="end" class="small">27.09%</text>
-<circle cx="28" cy="98" r="3" fill="#f1e05a" /><text x="38" y="102" class="label">JavaScript</text><text x="330" y="102" text-anchor="end" class="small">21.29%</text>
-<circle cx="28" cy="112" r="3" fill="#dea584" /><text x="38" y="116" class="label">Rust</text><text x="330" y="116" text-anchor="end" class="small">17.70%</text>
+<circle cx="28" cy="98" r="3" fill="#f1e05a" /><text x="38" y="102" class="label">JavaScript</text><text x="330" y="102" text-anchor="end" class="small">21.28%</text>
+<circle cx="28" cy="112" r="3" fill="#dea584" /><text x="38" y="116" class="label">Rust</text><text x="330" y="116" text-anchor="end" class="small">17.72%</text>
 <circle cx="28" cy="126" r="3" fill="#7e7eff" /><text x="38" y="130" class="label">Nix</text><text x="330" y="130" text-anchor="end" class="small">12.46%</text>
 <circle cx="28" cy="140" r="3" fill="#3178c6" /><text x="38" y="144" class="label">TypeScript</text><text x="330" y="144" text-anchor="end" class="small">7.21%</text>
 <circle cx="28" cy="154" r="3" fill="#00ADD8" /><text x="38" y="158" class="label">Go</text><text x="330" y="158" text-anchor="end" class="small">2.71%</text>
