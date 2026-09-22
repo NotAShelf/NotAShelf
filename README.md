@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/watt">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="watt project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="nvf project card" width="220">
+<a href="https://github.com/feel-co/hjem">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Hjem project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/hyprland-community/Hyprkeys">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Hyprkeys project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Inspector (reversed) / The Steady Hand (reversed) / The Compositor (reversed)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Inspector</em> (reversed), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>nvf</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on a highly extensible and distro agnostic configuration framework for Neovim using Nix. Path: <strong>Hyprkeys</strong> draws <em>The Compositor</em> (reversed), turning the reading toward powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.</p>
+<p align="center">Spread: <em>The Inversion (reversed) / The Compositor (upright) / The Vendor (reversed)</em>.<br>Root: <strong>watt</strong> draws <em>The Inversion</em> (reversed), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>Hjem</strong> draws <em>The Compositor</em> (upright), putting pressure on streamlined and modern home-management solution with Nix. Path: <strong>sprint.nvim</strong> draws <em>The Vendor</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
