@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Wallpkgs project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nff">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="nff project card" width="220">
+<a href="https://github.com/notashelf/nvf">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="nvf project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/hyprland-community/Hyprkeys">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Hyprkeys project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Breakage (upright) / The Runner (upright) / The Beacon (upright)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Breakage</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>nff</strong> draws <em>The Runner</em> (upright), putting pressure on experimental nftables configuration beautifier in Python. Path: <strong>direnv.nvim</strong> draws <em>The Beacon</em> (upright), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Inspector (reversed) / The Steady Hand (reversed) / The Compositor (reversed)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Inspector</em> (reversed), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>nvf</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on a highly extensible and distro agnostic configuration framework for Neovim using Nix. Path: <strong>Hyprkeys</strong> draws <em>The Compositor</em> (reversed), turning the reading toward powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-21
+  Chart last updated - 2026-09-22
 ```
 
 <!-- End of Chess Ratings Section -->
