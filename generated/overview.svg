@@ -12,10 +12,10 @@
 <rect x="5" y="5" width="350" height="200" rx="8" fill="#0d1117" stroke="#30363d" />
 <text x="22" y="32" class="title">raf GitHub Statistics</text>
 <line x1="22" y1="43" x2="338" y2="43" stroke="#30363d" />
-<circle cx="27" cy="54" r="3" fill="#f78166" /><text x="38" y="58" class="label">Stars</text><text x="316" y="58" text-anchor="end" class="value">47,759</text>
-<circle cx="27" cy="76" r="3" fill="#7ee787" /><text x="38" y="80" class="label">Forks</text><text x="316" y="80" text-anchor="end" class="value">2,655</text>
-<circle cx="27" cy="98" r="3" fill="#f78166" /><text x="38" y="102" class="label">All-time contributions</text><text x="316" y="102" text-anchor="end" class="value">21,552</text>
-<circle cx="27" cy="120" r="3" fill="#7ee787" /><text x="38" y="124" class="label">Lines changed</text><text x="316" y="124" text-anchor="end" class="value">8,922,014</text>
-<circle cx="27" cy="142" r="3" fill="#f78166" /><text x="38" y="146" class="label">Views, past 14 days</text><text x="316" y="146" text-anchor="end" class="value">5,486</text>
-<circle cx="27" cy="164" r="3" fill="#7ee787" /><text x="38" y="168" class="label">Repositories touched</text><text x="316" y="168" text-anchor="end" class="value">202</text>
+<circle cx="27" cy="54" r="3" fill="#f78166" /><text x="38" y="58" class="label">Stars</text><text x="316" y="58" text-anchor="end" class="value">47,864</text>
+<circle cx="27" cy="76" r="3" fill="#7ee787" /><text x="38" y="80" class="label">Forks</text><text x="316" y="80" text-anchor="end" class="value">2,665</text>
+<circle cx="27" cy="98" r="3" fill="#f78166" /><text x="38" y="102" class="label">All-time contributions</text><text x="316" y="102" text-anchor="end" class="value">23,506</text>
+<circle cx="27" cy="120" r="3" fill="#7ee787" /><text x="38" y="124" class="label">Lines changed</text><text x="316" y="124" text-anchor="end" class="value">9,361,592</text>
+<circle cx="27" cy="142" r="3" fill="#f78166" /><text x="38" y="146" class="label">Views, past 14 days</text><text x="316" y="146" text-anchor="end" class="value">5,510</text>
+<circle cx="27" cy="164" r="3" fill="#7ee787" /><text x="38" y="168" class="label">Repositories touched</text><text x="316" y="168" text-anchor="end" class="value">212</text>
 </svg>
