@@ -196,8 +196,8 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="watt project card" width="220">
+<a href="https://github.com/notashelf/catApi">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -206,8 +206,8 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
+<a href="https://github.com/notashelf/nyxexprs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Nyxpkgs project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Gatekeeper (reversed) / The Beacon (upright) / The Linker (reversed)</em>.<br>Root: <strong>watt</strong> draws <em>The Gatekeeper</em> (reversed), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Beacon</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Basix</strong> draws <em>The Linker</em> (reversed), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
+<p align="center">Spread: <em>The Beacon (reversed) / The Declarative Star (reversed) / The Steady Hand (reversed)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Beacon</em> (reversed), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Declarative Star</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Nyxpkgs</strong> draws <em>The Steady Hand</em> (reversed), turning the reading toward collection of packages not found in Nixpkgs.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
