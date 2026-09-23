@@ -201,13 +201,13 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/feel-co/hjem">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Hjem project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/Basix">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Inversion (reversed) / The Compositor (upright) / The Vendor (reversed)</em>.<br>Root: <strong>watt</strong> draws <em>The Inversion</em> (reversed), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>Hjem</strong> draws <em>The Compositor</em> (upright), putting pressure on streamlined and modern home-management solution with Nix. Path: <strong>sprint.nvim</strong> draws <em>The Vendor</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Gatekeeper (reversed) / The Beacon (upright) / The Linker (reversed)</em>.<br>Root: <strong>watt</strong> draws <em>The Gatekeeper</em> (reversed), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Beacon</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Basix</strong> draws <em>The Linker</em> (reversed), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-22
+  Chart last updated - 2026-09-23
 ```
 
 <!-- End of Chess Ratings Section -->
