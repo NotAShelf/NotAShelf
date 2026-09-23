@@ -13,14 +13,14 @@
 <text x="22" y="32" class="title">Most Used Languages</text>
 <line x1="22" y1="43" x2="338" y2="43" stroke="#30363d" />
 <rect x="22" y="54" width="316" height="10" rx="5" fill="#21262d" />
-<rect x="22" y="54" width="81.851" height="10" fill="#f34b7d" />
-<rect x="103.851" y="54" width="67.0177" height="10" fill="#dea584" />
-<rect x="170.869" y="54" width="64.314" height="10" fill="#f1e05a" />
-<rect x="235.183" y="54" width="37.9945" height="10" fill="#7e7eff" />
-<rect x="273.177" y="54" width="21.7839" height="10" fill="#3178c6" />
-<rect x="294.961" y="54" width="8.19268" height="10" fill="#00ADD8" />
-<rect x="303.154" y="54" width="5.82206" height="10" fill="#083fa1" />
-<rect x="308.976" y="54" width="5.33589" height="10" fill="#3572A5" />
+<rect x="22" y="54" width="81.8544" height="10" fill="#f34b7d" />
+<rect x="103.854" y="54" width="67.0167" height="10" fill="#dea584" />
+<rect x="170.871" y="54" width="64.3131" height="10" fill="#f1e05a" />
+<rect x="235.184" y="54" width="37.994" height="10" fill="#7e7eff" />
+<rect x="273.178" y="54" width="21.7835" height="10" fill="#3178c6" />
+<rect x="294.962" y="54" width="8.19256" height="10" fill="#00ADD8" />
+<rect x="303.154" y="54" width="5.82198" height="10" fill="#083fa1" />
+<rect x="308.976" y="54" width="5.33581" height="10" fill="#3572A5" />
 <circle cx="28" cy="84" r="3" fill="#f34b7d" /><text x="38" y="88" class="label">C++</text><text x="330" y="88" text-anchor="end" class="small">25.90%</text>
 <circle cx="28" cy="98" r="3" fill="#dea584" /><text x="38" y="102" class="label">Rust</text><text x="330" y="102" text-anchor="end" class="small">21.21%</text>
 <circle cx="28" cy="112" r="3" fill="#f1e05a" /><text x="38" y="116" class="label">JavaScript</text><text x="330" y="116" text-anchor="end" class="small">20.35%</text>
