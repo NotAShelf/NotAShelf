@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/catApi">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
+<a href="https://github.com/notashelf/nyx">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyx project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nyxexprs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Nyxpkgs project card" width="220">
+<a href="https://github.com/NotAShelf/mrc">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="mrc project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Beacon (reversed) / The Declarative Star (reversed) / The Steady Hand (reversed)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Beacon</em> (reversed), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Declarative Star</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Nyxpkgs</strong> draws <em>The Steady Hand</em> (reversed), turning the reading toward collection of packages not found in Nixpkgs.</p>
+<p align="center">Spread: <em>The Convention (upright) / The Beacon (upright) / The Pruner (reversed)</em>.<br>Root: <strong>Nyx</strong> draws <em>The Convention</em> (upright), grounding the spread in the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Crossing: <strong>sprint.nvim</strong> draws <em>The Beacon</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>mrc</strong> draws <em>The Pruner</em> (reversed), turning the reading toward minimalistic, yet robust API wrapper and remote controller for MPV, the video player.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-23
+  Chart last updated - 2026-09-24
 ```
 
 <!-- End of Chess Ratings Section -->
