@@ -196,13 +196,13 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/snugnug/micros">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/Basix">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Basix project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Compositor (reversed) / The Declarative Star (reversed) / The Vendor (upright)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Compositor</em> (reversed), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>direnv.nvim</strong> draws <em>The Declarative Star</em> (reversed), putting pressure on neovim companion for Direnv. Path: <strong>SSA</strong> draws <em>The Vendor</em> (upright), turning the reading toward simple, streamlined and pretty aggregator for systemd-analyze security.</p>
+<p align="center">Spread: <em>The Compositor (reversed) / The Beacon (upright) / The Hidden State (upright)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Compositor</em> (reversed), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>Basix</strong> draws <em>The Beacon</em> (upright), putting pressure on purely functional collection of Base16/Base24 themes to be used with Nix. Path: <strong>SSA</strong> draws <em>The Hidden State</em> (upright), turning the reading toward simple, streamlined and pretty aggregator for systemd-analyze security.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
