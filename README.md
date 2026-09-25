@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/hyprland-community/Hyprkeys">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Hyprkeys project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
 <a href="https://github.com/snugnug/micros">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="MicrOS project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/ssa">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="SSA project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Linker (upright) / The Declarative Star (reversed) / The First Commit (reversed)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Linker</em> (upright), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>Hyprkeys</strong> draws <em>The Declarative Star</em> (reversed), putting pressure on powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland. Path: <strong>MicrOS</strong> draws <em>The First Commit</em> (reversed), turning the reading toward experimental operating system based on Nixpkgs module system, bringing Runit to NixOS.</p>
+<p align="center">Spread: <em>The Compositor (reversed) / The Declarative Star (reversed) / The Vendor (upright)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Compositor</em> (reversed), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>direnv.nvim</strong> draws <em>The Declarative Star</em> (reversed), putting pressure on neovim companion for Direnv. Path: <strong>SSA</strong> draws <em>The Vendor</em> (upright), turning the reading toward simple, streamlined and pretty aggregator for systemd-analyze security.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-24
+  Chart last updated - 2026-09-25
 ```
 
 <!-- End of Chess Ratings Section -->
