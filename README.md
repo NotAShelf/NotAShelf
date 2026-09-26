@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/microfetch">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Microfetch project card" width="220">
+<a href="https://github.com/notashelf/nyxexprs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Nyxpkgs project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
+<a href="https://github.com/NotAShelf/mrc">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="mrc project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Convention (reversed) / The System Root (upright) / The Linker (upright)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Convention</em> (reversed), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>Microfetch</strong> draws <em>The System Root</em> (upright), putting pressure on microscopic fetch tool in Rust, for NixOS systems. Path: <strong>Basix</strong> draws <em>The Linker</em> (upright), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
+<p align="center">Spread: <em>The Convention (reversed) / The Release Bell (reversed) / The Gatekeeper (reversed)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Convention</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>Nyxpkgs</strong> draws <em>The Release Bell</em> (reversed), putting pressure on collection of packages not found in Nixpkgs. Path: <strong>mrc</strong> draws <em>The Gatekeeper</em> (reversed), turning the reading toward minimalistic, yet robust API wrapper and remote controller for MPV, the video player.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
