@@ -201,13 +201,13 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Basix project card" width="220">
+<a href="https://github.com/notashelf/microfetch">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Microfetch project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="SSA project card" width="220">
+<a href="https://github.com/NotAShelf/Basix">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Compositor (reversed) / The Beacon (upright) / The Hidden State (upright)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Compositor</em> (reversed), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>Basix</strong> draws <em>The Beacon</em> (upright), putting pressure on purely functional collection of Base16/Base24 themes to be used with Nix. Path: <strong>SSA</strong> draws <em>The Hidden State</em> (upright), turning the reading toward simple, streamlined and pretty aggregator for systemd-analyze security.</p>
+<p align="center">Spread: <em>The Convention (reversed) / The System Root (upright) / The Linker (upright)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Convention</em> (reversed), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>Microfetch</strong> draws <em>The System Root</em> (upright), putting pressure on microscopic fetch tool in Rust, for NixOS systems. Path: <strong>Basix</strong> draws <em>The Linker</em> (upright), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-25
+  Chart last updated - 2026-09-26
 ```
 
 <!-- End of Chess Ratings Section -->
