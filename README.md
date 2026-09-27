@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/schizofox/schizofox">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Schizofox project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="watt project card" width="220">
+<a href="https://github.com/NotAShelf/mrc">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="mrc project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Release Bell (upright) / The Beacon (reversed) / The First Commit (reversed)</em>.<br>Root: <strong>nvf</strong> draws <em>The Release Bell</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Beacon</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>watt</strong> draws <em>The First Commit</em> (reversed), turning the reading toward modern CPU frequency and power management utility for Linux.</p>
+<p align="center">Spread: <em>The Release Bell (reversed) / The Closure (upright) / The Linker (upright)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>Schizofox</strong> draws <em>The Closure</em> (upright), putting pressure on privacy and security oriented Firefox configuration for Home-manager. Path: <strong>mrc</strong> draws <em>The Linker</em> (upright), turning the reading toward minimalistic, yet robust API wrapper and remote controller for MPV, the video player.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
