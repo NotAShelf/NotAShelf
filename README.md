@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/notashelf/goblin">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Goblin project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/schizofox/schizofox">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Schizofox project card" width="220">
+<a href="https://github.com/nixos/nixpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Nixpkgs project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/mrc">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="mrc project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Release Bell (reversed) / The Closure (upright) / The Linker (upright)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>Schizofox</strong> draws <em>The Closure</em> (upright), putting pressure on privacy and security oriented Firefox configuration for Home-manager. Path: <strong>mrc</strong> draws <em>The Linker</em> (upright), turning the reading toward minimalistic, yet robust API wrapper and remote controller for MPV, the video player.</p>
+<p align="center">Spread: <em>The Steady Hand (upright) / The System Root (reversed) / The Hidden State (reversed)</em>.<br>Root: <strong>Goblin</strong> draws <em>The Steady Hand</em> (upright), grounding the spread in termbin-inspired paste service to replace Fiche, written in Go. Crossing: <strong>Nixpkgs</strong> draws <em>The System Root</em> (reversed), putting pressure on nix Packages collection and NixOS. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Hidden State</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-27
+  Chart last updated - 2026-09-28
 ```
 
 <!-- End of Chess Ratings Section -->
