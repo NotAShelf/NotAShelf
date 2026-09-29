@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Wallpkgs project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/Tailray">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Tailray project card" width="220">
+<a href="https://github.com/notashelf/nvf">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="nvf project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/notashelf/goblin">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Goblin project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Runner (upright) / The Closure (upright) / The Compositor (reversed)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Runner</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>Tailray</strong> draws <em>The Closure</em> (upright), putting pressure on rust implementation of Tailscale systray. Path: <strong>sprint.nvim</strong> draws <em>The Compositor</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Declarative Star (upright) / The Module Grove (upright) / The Closure (reversed)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Declarative Star</em> (upright), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>nvf</strong> draws <em>The Module Grove</em> (upright), putting pressure on a highly extensible and distro agnostic configuration framework for Neovim using Nix. Path: <strong>Goblin</strong> draws <em>The Closure</em> (reversed), turning the reading toward termbin-inspired paste service to replace Fiche, written in Go.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-28
+  Chart last updated - 2026-09-29
 ```
 
 <!-- End of Chess Ratings Section -->
