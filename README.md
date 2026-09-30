@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
+<a href="https://github.com/snugnug/micros">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="watt project card" width="220">
+<a href="https://github.com/NotAShelf/ssa">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="SSA project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Steady Hand (upright) / The Pruner (upright) / The Inversion (upright)</em>.<br>Root: <strong>nvf</strong> draws <em>The Steady Hand</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>watt</strong> draws <em>The Pruner</em> (upright), putting pressure on modern CPU frequency and power management utility for Linux. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Inversion</em> (upright), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
+<p align="center">Spread: <em>The Convention (reversed) / The Gatekeeper (upright) / The Mirage (upright)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Convention</em> (reversed), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>SSA</strong> draws <em>The Gatekeeper</em> (upright), putting pressure on simple, streamlined and pretty aggregator for systemd-analyze security. Path: <strong>direnv.nvim</strong> draws <em>The Mirage</em> (upright), turning the reading toward neovim companion for Direnv.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
