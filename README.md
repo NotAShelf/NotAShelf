@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Wallpkgs project card" width="220">
+<a href="https://github.com/notashelf/nvf">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="watt project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="watt project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Runner (upright) / The Closure (upright) / The Beacon (upright)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), grounding the spread in robust command runner for Neovim. Crossing: <strong>Wallpkgs</strong> draws <em>The Closure</em> (upright), putting pressure on easy-to-install wallpapers collections, designed to install with Nix. Path: <strong>watt</strong> draws <em>The Beacon</em> (upright), turning the reading toward modern CPU frequency and power management utility for Linux.</p>
+<p align="center">Spread: <em>The Steady Hand (upright) / The Pruner (upright) / The Inversion (upright)</em>.<br>Root: <strong>nvf</strong> draws <em>The Steady Hand</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>watt</strong> draws <em>The Pruner</em> (upright), putting pressure on modern CPU frequency and power management utility for Linux. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Inversion</em> (upright), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-29
+  Chart last updated - 2026-09-30
 ```
 
 <!-- End of Chess Ratings Section -->
