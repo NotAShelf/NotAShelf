@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/snugnug/micros">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
+<a href="https://github.com/notashelf/nvf">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="SSA project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/notashelf/microfetch">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Microfetch project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Convention (reversed) / The Gatekeeper (upright) / The Mirage (upright)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Convention</em> (reversed), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>SSA</strong> draws <em>The Gatekeeper</em> (upright), putting pressure on simple, streamlined and pretty aggregator for systemd-analyze security. Path: <strong>direnv.nvim</strong> draws <em>The Mirage</em> (upright), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Gatekeeper (upright) / The Runner (upright) / The Toolsmith (upright)</em>.<br>Root: <strong>nvf</strong> draws <em>The Gatekeeper</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>Microfetch</strong> draws <em>The Toolsmith</em> (upright), turning the reading toward microscopic fetch tool in Rust, for NixOS systems.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-09-30
+  Chart last updated - 2026-10-01
 ```
 
 <!-- End of Chess Ratings Section -->
