@@ -196,13 +196,13 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Wallpkgs project card" width="220">
+<a href="https://github.com/notashelf/nff">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nff project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="SSA project card" width="220">
+<a href="https://github.com/notashelf/wallpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Wallpkgs project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Closure (reversed) / The Vendor (upright) / The Breakage (upright)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Closure</em> (reversed), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>SSA</strong> draws <em>The Vendor</em> (upright), putting pressure on simple, streamlined and pretty aggregator for systemd-analyze security. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Breakage</em> (upright), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
+<p align="center">Spread: <em>The Steady Hand (reversed) / The Vendor (reversed) / The Toolsmith (reversed)</em>.<br>Root: <strong>nff</strong> draws <em>The Steady Hand</em> (reversed), grounding the spread in experimental nftables configuration beautifier in Python. Crossing: <strong>Wallpkgs</strong> draws <em>The Vendor</em> (reversed), putting pressure on easy-to-install wallpapers collections, designed to install with Nix. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Toolsmith</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
