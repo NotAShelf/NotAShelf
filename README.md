@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nyxexprs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyxpkgs project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/hyprland-community/Hyprkeys">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Hyprkeys project card" width="220">
+<a href="https://github.com/snugnug/micros">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/watt">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="watt project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Declarative Star (upright) / The Vendor (upright) / The Gatekeeper (reversed)</em>.<br>Root: <strong>Nyxpkgs</strong> draws <em>The Declarative Star</em> (upright), grounding the spread in collection of packages not found in Nixpkgs. Crossing: <strong>Hyprkeys</strong> draws <em>The Vendor</em> (upright), putting pressure on powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland. Path: <strong>direnv.nvim</strong> draws <em>The Gatekeeper</em> (reversed), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Compositor (upright) / The First Commit (upright) / The Linker (reversed)</em>.<br>Root: <strong>MicrOS</strong> draws <em>The Compositor</em> (upright), grounding the spread in experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Crossing: <strong>direnv.nvim</strong> draws <em>The First Commit</em> (upright), putting pressure on neovim companion for Direnv. Path: <strong>watt</strong> draws <em>The Linker</em> (reversed), turning the reading toward modern CPU frequency and power management utility for Linux.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
