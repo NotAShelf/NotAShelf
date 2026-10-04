@@ -196,13 +196,13 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/microfetch">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Microfetch project card" width="220">
+<a href="https://github.com/notashelf/wallpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Wallpkgs project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/feel-co/hjem">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Hjem project card" width="220">
+<a href="https://github.com/notashelf/batmon">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="batmon project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Compositor (upright) / The System Root (upright) / The Mirage (reversed)</em>.<br>Root: <strong>Microfetch</strong> draws <em>The Compositor</em> (upright), grounding the spread in microscopic fetch tool in Rust, for NixOS systems. Crossing: <strong>Hjem</strong> draws <em>The System Root</em> (upright), putting pressure on streamlined and modern home-management solution with Nix. Path: <strong>direnv.nvim</strong> draws <em>The Mirage</em> (reversed), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Runner (upright) / The Release Bell (reversed) / The Closure (upright)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Runner</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>batmon</strong> draws <em>The Release Bell</em> (reversed), putting pressure on dead simple battery monitor in Go, with the ability to emit events on change. Path: <strong>direnv.nvim</strong> draws <em>The Closure</em> (upright), turning the reading toward neovim companion for Direnv.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
