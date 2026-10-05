@@ -201,13 +201,13 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/batmon">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="batmon project card" width="220">
+<a href="https://github.com/NotAShelf/mrc">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="mrc project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Runner (upright) / The Release Bell (reversed) / The Closure (upright)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Runner</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>batmon</strong> draws <em>The Release Bell</em> (reversed), putting pressure on dead simple battery monitor in Go, with the ability to emit events on change. Path: <strong>direnv.nvim</strong> draws <em>The Closure</em> (upright), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Gatekeeper (upright) / The Compositor (reversed) / The Linker (reversed)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Gatekeeper</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>mrc</strong> draws <em>The Compositor</em> (reversed), putting pressure on minimalistic, yet robust API wrapper and remote controller for MPV, the video player. Path: <strong>sprint.nvim</strong> draws <em>The Linker</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-04
+  Chart last updated - 2026-10-05
 ```
 
 <!-- End of Chess Ratings Section -->
