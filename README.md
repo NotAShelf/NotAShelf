@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/catApi">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
+<a href="https://github.com/notashelf/nyx">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyx project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/schizofox/schizofox">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Schizofox project card" width="220">
+<a href="https://github.com/notashelf/goblin">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Goblin project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Pruner (reversed) / The Release Bell (upright) / The Closure (upright)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Pruner</em> (reversed), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>direnv.nvim</strong> draws <em>The Release Bell</em> (upright), putting pressure on neovim companion for Direnv. Path: <strong>Schizofox</strong> draws <em>The Closure</em> (upright), turning the reading toward privacy and security oriented Firefox configuration for Home-manager.</p>
+<p align="center">Spread: <em>The Declarative Star (upright) / The Beacon (upright) / The First Commit (reversed)</em>.<br>Root: <strong>Nyx</strong> draws <em>The Declarative Star</em> (upright), grounding the spread in the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Beacon</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Goblin</strong> draws <em>The First Commit</em> (reversed), turning the reading toward termbin-inspired paste service to replace Fiche, written in Go.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
