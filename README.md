@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
+<a href="https://github.com/notashelf/catApi">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="SSA project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/schizofox/schizofox">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Schizofox project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Hidden State (upright) / The Mirage (upright) / The Steady Hand (upright)</em>.<br>Root: <strong>nvf</strong> draws <em>The Hidden State</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>SSA</strong> draws <em>The Mirage</em> (upright), putting pressure on simple, streamlined and pretty aggregator for systemd-analyze security. Path: <strong>sprint.nvim</strong> draws <em>The Steady Hand</em> (upright), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Pruner (reversed) / The Release Bell (upright) / The Closure (upright)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Pruner</em> (reversed), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>direnv.nvim</strong> draws <em>The Release Bell</em> (upright), putting pressure on neovim companion for Direnv. Path: <strong>Schizofox</strong> draws <em>The Closure</em> (upright), turning the reading toward privacy and security oriented Firefox configuration for Home-manager.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-05
+  Chart last updated - 2026-10-06
 ```
 
 <!-- End of Chess Ratings Section -->
