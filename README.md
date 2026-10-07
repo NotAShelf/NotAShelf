@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nyx">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyx project card" width="220">
+<a href="https://github.com/notashelf/nff">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nff project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/snugnug/micros">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/notashelf/goblin">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Goblin project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Declarative Star (upright) / The Beacon (upright) / The First Commit (reversed)</em>.<br>Root: <strong>Nyx</strong> draws <em>The Declarative Star</em> (upright), grounding the spread in the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Beacon</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Goblin</strong> draws <em>The First Commit</em> (reversed), turning the reading toward termbin-inspired paste service to replace Fiche, written in Go.</p>
+<p align="center">Spread: <em>The First Commit (upright) / The Scheduler (reversed) / The Pruner (upright)</em>.<br>Root: <strong>nff</strong> draws <em>The First Commit</em> (upright), grounding the spread in experimental nftables configuration beautifier in Python. Crossing: <strong>MicrOS</strong> draws <em>The Scheduler</em> (reversed), putting pressure on experimental operating system based on Nixpkgs module system, bringing Runit to NixOS. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Pruner</em> (upright), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-06
+  Chart last updated - 2026-10-07
 ```
 
 <!-- End of Chess Ratings Section -->
