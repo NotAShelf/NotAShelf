@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nff">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nff project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Wallpkgs project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
 <a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/nixos/nixpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Nixpkgs project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/nff">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="nff project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Inversion (upright) / The Gatekeeper (reversed) / The Pruner (reversed)</em>.<br>Root: <strong>nff</strong> draws <em>The Inversion</em> (upright), grounding the spread in experimental nftables configuration beautifier in Python. Crossing: <strong>Wallpkgs</strong> draws <em>The Gatekeeper</em> (reversed), putting pressure on easy-to-install wallpapers collections, designed to install with Nix. Path: <strong>sprint.nvim</strong> draws <em>The Pruner</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Runner (upright) / The Declarative Star (upright) / The Mirage (reversed)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), grounding the spread in robust command runner for Neovim. Crossing: <strong>Nixpkgs</strong> draws <em>The Declarative Star</em> (upright), putting pressure on nix Packages collection and NixOS. Path: <strong>nff</strong> draws <em>The Mirage</em> (reversed), turning the reading toward experimental nftables configuration beautifier in Python.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
