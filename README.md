@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/schizofox/schizofox">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Schizofox project card" width="220">
+<a href="https://github.com/notashelf/nff">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nff project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/batmon">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="batmon project card" width="220">
+<a href="https://github.com/notashelf/wallpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Wallpkgs project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Breakage (upright) / The First Commit (reversed) / The Steady Hand (upright)</em>.<br>Root: <strong>Schizofox</strong> draws <em>The Breakage</em> (upright), grounding the spread in privacy and security oriented Firefox configuration for Home-manager. Crossing: <strong>batmon</strong> draws <em>The First Commit</em> (reversed), putting pressure on dead simple battery monitor in Go, with the ability to emit events on change. Path: <strong>direnv.nvim</strong> draws <em>The Steady Hand</em> (upright), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Inversion (upright) / The Gatekeeper (reversed) / The Pruner (reversed)</em>.<br>Root: <strong>nff</strong> draws <em>The Inversion</em> (upright), grounding the spread in experimental nftables configuration beautifier in Python. Crossing: <strong>Wallpkgs</strong> draws <em>The Gatekeeper</em> (reversed), putting pressure on easy-to-install wallpapers collections, designed to install with Nix. Path: <strong>sprint.nvim</strong> draws <em>The Pruner</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-08
+  Chart last updated - 2026-10-09
 ```
 
 <!-- End of Chess Ratings Section -->
