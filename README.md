@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/nixos/nixpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Nixpkgs project card" width="220">
+<a href="https://github.com/notashelf/nyx">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Nyx project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nff">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="nff project card" width="220">
+<a href="https://github.com/hyprland-community/Hyprkeys">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Hyprkeys project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Runner (upright) / The Declarative Star (upright) / The Mirage (reversed)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Runner</em> (upright), grounding the spread in robust command runner for Neovim. Crossing: <strong>Nixpkgs</strong> draws <em>The Declarative Star</em> (upright), putting pressure on nix Packages collection and NixOS. Path: <strong>nff</strong> draws <em>The Mirage</em> (reversed), turning the reading toward experimental nftables configuration beautifier in Python.</p>
+<p align="center">Spread: <em>The Breakage (upright) / The Scheduler (upright) / The Hidden State (reversed)</em>.<br>Root: <strong>syntax-gaslighting.nvim</strong> draws <em>The Breakage</em> (upright), grounding the spread in gaslighting is not even a real word, you&#x27;re crazy. Crossing: <strong>Nyx</strong> draws <em>The Scheduler</em> (upright), putting pressure on the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Path: <strong>Hyprkeys</strong> draws <em>The Hidden State</em> (reversed), turning the reading toward powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-09
+  Chart last updated - 2026-10-10
 ```
 
 <!-- End of Chess Ratings Section -->
