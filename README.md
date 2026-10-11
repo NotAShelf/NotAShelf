@@ -196,8 +196,8 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="watt project card" width="220">
+<a href="https://github.com/notashelf/Tailray">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Tailray project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -206,8 +206,8 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nyx">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Nyx project card" width="220">
+<a href="https://github.com/NotAShelf/Basix">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Breakage (reversed) / The Steady Hand (reversed) / The Mirage (upright)</em>.<br>Root: <strong>watt</strong> draws <em>The Breakage</em> (reversed), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Nyx</strong> draws <em>The Mirage</em> (upright), turning the reading toward the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!.</p>
+<p align="center">Spread: <em>The Release Bell (reversed) / The Toolsmith (upright) / The Hidden State (upright)</em>.<br>Root: <strong>Tailray</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in rust implementation of Tailscale systray. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Toolsmith</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Basix</strong> draws <em>The Hidden State</em> (upright), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-10
+  Chart last updated - 2026-10-11
 ```
 
 <!-- End of Chess Ratings Section -->
