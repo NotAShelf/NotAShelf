@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/Tailray">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Tailray project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="syntax-gaslighting.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
 <a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Basix project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/ssa">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="SSA project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Release Bell (reversed) / The Toolsmith (upright) / The Hidden State (upright)</em>.<br>Root: <strong>Tailray</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in rust implementation of Tailscale systray. Crossing: <strong>syntax-gaslighting.nvim</strong> draws <em>The Toolsmith</em> (upright), putting pressure on gaslighting is not even a real word, you&#x27;re crazy. Path: <strong>Basix</strong> draws <em>The Hidden State</em> (upright), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
+<p align="center">Spread: <em>The System Root (upright) / The Runner (reversed) / The Gatekeeper (upright)</em>.<br>Root: <strong>Basix</strong> draws <em>The System Root</em> (upright), grounding the spread in purely functional collection of Base16/Base24 themes to be used with Nix. Crossing: <strong>direnv.nvim</strong> draws <em>The Runner</em> (reversed), putting pressure on neovim companion for Direnv. Path: <strong>SSA</strong> draws <em>The Gatekeeper</em> (upright), turning the reading toward simple, streamlined and pretty aggregator for systemd-analyze security.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
