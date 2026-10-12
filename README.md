@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/Basix">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Basix project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/feel-co/ndg">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="ndg project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="SSA project card" width="220">
+<a href="https://github.com/hyprland-community/Hyprkeys">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Hyprkeys project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The System Root (upright) / The Runner (reversed) / The Gatekeeper (upright)</em>.<br>Root: <strong>Basix</strong> draws <em>The System Root</em> (upright), grounding the spread in purely functional collection of Base16/Base24 themes to be used with Nix. Crossing: <strong>direnv.nvim</strong> draws <em>The Runner</em> (reversed), putting pressure on neovim companion for Direnv. Path: <strong>SSA</strong> draws <em>The Gatekeeper</em> (upright), turning the reading toward simple, streamlined and pretty aggregator for systemd-analyze security.</p>
+<p align="center">Spread: <em>The Beacon (upright) / The Steady Hand (reversed) / The Closure (upright)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Beacon</em> (upright), grounding the spread in robust command runner for Neovim. Crossing: <strong>ndg</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on alternative documentation generation for any Nix based module system. Path: <strong>Hyprkeys</strong> draws <em>The Closure</em> (upright), turning the reading toward powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-11
+  Chart last updated - 2026-10-12
 ```
 
 <!-- End of Chess Ratings Section -->
