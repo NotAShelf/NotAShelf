@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/notashelf/nyx">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyx project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/feel-co/ndg">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="ndg project card" width="220">
+<a href="https://github.com/notashelf/catApi">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="CatApi project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/hyprland-community/Hyprkeys">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Hyprkeys project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Beacon (upright) / The Steady Hand (reversed) / The Closure (upright)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Beacon</em> (upright), grounding the spread in robust command runner for Neovim. Crossing: <strong>ndg</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on alternative documentation generation for any Nix based module system. Path: <strong>Hyprkeys</strong> draws <em>The Closure</em> (upright), turning the reading toward powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.</p>
+<p align="center">Spread: <em>The Closure (reversed) / The Steady Hand (reversed) / The Hidden State (reversed)</em>.<br>Root: <strong>Nyx</strong> draws <em>The Closure</em> (reversed), grounding the spread in the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Crossing: <strong>CatApi</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on minimal API for serving pictures of your cats. Now with a convenient frontend. Path: <strong>direnv.nvim</strong> draws <em>The Hidden State</em> (reversed), turning the reading toward neovim companion for Direnv.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
