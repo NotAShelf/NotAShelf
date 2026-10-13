@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
+<a href="https://github.com/schizofox/schizofox">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Schizofox project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/watt">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="watt project card" width="220">
+<a href="https://github.com/NotAShelf/sprint.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
+<a href="https://github.com/notashelf/goblin">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Goblin project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Scheduler (upright) / The Breakage (reversed) / The Steady Hand (reversed)</em>.<br>Root: <strong>nvf</strong> draws <em>The Scheduler</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>watt</strong> draws <em>The Breakage</em> (reversed), putting pressure on modern CPU frequency and power management utility for Linux. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Steady Hand</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
+<p align="center">Spread: <em>The Scheduler (reversed) / The Pruner (upright) / The Compositor (upright)</em>.<br>Root: <strong>Schizofox</strong> draws <em>The Scheduler</em> (reversed), grounding the spread in privacy and security oriented Firefox configuration for Home-manager. Crossing: <strong>sprint.nvim</strong> draws <em>The Pruner</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>Goblin</strong> draws <em>The Compositor</em> (upright), turning the reading toward termbin-inspired paste service to replace Fiche, written in Go.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
