@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nyx">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Nyx project card" width="220">
+<a href="https://github.com/notashelf/nvf">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/catApi">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="CatApi project card" width="220">
+<a href="https://github.com/NotAShelf/watt">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="watt project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/direnv.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="direnv.nvim project card" width="220">
+<a href="https://github.com/NotAShelf/syntax-gaslighting.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="syntax-gaslighting.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Closure (reversed) / The Steady Hand (reversed) / The Hidden State (reversed)</em>.<br>Root: <strong>Nyx</strong> draws <em>The Closure</em> (reversed), grounding the spread in the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!. Crossing: <strong>CatApi</strong> draws <em>The Steady Hand</em> (reversed), putting pressure on minimal API for serving pictures of your cats. Now with a convenient frontend. Path: <strong>direnv.nvim</strong> draws <em>The Hidden State</em> (reversed), turning the reading toward neovim companion for Direnv.</p>
+<p align="center">Spread: <em>The Scheduler (upright) / The Breakage (reversed) / The Steady Hand (reversed)</em>.<br>Root: <strong>nvf</strong> draws <em>The Scheduler</em> (upright), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>watt</strong> draws <em>The Breakage</em> (reversed), putting pressure on modern CPU frequency and power management utility for Linux. Path: <strong>syntax-gaslighting.nvim</strong> draws <em>The Steady Hand</em> (reversed), turning the reading toward gaslighting is not even a real word, you&#x27;re crazy.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-12
+  Chart last updated - 2026-10-13
 ```
 
 <!-- End of Chess Ratings Section -->
