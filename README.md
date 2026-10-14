@@ -196,8 +196,8 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/schizofox/schizofox">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Schizofox project card" width="220">
+<a href="https://github.com/NotAShelf/watt">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="watt project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -206,8 +206,8 @@ Here are three random projects you might be interested in.
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/goblin">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Goblin project card" width="220">
+<a href="https://github.com/snugnug/micros">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="MicrOS project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Scheduler (reversed) / The Pruner (upright) / The Compositor (upright)</em>.<br>Root: <strong>Schizofox</strong> draws <em>The Scheduler</em> (reversed), grounding the spread in privacy and security oriented Firefox configuration for Home-manager. Crossing: <strong>sprint.nvim</strong> draws <em>The Pruner</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>Goblin</strong> draws <em>The Compositor</em> (upright), turning the reading toward termbin-inspired paste service to replace Fiche, written in Go.</p>
+<p align="center">Spread: <em>The Hidden State (upright) / The Toolsmith (upright) / The System Root (upright)</em>.<br>Root: <strong>watt</strong> draws <em>The Hidden State</em> (upright), grounding the spread in modern CPU frequency and power management utility for Linux. Crossing: <strong>sprint.nvim</strong> draws <em>The Toolsmith</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>MicrOS</strong> draws <em>The System Root</em> (upright), turning the reading toward experimental operating system based on Nixpkgs module system, bringing Runit to NixOS.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-13
+  Chart last updated - 2026-10-14
 ```
 
 <!-- End of Chess Ratings Section -->
