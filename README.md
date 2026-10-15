@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
+<a href="https://github.com/notashelf/wallpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Wallpkgs project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/ssa">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="SSA project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
 <a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="sprint.nvim project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/notashelf/nff">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="nff project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="nvf project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Release Bell (reversed) / The System Root (upright) / The Inspector (reversed)</em>.<br>Root: <strong>sprint.nvim</strong> draws <em>The Release Bell</em> (reversed), grounding the spread in robust command runner for Neovim. Crossing: <strong>nff</strong> draws <em>The System Root</em> (upright), putting pressure on experimental nftables configuration beautifier in Python. Path: <strong>nvf</strong> draws <em>The Inspector</em> (reversed), turning the reading toward a highly extensible and distro agnostic configuration framework for Neovim using Nix.</p>
+<p align="center">Spread: <em>The Linker (upright) / The Breakage (reversed) / The Pruner (upright)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Linker</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>SSA</strong> draws <em>The Breakage</em> (reversed), putting pressure on simple, streamlined and pretty aggregator for systemd-analyze security. Path: <strong>sprint.nvim</strong> draws <em>The Pruner</em> (upright), turning the reading toward robust command runner for Neovim.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
@@ -294,7 +294,7 @@ to make public.
  1050.62  ┤  ╰╯
  1044.00  ┤
 
-  Chart last updated - 2026-10-14
+  Chart last updated - 2026-10-15
 ```
 
 <!-- End of Chess Ratings Section -->
