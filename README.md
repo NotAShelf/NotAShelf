@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/wallpkgs">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="Wallpkgs project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/ssa">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="SSA project card" width="220">
+<a href="https://github.com/notashelf/Tailray">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Tailray project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/feel-co/ndg">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="ndg project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Linker (upright) / The Breakage (reversed) / The Pruner (upright)</em>.<br>Root: <strong>Wallpkgs</strong> draws <em>The Linker</em> (upright), grounding the spread in easy-to-install wallpapers collections, designed to install with Nix. Crossing: <strong>SSA</strong> draws <em>The Breakage</em> (reversed), putting pressure on simple, streamlined and pretty aggregator for systemd-analyze security. Path: <strong>sprint.nvim</strong> draws <em>The Pruner</em> (upright), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Compositor (reversed) / The Inversion (reversed) / The Breakage (reversed)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Compositor</em> (reversed), grounding the spread in neovim companion for Direnv. Crossing: <strong>Tailray</strong> draws <em>The Inversion</em> (reversed), putting pressure on rust implementation of Tailscale systray. Path: <strong>ndg</strong> draws <em>The Breakage</em> (reversed), turning the reading toward alternative documentation generation for any Nix based module system.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
