@@ -196,13 +196,13 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nvf">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nvf project card" width="220">
+<a href="https://github.com/notashelf/direnv.nvim">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="direnv.nvim project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
+<a href="https://github.com/nixos/nixpkgs">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Nixpkgs project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Module Grove (reversed) / The Inversion (upright) / The Scheduler (upright)</em>.<br>Root: <strong>nvf</strong> draws <em>The Module Grove</em> (reversed), grounding the spread in a highly extensible and distro agnostic configuration framework for Neovim using Nix. Crossing: <strong>sprint.nvim</strong> draws <em>The Inversion</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>CatApi</strong> draws <em>The Scheduler</em> (upright), turning the reading toward minimal API for serving pictures of your cats. Now with a convenient frontend.</p>
+<p align="center">Spread: <em>The Release Bell (upright) / The Closure (reversed) / The First Commit (upright)</em>.<br>Root: <strong>direnv.nvim</strong> draws <em>The Release Bell</em> (upright), grounding the spread in neovim companion for Direnv. Crossing: <strong>Nixpkgs</strong> draws <em>The Closure</em> (reversed), putting pressure on nix Packages collection and NixOS. Path: <strong>CatApi</strong> draws <em>The First Commit</em> (upright), turning the reading toward minimal API for serving pictures of your cats. Now with a convenient frontend.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
