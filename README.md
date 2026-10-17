@@ -196,18 +196,18 @@ Here are three random projects you might be interested in.
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/notashelf/nff">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="nff project card" width="220">
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/schizofox/schizofox">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Schizofox project card" width="220">
+<a href="https://github.com/notashelf/catApi">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="CatApi project card" width="220">
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/NotAShelf/sprint.nvim">
-<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="sprint.nvim project card" width="220">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="sprint.nvim project card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/NotAShelf/Basix">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Basix project card" width="220">
 </a>
 </td>
 </tr>
@@ -216,7 +216,7 @@ Here are three random projects you might be interested in.
 <details align="center">
 <summary><strong>Fortune</strong></summary>
 
-<p align="center">Spread: <em>The Vendor (upright) / The Breakage (upright) / The Linker (reversed)</em>.<br>Root: <strong>nff</strong> draws <em>The Vendor</em> (upright), grounding the spread in experimental nftables configuration beautifier in Python. Crossing: <strong>Schizofox</strong> draws <em>The Breakage</em> (upright), putting pressure on privacy and security oriented Firefox configuration for Home-manager. Path: <strong>sprint.nvim</strong> draws <em>The Linker</em> (reversed), turning the reading toward robust command runner for Neovim.</p>
+<p align="center">Spread: <em>The Steady Hand (reversed) / The Inspector (upright) / The Scheduler (upright)</em>.<br>Root: <strong>CatApi</strong> draws <em>The Steady Hand</em> (reversed), grounding the spread in minimal API for serving pictures of your cats. Now with a convenient frontend. Crossing: <strong>sprint.nvim</strong> draws <em>The Inspector</em> (upright), putting pressure on robust command runner for Neovim. Path: <strong>Basix</strong> draws <em>The Scheduler</em> (upright), turning the reading toward purely functional collection of Base16/Base24 themes to be used with Nix.</p>
 </details>
 
 <!-- End Projects Spotlight Section -->
