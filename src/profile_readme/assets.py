@@ -28,9 +28,22 @@ def render_chess_svg(chart: str) -> str:
     )
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">
 <title>Chess.com Rapid Rating Chart</title>
-<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="8" fill="#0d1117" stroke="#30363d"/>
-<g fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="14">
-<text x="24" y="34" fill="#f0f6fc" font-weight="bold">Chess.com Rapid Rating Chart</text>
+<style>
+@media (prefers-color-scheme: light) {{
+  svg {{
+    --card-background: #ffffff;
+    --card-border: #d1d9e0;
+    --card-title: #1f2328;
+    --card-text: #1f2328;
+  }}
+}}
+.card {{ fill: var(--card-background, #0d1117); stroke: var(--card-border, #30363d); }}
+.plot {{ fill: var(--card-text, #c9d1d9); }}
+.title {{ fill: var(--card-title, #f0f6fc); }}
+</style>
+<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="8" class="card"/>
+<g class="plot" font-family="DejaVu Sans Mono, monospace" font-size="14">
+<text x="24" y="34" class="title" font-weight="bold">Chess.com Rapid Rating Chart</text>
 {rows}
 </g>
 </svg>
