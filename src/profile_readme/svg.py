@@ -13,7 +13,7 @@ from profile_readme.templates import render_template
 @dataclass(frozen=True)
 class Theme:
     width: int = 360
-    height: int = 210
+    height: int = 320
     background: str = "#0d1117"
     border: str = "#30363d"
     title: str = "#f0f6fc"
@@ -35,19 +35,25 @@ def render_overview(stats: Mapping[str, str], theme: Theme = DEFAULT_THEME) -> s
         ("Stars", stats["stars"]),
         ("Forks", stats["forks"]),
         ("All-time contributions", stats["contributions"]),
-        ("Lines changed", stats["lines_changed"]),
+        ("Authored commits, 90 days", stats["authored_commits"]),
+        ("Lines changed, 90 days", stats["lines_changed"]),
         ("Views, past 14 days", stats["views"]),
         ("Repositories touched", stats["repos"]),
+        ("Active repositories, 90 days", stats["authored_repos"]),
     ]
 
     row_markup = []
     for index, (label, value) in enumerate(rows):
-        y = 58 + index * 22
-        marker = theme.accent if index % 2 == 0 else theme.accent_alt
+        y = 84 + index * 24
+        marker = (
+            f"var(--card-accent, {theme.accent})"
+            if index % 2 == 0
+            else f"var(--card-accent-alt, {theme.accent_alt})"
+        )
         row_markup.append(
             f'<circle cx="27" cy="{y - 4}" r="3" fill="{marker}" />'
             f'<text x="38" y="{y}" class="label">{escape(label)}</text>'
-            f'<text x="316" y="{y}" text-anchor="end" class="value">{escape(value)}</text>'
+            f'<text x="330" y="{y}" text-anchor="end" class="value">{escape(value)}</text>'
         )
 
     return render_template(
@@ -64,7 +70,9 @@ def render_overview(stats: Mapping[str, str], theme: Theme = DEFAULT_THEME) -> s
             "BORDER_RADIUS": theme.radius,
             "CARD_WIDTH": theme.width - 10,
             "CARD_HEIGHT": theme.height - 10,
-            "CARD_TITLE": f"{escape(stats['name'])} GitHub Statistics",
+            "CARD_TITLE": "GitHub Statistics",
+            "DESCRIPTION": escape(f"GitHub statistics for {stats['name']}. {stats['scope']}"),
+            "PERIOD": escape(stats["period"]),
             "ROWS": "\n".join(row_markup),
         },
     )
@@ -74,39 +82,55 @@ def render_languages(
     languages: Mapping[str, Mapping[str, object]],
     theme: Theme = DEFAULT_THEME,
     *,
-    limit: int = 8,
+    period: str = "Past 90 complete days",
+    scope: str = "Search-indexed default branches accessible to the token; non-merge commits only.",
 ) -> str:
     """Render the language distribution card."""
+    limit = 8
     sorted_languages = sorted(
         languages.items(),
         reverse=True,
-        key=lambda item: float(item[1].get("size", 0) or 0),
-    )[:limit]
+        key=lambda item: float(item[1]["size"]),
+    )
+    if len(sorted_languages) > limit:
+        remainder = sorted_languages[limit - 1 :]
+        sorted_languages = sorted_languages[: limit - 1] + [
+            (
+                "Other languages",
+                {
+                    "size": sum(float(data["size"]) for _, data in remainder),
+                    "prop": sum(float(data["prop"]) for _, data in remainder),
+                    "color": f"var(--card-muted, {theme.muted})",
+                },
+            )
+        ]
 
     x = 22.0
-    bar_y = 54
+    bar_y = 275
     bar_width = 316.0
     progress_parts = [
-        f'<rect x="22" y="{bar_y}" width="{bar_width:g}" height="10" rx="5" fill="{theme.track}" />'
+        f'<rect x="22" y="{bar_y}" width="{bar_width:g}" height="10" rx="5" fill="var(--card-track, {theme.track})" />'
     ]
-    for name, data in sorted_languages:
-        percent = float(data.get("prop", 0) or 0)
+    list_parts = []
+    for index, (name, data) in enumerate(sorted_languages):
+        percent = float(data["prop"])
         width = max(0.0, bar_width * percent / 100)
-        color = str(data.get("color") or theme.accent)
+        color = str(data.get("color") or f"var(--card-accent, {theme.accent})")
         progress_parts.append(
             f'<rect x="{x:g}" y="{bar_y}" width="{width:g}" height="10" fill="{escape(color)}" />'
         )
         x += width
 
-    list_parts = []
-    for index, (name, data) in enumerate(sorted_languages):
-        y = 88 + index * 14
-        color = str(data.get("color") or theme.accent)
-        percent = float(data.get("prop", 0) or 0)
+        y = 84 + index * 24
         list_parts.append(
-            f'<circle cx="28" cy="{y - 4}" r="3" fill="{escape(color)}" />'
+            f'<circle cx="27" cy="{y - 4}" r="3" fill="{escape(color)}" />'
             f'<text x="38" y="{y}" class="label">{escape(name)}</text>'
-            f'<text x="330" y="{y}" text-anchor="end" class="small">{percent:0.2f}%</text>'
+            f'<text x="330" y="{y}" text-anchor="end" class="value">{percent:0.2f}%</text>'
+        )
+    if not sorted_languages:
+        list_parts.append(
+            '<text x="22" y="100" class="label">No included authored changes.</text>'
+            '<text x="22" y="124" class="label">Check the period and exclusion settings.</text>'
         )
 
     return render_template(
@@ -123,7 +147,8 @@ def render_languages(
             "BORDER_RADIUS": theme.radius,
             "CARD_WIDTH": theme.width - 10,
             "CARD_HEIGHT": theme.height - 10,
-            "TRACK_COLOR": theme.track,
+            "DESCRIPTION": escape(scope),
+            "PERIOD": escape(period),
             "PROGRESS": "\n".join(progress_parts),
             "LANGUAGES": "\n".join(list_parts),
         },

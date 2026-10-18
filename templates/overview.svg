@@ -1,16 +1,33 @@
 <svg width="{{ WIDTH }}" height="{{ HEIGHT }}" viewBox="0 0 {{ WIDTH }} {{ HEIGHT }}" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>GitHub profile statistics</title>
+<desc>{{ DESCRIPTION }}</desc>
 <style>
+  @media (prefers-color-scheme: light) {
+    svg {
+      --card-background: #ffffff;
+      --card-border: #d1d9e0;
+      --card-title: #1f2328;
+      --card-text: #1f2328;
+      --card-muted: #59636e;
+      --card-accent: #bc4c00;
+      --card-accent-alt: #1a7f37;
+    }
+  }
+  .card { fill: var(--card-background, {{ BACKGROUND_COLOR }}); stroke: var(--card-border, {{ BORDER_COLOR }}); }
+  .divider { stroke: var(--card-border, {{ BORDER_COLOR }}); }
   text {
     font-family: {{ FONT }};
     letter-spacing: 0;
   }
-  .title { fill: {{ TITLE_COLOR }}; font-size: 16px; font-weight: 700; }
-  .label { fill: {{ MUTED_COLOR }}; font-size: 12px; font-weight: 600; }
-  .value { fill: {{ TEXT_COLOR }}; font-size: 13px; font-weight: 600; }
+  .title { fill: var(--card-title, {{ TITLE_COLOR }}); font-size: 16px; font-weight: 700; }
+  .label { fill: var(--card-text, {{ TEXT_COLOR }}); font-size: 13px; font-weight: 500; }
+  .value { fill: var(--card-text, {{ TEXT_COLOR }}); font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .caption { fill: var(--card-muted, {{ MUTED_COLOR }}); font-size: 11px; }
 </style>
-<rect x="5" y="5" width="{{ CARD_WIDTH }}" height="{{ CARD_HEIGHT }}" rx="{{ BORDER_RADIUS }}" fill="{{ BACKGROUND_COLOR }}" stroke="{{ BORDER_COLOR }}" />
+<rect x="5" y="5" width="{{ CARD_WIDTH }}" height="{{ CARD_HEIGHT }}" rx="{{ BORDER_RADIUS }}" class="card" />
 <text x="22" y="32" class="title">{{ CARD_TITLE }}</text>
-<line x1="22" y1="43" x2="338" y2="43" stroke="{{ BORDER_COLOR }}" />
+<line x1="22" y1="43" x2="338" y2="43" class="divider" />
+<text x="22" y="60" class="caption">Profile overview · authored changes over 90 days</text>
 {{ ROWS }}
+<text x="22" y="300" class="caption">{{ PERIOD }}</text>
 </svg>

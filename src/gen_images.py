@@ -14,6 +14,24 @@ from github_stats import Stats
 from profile_readme.paths import GENERATED
 from profile_readme.svg import render_languages, render_overview
 
+AUTHORSHIP_SCOPE = (
+    "Added and deleted lines in non-merge commits authored by the configured GitHub user, "
+    "committed during the stated 90 complete UTC days. Includes upstream repositories "
+    "and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. "
+    "Discovery covers GitHub search-indexed default branches plus default branches of "
+    "forks found through owned/contributed repository listings accessible to the token; "
+    "undiscoverable repositories and non-default branches may be absent. GitHub search "
+    "considers at most 4,000 repositories per query. Identical commit SHAs count once. "
+    "Language detection uses pinned GitHub Linguist filenames and content rules. "
+    "If the diff is inconclusive, the repository's language list can resolve a filename "
+    "only when one candidate matches. Percentages count changed lines, not repository sizes. "
+    "Unresolved filenames appear as Ambiguous or Unclassified."
+)
+
+
+def _period(stats: Stats) -> str:
+    return f"{stats.authored_start} – {stats.authored_end} · UTC"
+
 
 def _split_env(name: str) -> set[str] | None:
     value = os.getenv(name)
@@ -43,6 +61,10 @@ async def generate_overview(stats: Stats, output_dir: Path = GENERATED) -> None:
         "lines_changed": f"{lines_added + lines_deleted:,}",
         "views": f"{await stats.views:,}",
         "repos": f"{len(await stats.all_repos):,}",
+        "authored_commits": f"{stats.authored_commits:,}",
+        "authored_repos": f"{stats.authored_repo_count:,}",
+        "scope": AUTHORSHIP_SCOPE,
+        "period": _period(stats),
     }
     (output_dir / "overview.svg").write_text(render_overview(payload), encoding="utf-8")
 
@@ -50,7 +72,7 @@ async def generate_overview(stats: Stats, output_dir: Path = GENERATED) -> None:
 async def generate_languages(stats: Stats, output_dir: Path = GENERATED) -> None:
     """Generate the language distribution SVG."""
     (output_dir / "languages.svg").write_text(
-        render_languages(await stats.languages),
+        render_languages(await stats.languages, period=_period(stats), scope=AUTHORSHIP_SCOPE),
         encoding="utf-8",
     )
 
@@ -65,7 +87,10 @@ async def main(output_dir: Path = GENERATED) -> None:
         raise RuntimeError("PROFILE_USERNAME is required to proceed")
 
     generate_output_folder(output_dir)
-    async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=30)) as session:
+    async with (
+        asyncio.timeout(540),
+        aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=30)) as session,
+    ):
         stats = Stats(
             user,
             access_token,
