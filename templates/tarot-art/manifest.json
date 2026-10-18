@@ -1,0 +1,203 @@
+{
+  "artist": "Gustave Doré (1832–1883)",
+  "work": "Illustrations for Dante's Inferno, first published in 1861",
+  "edition": "Dante's Inferno, translated by Henry Francis Cary; New York: Cassell, Petter, Galpin & Co., [1866?]",
+  "collection": "John M. Kelly Library, University of Toronto, call number ANN-2570",
+  "catalog": "https://archive.org/details/dantesinferno00dantuoft",
+  "rights": "Public domain: nineteenth-century engravings; Doré died in 1883. The digitizing collection records NOT_IN_COPYRIGHT.",
+  "processing": "IIIF JPEG at source_width pixels wide, or 1000 when omitted. Crop and rotation recorded per plate; grayscale, contrast-stretch 0.5%x1%, resize 720x720, JPEG quality 87.",
+  "plates": {
+    "dark-wood": {
+      "title": "In the midway of this our mortal life, I found me in a gloomy wood, astray",
+      "canto": "I",
+      "scan_leaf": 34,
+      "crop": "880x880+84+365",
+      "rotation": 0
+    },
+    "guide": {
+      "title": "He soon as he saw that I was weeping, answered",
+      "canto": "I",
+      "scan_leaf": 43,
+      "crop": "865x865+45+365",
+      "rotation": 0
+    },
+    "beatrice": {
+      "title": "I, who now bid thee on this errand forth, am Beatrice",
+      "canto": "II",
+      "scan_leaf": 54,
+      "crop": "870x870+76+365",
+      "rotation": 0
+    },
+    "charon": {
+      "title": "And, lo! toward us in a bark comes on an old man, hoary white with eld",
+      "canto": "III",
+      "scan_leaf": 63,
+      "crop": "870x870+36+340",
+      "rotation": 0
+    },
+    "tempest": {
+      "title": "The stormy blast of hell with restless fury drives the spirits on",
+      "canto": "V",
+      "scan_leaf": 83,
+      "crop": "875x875+35+205",
+      "rotation": 0
+    },
+    "heavenly-messenger": {
+      "title": "He came, and with his wand touched it, whereat open without impediment it flew",
+      "canto": "IX",
+      "scan_leaf": 132,
+      "crop": "866x1090+51+155",
+      "rotation": 90
+    },
+    "harpies": {
+      "title": "Here the brute Harpies make their nest",
+      "canto": "XIII",
+      "scan_leaf": 166,
+      "crop": "875x875+78+240",
+      "rotation": 0
+    },
+    "stars": {
+      "title": "Thence issuing we again beheld the stars",
+      "canto": "XXXIV",
+      "scan_leaf": 364,
+      "crop": "870x870+80+170",
+      "rotation": 0
+    },
+    "lion": {
+      "title": "A lion came, with his head held aloft",
+      "canto": "I",
+      "scan_leaf": 40,
+      "source_width": 1000,
+      "crop": "894x1111+85+122",
+      "rotation": 0
+    },
+    "onward": {
+      "title": "Onward he moved, I close his steps pursued",
+      "canto": "I",
+      "scan_leaf": 47,
+      "source_width": 1000,
+      "crop": "873x1113+16+106",
+      "rotation": 0
+    },
+    "poets": {
+      "title": "The bright school of poets",
+      "canto": "IV",
+      "scan_leaf": 75,
+      "source_width": 800,
+      "crop": "707x893+32+70",
+      "rotation": 0
+    },
+    "reading": {
+      "title": "In its leaves that day we read no more",
+      "canto": "V",
+      "scan_leaf": 91,
+      "source_width": 1000,
+      "crop": "895x1116+42+114",
+      "rotation": 0
+    },
+    "fallen-pilgrim": {
+      "title": "Dante falls through compassion",
+      "canto": "V",
+      "scan_leaf": 93,
+      "source_width": 800,
+      "crop": "709x891+24+98",
+      "rotation": 0
+    },
+    "heretics": {
+      "title": "The arch-heretics and their followers",
+      "canto": "IX",
+      "scan_leaf": 135,
+      "source_width": 1000,
+      "crop": "887x1110+43+135",
+      "rotation": 0
+    },
+    "farinata": {
+      "title": "Farinata addresses Dante",
+      "canto": "X",
+      "scan_leaf": 139,
+      "source_width": 1000,
+      "crop": "901x1120+23+104",
+      "rotation": 0
+    },
+    "abyss": {
+      "title": "From the profound abyss, behind the lid of a great monument",
+      "canto": "XI",
+      "scan_leaf": 146,
+      "source_width": 1000,
+      "crop": "895x1130+90+127",
+      "rotation": 0
+    },
+    "minotaur": {
+      "title": "The Minotaur",
+      "canto": "XII",
+      "scan_leaf": 153,
+      "source_width": 1000,
+      "crop": "884x1115+26+110",
+      "rotation": 0
+    },
+    "rejected-passage": {
+      "title": "My teacher sage, aware, thrusting him back",
+      "canto": "VIII",
+      "scan_leaf": 119,
+      "source_width": 1000,
+      "crop": "890x1115+34+110",
+      "rotation": 0
+    },
+    "geryon": {
+      "title": "The image of Fraud appears",
+      "canto": "XVII",
+      "scan_leaf": 197,
+      "source_width": 1000,
+      "crop": "887x1116+15+139",
+      "rotation": 0
+    },
+    "descent": {
+      "title": "New terror I conceived at the steep plunge",
+      "canto": "XVII",
+      "scan_leaf": 201,
+      "source_width": 1000,
+      "crop": "904x1120+47+139",
+      "rotation": 0
+    },
+    "confining-fire": {
+      "title": "Spirits swathed in confining fire",
+      "canto": "XXVI",
+      "scan_leaf": 276,
+      "source_width": 1000,
+      "crop": "888x1105+92+117",
+      "rotation": 0
+    },
+    "nimrod": {
+      "title": "Nimrod and his horn",
+      "canto": "XXXI",
+      "scan_leaf": 324,
+      "source_width": 1000,
+      "crop": "883x1119+91+143",
+      "rotation": 0
+    }
+  },
+  "cards": {
+    "first-commit": "dark-wood",
+    "toolsmith": "confining-fire",
+    "hidden-state": "heretics",
+    "module-grove": "harpies",
+    "system-root": "abyss",
+    "convention": "poets",
+    "linker": "reading",
+    "runner": "charon",
+    "steady-hand": "lion",
+    "inspector": "farinata",
+    "scheduler": "minotaur",
+    "gatekeeper": "heavenly-messenger",
+    "inversion": "fallen-pilgrim",
+    "pruner": "rejected-passage",
+    "compositor": "guide",
+    "vendor": "geryon",
+    "breakage": "tempest",
+    "declarative-star": "beatrice",
+    "mirage": "descent",
+    "beacon": "onward",
+    "release-bell": "nimrod",
+    "closure": "stars"
+  }
+}

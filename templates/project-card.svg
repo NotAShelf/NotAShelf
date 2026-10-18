@@ -1,59 +1,38 @@
-<svg width="{{ WIDTH }}" height="{{ HEIGHT }}" viewBox="0 0 {{ WIDTH }} {{ HEIGHT }}" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>{{ TITLE }} project spotlight card</title>
+<svg width="{{ WIDTH }}" height="{{ HEIGHT }}" viewBox="0 0 330 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="card-title card-description">
+<title id="card-title">{{ NUMERAL }}. {{ ARCANA }}: {{ TITLE }}</title>
+<desc id="card-description">{{ ACCESSIBLE_DESCRIPTION }}. Artwork from scanned Gustave Doré Inferno engravings, first published in 1861.</desc>
 <defs>
-  <linearGradient id="card-face" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#201914"/>
-    <stop offset="48%" stop-color="#111018"/>
-    <stop offset="100%" stop-color="#08070b"/>
-  </linearGradient>
-  <radialGradient id="halo" cx="50%" cy="35%" r="58%">
-    <stop offset="0%" stop-color="#d7b46a" stop-opacity="0.24"/>
-    <stop offset="46%" stop-color="#7f4f3a" stop-opacity="0.16"/>
-    <stop offset="100%" stop-color="#08070b" stop-opacity="0"/>
-  </radialGradient>
-  <pattern id="fine-lines" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-    <path d="M0 0 H12" stroke="#47352c" stroke-opacity="0.28" stroke-width="1"/>
+  <pattern id="paper-grain" width="47" height="53" patternUnits="userSpaceOnUse">
+    <path d="M2 5 h8 M27 18 h3 M8 41 h5 M35 48 h9 M41 30 h2" stroke="var(--ink)" stroke-width="0.4" opacity="0.09"/>
   </pattern>
 </defs>
 <style>
-  text {
-    font-family: Georgia, Cambria, "Times New Roman", serif;
-    letter-spacing: 0;
+  :root { --paper: #141713; --edge: #090c0a; --ink: #ded6c3; --muted: #b7b09e; --rule: #9f9987; --faint: #565c50; }
+  @media (prefers-color-scheme: light) {
+    :root { --paper: #f5eedf; --edge: #dfd4be; --ink: #29271f; --muted: #645b4b; --rule: #8c7c60; --faint: #cbbd9f; }
   }
-  .numeral { fill: #d7b46a; font-size: 15px; font-weight: 800; }
-  .arcana { fill: #d7b46a; font-size: 12px; font-weight: 800; text-transform: uppercase; }
-  .title { fill: #f5efe3; font-size: 32px; font-weight: 850; }
-  .suit { fill: #b8aa92; font-size: 13px; font-weight: 750; }
-  .body { fill: #ded3bf; font-size: 14px; }
-  .rule { stroke: #5a4437; stroke-width: 1.25; }
-  .card-bg { fill: #111018; }
-  .halo-ring { fill: none; stroke: #5a4437; stroke-width: 1; }
-  .moon { fill: #d7b46a; opacity: 0.9; }
-  .spark { fill: none; stroke: #9b5c42; stroke-width: 1.4; stroke-linecap: round; }
-  .seal { fill: rgba(215, 180, 106, 0.08); stroke: #5a4437; stroke-width: 1.1; }
-  .emblem { fill: none; stroke: #d7b46a; stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; }
-  .emblem-thin { fill: none; stroke: #d7b46a; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; }
-  .emblem-fill { fill: rgba(215, 180, 106, 0.12); stroke: #d7b46a; stroke-width: 1.7; stroke-linejoin: round; }
-  .emblem-dark { fill: #151017; stroke: #d7b46a; stroke-width: 1.7; stroke-linejoin: round; }
-  .emblem-blue { fill: none; stroke: #6f8396; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-  .emblem-warm { fill: #9b5c42; stroke: none; }
-  .ornament { fill: none; stroke: #d7b46a; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; opacity: 0.72; }
-  .ornament circle { fill: #d7b46a; stroke: none; opacity: 0.72; }
-  .wear { fill: none; stroke: #c8ad75; stroke-width: 0.8; stroke-linecap: round; opacity: 0.18; }
-  .wear circle { fill: #c8ad75; stroke: none; opacity: 0.16; }
+  text { font-family: Georgia, "Times New Roman", serif; fill: var(--ink); }
+  .numeral { font-size: 21px; letter-spacing: 2px; }
+  .arcana { font-size: 17px; letter-spacing: 1px; font-variant: small-caps; }
+  .title { font-weight: bold; }
+  .suit { font-size: 13px; font-style: italic; fill: var(--muted); }
+  .body { fill: var(--muted); }
+  .rule { fill: none; stroke: var(--rule); stroke-width: 0.7; }
+  .scrollwork { fill: none; stroke: var(--rule); stroke-width: 0.7; stroke-linecap: round; }
 </style>
-<rect x="10" y="10" width="{{ OUTER_WIDTH }}" height="{{ OUTER_HEIGHT }}" rx="22" fill="#05070b"/>
-<rect x="15" y="15" width="{{ FACE_WIDTH }}" height="{{ FACE_HEIGHT }}" rx="18" fill="url(#card-face)" stroke="#4d3a30" stroke-width="2"/>
-<rect x="29" y="29" width="{{ TEXTURE_WIDTH }}" height="{{ TEXTURE_HEIGHT }}" rx="13" fill="url(#fine-lines)" opacity="0.5"/>
-<rect x="29" y="29" width="{{ TEXTURE_WIDTH }}" height="{{ TEXTURE_HEIGHT }}" rx="13" fill="none" stroke="#342b28"/>
-<rect x="43" y="43" width="{{ BORDER_WIDTH }}" height="{{ BORDER_HEIGHT }}" rx="8" fill="none" stroke="#d7b46a" stroke-opacity="0.65"/>
+<rect x="3" y="3" width="324" height="554" rx="10" fill="var(--edge)"/>
+<rect x="9" y="9" width="312" height="542" rx="6" fill="var(--paper)" stroke="var(--rule)" stroke-width="0.8"/>
+<rect x="16" y="16" width="298" height="528" rx="3" fill="url(#paper-grain)" stroke="var(--faint)" stroke-width="0.5"/>
 {{ ORNAMENTS }}
-<circle cx="{{ CENTER_X }}" cy="178" r="96" fill="url(#halo)"/>
-<text x="{{ CENTER_X }}" y="64" class="numeral" text-anchor="middle">{{ NUMERAL }}</text>
-<text x="{{ CENTER_X }}" y="91" class="arcana" text-anchor="middle">{{ ARCANA }}</text>
+<path d="M49 47 H124 M206 47 H281 M56 51 H121 M209 51 H274" class="rule"/>
+<ellipse cx="165" cy="43" rx="31" ry="18" fill="var(--paper)" stroke="var(--rule)" stroke-width="0.7"/>
+<text x="165" y="50" class="numeral" text-anchor="middle">{{ NUMERAL }}</text>
+<path d="M33 71 H297 V357 H33 Z M29 67 H301 V361 H29 Z" class="rule"/>
 {{ SCENE }}
-<text x="{{ CENTER_X }}" y="294" class="title" text-anchor="middle" style="font-size: {{ PROJECT_TITLE_SIZE }}px">{{ PROJECT_TITLE }}</text>
-<text x="{{ CENTER_X }}" y="320" class="suit" text-anchor="middle">{{ SUIT }}</text>
-<line x1="72" y1="340" x2="{{ CONTENT_RIGHT }}" y2="340" class="rule"/>
+<path d="M39 369 H291 L297 375 V403 L291 409 H39 L33 403 V375 Z" fill="var(--paper)" stroke="var(--rule)" stroke-width="0.8"/>
+<text x="165" y="395" class="arcana" text-anchor="middle">{{ ARCANA }}</text>
+<text x="165" y="439" class="title" text-anchor="middle" font-size="{{ PROJECT_TITLE_SIZE }}">{{ PROJECT_TITLE }}</text>
+<text x="165" y="460" class="suit" text-anchor="middle">{{ SUIT }}</text>
 {{ DESCRIPTION }}
+<path d="M125 546 H153 M177 546 H205 M160 546 l5 -4 l5 4 l-5 4 Z" class="rule"/>
 </svg>

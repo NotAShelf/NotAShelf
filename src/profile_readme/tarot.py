@@ -2,17 +2,19 @@
 
 from __future__ import annotations
 
-import html
+import base64
 import hashlib
+import html
+import json
 import textwrap
+from functools import cache
 from typing import NamedTuple
 
 from profile_readme.models import ProjectCard
 from profile_readme.paths import TEMPLATES
-from profile_readme.svg import DEFAULT_THEME, Theme
 from profile_readme.templates import render_template
 
-TAROT_ICON_DIR = TEMPLATES / "tarot-icons"
+TAROT_ART_DIR = TEMPLATES / "tarot-art"
 
 
 class TarotCard(NamedTuple):
@@ -83,8 +85,6 @@ def draw_tarot_spread(cards: list[ProjectCard], *, seed: str | None = None) -> l
 
 def render_fortune(draws: list[TarotDraw]) -> str:
     """Render one project-centered reading for the selected spotlight cards."""
-    if len(draws) != 3:
-        raise ValueError("A project spotlight reading needs exactly three cards")
 
     def entry(draw: TarotDraw) -> dict[str, str]:
         _category, project = draw.project_card
@@ -124,111 +124,75 @@ def render_fortune(draws: list[TarotDraw]) -> str:
     )
 
 
-def _svg_text_lines(text: str, *, width: int, max_lines: int) -> list[str]:
-    lines = textwrap.wrap(text, width=width)
-    if len(lines) <= max_lines:
-        return lines
-
-    clipped = lines[:max_lines]
-    clipped[-1] = clipped[-1].rstrip(".") + "..."
-    return clipped
-
-
 def _project_title_size(title: str) -> int:
-    available_width = 228
-    estimated = int(available_width / max(len(title), 1) / 0.62)
-    return max(16, min(32, estimated))
+    return max(17, min(25, int(250 / max(len(title), 1) / 0.56)))
 
 
-def _load_icon(symbol: str) -> str:
-    icon_path = TAROT_ICON_DIR / f"{symbol}.svg"
-    if not icon_path.exists():
-        raise ValueError(f"Missing tarot icon template: {icon_path}")
-
-    return icon_path.read_text(encoding="utf-8").strip()
+@cache
+def _scan_catalog() -> dict:
+    return json.loads((TAROT_ART_DIR / "manifest.json").read_text(encoding="utf-8"))
 
 
-def validate_tarot_deck() -> None:
-    """Validate deck uniqueness and icon coverage."""
-    fields = {
-        "title": [card.title for card in TAROT_DECK],
-        "symbol": [card.symbol for card in TAROT_DECK],
-        "numeral": [card.numeral for card in TAROT_DECK],
-    }
-    for field, values in fields.items():
-        if len(values) != len(set(values)):
-            raise ValueError(f"Tarot deck contains duplicate {field} values")
-
-    for card in TAROT_DECK:
-        _load_icon(card.symbol)
+@cache
+def _scan_data(name: str) -> str:
+    return base64.b64encode((TAROT_ART_DIR / f"{name}.jpg").read_bytes()).decode("ascii")
 
 
-def _render_scene(card: TarotCard, *, cx: float, cy: float) -> str:
-    icon = _load_icon(card.symbol)
-    return f"""
-<circle class="halo-ring" cx="{cx:g}" cy="{cy:g}" r="76"/>
-<circle class="seal" cx="{cx:g}" cy="{cy:g}" r="62"/>
-<path class="emblem-thin" d="M{cx - 72:g} {cy + 82:g} H{cx + 72:g}"/>
-<g transform="translate({cx - 80:g} {cy - 80:g})">
-{icon}
-</g>
-"""
+def _render_scene(draw: TarotDraw) -> str:
+    catalog = _scan_catalog()
+    name = catalog["cards"][draw.card.symbol]
+    plate = catalog["plates"][name]
+    credit = html.escape(
+        f"Gustave Doré, Inferno (1861), {plate['title']}. "
+        f"{catalog['catalog']}; scan leaf {plate['scan_leaf']}. {catalog['rights']}"
+    )
+    return (
+        f"<g><desc>{credit}</desc>"
+        '<image x="37" y="75" width="256" height="278" '
+        'preserveAspectRatio="xMidYMid slice" '
+        f'href="data:image/jpeg;base64,{_scan_data(name)}"/>'
+        '<rect x="37" y="75" width="256" height="278" fill="none" '
+        'stroke="var(--rule, #9f9987)" stroke-width="0.8"/></g>'
+    )
 
 
-def _edge_decorations(width: int, height: int) -> str:
-    cx = width / 2
-    return f"""
-<g class="ornament">
-  <path d="M55 76 L69 76 M55 76 L55 90 M{width - 55:g} 76 L{width - 69:g} 76 M{width - 55:g} 76 L{width - 55:g} 90"/>
-  <path d="M53 {height - 53:g} L65 {height - 53:g} M53 {height - 53:g} L53 {height - 65:g} M{width - 53:g} {height - 53:g} L{width - 65:g} {height - 53:g} M{width - 53:g} {height - 53:g} L{width - 53:g} {height - 65:g}"/>
-  <path d="M{cx - 22:g} 120 L{cx:g} 108 L{cx + 22:g} 120 L{cx:g} 132 Z"/>
-  <path d="M61 105 C74 98 88 98 101 105 M{width - 61:g} 105 C{width - 74:g} 98 {width - 88:g} 98 {width - 101:g} 105"/>
-  <path d="M{cx - 34:g} {height - 75:g} L{cx:g} {height - 96:g} L{cx + 34:g} {height - 75:g} L{cx:g} {height - 54:g} Z"/>
-  <path d="M{cx - 105:g} {height - 73:g} L{cx - 84:g} {height - 86:g} L{cx - 63:g} {height - 73:g} L{cx - 84:g} {height - 60:g} Z"/>
-  <path d="M{cx + 63:g} {height - 73:g} L{cx + 84:g} {height - 86:g} L{cx + 105:g} {height - 73:g} L{cx + 84:g} {height - 60:g} Z"/>
-  <path d="M73 {height - 112:g} C91 {height - 101:g} 110 {height - 101:g} 128 {height - 112:g} M{width - 73:g} {height - 112:g} C{width - 91:g} {height - 101:g} {width - 110:g} {height - 101:g} {width - 128:g} {height - 112:g}"/>
-  <path d="M72 {height - 82:g} H124 M206 {height - 82:g} H258 M72 {height - 56:g} H124 M206 {height - 56:g} H258"/>
-  <path d="M57 198 V212 M{width - 57:g} 198 V212 M57 {height - 212:g} V{height - 198:g} M{width - 57:g} {height - 212:g} V{height - 198:g}"/>
-  <circle cx="58" cy="235" r="1.7"/><circle cx="{width - 58:g}" cy="235" r="1.7"/>
-  <circle cx="58" cy="{height - 235:g}" r="1.7"/><circle cx="{width - 58:g}" cy="{height - 235:g}" r="1.7"/>
-</g>
-<g class="wear">
-  <path d="M38 84 C61 79 74 82 92 76"/>
-  <path d="M236 48 C252 51 268 49 286 56"/>
-  <path d="M44 {height - 139:g} C65 {height - 132:g} 89 {height - 135:g} 104 {height - 126:g}"/>
-  <path d="M226 {height - 59:g} C244 {height - 66:g} 262 {height - 64:g} 286 {height - 72:g}"/>
-  <circle cx="87" cy="273" r="1.3"/>
-  <circle cx="244" cy="285" r="1.1"/>
-  <circle cx="103" cy="{height - 92:g}" r="1.2"/>
-  <circle cx="267" cy="{height - 170:g}" r="1"/>
-</g>
-"""
+@cache
+def _engraved_frame() -> str:
+    """Keep engraved corner flourishes outside the illustration and lettering."""
+    corner = (
+        '<path d="M0 32 V8 Q0 0 8 0 H25 M3 28 V9 Q3 3 9 3 H22 '
+        "M0 17 C12 14 13 5 7 6 C1 7 4 14 9 10 "
+        'M7 22 C13 18 15 11 12 8 M4 28 C10 26 15 23 17 17"/>'
+        '<path d="M7 22 C7 16 2 15 1 18 C0 21 5 23 7 22 '
+        'M12 16 C18 15 19 10 16 10 C13 10 11 13 12 16"/>'
+    )
+    return "".join(
+        f'<g class="scrollwork" transform="translate({x} {y}) scale({sx} {sy})">{corner}</g>'
+        for x, y, sx, sy in ((23, 23, 1, 1), (307, 23, -1, 1), (23, 537, 1, -1), (307, 537, -1, -1))
+    )
 
 
 def render_project_card_svg(
     draw: TarotDraw,
     *,
-    theme: Theme = DEFAULT_THEME,
     width: int = 330,
-    height: int = 520,
+    height: int = 560,
 ) -> str:
     """Render one tarot draw as a project-card SVG."""
-    _ = theme
     category, project = draw.project_card
-    arcana = html.escape(draw.card.title)
-    numeral = html.escape(draw.card.numeral)
     title = html.escape(project["title"])
     orientation = "reversed" if draw.reversed else "upright"
-    suit = html.escape(f"{category.split(',')[0]} / {orientation}")
-    description_lines = [
-        html.escape(line) for line in _svg_text_lines(project["description"], width=30, max_lines=4)
-    ]
-
+    category_label = "Software" if "," in category else category
+    description_lines = textwrap.wrap(project["description"], width=35)
+    # Fit the full description between the category and the bottom ornament.
+    line_height = min(18, 54 / max(len(description_lines) - 1, 1))
+    body_size = min(15, line_height - 1)
     desc = "\n".join(
-        f'<text x="{width / 2:g}" y="{358 + index * 20}" class="body" text-anchor="middle">{line}</text>'
+        f'<text x="165" y="{480 + index * line_height:g}" class="body" '
+        f'font-size="{body_size:g}" text-anchor="middle">{html.escape(line)}</text>'
         for index, line in enumerate(description_lines)
     )
-    scene = _render_scene(draw.card, cx=width / 2, cy=178)
+    scene = _render_scene(draw)
 
     return render_template(
         TEMPLATES / "project-card.svg",
@@ -236,23 +200,17 @@ def render_project_card_svg(
             "WIDTH": width,
             "HEIGHT": height,
             "TITLE": title,
-            "OUTER_WIDTH": width - 20,
-            "OUTER_HEIGHT": height - 20,
-            "FACE_WIDTH": width - 30,
-            "FACE_HEIGHT": height - 30,
-            "TEXTURE_WIDTH": width - 58,
-            "TEXTURE_HEIGHT": height - 58,
-            "BORDER_WIDTH": width - 86,
-            "BORDER_HEIGHT": height - 86,
-            "CENTER_X": f"{width / 2:g}",
-            "CONTENT_RIGHT": width - 72,
-            "ORNAMENTS": _edge_decorations(width, height),
-            "NUMERAL": numeral,
-            "ARCANA": arcana,
+            "ACCESSIBLE_DESCRIPTION": html.escape(
+                f"{draw.card.numeral}. {draw.card.title}, {orientation}. "
+                f"{category_label}. {project['description']}"
+            ),
+            "NUMERAL": html.escape(draw.card.numeral),
+            "ARCANA": html.escape(draw.card.title),
             "SCENE": scene,
+            "ORNAMENTS": _engraved_frame(),
             "PROJECT_TITLE": title,
             "PROJECT_TITLE_SIZE": _project_title_size(project["title"]),
-            "SUIT": suit,
+            "SUIT": html.escape(f"{category_label} / {orientation}"),
             "DESCRIPTION": desc,
         },
     )

@@ -61,25 +61,32 @@ class _FortuneText(HTMLParser):
 
 
 def render_fortune_svg(reading: str) -> str:
-    """Carry the complete tarot reading into a wrapped, self-contained SVG."""
+    """Render the reading as a wrapped SVG."""
     parser = _FortuneText()
     parser.feed(reading)
     paragraphs = "".join(parser.parts).splitlines()
     rows = []
-    y = 78
-    for index, paragraph in enumerate(paragraphs):
-        color = "#d7b46a" if index == 0 else "#ded3bf"
+    y = 82
+    for paragraph in paragraphs:
         for line in textwrap.wrap(paragraph, width=76, break_long_words=True):
-            rows.append(f'<text x="28" y="{y}" fill="{color}">{html.escape(line)}</text>')
-            y += 22
+            rows.append(f'<text x="28" y="{y}">{html.escape(line)}</text>')
+            y += 23
         y += 12
     height = y + 12
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="{height}" viewBox="0 0 720 {height}" role="img">
 <title>Fortune</title>
-<rect x="1" y="1" width="718" height="{height - 2}" rx="12" fill="#111018" stroke="#5a4437"/>
-<text x="360" y="36" text-anchor="middle" fill="#d7b46a" font-family="Georgia, serif" font-size="22" font-weight="bold">Fortune</text>
-<path d="M28 50 H692" stroke="#5a4437"/>
-<g font-family="monospace" font-size="14">
+<style>
+:root {{ --paper: #141713; --ink: #ded6c3; --muted: #d0c9b8; --rule: #9f9987; --faint: #666a5b; }}
+@media (prefers-color-scheme: light) {{
+  :root {{ --paper: #f5eedf; --ink: #29271f; --muted: #645b4b; --rule: #8c7c60; --faint: #cbbd9f; }}
+}}
+</style>
+<rect width="720" height="{height}" rx="9" fill="var(--paper)"/>
+<rect x="7" y="7" width="706" height="{height - 14}" rx="5" fill="none" stroke="var(--rule)" stroke-width="0.7"/>
+<rect x="11" y="11" width="698" height="{height - 22}" rx="3" fill="none" stroke="var(--faint)" stroke-width="0.5"/>
+<text x="360" y="39" text-anchor="middle" fill="var(--ink)" font-family="Georgia, serif" font-size="24" font-variant="small-caps" letter-spacing="2">Fortune</text>
+<path d="M28 55 H332 L360 48 L388 55 H692" fill="none" stroke="var(--rule)" stroke-width="0.6"/>
+<g fill="var(--muted)" font-family="Georgia, 'Times New Roman', serif" font-size="16.5">
 {chr(10).join(rows)}
 </g>
 </svg>
