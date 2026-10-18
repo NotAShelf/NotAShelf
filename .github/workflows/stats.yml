@@ -4,14 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
-    paths:
-      - .github/workflows/stats.yml
-      - src/gen_assets.py
-      - src/gen_images.py
-      - src/github_stats.py
-      - src/profile_readme/**
-      - src/requirements.txt
-      - templates/**
   schedule:
     - cron: "0 6 * * *"
 
