@@ -1,0 +1,9 @@
+* text=lf
+* eol=lf
+
+*.png binary
+
+templates/*.md linguist-detectable
+templats/*.md -linguist-documentation
+
+README.md linguist-generated

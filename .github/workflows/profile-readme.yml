@@ -1,0 +1,73 @@
+name: "Update profile README"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  render:
+    name: "Update blog posts"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Setup Python"
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "src/requirements.txt"
+
+      - name: "Install requirements"
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r src/requirements.txt
+
+      - name: "Update and publish blog posts"
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          publish_dir=""
+          cleanup() {
+            if [[ -n "$publish_dir" ]]; then
+              git worktree remove --force "$publish_dir"
+              publish_dir=""
+            fi
+          }
+          trap cleanup EXIT
+
+          for attempt in 1 2 3; do
+            git fetch origin main:refs/remotes/origin/main
+            publish_dir=$(mktemp -d "$RUNNER_TEMP/profile-readme.XXXXXX")
+            git worktree add --detach "$publish_dir" origin/main
+            python src/gen_readme.py --output "$publish_dir/README.md"
+            git -C "$publish_dir" add README.md
+            if git -C "$publish_dir" diff --cached --quiet -- README.md; then
+              exit 0
+            fi
+            git -C "$publish_dir" commit -m "ci: update latest blog posts"
+            if git -C "$publish_dir" push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "::warning::Push attempt $attempt failed; refreshing main and regenerating the blog list."
+            cleanup
+          done
+          echo "::error::Could not publish blog posts after three attempts."
+          exit 1

@@ -1,0 +1,287 @@
+<!-- markdownlint-disable MD026 MD033 MD041 -->
+
+### 👋 Hey!
+
+<!-- Those don't have to be in-line. Glad to have learned that -->
+
+[![PGP](https://img.shields.io/badge/pgp-0x2445AC359CDF26C9-313131?style=flat&labelColor=545454&color=313131)](https://github.com/notashelf.gpg)
+[![Profile Views](https://komarev.com/ghpvc/?username=notashelf&style=flat&color=313131&label=views)](https://github.com/notashelf)
+[![Website](https://img.shields.io/static/v1?label=website&message=notashelf.dev&style=flat&labelColor=545454&color=313131)](https://notashelf.dev)
+
+I'm raf, more commonly known as NotAShelf on various parts of the world wide
+web. I am a sailor, sailmaker, political scientist, and an academic with a
+particular interest in data privacy & cybersecurity.
+
+<!-- The "overrated" section every bio really needs -->
+
+- 📅 Programming since ~2018
+- ⛵ Professional Sailor
+- 🏫 Part-time Political Scientist and lecturer, forever student
+- 🖥️ NixOS / Hyprland / Neovim
+- 🔧 Despite its shortcomings, Go is my _go-to_ language (pun _fully_ intended)
+- 🌐 Frontend via React/NextJS used to be my primary stack, now I focus on
+  backend applications, applications security and system administration.
+- ❄️ NixOS remains my favorite Linux distro for both personal and enterprise
+  use. I manage my own fleet of servers and virtual machines powered by it.
+- 📫 Contact me by email via `raf [at] notashelf [dot] dev` or on Discord, by
+  sending a friend request to `@notashelf` I'm also available on Matrix, though
+  downtimes may occur on my homeserver...
+- 🎲 Fun fact: I have entered the world of Linux, programming and OSS through a
+  lengthy misadventure back in 2018 that involved a Linux VPS, a large Minecraft
+  server and an imminent crisis that I found myself in. I have been passionate
+  about Linux, FOSS and programming ever since.
+
+Ever since my introduction to the world of FOSS and the Linux ecosystem in the
+late 2010s, I have been deeply passionate about **operating systems**,
+**open-source software** and **system administration**. I am particularly
+interested in the role of information systems, data integrity, and privacy in
+contemporary policymaking, a focus point that I have decided to base my
+doctorate research on.
+
+[solutions]: https://github.com/NotAShelf/licenseit
+[to]: https://github.com/NotAShelf/watt
+[small]: https://github.com/NotAShelf/mrc
+[itches]: https://github.com/NotAShelf/flint
+[expressed]: https://github.com/NotAShelf/syntax-gaslighting.nvim
+[through]: https://github.com/NotAShelf/shitlist
+[code]: https://github.com/NotAShelf/flipoff
+
+Most of my code here are [solutions] [to] [small] [itches], my answers to
+different curiosities, or humor [expressed] [through] [code]. Exploring
+potential, or more optimized solutions to known pain points in software and
+home-made CLI applications to make different components of my setups more
+ergonomic are some of my pastime pastime activities. **Reliable** and
+**scalable** systems are also within my area of interest, which I work to make
+more achievable by creating simple, accessible and robust software.
+
+[pieces]: https://github.com/feel-co/hjem
+[of]: https://github.com/notashelf/nvf
+[software]: https://github.com/nix-community/nh
+[Nixpkgs]: https://github.com/NixOS
+[my blog]: https://blog.notashelf.dev
+[improve the NixOS ecosystem]: https://github.com/manic-systems/nixos-core
+
+I work with, and contribute to [Nixpkgs] in my free time, and write various
+[pieces] [of] [software] to [improve the NixOS ecosystem]. Sometimes I write
+informative guides about NixOS (among other things) and opinion pieces on Nix on
+[my blog]. You can find my last 5 posts below:
+
+<!-- Blogposts section
+     That's right, I write. I write about Nix.
+-->
+
+- [The Golden Age of Software Is a Little Embarrassing](https://notashelf.dev/posts/the-golden-age-of-software)
+- [Taste Is All That's Left](https://notashelf.dev/posts/taste-is-all-thats-left)
+- [The Tool and the Tedium](https://notashelf.dev/posts/tool-and-tedium)
+- [Nix Evaluation Is a Scheduling Problem](https://notashelf.dev/posts/evix)
+- [No Software is Ever Truly Finished (And Neither is the Land)](https://notashelf.dev/posts/not-farming)
+
+<!-- End posts section -->
+
+There are many means to my ends, and I work with _any and all languages_ that I
+find interesting on the basis of scope My experience and knowledge span over
+multiple languages, tools, frameworks and stacks; however, I work primarily with
+**Rust**[^1], **Zig** and **C** for backend systems while I use **Typescript**
+and **Astro** (or very rarely **Svelte**) for frontend. I also rely on **Nix**
+and **NixOS** for infrastructure, deployments and distributing software with a
+dash of **Terraform** where I can apply it.. See below for a list of languages
+and tools that I work, or have worked with before. Take a look at the
+[projects section](#-projects) if you are interested in seeing what I am
+currently working on.
+
+[^1]: This [used to say "Go"](https://notashelf.dev/posts/go-sucks)
+
+### 🫂 Affiliations
+
+I'm "affiliated" with various FOSS communities, some of which that I have
+founded personally. While you can see a more complete list on my personal
+website's [about page](https://notashelf.dev/about), here are some worth
+mentioning:
+
+### [feel-co](https://github.com/feel-co)
+
+[NDG]: https://github.com/feel-co/ndg
+[Hjem]: https://github.com/feel-co/hjem
+
+An organization formed with people on the same bandwidth as me. A shared space
+for Nix hackers, and where we come together to come up with practical solutions
+to impractical problems within the Nix ecosystem.
+
+We maintain [Hjem] and [NDG] under this organization, among less widely known
+projects.
+
+### [SNUG](https://github.com/snugnug/snug)
+
+[Hjem-Rum]: https://github.com/snugnug/hjem-rum
+[MicrOS]: https://github.com/snugnug/micros
+
+The **S**imple **N**ix **U**ser **G**roup. An online cyber space I have formed
+for Nix enjoyers from various backgrounds. This is more so a social space, but
+has lead to the creation of great projects such as [Hjem-Rum] nevertheless. We
+also work on an experimental, init-agnostic NixOS derivative called [MicrOS] for
+a modern desktop experience.
+
+### [Hyprland](https://github.com/Hyprland)
+
+[Hyprland]: https://github.com/Hyprland
+[official forums]: https://forum.hypr.land/
+
+I also take part in the [Hyprland] community, playing an active role in
+community management and acting as a supporting developer for Nix. Do feel free
+to [contact me](#-how-to-reach-me) for either of those matters. You'll have
+better luck asking for technical help on the [official forums], though.
+
+### [Manic Systems](https://github.com/manic-systems)
+
+[dix]: https://github.com/manic-systems/dix
+[nixos-core]: https://github.com/manic-systems/nixos-core
+[tack]: https://github.com/manic-systems/tack
+[circus]: https://github.com/manic-systems/circus
+[nh]: https://github.com/nix-community/nh
+
+Brainchild of various Nix and Rust enthusiasts, and a focused "clique" bringing
+together friends and likeminded individuals to work on shared projects for
+modern desktops, efficient workflows and trying to make programming fun. We
+don't have a Minecraft server yet.
+
+Several active projects _such as, but not limited to_:
+
+- [dix] - a blazingly fast tool to diff Nix related things, as featured in [nh]
+- [nixos-core] - core NixOS utilities in safe, portable Rust for NixOS and
+  friends
+- [tack] - flake-like TOML nix pins, lazily fetched and transformed
+- [circus] - declarative Nix CI system for clowns
+
+### 🔭 Projects
+
+I have many projects, usually fruits of my most recent obsession. Almost all of
+them are bootstrapped with Nix, but languages vary. Note that I am currently in
+the process of moving beloved projects out of GitHub due to the increase in
+automated scrapers and AI training. You mind find that some of the projects are
+now missing, archived or are made private. Sponsors get access to private
+projects. Please let me know if you would too.
+
+<!-- Projects Table Section -->
+
+| **Nix** | **Go, Rust, Python, JavaScript, TypeScript** |
+| --- | --- |
+| • [nvf](https://github.com/notashelf/nvf) - a highly extensible and distro agnostic configuration framework for Neovim using Nix<br>• [Nyx](https://github.com/notashelf/nyx) - the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!<br>• [Nyxpkgs](https://github.com/notashelf/nyxexprs) - collection of packages not found in Nixpkgs<br>• [Hjem](https://github.com/feel-co/hjem) - streamlined and modern home-management solution with Nix<br>• [MicrOS](https://github.com/snugnug/micros) - Experimental operating system based on Nixpkgs module system, bringing Runit to NixOS<br>• [Basix](https://github.com/NotAShelf/Basix) - Purely functional collection of Base16/Base24 themes to be used with Nix<br>• [ndg](https://github.com/feel-co/ndg) - alternative documentation generation for any Nix based module system<br>• [Schizofox](https://github.com/schizofox/schizofox) - privacy and security oriented Firefox configuration for Home-manager<br>• [Wallpkgs](https://github.com/notashelf/wallpkgs) - easy-to-install wallpapers collections, designed to install with Nix<br>• [Nixpkgs](https://github.com/nixos/nixpkgs) - Nix Packages collection and NixOS | • [CatApi](https://github.com/notashelf/catApi) - Minimal API for serving pictures of your cats. Now with a convenient frontend.<br>• [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) - Powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland.<br>• [nff](https://github.com/notashelf/nff) - experimental nftables configuration beautifier in Python.<br>• [batmon](https://github.com/notashelf/batmon) - Dead simple battery monitor in Go, with the ability to emit events on change.<br>• [Goblin](https://github.com/notashelf/goblin) - termbin-inspired paste service to replace Fiche, written in Go.<br>• [Tailray](https://github.com/notashelf/Tailray) - Rust implementation of Tailscale systray.<br>• [Microfetch](https://github.com/notashelf/microfetch) - Microscopic fetch tool in Rust, for NixOS systems.<br>• [SSA](https://github.com/NotAShelf/ssa) - Simple, streamlined and pretty aggregator for systemd-analyze security.<br>• [mrc](https://github.com/NotAShelf/mrc) - Minimalistic, yet robust API wrapper and remote controller for MPV, the video player.<br>• [watt](https://github.com/NotAShelf/watt) - Modern CPU frequency and power management utility for Linux. |
+
+<div align='center'>
+
+| **Neovim Plugins** |
+| --- |
+| • [direnv.nvim](https://github.com/notashelf/direnv.nvim) - Neovim companion for Direnv<br>• [syntax-gaslighting.nvim](https://github.com/NotAShelf/syntax-gaslighting.nvim) - Gaslighting is not even a real word, you're crazy.<br>• [sprint.nvim](https://github.com/NotAShelf/sprint.nvim) - Robust command runner for Neovim. |
+</div>
+
+<!-- End Projects Section -->
+
+<h6 align="center">
+  ...and some projects I take part in co-maintaining. For more projects, active
+  or inactive, visit the repositories page. If you are interested in
+  <emphasis>supporting</emphasis> my work, then please consider
+  <a href="https://github.com/sponsors/notashelf">becoming a GitHub sponsor.</a>
+  I appreciate everyone who actively sponsors me, or has sponsored me at some
+  point in time <3
+</h6>
+
+#### Project Spotlight
+
+[projects list on my website]: https://notashelf.dev/projects
+
+Here are three random projects you might be interested in.
+
+<!-- Projects Spotlight Section -->
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+<a href="https://notashelf.dev/projects">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-1.svg" alt="First project spotlight card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://notashelf.dev/projects">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-2.svg" alt="Second project spotlight card" width="220">
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://notashelf.dev/projects">
+<img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/project-spotlight-3.svg" alt="Third project spotlight card" width="220">
+</a>
+</td>
+</tr>
+</table>
+
+<details align="center">
+<summary><strong>Fortune</strong></summary>
+
+<p align="center"><img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/fortune.svg" alt="Fortune for the current project spotlight" width="720"></p>
+</details>
+
+<!-- End Projects Spotlight Section -->
+
+This is updated from the [projects list on my website].
+
+### 📫 How to reach me
+
+Want to talk to me? Ask me a question? _Call me a nerd personally_? Sure! Feel
+free to contact me from one of the links below. I am available most of the time,
+but I sometimes take some time to reply. Prefer Matrix if you use it!
+
+<!--markdownlint-disable MD013-->
+
+<p align="center">
+ <a href="https://discord.com/users/419880181101232129">
+   <code><img alt="discord" title="Discord" src=".github/assets/socials/discord.svg" width="48" height="48"></code>
+ </a>
+ <a alt="https://twitter.com/NotAShelf" href="https://twitter.com/NotAShelf">
+   <code><img alt="xitter" title="Twitter" src=".github/assets/socials/twitter.svg" width="48" height="48"></code>
+ </a>
+ <a alt="mailto:me@notashelf.dev" href="mailto:me@notashelf.dev">
+   <code><img alt="email" title="E-mail me" src=".github/assets/socials/gmail.svg" width="48" height="48"></code>
+ </a>
+ <a alt="https://matrix.to/#/@raf:notashelf.dev" href="https://matrix.to/#/@raf:notashelf.dev">
+   <code><img alt="matrix" title="Matrix" src=".github/assets/socials/matrix.svg" width="48" height="48"></code>
+ </a>
+</p>
+
+<!--markdownlint-disable MD013-->
+
+Below is a poorly updated chart of my language used based on the GitHub API.
+Some of the languages I use are excluded and some of them are incorrectly
+reported... for whatever reason. In addition to what is _already_ here, I also
+work with **R** and **Julia** for my academic endeavors, as well as **Ruby**,
+**Java**, **Kotlin** and _copious_ amounts of Typescript that I am too ashamed
+to make public.
+
+<div align="center">
+   <img alt="Profile overview" title="overview" src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/overview.svg">
+   <img alt="Used languages" title="languages" src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/languages.svg">
+   <h6>I despise Javascript, Nix despises me</h6>
+</div>
+
+---
+
+<!-- Chess Ratings Section
+  No README is complete without a ratings chart.
+
+  What, yours doesn't have one? Shame, you're missing out.
+-->
+<p align="center">
+  I like chess, but I'm not particularly good at it... Here is an ASCII tracker
+  of my 100 previous chess.com rapid games.
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/chess.svg" alt="Chess.com Rapid Rating Chart">
+</p>
+
+<!-- End of Chess Ratings Section -->
+
+<div align="right">
+  <a href="#readme">Back to the Top</a>
+  <br/>
+</div>
+
+---

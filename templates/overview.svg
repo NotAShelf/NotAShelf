@@ -1,0 +1,16 @@
+<svg width="{{ WIDTH }}" height="{{ HEIGHT }}" viewBox="0 0 {{ WIDTH }} {{ HEIGHT }}" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>GitHub profile statistics</title>
+<style>
+  text {
+    font-family: {{ FONT }};
+    letter-spacing: 0;
+  }
+  .title { fill: {{ TITLE_COLOR }}; font-size: 16px; font-weight: 700; }
+  .label { fill: {{ MUTED_COLOR }}; font-size: 12px; font-weight: 600; }
+  .value { fill: {{ TEXT_COLOR }}; font-size: 13px; font-weight: 600; }
+</style>
+<rect x="5" y="5" width="{{ CARD_WIDTH }}" height="{{ CARD_HEIGHT }}" rx="{{ BORDER_RADIUS }}" fill="{{ BACKGROUND_COLOR }}" stroke="{{ BORDER_COLOR }}" />
+<text x="22" y="32" class="title">{{ CARD_TITLE }}</text>
+<line x1="22" y1="43" x2="338" y2="43" stroke="{{ BORDER_COLOR }}" />
+{{ ROWS }}
+</svg>

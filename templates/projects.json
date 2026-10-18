@@ -1,0 +1,123 @@
+{
+  "Nix": [
+    {
+      "title": "nvf",
+      "link": "https://github.com/notashelf/nvf",
+      "description": "a highly extensible and distro agnostic configuration framework for Neovim using Nix"
+    },
+    {
+      "title": "Nyx",
+      "link": "https://github.com/notashelf/nyx",
+      "description": "the first child of Chaos and also an alias for my configuration for the ultimate declarative Linux distro, NixOS!"
+    },
+    {
+      "title": "Nyxpkgs",
+      "link": "https://github.com/notashelf/nyxexprs",
+      "description": "collection of packages not found in Nixpkgs"
+    },
+    {
+      "title": "Hjem",
+      "link": "https://github.com/feel-co/hjem",
+      "description": "streamlined and modern home-management solution with Nix"
+    },
+    {
+      "title": "MicrOS",
+      "link": "https://github.com/snugnug/micros",
+      "description": "Experimental operating system based on Nixpkgs module system, bringing Runit to NixOS"
+    },
+    {
+      "title": "Basix",
+      "link": "https://github.com/NotAShelf/Basix",
+      "description": "Purely functional collection of Base16/Base24 themes to be used with Nix"
+    },
+    {
+      "title": "ndg",
+      "link": "https://github.com/feel-co/ndg",
+      "description": "alternative documentation generation for any Nix based module system"
+    },
+    {
+      "title": "Schizofox",
+      "link": "https://github.com/schizofox/schizofox",
+      "description": "privacy and security oriented Firefox configuration for Home-manager"
+    },
+    {
+      "title": "Wallpkgs",
+      "link": "https://github.com/notashelf/wallpkgs",
+      "description": "easy-to-install wallpapers collections, designed to install with Nix"
+    },
+    {
+      "title": "Nixpkgs",
+      "link": "https://github.com/nixos/nixpkgs",
+      "description": "Nix Packages collection and NixOS"
+    }
+  ],
+  "Go, Rust, Python, JavaScript, TypeScript": [
+    {
+      "title": "CatApi",
+      "link": "https://github.com/notashelf/catApi",
+      "description": "Minimal API for serving pictures of your cats. Now with a convenient frontend."
+    },
+    {
+      "title": "Hyprkeys",
+      "link": "https://github.com/hyprland-community/Hyprkeys",
+      "description": "Powerful and easy to use keyboard utility designed for my favorite Wayland Compositor, Hyprland."
+    },
+    {
+      "title": "nff",
+      "link": "https://github.com/notashelf/nff",
+      "description": "experimental nftables configuration beautifier in Python."
+    },
+    {
+      "title": "batmon",
+      "link": "https://github.com/notashelf/batmon",
+      "description": "Dead simple battery monitor in Go, with the ability to emit events on change."
+    },
+    {
+      "title": "Goblin",
+      "link": "https://github.com/notashelf/goblin",
+      "description": "termbin-inspired paste service to replace Fiche, written in Go."
+    },
+    {
+      "title": "Tailray",
+      "link": "https://github.com/notashelf/Tailray",
+      "description": "Rust implementation of Tailscale systray."
+    },
+    {
+      "title": "Microfetch",
+      "link": "https://github.com/notashelf/microfetch",
+      "description": "Microscopic fetch tool in Rust, for NixOS systems."
+    },
+    {
+      "title": "SSA",
+      "link": "https://github.com/NotAShelf/ssa",
+      "description": "Simple, streamlined and pretty aggregator for systemd-analyze security."
+    },
+    {
+      "title": "mrc",
+      "link": "https://github.com/NotAShelf/mrc",
+      "description": "Minimalistic, yet robust API wrapper and remote controller for MPV, the video player."
+    },
+    {
+      "title": "watt",
+      "link": "https://github.com/NotAShelf/watt",
+      "description": "Modern CPU frequency and power management utility for Linux."
+    }
+  ],
+  "Neovim Plugins": [
+    {
+      "title": "direnv.nvim",
+      "link": "https://github.com/notashelf/direnv.nvim",
+      "description": "Neovim companion for Direnv"
+    },
+    {
+      "title": "syntax-gaslighting.nvim",
+      "link": "https://github.com/NotAShelf/syntax-gaslighting.nvim",
+      "description": "Gaslighting is not even a real word, you're crazy."
+    },
+    {
+      "title": "sprint.nvim",
+      "link": "https://github.com/NotAShelf/sprint.nvim",
+      "description": "Robust command runner for Neovim."
+    }
+  ]
+}

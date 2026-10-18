@@ -1,0 +1,5 @@
+-i https://pypi.org/simple
+aiohttp>=3.12.14
+asciichartpy>=1.5.24
+feedparser>=6.0.11
+requests>=2.32.4

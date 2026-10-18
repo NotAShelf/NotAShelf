@@ -1,0 +1,4 @@
+<path class="emblem-fill" d="M80 30 L122 54 V106 L80 130 L38 106 V54 Z"/>
+<path class="emblem-dark" d="M58 62 H102 V98 H58 Z"/>
+<path class="emblem" d="M70 74 H90 M70 88 H90 M80 30 V130 M38 54 L122 106 M122 54 L38 106"/>
+<circle class="emblem-warm" cx="80" cy="80" r="5"/>

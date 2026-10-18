@@ -1,0 +1,90 @@
+name: "Publish profile assets"
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - .github/workflows/stats.yml
+      - src/gen_assets.py
+      - src/gen_images.py
+      - src/github_stats.py
+      - src/profile_readme/**
+      - src/requirements.txt
+      - templates/**
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: "Generate and publish profile assets"
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: "Set up Python 3.11"
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "src/requirements.txt"
+
+      - name: "Install requirements"
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r src/requirements.txt
+
+      - name: "Generate profile assets"
+        id: generate
+        continue-on-error: true
+        env:
+          PROFILE_USERNAME: NotAShelf
+          COUNT_STATS_FROM_FORKS: false
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          EXCLUDED: ${{ secrets.EXCLUDED }}
+          EXCLUDED_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+        run: python src/gen_assets.py --output-dir "$RUNNER_TEMP/profile-assets"
+
+      - name: "Publish generated assets"
+        if: ${{ !cancelled() && (steps.generate.outcome == 'success' || steps.generate.outcome == 'failure') }}
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          assets=("$RUNNER_TEMP/profile-assets/"*.svg)
+          if (( ${#assets[@]} == 0 )); then
+            exit 0
+          fi
+
+          git fetch origin output:refs/remotes/origin/output
+          git switch --detach origin/output
+          mkdir -p generated
+          for asset in "${assets[@]}"; do
+            target="generated/$(basename "$asset")"
+            cp "$asset" "$target"
+            git add -f "$target"
+          done
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "ci: update profile assets"
+          git push origin HEAD:output
+
+      - name: "Report generation failure"
+        if: ${{ !cancelled() && steps.generate.outcome == 'failure' }}
+        run: |
+          echo "::error::One or more asset groups failed; successful groups were staged for publication."
+          exit 1
