@@ -43,7 +43,7 @@ jobs:
         env:
           PROFILE_USERNAME: NotAShelf
           COUNT_STATS_FROM_FORKS: false
-          ACCESS_TOKEN: ${{ github.token }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           EXCLUDED: ${{ secrets.EXCLUDED }}
           EXCLUDED_LANGS: ${{ secrets.EXCLUDE_LANGS }}
         run: python src/gen_assets.py --output-dir "$RUNNER_TEMP/profile-assets"
