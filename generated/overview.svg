@@ -1,6 +1,6 @@
 <svg width="360" height="320" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>GitHub profile statistics</title>
-<desc>GitHub statistics for raf. Added and deleted lines in non-merge commits authored by the configured GitHub user, committed during the stated 90 complete UTC days. Includes upstream repositories and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. Discovery covers GitHub search-indexed default branches plus default branches of forks found through owned/contributed repository listings accessible to the token; undiscoverable repositories and non-default branches may be absent. GitHub search considers at most 4,000 repositories per query. Identical commit SHAs count once. Language detection uses pinned GitHub Linguist filenames and content rules. If the diff is inconclusive, the repository&#x27;s language list can resolve a filename only when one candidate matches. Percentages count changed lines, not repository sizes. Unresolved filenames appear as Ambiguous or Unclassified.</desc>
+<desc>GitHub statistics for raf. Added and deleted lines in non-merge commits authored by the configured GitHub user, committed during the stated 90 complete UTC days. Includes upstream repositories and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. Discovery covers GitHub search-indexed default branches plus default branches of forks found through owned/contributed repository listings accessible to the token; undiscoverable repositories and non-default branches may be absent. GitHub search considers at most 4,000 repositories per query. Identical commit SHAs count once. Language detection uses pinned GitHub Linguist filenames and content rules. If the diff is inconclusive, the repository&#x27;s language list can resolve a filename only when one candidate matches. Percentages count changed lines, not repository sizes. Unresolved filenames are classified as Unclassified.</desc>
 <style>
   @media (prefers-color-scheme: light) {
     svg {
@@ -28,9 +28,9 @@
 <text x="22" y="32" class="title">GitHub Statistics</text>
 <line x1="22" y1="43" x2="338" y2="43" class="divider" />
 <text x="22" y="60" class="caption">Profile overview · authored changes over 90 days</text>
-<circle cx="27" cy="80" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="84" class="label">Stars</text><text x="330" y="84" text-anchor="end" class="value">48,281</text>
+<circle cx="27" cy="80" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="84" class="label">Stars</text><text x="330" y="84" text-anchor="end" class="value">48,283</text>
 <circle cx="27" cy="104" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="108" class="label">Forks</text><text x="330" y="108" text-anchor="end" class="value">2,745</text>
-<circle cx="27" cy="128" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="132" class="label">All-time contributions</text><text x="330" y="132" text-anchor="end" class="value">24,068</text>
+<circle cx="27" cy="128" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="132" class="label">All-time contributions</text><text x="330" y="132" text-anchor="end" class="value">24,074</text>
 <circle cx="27" cy="152" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="156" class="label">Authored commits, 90 days</text><text x="330" y="156" text-anchor="end" class="value">1,254</text>
 <circle cx="27" cy="176" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="180" class="label">Lines changed, 90 days</text><text x="330" y="180" text-anchor="end" class="value">476,651</text>
 <circle cx="27" cy="200" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="204" class="label">Views, past 14 days</text><text x="330" y="204" text-anchor="end" class="value">3,657</text>

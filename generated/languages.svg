@@ -1,6 +1,6 @@
 <svg width="360" height="320" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>Authored language changes over 90 days</title>
-<desc>Added and deleted lines in non-merge commits authored by the configured GitHub user, committed during the stated 90 complete UTC days. Includes upstream repositories and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. Discovery covers GitHub search-indexed default branches plus default branches of forks found through owned/contributed repository listings accessible to the token; undiscoverable repositories and non-default branches may be absent. GitHub search considers at most 4,000 repositories per query. Identical commit SHAs count once. Language detection uses pinned GitHub Linguist filenames and content rules. If the diff is inconclusive, the repository&#x27;s language list can resolve a filename only when one candidate matches. Percentages count changed lines, not repository sizes. Unresolved filenames appear as Ambiguous or Unclassified.</desc>
+<desc>Added and deleted lines in non-merge commits authored by the configured GitHub user, committed during the stated 90 complete UTC days. Includes upstream repositories and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. Discovery covers GitHub search-indexed default branches plus default branches of forks found through owned/contributed repository listings accessible to the token; undiscoverable repositories and non-default branches may be absent. GitHub search considers at most 4,000 repositories per query. Identical commit SHAs count once. Language detection uses pinned GitHub Linguist filenames and content rules. If the diff is inconclusive, the repository&#x27;s language list can resolve a filename only when one candidate matches. Percentages count changed lines, not repository sizes. Unresolved filenames are classified as Unclassified.</desc>
 <style>
   @media (prefers-color-scheme: light) {
     svg {
@@ -30,20 +30,20 @@
 <text x="22" y="60" class="caption">Added + deleted lines · past 90 complete days</text>
 <rect x="22" y="275" width="316" height="10" rx="5" fill="var(--card-track, #21262d)" />
 <rect x="22" y="275" width="174.685" height="10" fill="#dea584" />
-<rect x="196.685" y="275" width="38.5027" height="10" fill="var(--card-accent, #f78166)" />
-<rect x="235.188" y="275" width="23.2228" height="10" fill="#9c4221" />
-<rect x="258.41" y="275" width="22.9357" height="10" fill="#555555" />
-<rect x="281.346" y="275" width="8.33406" height="10" fill="#083fa1" />
-<rect x="289.68" y="275" width="8.16036" height="10" fill="#7e7eff" />
-<rect x="297.841" y="275" width="5.66432" height="10" fill="#3178c6" />
-<rect x="303.505" y="275" width="34.4951" height="10" fill="var(--card-muted, #8b949e)" />
+<rect x="196.685" y="275" width="23.2228" height="10" fill="#9c4221" />
+<rect x="219.908" y="275" width="23.1644" height="10" fill="#555555" />
+<rect x="243.072" y="275" width="20.4317" height="10" fill="#ff1111" />
+<rect x="263.504" y="275" width="17.754" height="10" fill="#292929" />
+<rect x="281.258" y="275" width="8.44477" height="10" fill="#083fa1" />
+<rect x="289.703" y="275" width="8.16036" height="10" fill="#7e7eff" />
+<rect x="297.863" y="275" width="40.1369" height="10" fill="var(--card-muted, #8b949e)" />
 <circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">55.28%</text>
-<circle cx="27" cy="104" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="108" class="label">Ambiguous</text><text x="330" y="108" text-anchor="end" class="value">12.18%</text>
-<circle cx="27" cy="128" r="3" fill="#9c4221" /><text x="38" y="132" class="label">TOML</text><text x="330" y="132" text-anchor="end" class="value">7.35%</text>
-<circle cx="27" cy="152" r="3" fill="#555555" /><text x="38" y="156" class="label">C</text><text x="330" y="156" text-anchor="end" class="value">7.26%</text>
-<circle cx="27" cy="176" r="3" fill="#083fa1" /><text x="38" y="180" class="label">Markdown</text><text x="330" y="180" text-anchor="end" class="value">2.64%</text>
-<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">2.58%</text>
-<circle cx="27" cy="224" r="3" fill="#3178c6" /><text x="38" y="228" class="label">TypeScript</text><text x="330" y="228" text-anchor="end" class="value">1.79%</text>
-<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">10.92%</text>
+<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">7.35%</text>
+<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.33%</text>
+<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">6.47%</text>
+<circle cx="27" cy="176" r="3" fill="#292929" /><text x="38" y="180" class="label">JSON</text><text x="330" y="180" text-anchor="end" class="value">5.62%</text>
+<circle cx="27" cy="200" r="3" fill="#083fa1" /><text x="38" y="204" class="label">Markdown</text><text x="330" y="204" text-anchor="end" class="value">2.67%</text>
+<circle cx="27" cy="224" r="3" fill="#7e7eff" /><text x="38" y="228" class="label">Nix</text><text x="330" y="228" text-anchor="end" class="value">2.58%</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">12.70%</text>
 <text x="22" y="300" class="caption">2026-07-21 – 2026-10-18 · UTC</text>
 </svg>
