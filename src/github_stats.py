@@ -93,6 +93,25 @@ class Queries(object):
                     if response.status == 200 and accept == "application/vnd.github.diff":
                         return await response.read()
                     text = await response.text()
+                    if response.status == 403 and path.startswith("/repos/"):
+                        async with self.session.get(
+                            f"https://api.github.com{path}",
+                            headers={
+                                "Accept": accept,
+                                "X-GitHub-Api-Version": "2022-11-28",
+                            },
+                            params=params,
+                        ) as public_response:
+                            if public_response.status == 200 and accept == "application/vnd.github.diff":
+                                return await public_response.read()
+                            public_text = await public_response.text()
+                            if public_response.status == 200:
+                                return json.loads(public_text)
+                            raise RuntimeError(
+                                f"Authored changes API failed: {path}: HTTP {response.status}: "
+                                f"{_preview_response(text)}; anonymous fallback returned HTTP "
+                                f"{public_response.status}: {_preview_response(public_text)}"
+                            )
                     if response.status == 200:
                         return json.loads(text)
                     if response.status not in RETRYABLE_HTTP_STATUSES:
