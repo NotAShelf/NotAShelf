@@ -1,21 +1,40 @@
-<svg width="360" height="210" viewBox="0 0 360 210" xmlns="http://www.w3.org/2000/svg" role="img">
+<svg width="360" height="320" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>GitHub profile statistics</title>
+<desc>GitHub statistics for raf. Added and deleted lines in non-merge commits authored by the configured GitHub user, committed during the stated 90 complete UTC days. Includes upstream repositories and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. Discovery covers GitHub search-indexed default branches plus default branches of forks found through owned/contributed repository listings accessible to the token; undiscoverable repositories and non-default branches may be absent. GitHub search considers at most 4,000 repositories per query. Identical commit SHAs count once. Language detection uses pinned GitHub Linguist filenames and content rules. If the diff is inconclusive, the repository&#x27;s language list can resolve a filename only when one candidate matches. Percentages count changed lines, not repository sizes. Unresolved filenames appear as Ambiguous or Unclassified.</desc>
 <style>
+  @media (prefers-color-scheme: light) {
+    svg {
+      --card-background: #ffffff;
+      --card-border: #d1d9e0;
+      --card-title: #1f2328;
+      --card-text: #1f2328;
+      --card-muted: #59636e;
+      --card-accent: #bc4c00;
+      --card-accent-alt: #1a7f37;
+    }
+  }
+  .card { fill: var(--card-background, #0d1117); stroke: var(--card-border, #30363d); }
+  .divider { stroke: var(--card-border, #30363d); }
   text {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     letter-spacing: 0;
   }
-  .title { fill: #f0f6fc; font-size: 16px; font-weight: 700; }
-  .label { fill: #8b949e; font-size: 12px; font-weight: 600; }
-  .value { fill: #c9d1d9; font-size: 13px; font-weight: 600; }
+  .title { fill: var(--card-title, #f0f6fc); font-size: 16px; font-weight: 700; }
+  .label { fill: var(--card-text, #c9d1d9); font-size: 13px; font-weight: 500; }
+  .value { fill: var(--card-text, #c9d1d9); font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .caption { fill: var(--card-muted, #8b949e); font-size: 11px; }
 </style>
-<rect x="5" y="5" width="350" height="200" rx="8" fill="#0d1117" stroke="#30363d" />
-<text x="22" y="32" class="title">raf GitHub Statistics</text>
-<line x1="22" y1="43" x2="338" y2="43" stroke="#30363d" />
-<circle cx="27" cy="54" r="3" fill="#f78166" /><text x="38" y="58" class="label">Stars</text><text x="316" y="58" text-anchor="end" class="value">48,271</text>
-<circle cx="27" cy="76" r="3" fill="#7ee787" /><text x="38" y="80" class="label">Forks</text><text x="316" y="80" text-anchor="end" class="value">2,743</text>
-<circle cx="27" cy="98" r="3" fill="#f78166" /><text x="38" y="102" class="label">All-time contributions</text><text x="316" y="102" text-anchor="end" class="value">24,032</text>
-<circle cx="27" cy="120" r="3" fill="#7ee787" /><text x="38" y="124" class="label">Lines changed</text><text x="316" y="124" text-anchor="end" class="value">9,526,121</text>
-<circle cx="27" cy="142" r="3" fill="#f78166" /><text x="38" y="146" class="label">Views, past 14 days</text><text x="316" y="146" text-anchor="end" class="value">3,674</text>
-<circle cx="27" cy="164" r="3" fill="#7ee787" /><text x="38" y="168" class="label">Repositories touched</text><text x="316" y="168" text-anchor="end" class="value">216</text>
+<rect x="5" y="5" width="350" height="310" rx="8" class="card" />
+<text x="22" y="32" class="title">GitHub Statistics</text>
+<line x1="22" y1="43" x2="338" y2="43" class="divider" />
+<text x="22" y="60" class="caption">Profile overview · authored changes over 90 days</text>
+<circle cx="27" cy="80" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="84" class="label">Stars</text><text x="330" y="84" text-anchor="end" class="value">48,281</text>
+<circle cx="27" cy="104" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="108" class="label">Forks</text><text x="330" y="108" text-anchor="end" class="value">2,745</text>
+<circle cx="27" cy="128" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="132" class="label">All-time contributions</text><text x="330" y="132" text-anchor="end" class="value">24,068</text>
+<circle cx="27" cy="152" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="156" class="label">Authored commits, 90 days</text><text x="330" y="156" text-anchor="end" class="value">1,254</text>
+<circle cx="27" cy="176" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="180" class="label">Lines changed, 90 days</text><text x="330" y="180" text-anchor="end" class="value">476,651</text>
+<circle cx="27" cy="200" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="204" class="label">Views, past 14 days</text><text x="330" y="204" text-anchor="end" class="value">3,657</text>
+<circle cx="27" cy="224" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="228" class="label">Repositories touched</text><text x="330" y="228" text-anchor="end" class="value">222</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="252" class="label">Active repositories, 90 days</text><text x="330" y="252" text-anchor="end" class="value">58</text>
+<text x="22" y="300" class="caption">2026-07-21 – 2026-10-18 · UTC</text>
 </svg>

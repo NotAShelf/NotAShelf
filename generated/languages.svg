@@ -1,32 +1,49 @@
-<svg width="360" height="210" viewBox="0 0 360 210" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>GitHub profile statistics</title>
+<svg width="360" height="320" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Authored language changes over 90 days</title>
+<desc>Added and deleted lines in non-merge commits authored by the configured GitHub user, committed during the stated 90 complete UTC days. Includes upstream repositories and owned or known contributed forks irrespective of COUNT_STATS_FROM_FORKS. Discovery covers GitHub search-indexed default branches plus default branches of forks found through owned/contributed repository listings accessible to the token; undiscoverable repositories and non-default branches may be absent. GitHub search considers at most 4,000 repositories per query. Identical commit SHAs count once. Language detection uses pinned GitHub Linguist filenames and content rules. If the diff is inconclusive, the repository&#x27;s language list can resolve a filename only when one candidate matches. Percentages count changed lines, not repository sizes. Unresolved filenames appear as Ambiguous or Unclassified.</desc>
 <style>
+  @media (prefers-color-scheme: light) {
+    svg {
+      --card-background: #ffffff;
+      --card-border: #d1d9e0;
+      --card-title: #1f2328;
+      --card-text: #1f2328;
+      --card-muted: #59636e;
+      --card-accent: #bc4c00;
+      --card-track: #eff2f5;
+    }
+  }
+  .card { fill: var(--card-background, #0d1117); stroke: var(--card-border, #30363d); }
+  .divider { stroke: var(--card-border, #30363d); }
   text {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     letter-spacing: 0;
   }
-  .title { fill: #f0f6fc; font-size: 16px; font-weight: 700; }
-  .label { fill: #8b949e; font-size: 12px; font-weight: 600; }
-  .small { fill: #8b949e; font-size: 11px; }
+  .title { fill: var(--card-title, #f0f6fc); font-size: 16px; font-weight: 700; }
+  .label { fill: var(--card-text, #c9d1d9); font-size: 13px; font-weight: 500; }
+  .value { fill: var(--card-text, #c9d1d9); font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .caption { fill: var(--card-muted, #8b949e); font-size: 11px; }
 </style>
-<rect x="5" y="5" width="350" height="200" rx="8" fill="#0d1117" stroke="#30363d" />
-<text x="22" y="32" class="title">Most Used Languages</text>
-<line x1="22" y1="43" x2="338" y2="43" stroke="#30363d" />
-<rect x="22" y="54" width="316" height="10" rx="5" fill="#21262d" />
-<rect x="22" y="54" width="79.6862" height="10" fill="#f34b7d" />
-<rect x="101.686" y="54" width="67.7807" height="10" fill="#dea584" />
-<rect x="169.467" y="54" width="57.059" height="10" fill="#f1e05a" />
-<rect x="226.526" y="54" width="42.6561" height="10" fill="#7e7eff" />
-<rect x="269.182" y="54" width="17.7211" height="10" fill="#3178c6" />
-<rect x="286.903" y="54" width="12.8494" height="10" fill="#555555" />
-<rect x="299.753" y="54" width="7.25897" height="10" fill="#00ADD8" />
-<rect x="307.012" y="54" width="5.15853" height="10" fill="#083fa1" />
-<circle cx="28" cy="84" r="3" fill="#f34b7d" /><text x="38" y="88" class="label">C++</text><text x="330" y="88" text-anchor="end" class="small">25.22%</text>
-<circle cx="28" cy="98" r="3" fill="#dea584" /><text x="38" y="102" class="label">Rust</text><text x="330" y="102" text-anchor="end" class="small">21.45%</text>
-<circle cx="28" cy="112" r="3" fill="#f1e05a" /><text x="38" y="116" class="label">JavaScript</text><text x="330" y="116" text-anchor="end" class="small">18.06%</text>
-<circle cx="28" cy="126" r="3" fill="#7e7eff" /><text x="38" y="130" class="label">Nix</text><text x="330" y="130" text-anchor="end" class="small">13.50%</text>
-<circle cx="28" cy="140" r="3" fill="#3178c6" /><text x="38" y="144" class="label">TypeScript</text><text x="330" y="144" text-anchor="end" class="small">5.61%</text>
-<circle cx="28" cy="154" r="3" fill="#555555" /><text x="38" y="158" class="label">C</text><text x="330" y="158" text-anchor="end" class="small">4.07%</text>
-<circle cx="28" cy="168" r="3" fill="#00ADD8" /><text x="38" y="172" class="label">Go</text><text x="330" y="172" text-anchor="end" class="small">2.30%</text>
-<circle cx="28" cy="182" r="3" fill="#083fa1" /><text x="38" y="186" class="label">Markdown</text><text x="330" y="186" text-anchor="end" class="small">1.63%</text>
+<rect x="5" y="5" width="350" height="310" rx="8" class="card" />
+<text x="22" y="32" class="title">Authored Languages</text>
+<line x1="22" y1="43" x2="338" y2="43" class="divider" />
+<text x="22" y="60" class="caption">Added + deleted lines · past 90 complete days</text>
+<rect x="22" y="275" width="316" height="10" rx="5" fill="var(--card-track, #21262d)" />
+<rect x="22" y="275" width="174.685" height="10" fill="#dea584" />
+<rect x="196.685" y="275" width="38.5027" height="10" fill="var(--card-accent, #f78166)" />
+<rect x="235.188" y="275" width="23.2228" height="10" fill="#9c4221" />
+<rect x="258.41" y="275" width="22.9357" height="10" fill="#555555" />
+<rect x="281.346" y="275" width="8.33406" height="10" fill="#083fa1" />
+<rect x="289.68" y="275" width="8.16036" height="10" fill="#7e7eff" />
+<rect x="297.841" y="275" width="5.66432" height="10" fill="#3178c6" />
+<rect x="303.505" y="275" width="34.4951" height="10" fill="var(--card-muted, #8b949e)" />
+<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">55.28%</text>
+<circle cx="27" cy="104" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="108" class="label">Ambiguous</text><text x="330" y="108" text-anchor="end" class="value">12.18%</text>
+<circle cx="27" cy="128" r="3" fill="#9c4221" /><text x="38" y="132" class="label">TOML</text><text x="330" y="132" text-anchor="end" class="value">7.35%</text>
+<circle cx="27" cy="152" r="3" fill="#555555" /><text x="38" y="156" class="label">C</text><text x="330" y="156" text-anchor="end" class="value">7.26%</text>
+<circle cx="27" cy="176" r="3" fill="#083fa1" /><text x="38" y="180" class="label">Markdown</text><text x="330" y="180" text-anchor="end" class="value">2.64%</text>
+<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">2.58%</text>
+<circle cx="27" cy="224" r="3" fill="#3178c6" /><text x="38" y="228" class="label">TypeScript</text><text x="330" y="228" text-anchor="end" class="value">1.79%</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">10.92%</text>
+<text x="22" y="300" class="caption">2026-07-21 – 2026-10-18 · UTC</text>
 </svg>
