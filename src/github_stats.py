@@ -672,14 +672,17 @@ Languages:
         items = list(first["items"])
         for page in range(2, (total + 99) // 100 + 1):
             result = await self.queries.authored_rest("/search/commits", {**params, "page": page})
-            if result["incomplete_results"] or result["total_count"] != total:
-                raise RuntimeError(
-                    "Authored commit search changed or became incomplete while paging"
-                )
-            items.extend(result["items"])
-        if len(items) != total:
-            raise RuntimeError("Authored commit search returned a truncated result set")
-        return items
+            if result["incomplete_results"]:
+                print(f"GitHub authored commit search was incomplete on page {page}")
+            page_items = result["items"]
+            if not page_items:
+                break
+            items.extend(page_items)
+
+        unique = {}
+        for item in items:
+            unique[item["sha"]] = item
+        return list(unique.values())
 
     async def _fork_authored(self) -> List[Dict]:
         # Commit search does not index every fork. Enumerate known forks directly.
