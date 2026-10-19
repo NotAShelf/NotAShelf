@@ -8,7 +8,7 @@ import tempfile
 import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import PurePosixPath
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Mapping, Optional, Set, Tuple
 
 import aiohttp
 import requests
@@ -477,10 +477,11 @@ class LanguageClassifier:
                 return self.extensions[basename[index:]]
         return set()
 
-    def _groups(self, languages: List[str] | Set[str]) -> Set[str]:
+    def _groups(self, languages: Mapping[str, int] | Set[str] | List[str]) -> Set[str]:
+        names = languages.keys() if isinstance(languages, Mapping) else languages
         return {
             self.definitions[name].get("group", name)
-            for name in languages
+            for name in names
             if name in self.definitions
         }
 
@@ -505,7 +506,7 @@ class LanguageClassifier:
         patch: str = "",
         *,
         removed: bool = False,
-        repository_languages: Optional[Set[str]] = None,
+        repository_languages: Optional[Mapping[str, int]] = None,
     ) -> Tuple[str, Optional[str]]:
         basename = PurePosixPath(filename).name
         candidates = self._filename_candidates(basename)
@@ -513,12 +514,25 @@ class LanguageClassifier:
             return "Unclassified", None
         if len(candidates) != 1:
             matches = self._content_candidates(basename, self._sample(patch, removed), candidates)
-            if not matches:
-                # Repository byte totals are context only, never authored-change weights.
-                matches = candidates & self._groups(repository_languages or set())
-            if len(matches) != 1:
+            if matches:
+                candidates = matches
+            elif repository_languages:
+                scores = {
+                    candidate: sum(
+                        size
+                        for language, size in repository_languages.items()
+                        if self.definitions.get(language, {}).get("group", language) == candidate
+                    )
+                    for candidate in candidates
+                }
+                highest = max(scores.values(), default=0)
+                if highest:
+                    candidates = {candidate for candidate, score in scores.items() if score == highest}
+        if len(candidates) != 1:
+            if repository_languages is None:
                 return "Ambiguous", None
-            candidates = matches
+            name = sorted(candidates)[0]
+            return name, self.definitions[name].get("color")
         name = next(iter(candidates))
         return name, self.definitions[name].get("color")
 
@@ -557,7 +571,7 @@ class Stats(object):
         self.authored_repo_count = 0
         self.authored_end = datetime.now(timezone.utc).date() - timedelta(days=1)
         self.authored_start = self.authored_end - timedelta(days=AUTHORSHIP_DAYS - 1)
-        self._language_context: Dict[str, Set[str]] = {}
+        self._language_context: Dict[str, Dict[str, int]] = {}
         self._language_context_lock = asyncio.Lock()
 
     async def to_str(self) -> str:
@@ -780,11 +794,13 @@ Languages:
                 )
         return files
 
-    async def _repository_languages(self, repo: str) -> Set[str]:
+    async def _repository_languages(self, repo: str) -> Dict[str, int]:
         async with self._language_context_lock:
             if repo not in self._language_context:
                 result = await self.queries.authored_rest(f"/repos/{repo}/languages")
-                self._language_context[repo] = set(result)
+                self._language_context[repo] = {
+                    language: int(size) for language, size in result.items()
+                }
             return self._language_context[repo]
 
     def _select_authored_commits(self, items: List[Dict]) -> Tuple[Dict[str, str], Set[str]]:

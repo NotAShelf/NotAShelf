@@ -25,7 +25,7 @@ AUTHORSHIP_SCOPE = (
     "Language detection uses pinned GitHub Linguist filenames and content rules. "
     "If the diff is inconclusive, the repository's language list can resolve a filename "
     "only when one candidate matches. Percentages count changed lines, not repository sizes. "
-    "Unresolved filenames appear as Ambiguous or Unclassified."
+    "Unresolved filenames are classified as Unclassified."
 )
 
 
