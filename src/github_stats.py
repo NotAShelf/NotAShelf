@@ -102,7 +102,10 @@ class Queries(object):
                             },
                             params=params,
                         ) as public_response:
-                            if public_response.status == 200 and accept == "application/vnd.github.diff":
+                            if (
+                                public_response.status == 200
+                                and accept == "application/vnd.github.diff"
+                            ):
                                 return await public_response.read()
                             public_text = await public_response.text()
                             if public_response.status == 200:
@@ -480,9 +483,7 @@ class LanguageClassifier:
     def _groups(self, languages: Mapping[str, int] | Set[str] | List[str]) -> Set[str]:
         names = languages.keys() if isinstance(languages, Mapping) else languages
         return {
-            self.definitions[name].get("group", name)
-            for name in names
-            if name in self.definitions
+            self.definitions[name].get("group", name) for name in names if name in self.definitions
         }
 
     def _content_candidates(self, basename: str, sample: str, candidates: Set[str]) -> Set[str]:
@@ -527,7 +528,9 @@ class LanguageClassifier:
                 }
                 highest = max(scores.values(), default=0)
                 if highest:
-                    candidates = {candidate for candidate, score in scores.items() if score == highest}
+                    candidates = {
+                        candidate for candidate, score in scores.items() if score == highest
+                    }
         if len(candidates) != 1:
             if repository_languages is None:
                 return "Ambiguous", None

@@ -5,7 +5,7 @@ python := ".venv/bin/python"
 default: lint
 
 setup:
-    uv venv --python python3 .venv
+    uv venv --python python3.11 .venv
     uv pip install --python {{python}} -r src/requirements.txt
     touch .venv/.requirements.stamp
 
