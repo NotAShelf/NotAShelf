@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Print the Chess.com rapid rating chart."""
+"""Print the Lichess rapid rating chart."""
 
 from __future__ import annotations
 

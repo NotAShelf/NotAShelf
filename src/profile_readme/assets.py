@@ -27,7 +27,7 @@ def render_chess_svg(chart: str) -> str:
         if line
     )
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">
-<title>Chess.com Rapid Rating Chart</title>
+<title>Lichess Rapid Rating Chart</title>
 <style>
 @media (prefers-color-scheme: light) {{
   svg {{
@@ -43,7 +43,7 @@ def render_chess_svg(chart: str) -> str:
 </style>
 <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="8" class="card"/>
 <g class="plot" font-family="DejaVu Sans Mono, monospace" font-size="14">
-<text x="24" y="34" class="title" font-weight="bold">Chess.com Rapid Rating Chart</text>
+<text x="24" y="34" class="title" font-weight="bold">Lichess Rapid Rating Chart</text>
 {rows}
 </g>
 </svg>

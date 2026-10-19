@@ -257,11 +257,11 @@ to make public.
 -->
 <p align="center">
   I like chess, but I'm not particularly good at it... Here is an ASCII tracker
-  of my 100 previous chess.com rapid games.
+  of my 100 previous Lichess rapid games.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/chess.svg" alt="Chess.com Rapid Rating Chart">
+  <img src="https://raw.githubusercontent.com/NotAShelf/NotAShelf/output/generated/chess.svg" alt="Lichess Rapid Rating Chart">
 </p>
 
 <!-- End of Chess Ratings Section -->
