@@ -26,11 +26,24 @@ LINGUIST_HEURISTICS_URL = LINGUIST_URL.replace("languages.yml", "heuristics.yml"
 REQUEST_RETRIES = 8
 RETRYABLE_HTTP_STATUSES = {202, 429, 500, 502, 503, 504}
 RETRYABLE_GRAPHQL_HTTP_STATUSES = RETRYABLE_HTTP_STATUSES
+AUTHORED_SEARCH_INTERVAL = 3.2
+SECONDARY_RATE_LIMIT_DELAYS = (60, 120, 240)
 RESPONSE_PREVIEW_CHARS = 300
 
 
 def _preview_response(text: str) -> str:
     return text.replace("\n", " ")[:RESPONSE_PREVIEW_CHARS]
+
+
+def _is_secondary_rate_limit(status: int, text: str) -> bool:
+    return status == 403 and "secondary rate limit" in text.casefold()
+
+
+def _retry_after_seconds(value: Optional[str]) -> float:
+    try:
+        return max(0.0, float(value or 0))
+    except ValueError:
+        return 0.0
 
 
 # Main classes
@@ -66,7 +79,7 @@ class Queries(object):
             now = time.monotonic()
             self._next_request = now + 0.2
             if search:
-                self._next_search = now + 2.1
+                self._next_search = now + AUTHORED_SEARCH_INTERVAL
             self.authored_requests += 1
 
     async def authored_rest(
@@ -78,8 +91,9 @@ class Queries(object):
     ) -> Dict | List | bytes:
         """Share the request budget and pace GitHub searches separately."""
         search = path == "/search/commits"
-        for attempt in range(3):
+        for attempt in range(len(SECONDARY_RATE_LIMIT_DELAYS) + 1):
             await self._pace_authored_request(search)
+            delay = 0.0
             try:
                 async with self.session.get(
                     f"https://api.github.com{path}",
@@ -93,7 +107,12 @@ class Queries(object):
                     if response.status == 200 and accept == "application/vnd.github.diff":
                         return await response.read()
                     text = await response.text()
-                    if response.status == 403 and path.startswith("/repos/"):
+                    secondary_limit = _is_secondary_rate_limit(response.status, text)
+                    if (
+                        response.status == 403
+                        and path.startswith("/repos/")
+                        and not secondary_limit
+                    ):
                         async with self.session.get(
                             f"https://api.github.com{path}",
                             headers={
@@ -117,15 +136,32 @@ class Queries(object):
                             )
                     if response.status == 200:
                         return json.loads(text)
-                    if response.status not in RETRYABLE_HTTP_STATUSES:
+                    if secondary_limit:
+                        if attempt >= len(SECONDARY_RATE_LIMIT_DELAYS):
+                            raise RuntimeError(
+                                f"Authored changes API remained rate-limited: {path}: "
+                                f"{_preview_response(text)}"
+                            )
+                        delay = max(
+                            SECONDARY_RATE_LIMIT_DELAYS[attempt],
+                            _retry_after_seconds(response.headers.get("Retry-After")),
+                        )
+                        print(
+                            f"GitHub secondary rate limit for {path}; retrying in "
+                            f"{delay:.0f} seconds"
+                        )
+                    elif response.status not in RETRYABLE_HTTP_STATUSES:
                         raise RuntimeError(
                             f"Authored changes API failed: {path}: HTTP {response.status}: "
                             f"{_preview_response(text)}"
                         )
-                    retry_after = response.headers.get("Retry-After", "0")
-                    delay = max(2**attempt, float(retry_after))
-                    if delay > 30:
-                        raise RuntimeError("GitHub rate limit exceeds the generation deadline")
+                    else:
+                        delay = max(
+                            2**attempt,
+                            _retry_after_seconds(response.headers.get("Retry-After")),
+                        )
+                        if delay > 30:
+                            raise RuntimeError("GitHub rate limit exceeds the generation deadline")
             except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError):
                 delay = 2**attempt
             await asyncio.sleep(delay)
