@@ -59,7 +59,7 @@ jobs:
           fi
 
           git fetch origin output:refs/remotes/origin/output
-          git switch --detach origin/output
+          git switch --discard-changes --detach origin/output
           mkdir -p generated
           for asset in "${assets[@]}"; do
             target="generated/$(basename "$asset")"
