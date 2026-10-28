@@ -29,21 +29,21 @@
 <line x1="22" y1="43" x2="338" y2="43" class="divider" />
 <text x="22" y="60" class="caption">Added + deleted lines · past 90 complete days</text>
 <rect x="22" y="275" width="316" height="10" rx="5" fill="var(--card-track, #21262d)" />
-<rect x="22" y="275" width="163.876" height="10" fill="#dea584" />
-<rect x="185.876" y="275" width="25.4491" height="10" fill="#9c4221" />
-<rect x="211.325" y="275" width="24.2043" height="10" fill="#555555" />
-<rect x="235.529" y="275" width="21.2727" height="10" fill="#ff1111" />
-<rect x="256.802" y="275" width="18.8212" height="10" fill="#292929" />
-<rect x="275.623" y="275" width="10.334" height="10" fill="#7e7eff" />
-<rect x="285.957" y="275" width="8.46432" height="10" fill="#083fa1" />
-<rect x="294.421" y="275" width="43.5789" height="10" fill="var(--card-muted, #8b949e)" />
-<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">51.86%</text>
-<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">8.05%</text>
-<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.66%</text>
-<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">6.73%</text>
-<circle cx="27" cy="176" r="3" fill="#292929" /><text x="38" y="180" class="label">JSON</text><text x="330" y="180" text-anchor="end" class="value">5.96%</text>
-<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">3.27%</text>
+<rect x="22" y="275" width="164.243" height="10" fill="#dea584" />
+<rect x="186.243" y="275" width="25.4909" height="10" fill="#9c4221" />
+<rect x="211.734" y="275" width="24.2441" height="10" fill="#555555" />
+<rect x="235.978" y="275" width="21.3077" height="10" fill="#ff1111" />
+<rect x="257.286" y="275" width="18.8119" height="10" fill="#292929" />
+<rect x="276.098" y="275" width="10.3024" height="10" fill="#7e7eff" />
+<rect x="286.4" y="275" width="8.4609" height="10" fill="#083fa1" />
+<rect x="294.861" y="275" width="43.1392" height="10" fill="var(--card-muted, #8b949e)" />
+<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">51.98%</text>
+<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">8.07%</text>
+<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.67%</text>
+<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">6.74%</text>
+<circle cx="27" cy="176" r="3" fill="#292929" /><text x="38" y="180" class="label">JSON</text><text x="330" y="180" text-anchor="end" class="value">5.95%</text>
+<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">3.26%</text>
 <circle cx="27" cy="224" r="3" fill="#083fa1" /><text x="38" y="228" class="label">Markdown</text><text x="330" y="228" text-anchor="end" class="value">2.68%</text>
-<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">13.79%</text>
-<text x="22" y="300" class="caption">2026-07-29 – 2026-10-26 · UTC</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">13.65%</text>
+<text x="22" y="300" class="caption">2026-07-30 – 2026-10-27 · UTC</text>
 </svg>
