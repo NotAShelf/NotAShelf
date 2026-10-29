@@ -28,13 +28,13 @@
 <text x="22" y="32" class="title">GitHub Statistics</text>
 <line x1="22" y1="43" x2="338" y2="43" class="divider" />
 <text x="22" y="60" class="caption">Profile overview · authored changes over 90 days</text>
-<circle cx="27" cy="80" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="84" class="label">Stars</text><text x="330" y="84" text-anchor="end" class="value">48,403</text>
-<circle cx="27" cy="104" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="108" class="label">Forks</text><text x="330" y="108" text-anchor="end" class="value">2,764</text>
+<circle cx="27" cy="80" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="84" class="label">Stars</text><text x="330" y="84" text-anchor="end" class="value">48,427</text>
+<circle cx="27" cy="104" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="108" class="label">Forks</text><text x="330" y="108" text-anchor="end" class="value">2,765</text>
 <circle cx="27" cy="128" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="132" class="label">All-time contributions</text><text x="330" y="132" text-anchor="end" class="value">24,160</text>
-<circle cx="27" cy="152" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="156" class="label">Authored commits, 90 days</text><text x="330" y="156" text-anchor="end" class="value">1,144</text>
-<circle cx="27" cy="176" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="180" class="label">Lines changed, 90 days</text><text x="330" y="180" text-anchor="end" class="value">455,425</text>
-<circle cx="27" cy="200" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="204" class="label">Views, past 14 days</text><text x="330" y="204" text-anchor="end" class="value">2,982</text>
+<circle cx="27" cy="152" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="156" class="label">Authored commits, 90 days</text><text x="330" y="156" text-anchor="end" class="value">1,132</text>
+<circle cx="27" cy="176" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="180" class="label">Lines changed, 90 days</text><text x="330" y="180" text-anchor="end" class="value">453,939</text>
+<circle cx="27" cy="200" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="204" class="label">Views, past 14 days</text><text x="330" y="204" text-anchor="end" class="value">3,285</text>
 <circle cx="27" cy="224" r="3" fill="var(--card-accent, #f78166)" /><text x="38" y="228" class="label">Repositories touched</text><text x="330" y="228" text-anchor="end" class="value">223</text>
-<circle cx="27" cy="248" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="252" class="label">Active repositories, 90 days</text><text x="330" y="252" text-anchor="end" class="value">58</text>
-<text x="22" y="300" class="caption">2026-07-30 – 2026-10-27 · UTC</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-accent-alt, #7ee787)" /><text x="38" y="252" class="label">Active repositories, 90 days</text><text x="330" y="252" text-anchor="end" class="value">56</text>
+<text x="22" y="300" class="caption">2026-07-31 – 2026-10-28 · UTC</text>
 </svg>
