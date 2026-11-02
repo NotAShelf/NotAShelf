@@ -12,12 +12,12 @@
 <text x="360" y="39" text-anchor="middle" fill="var(--ink)" font-family="Georgia, serif" font-size="24" font-variant="small-caps" letter-spacing="2">Fortune</text>
 <path d="M28 55 H332 L360 48 L388 55 H692" fill="none" stroke="var(--rule)" stroke-width="0.6"/>
 <g fill="var(--muted)" font-family="Georgia, 'Times New Roman', serif" font-size="16.5">
-<text x="28" y="82">Spread: The Hanged Man (reversed) / The Lovers (upright) / The Star</text>
-<text x="28" y="105">(reversed).</text>
-<text x="28" y="140">Root: nvf draws The Hanged Man (reversed), grounding the spread in a highly</text>
-<text x="28" y="163">extensible and distro agnostic configuration framework for Neovim using Nix.</text>
-<text x="28" y="186">Crossing: watt draws The Lovers (upright), putting pressure on modern CPU</text>
-<text x="28" y="209">frequency and power management utility for Linux. Path: direnv.nvim draws</text>
-<text x="28" y="232">The Star (reversed), turning the reading toward neovim companion for Direnv.</text>
+<text x="28" y="82">Spread: Wheel of Fortune (upright) / The Hierophant (reversed) / Judgement</text>
+<text x="28" y="105">(upright).</text>
+<text x="28" y="140">Root: Nyxpkgs draws Wheel of Fortune (upright), grounding the spread in</text>
+<text x="28" y="163">collection of packages not found in Nixpkgs. Crossing: sprint.nvim draws The</text>
+<text x="28" y="186">Hierophant (reversed), putting pressure on robust command runner for Neovim.</text>
+<text x="28" y="209">Path: Microfetch draws Judgement (upright), turning the reading toward</text>
+<text x="28" y="232">microscopic fetch tool in Rust, for NixOS systems.</text>
 </g>
 </svg>
