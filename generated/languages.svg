@@ -29,21 +29,21 @@
 <line x1="22" y1="43" x2="338" y2="43" class="divider" />
 <text x="22" y="60" class="caption">Added + deleted lines · past 90 complete days</text>
 <rect x="22" y="275" width="316" height="10" rx="5" fill="var(--card-track, #21262d)" />
-<rect x="22" y="275" width="167.71" height="10" fill="#dea584" />
-<rect x="189.71" y="275" width="25.9308" height="10" fill="#9c4221" />
-<rect x="215.641" y="275" width="24.5927" height="10" fill="#555555" />
-<rect x="240.233" y="275" width="23.5183" height="10" fill="#ff1111" />
-<rect x="263.752" y="275" width="14.5784" height="10" fill="#292929" />
-<rect x="278.33" y="275" width="10.149" height="10" fill="#7e7eff" />
-<rect x="288.479" y="275" width="8.50142" height="10" fill="#3178c6" />
-<rect x="296.98" y="275" width="41.0196" height="10" fill="var(--card-muted, #8b949e)" />
-<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">53.07%</text>
-<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">8.21%</text>
-<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.78%</text>
-<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">7.44%</text>
-<circle cx="27" cy="176" r="3" fill="#292929" /><text x="38" y="180" class="label">JSON</text><text x="330" y="180" text-anchor="end" class="value">4.61%</text>
-<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">3.21%</text>
-<circle cx="27" cy="224" r="3" fill="#3178c6" /><text x="38" y="228" class="label">TypeScript</text><text x="330" y="228" text-anchor="end" class="value">2.69%</text>
-<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">12.98%</text>
-<text x="22" y="300" class="caption">2026-08-08 – 2026-11-05 · UTC</text>
+<rect x="22" y="275" width="167.291" height="10" fill="#dea584" />
+<rect x="189.291" y="275" width="25.8041" height="10" fill="#9c4221" />
+<rect x="215.095" y="275" width="24.5313" height="10" fill="#555555" />
+<rect x="239.626" y="275" width="23.461" height="10" fill="#ff1111" />
+<rect x="263.087" y="275" width="14.2705" height="10" fill="#292929" />
+<rect x="277.357" y="275" width="10.1236" height="10" fill="#7e7eff" />
+<rect x="287.481" y="275" width="9.16723" height="10" fill="#3178c6" />
+<rect x="296.648" y="275" width="41.3517" height="10" fill="var(--card-muted, #8b949e)" />
+<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">52.94%</text>
+<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">8.17%</text>
+<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.76%</text>
+<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">7.42%</text>
+<circle cx="27" cy="176" r="3" fill="#292929" /><text x="38" y="180" class="label">JSON</text><text x="330" y="180" text-anchor="end" class="value">4.52%</text>
+<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">3.20%</text>
+<circle cx="27" cy="224" r="3" fill="#3178c6" /><text x="38" y="228" class="label">TypeScript</text><text x="330" y="228" text-anchor="end" class="value">2.90%</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">13.09%</text>
+<text x="22" y="300" class="caption">2026-08-09 – 2026-11-06 · UTC</text>
 </svg>
