@@ -29,21 +29,21 @@
 <line x1="22" y1="43" x2="338" y2="43" class="divider" />
 <text x="22" y="60" class="caption">Added + deleted lines · past 90 complete days</text>
 <rect x="22" y="275" width="316" height="10" rx="5" fill="var(--card-track, #21262d)" />
-<rect x="22" y="275" width="171.296" height="10" fill="#dea584" />
-<rect x="193.296" y="275" width="25.8411" height="10" fill="#9c4221" />
-<rect x="219.137" y="275" width="24.2095" height="10" fill="#555555" />
-<rect x="243.346" y="275" width="22.9068" height="10" fill="#ff1111" />
-<rect x="266.253" y="275" width="13.6572" height="10" fill="#292929" />
-<rect x="279.91" y="275" width="10.0089" height="10" fill="#7e7eff" />
-<rect x="289.919" y="275" width="8.89846" height="10" fill="#3178c6" />
-<rect x="298.818" y="275" width="39.1825" height="10" fill="var(--card-muted, #8b949e)" />
-<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">54.21%</text>
-<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">8.18%</text>
-<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.66%</text>
-<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">7.25%</text>
+<rect x="22" y="275" width="171.46" height="10" fill="#dea584" />
+<rect x="193.46" y="275" width="25.9754" height="10" fill="#9c4221" />
+<rect x="219.435" y="275" width="24.338" height="10" fill="#555555" />
+<rect x="243.773" y="275" width="23.2175" height="10" fill="#ff1111" />
+<rect x="266.991" y="275" width="13.6383" height="10" fill="#292929" />
+<rect x="280.629" y="275" width="10.0676" height="10" fill="#7e7eff" />
+<rect x="290.696" y="275" width="8.94569" height="10" fill="#3178c6" />
+<rect x="299.642" y="275" width="38.3579" height="10" fill="var(--card-muted, #8b949e)" />
+<circle cx="27" cy="80" r="3" fill="#dea584" /><text x="38" y="84" class="label">Rust</text><text x="330" y="84" text-anchor="end" class="value">54.26%</text>
+<circle cx="27" cy="104" r="3" fill="#9c4221" /><text x="38" y="108" class="label">TOML</text><text x="330" y="108" text-anchor="end" class="value">8.22%</text>
+<circle cx="27" cy="128" r="3" fill="#555555" /><text x="38" y="132" class="label">C</text><text x="330" y="132" text-anchor="end" class="value">7.70%</text>
+<circle cx="27" cy="152" r="3" fill="#ff1111" /><text x="38" y="156" class="label">MiniYAML</text><text x="330" y="156" text-anchor="end" class="value">7.35%</text>
 <circle cx="27" cy="176" r="3" fill="#292929" /><text x="38" y="180" class="label">JSON</text><text x="330" y="180" text-anchor="end" class="value">4.32%</text>
-<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">3.17%</text>
-<circle cx="27" cy="224" r="3" fill="#3178c6" /><text x="38" y="228" class="label">TypeScript</text><text x="330" y="228" text-anchor="end" class="value">2.82%</text>
-<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">12.40%</text>
-<text x="22" y="300" class="caption">2026-08-11 – 2026-11-08 · UTC</text>
+<circle cx="27" cy="200" r="3" fill="#7e7eff" /><text x="38" y="204" class="label">Nix</text><text x="330" y="204" text-anchor="end" class="value">3.19%</text>
+<circle cx="27" cy="224" r="3" fill="#3178c6" /><text x="38" y="228" class="label">TypeScript</text><text x="330" y="228" text-anchor="end" class="value">2.83%</text>
+<circle cx="27" cy="248" r="3" fill="var(--card-muted, #8b949e)" /><text x="38" y="252" class="label">Other languages</text><text x="330" y="252" text-anchor="end" class="value">12.14%</text>
+<text x="22" y="300" class="caption">2026-08-12 – 2026-11-09 · UTC</text>
 </svg>
