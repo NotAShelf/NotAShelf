@@ -12,12 +12,12 @@
 <text x="360" y="39" text-anchor="middle" fill="var(--ink)" font-family="Georgia, serif" font-size="24" font-variant="small-caps" letter-spacing="2">Fortune</text>
 <path d="M28 55 H332 L360 48 L388 55 H692" fill="none" stroke="var(--rule)" stroke-width="0.6"/>
 <g fill="var(--muted)" font-family="Georgia, 'Times New Roman', serif" font-size="16.5">
-<text x="28" y="82">Spread: The Tower (upright) / The World (reversed) / The Devil (reversed).</text>
-<text x="28" y="117">Root: MicrOS draws The Tower (upright), grounding the spread in experimental</text>
-<text x="28" y="140">operating system based on Nixpkgs module system, bringing Runit to NixOS.</text>
-<text x="28" y="163">Crossing: batmon draws The World (reversed), putting pressure on dead simple</text>
-<text x="28" y="186">battery monitor in Go, with the ability to emit events on change. Path:</text>
-<text x="28" y="209">sprint.nvim draws The Devil (reversed), turning the reading toward robust</text>
-<text x="28" y="232">command runner for Neovim.</text>
+<text x="28" y="82">Spread: The Hermit (upright) / The Hierophant (reversed) / The World</text>
+<text x="28" y="105">(reversed).</text>
+<text x="28" y="140">Root: sprint.nvim draws The Hermit (upright), grounding the spread in robust</text>
+<text x="28" y="163">command runner for Neovim. Crossing: Nyxpkgs draws The Hierophant</text>
+<text x="28" y="186">(reversed), putting pressure on collection of packages not found in Nixpkgs.</text>
+<text x="28" y="209">Path: SSA draws The World (reversed), turning the reading toward simple,</text>
+<text x="28" y="232">streamlined and pretty aggregator for systemd-analyze security.</text>
 </g>
 </svg>
